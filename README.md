@@ -2,19 +2,20 @@
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
 
-# Run and deploy your AI Studio app
+# Land Acquisition Delay Predictive Analytics System
 
-This contains everything you need to run your app locally.
+The Land Acquisition Delay Predictive Analytics System is an AI and data-driven solution designed to identify, analyze, and predict delays in land acquisition processes for infrastructure, real estate, industrial, and government projects.
 
-View your app in AI Studio: https://ai.studio/apps/5ef3ba45-d235-4f18-882c-02f4da799795
+This prototype includes a React/Vite dashboard, Python model and API services, historical and synthetic datasets, and trained model artifacts.
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
+**Prerequisites:** Node.js and Python
 
-
-1. Install dependencies:
+1. Install JavaScript dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
+2. Copy `.env.example` to `.env.local` and set `GEMINI_API_KEY` when AI features are enabled.
+3. Start the application:
    `npm run dev`
+
+The frontend is served on port 3000. Python services can also be started with `npm run model-server` or `npm run production-api`.
