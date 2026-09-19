@@ -1,0 +1,6 @@
+{
+  "name": "Land Acquisition Delay Predictive Analytics System",
+  "description": "AI/ML-powered predictive analytics system for early detection of land acquisition delays for infrastructure governance under the Ministry of Rural Development, Dept. of Land Resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

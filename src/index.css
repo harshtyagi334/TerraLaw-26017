@@ -1,0 +1,232 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    --bg-page: #F4F5F0;
+    --card-bg: #FFFFFF;
+    --card-border: #DFE3DC;
+    --card-border-subtle: #EBEFE8;
+    --text-primary: #141E1A;
+    --text-secondary: #4E5C55;
+    --text-muted: #78857E;
+    --primary-forest: #0C2B20;
+    --accent-emerald: #196842;
+    --risk-high: #BA2D1D;
+    --risk-medium: #C0781A;
+    --risk-low: #27774E;
+    --data-neutral: #2C5282;
+    --radius-architectural: 4px;
+  }
+
+  body {
+    background-color: #F4F5F0;
+    background-image: radial-gradient(#DFE3DC 0.8px, transparent 0.8px);
+    background-size: 24px 24px;
+    color: #141E1A;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+    letter-spacing: -0.011em;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: 'Newsreader', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  .font-mono-data {
+    font-family: 'JetBrains Mono', monospace;
+    font-feature-settings: "tnum";
+  }
+
+  .font-display-emblem {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.04em;
+  }
+}
+
+/* Smooth Interactive Micro-interactions & Card Hover Lift */
+.interactive-transition {
+  transition: all 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover-lift {
+  transition: transform 200ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1), border-color 200ms ease;
+}
+
+.card-hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px -2px rgba(12, 43, 32, 0.08), 0 2px 6px -1px rgba(12, 43, 32, 0.04);
+}
+
+/* Skeleton Loading Shimmer */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #ECEEEA 25%, #F7F8F5 50%, #ECEEEA 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+
+/* Intentional Architectural Card - Strict 4px Corner, Sharp Hairline Border, Zero AI-glow */
+.gov-card-architectural {
+  background-color: #FFFFFF;
+  border: 1px solid #DFE3DC;
+  border-radius: 4px;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gov-card-architectural:hover {
+  border-color: #0C2B20;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px -2px rgba(12, 43, 32, 0.06);
+}
+
+/* Distinct Status Badges - No Pill Cliché */
+.status-tag-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #196842;
+  background-color: #EAF4EE;
+  border: 1px solid #B8DCBE;
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+.status-tag-urgent {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #BA2D1D;
+  background-color: #FAECEB;
+  border-left: 3px solid #BA2D1D;
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+.status-tag-warning {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #C0781A;
+  background-color: #FDF3E7;
+  border-left: 3px solid #C0781A;
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+.status-tag-neutral {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 600;
+  color: #4E5C55;
+  background-color: #ECEEEA;
+  border: 1px solid #DFE3DC;
+  padding: 2px 7px;
+  border-radius: 2px;
+}
+
+/* Official Stamp Accent */
+.official-stamp {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px dashed #4E5C55;
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #4E5C55;
+}
+
+/* GPS Map Marker Styles */
+.leaflet-container {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  background-color: #e5e9ec !important;
+}
+
+.gps-marker-dot {
+  display: block;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  transition: transform 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.gps-marker-dot:hover {
+  transform: scale(1.4);
+  z-index: 1000 !important;
+}
+
+.gps-pulse-ring {
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  pointer-events: none;
+  animation: gpsPulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes gpsPulse {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.custom-gps-popup .leaflet-popup-content-wrapper {
+  background: #0C2B20 !important;
+  color: #FFFFFF !important;
+  border-radius: 4px !important;
+  border: 1px solid #1C4332 !important;
+  padding: 0 !important;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+}
+
+.custom-gps-popup .leaflet-popup-tip {
+  background: #0C2B20 !important;
+}
+
+.custom-gps-popup .leaflet-popup-content {
+  margin: 10px 12px !important;
+  line-height: 1.4 !important;
+}
+

@@ -1,0 +1,1501 @@
+Project_ID,Infrastructure_Sector,State,Land_Area_Hectares,Affected_Families_Count,Sec4_to_Sec19_Days,Pending_InterDept_NOCs,Compensation_Disbursed_Pct,Pending_Court_Cases,Rehabilitation_Progress_Pct,Stakeholder_Responsiveness_Score,RealWorld_Months_Delayed,Project_Risk_Classification
+LA-INFR-00000,Dedicated Freight Corridor,Gujarat,768.52,135,247,4,44.82,2,43.14,3.1,52.4,High Risk
+LA-INFR-00001,Urban Metro Rail,Gujarat,98.29,165,260,2,35.13,4,40.59,8.6,56.3,High Risk
+LA-INFR-00002,National Highway,Maharashtra,242.43,136,234,2,28.11,8,84.36,4.5,32.3,Low/Medium Risk
+LA-INFR-00003,Irrigation Dam & Reservoir,Bihar,286.92,128,264,0,95.24,4,35.43,4.3,47.5,High Risk
+LA-INFR-00004,Irrigation Dam & Reservoir,Maharashtra,558.79,165,60,0,45.48,2,17.01,8.0,32.6,Low/Medium Risk
+LA-INFR-00005,Industrial Corridor,Gujarat,272.27,148,227,3,87.86,3,81.51,3.8,10.0,Low/Medium Risk
+LA-INFR-00006,Irrigation Dam & Reservoir,Bihar,90.27,150,259,3,78.76,2,70.7,7.1,26.5,Low/Medium Risk
+LA-INFR-00007,Irrigation Dam & Reservoir,Odisha,13.09,128,211,4,21.99,1,47.26,8.8,29.0,Low/Medium Risk
+LA-INFR-00008,Urban Metro Rail,Tamil Nadu,280.87,133,208,1,30.37,4,44.26,6.3,35.0,Low/Medium Risk
+LA-INFR-00009,Industrial Corridor,Bihar,109.72,165,309,3,42.71,1,45.98,8.4,11.2,Low/Medium Risk
+LA-INFR-00010,National Highway,Bihar,216.53,176,279,0,28.18,1,12.86,9.3,32.1,Low/Medium Risk
+LA-INFR-00011,Dedicated Freight Corridor,Uttar Pradesh,86.4,137,191,3,23.23,2,17.26,8.9,17.8,Low/Medium Risk
+LA-INFR-00012,National Highway,Uttar Pradesh,283.13,139,300,0,38.95,5,86.27,9.2,44.6,High Risk
+LA-INFR-00013,Irrigation Dam & Reservoir,Tamil Nadu,32.85,170,176,1,87.75,2,96.54,3.0,45.5,High Risk
+LA-INFR-00014,Dedicated Freight Corridor,Odisha,19.22,143,312,2,36.39,1,79.89,8.0,57.5,High Risk
+LA-INFR-00015,National Highway,Maharashtra,309.61,146,233,1,22.39,0,12.48,6.1,10.1,Low/Medium Risk
+LA-INFR-00016,Dedicated Freight Corridor,Tamil Nadu,118.42,123,184,3,71.61,6,51.16,4.3,21.7,Low/Medium Risk
+LA-INFR-00017,Irrigation Dam & Reservoir,Odisha,96.15,157,286,4,61.55,1,97.65,8.3,16.1,Low/Medium Risk
+LA-INFR-00018,Industrial Corridor,Gujarat,88.67,163,233,4,87.18,2,74.02,4.5,24.5,Low/Medium Risk
+LA-INFR-00019,National Highway,West Bengal,160.04,145,227,2,46.37,0,16.88,7.3,17.0,Low/Medium Risk
+LA-INFR-00020,Irrigation Dam & Reservoir,Tamil Nadu,180.76,160,274,0,91.34,1,90.59,8.2,33.4,Low/Medium Risk
+LA-INFR-00021,Dedicated Freight Corridor,Maharashtra,212.01,139,243,2,68.18,1,74.25,5.0,32.3,Low/Medium Risk
+LA-INFR-00022,Urban Metro Rail,Gujarat,278.84,129,228,2,30.54,3,50.55,9.6,6.7,Low/Medium Risk
+LA-INFR-00023,Dedicated Freight Corridor,Maharashtra,88.65,165,215,2,23.79,0,56.2,6.7,21.6,Low/Medium Risk
+LA-INFR-00024,Irrigation Dam & Reservoir,West Bengal,17.42,154,240,4,86.86,2,57.5,4.0,49.9,High Risk
+LA-INFR-00025,Irrigation Dam & Reservoir,Gujarat,84.56,129,280,1,79.92,6,13.14,7.2,32.2,Low/Medium Risk
+LA-INFR-00026,Dedicated Freight Corridor,Bihar,174.06,131,166,3,66.64,2,29.49,7.8,36.6,High Risk
+LA-INFR-00027,Dedicated Freight Corridor,West Bengal,191.63,150,259,1,98.51,3,24.04,6.0,8.0,Low/Medium Risk
+LA-INFR-00028,National Highway,Gujarat,415.46,150,272,0,21.54,1,35.73,7.4,9.2,Low/Medium Risk
+LA-INFR-00029,National Highway,Odisha,376.48,133,116,1,84.1,4,54.63,8.9,13.6,Low/Medium Risk
+LA-INFR-00030,Industrial Corridor,Bihar,137.81,128,247,4,46.52,3,45.42,8.2,34.1,Low/Medium Risk
+LA-INFR-00031,Irrigation Dam & Reservoir,Odisha,9.88,166,337,0,71.93,4,58.26,7.5,40.0,High Risk
+LA-INFR-00032,Dedicated Freight Corridor,West Bengal,150.69,161,200,2,57.75,4,83.28,5.2,56.1,High Risk
+LA-INFR-00033,Dedicated Freight Corridor,Maharashtra,416.81,145,221,2,27.3,2,67.46,10.0,36.6,High Risk
+LA-INFR-00034,National Highway,Maharashtra,24.08,139,298,3,35.91,4,44.44,9.5,16.8,Low/Medium Risk
+LA-INFR-00035,Dedicated Freight Corridor,West Bengal,129.85,172,267,3,28.07,4,19.84,6.7,14.5,Low/Medium Risk
+LA-INFR-00036,Industrial Corridor,Odisha,311.53,154,249,3,77.8,1,84.21,7.3,16.5,Low/Medium Risk
+LA-INFR-00037,Urban Metro Rail,Maharashtra,142.09,141,226,0,40.03,2,98.92,6.4,19.4,Low/Medium Risk
+LA-INFR-00038,Industrial Corridor,Uttar Pradesh,564.39,138,266,1,92.89,2,27.33,6.2,40.4,High Risk
+LA-INFR-00039,National Highway,Tamil Nadu,474.36,147,143,1,88.08,7,88.49,3.0,10.3,Low/Medium Risk
+LA-INFR-00040,Industrial Corridor,Uttar Pradesh,684.92,140,318,3,78.36,1,73.12,8.4,26.3,Low/Medium Risk
+LA-INFR-00041,Dedicated Freight Corridor,Gujarat,225.85,145,175,0,32.48,2,90.71,6.4,54.9,High Risk
+LA-INFR-00042,National Highway,Bihar,37.44,150,149,3,69.47,4,26.69,9.5,37.3,High Risk
+LA-INFR-00043,Urban Metro Rail,Maharashtra,12.73,147,154,0,90.79,4,14.23,9.7,11.1,Low/Medium Risk
+LA-INFR-00044,National Highway,Odisha,0.08,147,178,1,32.49,0,71.44,7.1,14.2,Low/Medium Risk
+LA-INFR-00045,Industrial Corridor,Odisha,162.17,147,234,2,87.7,3,49.09,6.3,47.2,High Risk
+LA-INFR-00046,Industrial Corridor,Gujarat,421.26,141,272,2,57.4,0,51.02,9.3,55.6,High Risk
+LA-INFR-00047,Irrigation Dam & Reservoir,Bihar,450.23,170,215,2,60.8,5,33.48,8.7,21.8,Low/Medium Risk
+LA-INFR-00048,Industrial Corridor,Bihar,130.26,151,164,4,25.42,2,29.06,6.5,25.4,Low/Medium Risk
+LA-INFR-00049,National Highway,Odisha,960.61,139,262,2,41.41,2,93.61,7.9,58.9,High Risk
+LA-INFR-00050,Urban Metro Rail,West Bengal,216.86,154,163,0,57.09,1,38.17,5.0,32.3,Low/Medium Risk
+LA-INFR-00051,Irrigation Dam & Reservoir,Tamil Nadu,418.88,155,256,0,57.36,2,63.83,7.4,53.8,High Risk
+LA-INFR-00052,Irrigation Dam & Reservoir,Odisha,59.16,141,203,4,41.13,1,38.86,8.5,9.6,Low/Medium Risk
+LA-INFR-00053,National Highway,Uttar Pradesh,125.8,150,241,0,46.87,6,16.11,8.4,20.2,Low/Medium Risk
+LA-INFR-00054,Irrigation Dam & Reservoir,Tamil Nadu,122.45,145,225,1,57.48,3,98.3,4.9,39.5,High Risk
+LA-INFR-00055,Dedicated Freight Corridor,Bihar,234.07,144,207,3,58.14,5,58.85,8.5,39.9,High Risk
+LA-INFR-00056,Urban Metro Rail,Gujarat,221.77,136,326,1,78.29,3,21.53,9.8,55.2,High Risk
+LA-INFR-00057,National Highway,Tamil Nadu,628.23,140,266,3,24.43,2,29.28,3.8,55.8,High Risk
+LA-INFR-00058,Industrial Corridor,Odisha,1.02,144,274,1,52.7,4,29.44,6.0,17.6,Low/Medium Risk
+LA-INFR-00059,Dedicated Freight Corridor,Maharashtra,6.61,162,228,3,66.63,3,33.96,5.2,53.7,High Risk
+LA-INFR-00060,Irrigation Dam & Reservoir,West Bengal,303.02,166,280,0,24.95,2,25.92,4.7,6.5,Low/Medium Risk
+LA-INFR-00061,National Highway,Tamil Nadu,137.63,142,256,4,65.72,4,69.24,9.6,48.9,High Risk
+LA-INFR-00062,Industrial Corridor,Maharashtra,156.05,144,177,1,74.09,3,78.46,3.4,21.7,Low/Medium Risk
+LA-INFR-00063,Industrial Corridor,Tamil Nadu,66.78,162,251,2,79.67,0,63.93,8.5,37.1,High Risk
+LA-INFR-00064,National Highway,Bihar,25.68,144,283,0,39.45,4,92.44,6.9,53.9,High Risk
+LA-INFR-00065,Irrigation Dam & Reservoir,West Bengal,12.61,165,200,2,92.74,2,84.08,3.2,26.4,Low/Medium Risk
+LA-INFR-00066,Irrigation Dam & Reservoir,Gujarat,56.47,142,239,3,92.08,4,85.2,7.8,9.1,Low/Medium Risk
+LA-INFR-00067,Industrial Corridor,Tamil Nadu,21.98,155,291,2,51.73,2,78.13,3.7,50.0,High Risk
+LA-INFR-00068,Industrial Corridor,Uttar Pradesh,172.55,157,215,2,49.68,2,45.57,6.2,48.3,High Risk
+LA-INFR-00069,Urban Metro Rail,Uttar Pradesh,34.97,166,318,2,23.64,3,71.5,9.9,58.5,High Risk
+LA-INFR-00070,Dedicated Freight Corridor,Gujarat,40.76,143,211,0,80.99,0,90.73,6.8,51.0,High Risk
+LA-INFR-00071,Irrigation Dam & Reservoir,Maharashtra,226.1,179,231,2,31.06,3,24.73,5.8,54.6,High Risk
+LA-INFR-00072,Dedicated Freight Corridor,Maharashtra,474.13,176,206,4,77.28,0,23.19,5.2,19.9,Low/Medium Risk
+LA-INFR-00073,National Highway,West Bengal,4.6,151,386,1,61.09,3,87.43,5.8,44.4,High Risk
+LA-INFR-00074,Industrial Corridor,Maharashtra,8.91,146,185,1,86.78,5,99.58,4.3,52.3,High Risk
+LA-INFR-00075,Dedicated Freight Corridor,Maharashtra,3.73,159,246,3,65.63,1,81.86,6.7,55.3,High Risk
+LA-INFR-00076,Industrial Corridor,Bihar,145.86,149,258,0,25.0,2,34.98,7.3,43.7,High Risk
+LA-INFR-00077,Dedicated Freight Corridor,Gujarat,518.2,124,264,3,67.37,2,70.15,9.9,20.7,Low/Medium Risk
+LA-INFR-00078,Urban Metro Rail,Uttar Pradesh,3.31,145,204,2,23.05,3,48.22,3.3,26.7,Low/Medium Risk
+LA-INFR-00079,Dedicated Freight Corridor,Tamil Nadu,156.43,129,297,0,60.13,1,11.73,9.7,10.8,Low/Medium Risk
+LA-INFR-00080,Industrial Corridor,Odisha,151.69,140,295,1,38.12,2,46.34,5.8,16.9,Low/Medium Risk
+LA-INFR-00081,Industrial Corridor,Tamil Nadu,133.87,142,202,1,65.25,4,63.26,5.2,27.7,Low/Medium Risk
+LA-INFR-00082,National Highway,Gujarat,116.31,139,252,2,59.68,5,16.24,6.7,57.5,High Risk
+LA-INFR-00083,Industrial Corridor,Uttar Pradesh,216.12,157,266,0,49.95,6,57.42,5.7,42.9,High Risk
+LA-INFR-00084,Dedicated Freight Corridor,Odisha,541.39,136,196,1,83.98,1,17.82,4.0,41.8,High Risk
+LA-INFR-00085,Irrigation Dam & Reservoir,Tamil Nadu,8.77,163,250,0,25.3,2,56.52,7.2,28.3,Low/Medium Risk
+LA-INFR-00086,Irrigation Dam & Reservoir,West Bengal,157.94,183,204,4,62.0,5,86.5,9.1,49.4,High Risk
+LA-INFR-00087,Irrigation Dam & Reservoir,Odisha,113.54,160,199,3,55.67,3,50.64,5.4,48.8,High Risk
+LA-INFR-00088,Urban Metro Rail,Tamil Nadu,40.58,169,202,0,93.62,5,22.1,5.4,9.8,Low/Medium Risk
+LA-INFR-00089,National Highway,Maharashtra,212.25,143,278,4,67.87,4,50.09,5.8,21.7,Low/Medium Risk
+LA-INFR-00090,Irrigation Dam & Reservoir,West Bengal,20.7,179,278,4,78.18,3,22.93,4.4,48.3,High Risk
+LA-INFR-00091,National Highway,West Bengal,58.78,161,314,1,95.8,5,65.96,10.0,12.8,Low/Medium Risk
+LA-INFR-00092,Irrigation Dam & Reservoir,Odisha,103.4,152,253,1,56.86,1,79.64,5.2,58.5,High Risk
+LA-INFR-00093,National Highway,Odisha,1641.4,165,243,0,52.74,4,86.99,7.5,20.5,Low/Medium Risk
+LA-INFR-00094,National Highway,Bihar,659.36,143,221,2,69.62,4,33.94,4.7,18.8,Low/Medium Risk
+LA-INFR-00095,Dedicated Freight Corridor,West Bengal,57.31,151,283,0,43.24,4,51.48,6.7,16.6,Low/Medium Risk
+LA-INFR-00096,Industrial Corridor,Maharashtra,365.62,167,194,4,28.4,4,85.4,6.3,14.8,Low/Medium Risk
+LA-INFR-00097,Dedicated Freight Corridor,Tamil Nadu,484.1,123,265,4,99.36,1,68.98,9.4,13.6,Low/Medium Risk
+LA-INFR-00098,Dedicated Freight Corridor,Gujarat,241.77,152,219,2,63.69,2,93.23,7.2,18.4,Low/Medium Risk
+LA-INFR-00099,Irrigation Dam & Reservoir,West Bengal,505.94,130,134,2,71.19,6,28.54,4.2,51.1,High Risk
+LA-INFR-00100,Urban Metro Rail,Uttar Pradesh,139.56,169,299,0,24.96,1,59.19,3.7,32.9,Low/Medium Risk
+LA-INFR-00101,Dedicated Freight Corridor,Uttar Pradesh,45.69,145,306,2,38.2,3,59.78,6.5,37.1,High Risk
+LA-INFR-00102,Irrigation Dam & Reservoir,Uttar Pradesh,177.41,132,315,4,66.91,1,83.12,3.6,57.7,High Risk
+LA-INFR-00103,Urban Metro Rail,Maharashtra,42.9,114,237,3,55.85,3,13.27,4.6,21.4,Low/Medium Risk
+LA-INFR-00104,Irrigation Dam & Reservoir,West Bengal,7.34,149,233,1,32.99,4,88.19,6.3,34.1,Low/Medium Risk
+LA-INFR-00105,Industrial Corridor,Odisha,113.22,141,333,0,86.61,3,35.24,8.3,54.9,High Risk
+LA-INFR-00106,Industrial Corridor,Gujarat,2.97,157,217,3,32.42,2,49.62,9.6,35.4,Low/Medium Risk
+LA-INFR-00107,Urban Metro Rail,Bihar,138.92,144,202,0,66.2,1,74.34,5.5,38.9,High Risk
+LA-INFR-00108,Dedicated Freight Corridor,West Bengal,394.85,163,242,2,46.0,1,34.83,5.8,42.7,High Risk
+LA-INFR-00109,National Highway,Maharashtra,51.19,144,208,4,34.44,5,11.77,4.3,24.4,Low/Medium Risk
+LA-INFR-00110,National Highway,Gujarat,63.56,152,247,4,39.42,4,46.84,6.5,11.6,Low/Medium Risk
+LA-INFR-00111,National Highway,Gujarat,1202.88,173,170,0,51.36,0,66.96,6.4,22.5,Low/Medium Risk
+LA-INFR-00112,National Highway,Odisha,482.87,146,207,2,54.24,1,93.6,6.8,32.3,Low/Medium Risk
+LA-INFR-00113,Urban Metro Rail,Odisha,206.6,145,273,0,22.68,3,32.82,9.6,26.0,Low/Medium Risk
+LA-INFR-00114,Industrial Corridor,West Bengal,152.57,136,254,1,45.08,3,20.35,6.2,7.1,Low/Medium Risk
+LA-INFR-00115,Industrial Corridor,Odisha,300.85,155,201,3,21.74,2,96.13,9.3,56.4,High Risk
+LA-INFR-00116,National Highway,Tamil Nadu,216.83,147,239,2,84.01,4,82.48,5.5,51.8,High Risk
+LA-INFR-00117,Urban Metro Rail,Gujarat,48.29,135,236,4,23.57,0,95.21,9.0,40.6,High Risk
+LA-INFR-00118,Industrial Corridor,Maharashtra,171.4,158,238,4,54.9,3,72.17,4.4,31.3,Low/Medium Risk
+LA-INFR-00119,Urban Metro Rail,Bihar,275.79,151,208,3,66.47,4,62.09,8.7,9.5,Low/Medium Risk
+LA-INFR-00120,National Highway,West Bengal,154.01,159,275,3,46.77,1,90.59,8.3,59.8,High Risk
+LA-INFR-00121,Dedicated Freight Corridor,Tamil Nadu,33.82,166,245,0,67.53,2,38.57,9.8,14.5,Low/Medium Risk
+LA-INFR-00122,Irrigation Dam & Reservoir,Tamil Nadu,49.28,145,286,0,28.34,3,31.52,8.9,29.0,Low/Medium Risk
+LA-INFR-00123,National Highway,Gujarat,25.01,149,258,1,97.88,1,16.46,9.6,28.3,Low/Medium Risk
+LA-INFR-00124,National Highway,Odisha,34.3,154,274,0,94.02,0,21.49,9.7,43.7,High Risk
+LA-INFR-00125,Dedicated Freight Corridor,Maharashtra,388.89,145,282,1,92.28,4,83.66,3.3,41.6,High Risk
+LA-INFR-00126,Dedicated Freight Corridor,Maharashtra,30.54,145,266,2,48.29,5,58.9,7.7,18.9,Low/Medium Risk
+LA-INFR-00127,Dedicated Freight Corridor,Odisha,126.18,113,307,0,33.92,3,36.62,3.2,50.1,High Risk
+LA-INFR-00128,Irrigation Dam & Reservoir,Gujarat,81.1,151,293,0,59.09,4,84.21,6.6,24.3,Low/Medium Risk
+LA-INFR-00129,Irrigation Dam & Reservoir,West Bengal,281.29,153,256,4,20.84,5,27.39,8.5,43.6,High Risk
+LA-INFR-00130,Industrial Corridor,Tamil Nadu,0.59,158,226,3,82.25,1,77.25,8.5,43.2,High Risk
+LA-INFR-00131,Irrigation Dam & Reservoir,Tamil Nadu,70.95,143,170,4,30.9,4,20.1,7.4,21.3,Low/Medium Risk
+LA-INFR-00132,Industrial Corridor,Maharashtra,42.57,149,273,3,87.57,4,67.68,8.8,33.4,Low/Medium Risk
+LA-INFR-00133,Irrigation Dam & Reservoir,Tamil Nadu,12.21,151,256,4,91.4,3,40.89,6.8,58.6,High Risk
+LA-INFR-00134,Urban Metro Rail,Gujarat,163.1,140,387,3,60.52,2,98.8,3.0,38.0,High Risk
+LA-INFR-00135,Dedicated Freight Corridor,Tamil Nadu,436.12,148,241,2,35.58,5,34.67,3.5,26.7,Low/Medium Risk
+LA-INFR-00136,Dedicated Freight Corridor,Tamil Nadu,516.67,151,209,2,99.66,3,23.52,7.2,24.7,Low/Medium Risk
+LA-INFR-00137,Dedicated Freight Corridor,West Bengal,30.74,143,188,0,41.67,5,66.01,8.5,45.5,High Risk
+LA-INFR-00138,Irrigation Dam & Reservoir,Bihar,58.26,146,176,4,49.5,4,65.01,8.1,11.9,Low/Medium Risk
+LA-INFR-00139,National Highway,Uttar Pradesh,225.78,150,160,4,58.15,3,51.36,3.9,46.4,High Risk
+LA-INFR-00140,Industrial Corridor,West Bengal,108.85,144,273,2,79.45,2,15.33,9.6,48.4,High Risk
+LA-INFR-00141,National Highway,Maharashtra,11.48,143,200,2,88.16,4,86.93,8.7,31.4,Low/Medium Risk
+LA-INFR-00142,Irrigation Dam & Reservoir,Tamil Nadu,80.28,175,289,2,37.18,6,93.22,4.9,40.1,High Risk
+LA-INFR-00143,Irrigation Dam & Reservoir,Gujarat,16.55,145,266,2,82.9,3,88.47,4.2,27.4,Low/Medium Risk
+LA-INFR-00144,Irrigation Dam & Reservoir,Gujarat,477.45,130,239,3,76.73,2,23.75,7.4,54.5,High Risk
+LA-INFR-00145,Industrial Corridor,Gujarat,352.88,140,185,0,75.61,4,98.55,3.0,47.3,High Risk
+LA-INFR-00146,Dedicated Freight Corridor,Odisha,132.74,156,254,1,61.39,3,53.44,7.4,31.6,Low/Medium Risk
+LA-INFR-00147,Dedicated Freight Corridor,Tamil Nadu,23.34,115,236,4,52.75,4,60.76,3.6,24.8,Low/Medium Risk
+LA-INFR-00148,National Highway,Tamil Nadu,28.08,168,204,4,82.5,4,88.03,7.2,10.8,Low/Medium Risk
+LA-INFR-00149,Industrial Corridor,Maharashtra,38.71,153,137,4,57.75,2,12.42,7.5,12.1,Low/Medium Risk
+LA-INFR-00150,Industrial Corridor,Gujarat,267.67,135,288,4,92.45,3,77.47,6.5,35.5,Low/Medium Risk
+LA-INFR-00151,Irrigation Dam & Reservoir,Maharashtra,26.41,141,190,0,34.47,6,56.16,9.1,14.9,Low/Medium Risk
+LA-INFR-00152,Dedicated Freight Corridor,West Bengal,34.56,149,235,0,65.53,4,17.03,4.4,48.9,High Risk
+LA-INFR-00153,Urban Metro Rail,West Bengal,230.26,145,212,4,58.66,4,33.24,10.0,15.4,Low/Medium Risk
+LA-INFR-00154,National Highway,Odisha,67.73,152,207,0,55.8,5,64.19,9.7,28.0,Low/Medium Risk
+LA-INFR-00155,Irrigation Dam & Reservoir,West Bengal,310.06,168,275,1,40.42,1,65.82,8.8,18.7,Low/Medium Risk
+LA-INFR-00156,Irrigation Dam & Reservoir,Maharashtra,134.73,141,287,4,21.51,3,37.6,8.2,18.8,Low/Medium Risk
+LA-INFR-00157,Industrial Corridor,Uttar Pradesh,22.24,148,181,0,54.43,4,49.47,8.1,47.8,High Risk
+LA-INFR-00158,Industrial Corridor,Gujarat,315.55,161,175,4,43.32,2,34.49,4.8,13.5,Low/Medium Risk
+LA-INFR-00159,Urban Metro Rail,Bihar,117.64,153,363,0,96.04,7,76.21,7.7,40.8,High Risk
+LA-INFR-00160,Dedicated Freight Corridor,Bihar,84.78,163,237,3,68.07,2,11.56,6.2,48.9,High Risk
+LA-INFR-00161,Dedicated Freight Corridor,Tamil Nadu,72.56,157,167,1,22.6,5,88.47,9.4,44.2,High Risk
+LA-INFR-00162,Urban Metro Rail,Bihar,51.59,157,301,3,83.86,5,76.53,9.5,10.0,Low/Medium Risk
+LA-INFR-00163,Irrigation Dam & Reservoir,Odisha,22.2,166,135,1,77.99,1,88.56,4.9,9.1,Low/Medium Risk
+LA-INFR-00164,Dedicated Freight Corridor,Uttar Pradesh,341.5,148,260,4,44.04,4,40.0,4.1,44.8,High Risk
+LA-INFR-00165,Industrial Corridor,Tamil Nadu,82.28,137,172,0,77.74,4,34.96,3.9,55.9,High Risk
+LA-INFR-00166,National Highway,Maharashtra,56.24,160,302,0,35.47,2,97.21,5.1,9.5,Low/Medium Risk
+LA-INFR-00167,Dedicated Freight Corridor,West Bengal,48.19,154,232,1,85.5,4,42.12,6.6,7.1,Low/Medium Risk
+LA-INFR-00168,National Highway,Uttar Pradesh,8.51,162,155,1,26.11,1,97.32,5.5,53.2,High Risk
+LA-INFR-00169,Industrial Corridor,Odisha,65.8,160,222,0,80.36,3,65.89,9.6,43.6,High Risk
+LA-INFR-00170,National Highway,Bihar,245.06,166,199,1,20.89,1,38.75,3.9,38.0,High Risk
+LA-INFR-00171,Irrigation Dam & Reservoir,Tamil Nadu,3.07,146,244,3,52.38,0,72.75,7.3,54.5,High Risk
+LA-INFR-00172,National Highway,Gujarat,210.22,163,201,4,64.86,3,56.8,7.6,44.7,High Risk
+LA-INFR-00173,Irrigation Dam & Reservoir,Gujarat,93.99,154,243,0,99.29,2,97.51,3.5,7.6,Low/Medium Risk
+LA-INFR-00174,National Highway,Tamil Nadu,31.56,162,325,0,97.57,5,96.31,7.2,46.2,High Risk
+LA-INFR-00175,Industrial Corridor,Odisha,26.28,154,154,3,94.06,1,71.66,5.1,18.5,Low/Medium Risk
+LA-INFR-00176,National Highway,Odisha,31.91,139,229,1,50.52,2,72.85,6.2,15.8,Low/Medium Risk
+LA-INFR-00177,Dedicated Freight Corridor,Gujarat,166.13,150,171,4,64.96,5,12.71,5.0,7.9,Low/Medium Risk
+LA-INFR-00178,Industrial Corridor,Bihar,231.22,155,216,2,97.63,5,75.44,9.3,44.9,High Risk
+LA-INFR-00179,Industrial Corridor,Uttar Pradesh,219.55,139,281,4,40.61,3,93.96,5.7,34.4,Low/Medium Risk
+LA-INFR-00180,National Highway,Tamil Nadu,849.77,162,218,0,37.56,3,74.26,4.0,37.7,High Risk
+LA-INFR-00181,Urban Metro Rail,Gujarat,27.8,152,263,1,86.82,6,12.12,9.2,22.0,Low/Medium Risk
+LA-INFR-00182,Dedicated Freight Corridor,Gujarat,12.46,143,253,4,90.67,3,54.77,9.0,40.9,High Risk
+LA-INFR-00183,Irrigation Dam & Reservoir,Bihar,214.96,160,236,2,24.98,2,81.33,9.2,15.2,Low/Medium Risk
+LA-INFR-00184,Irrigation Dam & Reservoir,Bihar,79.01,160,262,1,71.98,2,12.22,6.5,40.2,High Risk
+LA-INFR-00185,Dedicated Freight Corridor,Tamil Nadu,65.06,149,253,1,81.17,6,34.57,5.3,24.0,Low/Medium Risk
+LA-INFR-00186,National Highway,Odisha,312.56,154,300,1,81.39,3,85.13,5.5,32.5,Low/Medium Risk
+LA-INFR-00187,National Highway,Tamil Nadu,10.45,144,258,4,65.9,4,65.84,6.6,29.1,Low/Medium Risk
+LA-INFR-00188,Dedicated Freight Corridor,Bihar,23.03,146,198,0,58.13,2,19.84,6.9,25.2,Low/Medium Risk
+LA-INFR-00189,Industrial Corridor,West Bengal,505.8,151,262,1,96.28,2,64.6,6.4,16.5,Low/Medium Risk
+LA-INFR-00190,Irrigation Dam & Reservoir,Odisha,46.51,154,214,0,81.24,1,51.98,8.7,20.6,Low/Medium Risk
+LA-INFR-00191,Industrial Corridor,Maharashtra,789.32,150,263,3,97.78,3,93.76,7.7,49.1,High Risk
+LA-INFR-00192,Industrial Corridor,Uttar Pradesh,111.15,151,369,4,47.29,7,78.5,7.6,34.2,Low/Medium Risk
+LA-INFR-00193,Urban Metro Rail,Uttar Pradesh,29.53,151,272,0,26.09,2,52.03,7.1,14.5,Low/Medium Risk
+LA-INFR-00194,Urban Metro Rail,Bihar,8.89,140,214,3,63.23,9,40.1,9.6,49.0,High Risk
+LA-INFR-00195,Industrial Corridor,Maharashtra,84.81,164,196,0,81.69,4,93.08,5.7,51.7,High Risk
+LA-INFR-00196,Dedicated Freight Corridor,Tamil Nadu,372.63,120,217,4,88.61,6,26.91,3.4,46.7,High Risk
+LA-INFR-00197,Urban Metro Rail,Maharashtra,144.39,147,220,2,45.22,4,56.76,3.7,23.8,Low/Medium Risk
+LA-INFR-00198,Industrial Corridor,Maharashtra,107.32,131,260,3,33.05,1,43.2,5.4,38.5,High Risk
+LA-INFR-00199,Dedicated Freight Corridor,Tamil Nadu,144.84,148,167,1,88.5,3,47.91,3.4,48.6,High Risk
+LA-INFR-00200,Dedicated Freight Corridor,West Bengal,283.04,141,234,2,61.66,1,41.99,8.0,54.4,High Risk
+LA-INFR-00201,Dedicated Freight Corridor,Bihar,0.88,170,111,3,91.36,3,59.59,5.9,14.8,Low/Medium Risk
+LA-INFR-00202,Dedicated Freight Corridor,West Bengal,280.21,170,321,1,31.52,0,24.26,9.9,9.6,Low/Medium Risk
+LA-INFR-00203,Dedicated Freight Corridor,Odisha,89.07,168,260,0,57.33,3,31.73,6.2,59.2,High Risk
+LA-INFR-00204,Irrigation Dam & Reservoir,Maharashtra,285.46,162,181,1,69.5,2,83.94,7.1,37.8,High Risk
+LA-INFR-00205,Urban Metro Rail,Uttar Pradesh,73.25,170,206,1,77.46,2,14.27,3.3,53.5,High Risk
+LA-INFR-00206,Irrigation Dam & Reservoir,Gujarat,459.14,137,305,4,46.63,2,61.73,7.6,31.6,Low/Medium Risk
+LA-INFR-00207,Irrigation Dam & Reservoir,Gujarat,222.19,167,256,0,36.11,4,97.09,9.2,23.9,Low/Medium Risk
+LA-INFR-00208,Dedicated Freight Corridor,Bihar,50.24,148,187,2,41.9,3,87.37,7.9,39.9,High Risk
+LA-INFR-00209,National Highway,West Bengal,42.56,154,288,1,25.1,3,63.87,3.9,39.1,High Risk
+LA-INFR-00210,Irrigation Dam & Reservoir,Bihar,438.82,141,323,0,23.45,3,88.64,3.8,31.6,Low/Medium Risk
+LA-INFR-00211,Urban Metro Rail,Gujarat,19.1,154,305,3,20.38,8,15.92,5.9,50.8,High Risk
+LA-INFR-00212,Industrial Corridor,Bihar,148.87,138,207,3,23.92,3,53.12,7.4,24.0,Low/Medium Risk
+LA-INFR-00213,Dedicated Freight Corridor,West Bengal,115.51,146,174,3,29.75,1,56.85,5.3,49.4,High Risk
+LA-INFR-00214,Urban Metro Rail,Tamil Nadu,77.08,135,171,3,40.27,4,42.01,7.9,51.7,High Risk
+LA-INFR-00215,Dedicated Freight Corridor,Gujarat,240.12,149,281,1,70.66,3,26.5,4.6,53.0,High Risk
+LA-INFR-00216,National Highway,Tamil Nadu,253.34,160,219,0,73.65,2,22.95,8.3,47.4,High Risk
+LA-INFR-00217,Dedicated Freight Corridor,Tamil Nadu,50.69,164,251,1,45.23,1,28.39,6.4,35.6,Low/Medium Risk
+LA-INFR-00218,Irrigation Dam & Reservoir,Gujarat,148.21,144,220,2,95.0,6,26.21,8.2,49.7,High Risk
+LA-INFR-00219,Industrial Corridor,Maharashtra,146.63,147,283,1,83.78,3,56.87,3.1,14.8,Low/Medium Risk
+LA-INFR-00220,Urban Metro Rail,Gujarat,16.58,159,167,3,64.37,3,45.71,7.2,38.5,High Risk
+LA-INFR-00221,Industrial Corridor,Gujarat,813.12,135,233,3,46.45,2,44.35,4.4,32.2,Low/Medium Risk
+LA-INFR-00222,National Highway,Gujarat,186.31,138,259,1,88.63,3,49.64,3.6,39.0,High Risk
+LA-INFR-00223,National Highway,Tamil Nadu,104.9,152,205,0,44.88,4,10.86,5.0,39.1,High Risk
+LA-INFR-00224,National Highway,Tamil Nadu,367.92,161,167,1,89.37,1,86.23,6.4,46.4,High Risk
+LA-INFR-00225,Industrial Corridor,Uttar Pradesh,45.81,177,204,4,71.62,9,64.37,9.2,17.0,Low/Medium Risk
+LA-INFR-00226,National Highway,Tamil Nadu,15.33,166,180,1,94.23,3,68.75,5.9,32.5,Low/Medium Risk
+LA-INFR-00227,Irrigation Dam & Reservoir,Odisha,10.07,164,202,2,62.34,3,68.75,9.0,47.8,High Risk
+LA-INFR-00228,National Highway,West Bengal,45.85,137,139,3,69.56,0,91.35,6.6,21.1,Low/Medium Risk
+LA-INFR-00229,Urban Metro Rail,Odisha,120.72,148,265,3,56.62,1,13.47,3.7,31.1,Low/Medium Risk
+LA-INFR-00230,Urban Metro Rail,West Bengal,226.63,145,232,2,81.73,6,24.35,9.1,43.8,High Risk
+LA-INFR-00231,Urban Metro Rail,Uttar Pradesh,102.67,160,193,4,57.07,2,13.0,7.4,35.6,Low/Medium Risk
+LA-INFR-00232,Irrigation Dam & Reservoir,West Bengal,72.73,127,254,4,39.02,1,20.09,3.1,12.0,Low/Medium Risk
+LA-INFR-00233,Industrial Corridor,Uttar Pradesh,157.63,149,273,0,45.5,2,97.56,5.1,27.2,Low/Medium Risk
+LA-INFR-00234,National Highway,Gujarat,16.49,147,201,2,29.58,3,77.15,5.6,43.3,High Risk
+LA-INFR-00235,Industrial Corridor,West Bengal,12.47,156,232,4,98.14,3,20.45,9.1,41.6,High Risk
+LA-INFR-00236,National Highway,Gujarat,275.72,151,243,4,30.81,7,70.42,6.0,35.5,Low/Medium Risk
+LA-INFR-00237,Dedicated Freight Corridor,Tamil Nadu,179.16,147,321,1,85.23,3,96.87,4.3,51.3,High Risk
+LA-INFR-00238,Industrial Corridor,West Bengal,272.2,160,220,2,81.88,4,76.16,6.0,41.8,High Risk
+LA-INFR-00239,Urban Metro Rail,Maharashtra,128.4,151,189,1,25.32,5,46.9,9.2,58.7,High Risk
+LA-INFR-00240,National Highway,Uttar Pradesh,11.66,149,250,0,93.15,5,31.62,6.6,46.1,High Risk
+LA-INFR-00241,Urban Metro Rail,Odisha,179.83,143,167,4,66.03,1,14.25,8.9,57.0,High Risk
+LA-INFR-00242,Urban Metro Rail,Bihar,66.35,123,293,1,52.94,2,65.97,6.9,9.5,Low/Medium Risk
+LA-INFR-00243,Dedicated Freight Corridor,Odisha,490.26,157,171,3,36.1,4,53.65,3.1,14.1,Low/Medium Risk
+LA-INFR-00244,Urban Metro Rail,Gujarat,184.74,164,181,0,50.7,2,63.67,5.7,40.8,High Risk
+LA-INFR-00245,Irrigation Dam & Reservoir,Maharashtra,15.2,159,210,4,52.2,5,44.03,10.0,24.3,Low/Medium Risk
+LA-INFR-00246,National Highway,Odisha,353.54,150,321,2,74.97,6,43.81,4.9,38.2,High Risk
+LA-INFR-00247,Industrial Corridor,West Bengal,137.79,133,298,4,88.55,1,69.18,5.5,12.0,Low/Medium Risk
+LA-INFR-00248,Urban Metro Rail,Bihar,94.23,146,270,1,95.31,4,51.94,8.5,9.3,Low/Medium Risk
+LA-INFR-00249,Dedicated Freight Corridor,Tamil Nadu,99.26,129,299,2,21.28,3,36.78,9.0,9.5,Low/Medium Risk
+LA-INFR-00250,Irrigation Dam & Reservoir,Maharashtra,36.52,147,191,4,91.91,4,12.3,6.4,45.5,High Risk
+LA-INFR-00251,Urban Metro Rail,West Bengal,48.31,163,186,0,20.27,7,65.57,7.0,6.0,Low/Medium Risk
+LA-INFR-00252,Dedicated Freight Corridor,Gujarat,26.13,143,272,1,59.69,7,79.04,9.1,9.6,Low/Medium Risk
+LA-INFR-00253,Industrial Corridor,Maharashtra,349.02,176,171,0,92.12,6,70.67,7.8,10.2,Low/Medium Risk
+LA-INFR-00254,Urban Metro Rail,Bihar,7.41,132,249,0,90.0,1,98.94,4.9,43.3,High Risk
+LA-INFR-00255,Industrial Corridor,Maharashtra,55.18,176,148,4,80.34,1,60.74,8.1,57.6,High Risk
+LA-INFR-00256,National Highway,Bihar,38.54,165,311,4,99.82,3,54.48,6.2,13.7,Low/Medium Risk
+LA-INFR-00257,Urban Metro Rail,Gujarat,96.35,160,171,1,68.38,1,86.5,6.6,23.8,Low/Medium Risk
+LA-INFR-00258,Urban Metro Rail,Maharashtra,9.28,150,183,4,55.93,2,85.42,8.1,51.4,High Risk
+LA-INFR-00259,Dedicated Freight Corridor,Gujarat,336.49,156,211,2,36.04,2,12.36,7.7,7.5,Low/Medium Risk
+LA-INFR-00260,Urban Metro Rail,Maharashtra,138.94,142,346,1,33.8,3,70.8,4.9,15.9,Low/Medium Risk
+LA-INFR-00261,Dedicated Freight Corridor,Bihar,487.71,150,220,4,74.86,0,39.93,8.2,59.4,High Risk
+LA-INFR-00262,National Highway,Uttar Pradesh,179.19,152,203,3,30.11,3,68.25,3.8,11.7,Low/Medium Risk
+LA-INFR-00263,Industrial Corridor,Odisha,65.88,144,309,3,56.53,2,87.95,6.6,26.9,Low/Medium Risk
+LA-INFR-00264,Dedicated Freight Corridor,Tamil Nadu,11.86,136,252,1,70.52,2,25.0,5.7,51.4,High Risk
+LA-INFR-00265,National Highway,Uttar Pradesh,265.72,154,273,0,36.84,1,72.75,9.3,51.9,High Risk
+LA-INFR-00266,Irrigation Dam & Reservoir,West Bengal,314.1,138,218,4,95.03,4,18.99,6.2,17.5,Low/Medium Risk
+LA-INFR-00267,Industrial Corridor,Bihar,11.08,137,263,3,72.62,6,22.24,6.7,49.6,High Risk
+LA-INFR-00268,Industrial Corridor,Gujarat,126.47,129,130,0,34.07,1,73.47,7.2,50.1,High Risk
+LA-INFR-00269,National Highway,Odisha,1503.03,148,323,1,77.62,3,56.57,6.6,46.4,High Risk
+LA-INFR-00270,Irrigation Dam & Reservoir,Uttar Pradesh,147.5,131,243,4,47.47,1,33.56,3.2,16.4,Low/Medium Risk
+LA-INFR-00271,Urban Metro Rail,Bihar,502.88,168,218,1,56.58,2,71.93,3.4,36.9,High Risk
+LA-INFR-00272,Dedicated Freight Corridor,Odisha,397.63,145,221,1,33.87,2,82.59,6.7,16.5,Low/Medium Risk
+LA-INFR-00273,National Highway,Gujarat,250.29,156,159,2,70.81,4,24.22,3.3,18.8,Low/Medium Risk
+LA-INFR-00274,Urban Metro Rail,Uttar Pradesh,85.34,149,180,1,54.58,4,70.19,9.3,35.1,Low/Medium Risk
+LA-INFR-00275,Dedicated Freight Corridor,Tamil Nadu,30.96,147,262,4,31.53,0,90.33,7.4,19.5,Low/Medium Risk
+LA-INFR-00276,Urban Metro Rail,Bihar,115.22,150,235,1,34.14,2,19.59,9.0,17.7,Low/Medium Risk
+LA-INFR-00277,Industrial Corridor,Maharashtra,181.23,155,269,3,76.38,5,22.04,8.1,48.1,High Risk
+LA-INFR-00278,National Highway,Gujarat,50.58,151,233,1,54.54,1,81.9,4.7,31.3,Low/Medium Risk
+LA-INFR-00279,National Highway,Gujarat,157.53,158,237,1,26.16,6,79.8,9.2,43.0,High Risk
+LA-INFR-00280,Industrial Corridor,West Bengal,4.54,155,228,4,42.87,1,77.01,8.5,55.2,High Risk
+LA-INFR-00281,Industrial Corridor,Odisha,83.32,148,146,4,65.9,3,85.45,8.2,52.2,High Risk
+LA-INFR-00282,National Highway,West Bengal,281.82,154,193,2,51.72,2,49.15,7.1,20.6,Low/Medium Risk
+LA-INFR-00283,Irrigation Dam & Reservoir,Maharashtra,234.42,131,188,1,88.51,2,76.89,5.6,44.5,High Risk
+LA-INFR-00284,Urban Metro Rail,Tamil Nadu,136.22,145,278,0,57.46,2,98.56,7.9,20.7,Low/Medium Risk
+LA-INFR-00285,Industrial Corridor,Odisha,372.86,129,310,3,84.01,2,91.56,3.5,20.2,Low/Medium Risk
+LA-INFR-00286,Irrigation Dam & Reservoir,Uttar Pradesh,9.1,152,258,4,70.12,5,32.61,4.1,56.8,High Risk
+LA-INFR-00287,Dedicated Freight Corridor,West Bengal,192.21,148,238,1,28.22,2,26.53,3.6,27.1,Low/Medium Risk
+LA-INFR-00288,Urban Metro Rail,Tamil Nadu,455.39,145,282,1,33.57,4,44.43,5.5,33.1,Low/Medium Risk
+LA-INFR-00289,National Highway,Tamil Nadu,182.25,140,95,0,39.22,4,48.95,7.2,44.3,High Risk
+LA-INFR-00290,National Highway,Gujarat,957.22,131,200,0,72.75,9,63.53,8.0,58.3,High Risk
+LA-INFR-00291,National Highway,West Bengal,444.28,146,273,3,85.3,1,11.93,6.0,53.7,High Risk
+LA-INFR-00292,Urban Metro Rail,West Bengal,191.39,148,194,2,46.64,2,46.97,3.9,48.0,High Risk
+LA-INFR-00293,Industrial Corridor,West Bengal,87.29,133,262,4,42.79,2,82.02,7.4,15.0,Low/Medium Risk
+LA-INFR-00294,Irrigation Dam & Reservoir,Tamil Nadu,13.83,138,202,2,90.89,2,12.53,8.9,58.4,High Risk
+LA-INFR-00295,National Highway,Tamil Nadu,103.57,162,219,3,92.24,3,27.09,8.5,36.4,High Risk
+LA-INFR-00296,National Highway,West Bengal,2.66,154,228,3,36.1,2,91.05,5.9,14.5,Low/Medium Risk
+LA-INFR-00297,Irrigation Dam & Reservoir,Maharashtra,55.82,154,244,4,63.15,3,25.95,5.4,21.4,Low/Medium Risk
+LA-INFR-00298,Industrial Corridor,Uttar Pradesh,14.26,160,187,3,80.07,2,81.44,6.9,56.9,High Risk
+LA-INFR-00299,Irrigation Dam & Reservoir,Maharashtra,357.09,144,331,2,65.34,4,96.34,7.8,54.4,High Risk
+LA-INFR-00300,Irrigation Dam & Reservoir,West Bengal,10.4,165,237,4,27.67,2,90.26,6.1,39.7,High Risk
+LA-INFR-00301,Irrigation Dam & Reservoir,Maharashtra,5.45,155,314,2,23.24,4,38.03,6.6,32.1,Low/Medium Risk
+LA-INFR-00302,National Highway,Bihar,162.95,149,252,1,82.61,4,25.63,6.0,43.2,High Risk
+LA-INFR-00303,National Highway,Gujarat,509.83,143,263,3,64.0,2,21.27,5.1,31.9,Low/Medium Risk
+LA-INFR-00304,Industrial Corridor,Bihar,337.24,153,285,2,47.51,5,62.8,8.8,25.8,Low/Medium Risk
+LA-INFR-00305,Dedicated Freight Corridor,Maharashtra,172.33,138,259,3,81.5,3,15.33,4.2,32.2,Low/Medium Risk
+LA-INFR-00306,National Highway,Gujarat,557.7,133,246,0,55.78,3,97.3,9.7,54.4,High Risk
+LA-INFR-00307,Industrial Corridor,Uttar Pradesh,632.77,134,186,4,32.29,4,99.01,6.5,41.2,High Risk
+LA-INFR-00308,Industrial Corridor,Maharashtra,98.26,151,172,3,29.86,1,69.06,6.3,51.6,High Risk
+LA-INFR-00309,Dedicated Freight Corridor,West Bengal,85.19,163,236,2,80.59,3,72.0,8.2,46.7,High Risk
+LA-INFR-00310,Urban Metro Rail,Odisha,205.78,150,249,1,89.26,2,27.79,5.1,8.2,Low/Medium Risk
+LA-INFR-00311,Dedicated Freight Corridor,Tamil Nadu,57.99,135,216,1,23.23,5,12.36,6.1,18.3,Low/Medium Risk
+LA-INFR-00312,Dedicated Freight Corridor,Bihar,483.01,143,148,4,50.95,1,18.9,9.6,51.3,High Risk
+LA-INFR-00313,Irrigation Dam & Reservoir,Gujarat,46.95,149,222,4,84.3,2,93.29,4.6,31.1,Low/Medium Risk
+LA-INFR-00314,Urban Metro Rail,Tamil Nadu,554.87,150,331,1,81.76,8,52.75,6.8,7.7,Low/Medium Risk
+LA-INFR-00315,Urban Metro Rail,Tamil Nadu,83.74,132,295,1,69.57,1,84.07,7.2,33.5,Low/Medium Risk
+LA-INFR-00316,Irrigation Dam & Reservoir,Uttar Pradesh,27.41,161,242,1,45.91,2,10.47,8.0,11.9,Low/Medium Risk
+LA-INFR-00317,National Highway,West Bengal,25.62,165,267,0,91.61,5,79.12,5.8,28.0,Low/Medium Risk
+LA-INFR-00318,National Highway,Bihar,411.4,124,391,1,70.05,1,84.75,6.6,31.1,Low/Medium Risk
+LA-INFR-00319,Irrigation Dam & Reservoir,Tamil Nadu,140.6,176,222,3,93.02,5,78.29,4.1,33.0,Low/Medium Risk
+LA-INFR-00320,Irrigation Dam & Reservoir,Gujarat,40.57,159,320,2,98.26,2,69.93,6.3,28.2,Low/Medium Risk
+LA-INFR-00321,National Highway,West Bengal,183.79,164,287,3,29.46,4,87.05,9.9,58.0,High Risk
+LA-INFR-00322,Urban Metro Rail,Uttar Pradesh,209.67,132,265,4,97.36,2,45.79,3.5,32.1,Low/Medium Risk
+LA-INFR-00323,Urban Metro Rail,West Bengal,74.82,151,251,2,87.99,3,69.48,9.9,46.7,High Risk
+LA-INFR-00324,National Highway,Tamil Nadu,8.63,155,157,4,48.33,1,75.35,7.5,31.6,Low/Medium Risk
+LA-INFR-00325,Irrigation Dam & Reservoir,Tamil Nadu,3.35,133,217,3,81.6,5,64.26,3.1,10.7,Low/Medium Risk
+LA-INFR-00326,Urban Metro Rail,Gujarat,307.18,150,129,1,86.05,2,71.49,7.0,16.7,Low/Medium Risk
+LA-INFR-00327,Industrial Corridor,Tamil Nadu,48.89,153,216,2,78.25,3,20.34,9.3,36.3,High Risk
+LA-INFR-00328,Industrial Corridor,West Bengal,31.11,148,343,0,85.14,3,46.14,7.5,59.6,High Risk
+LA-INFR-00329,National Highway,Maharashtra,68.41,143,289,1,49.65,3,78.16,7.3,48.3,High Risk
+LA-INFR-00330,Industrial Corridor,Maharashtra,439.54,134,260,2,72.92,4,78.38,7.2,43.2,High Risk
+LA-INFR-00331,Irrigation Dam & Reservoir,West Bengal,225.37,172,301,3,97.76,3,52.74,4.8,20.2,Low/Medium Risk
+LA-INFR-00332,Industrial Corridor,Uttar Pradesh,208.04,155,263,2,48.55,5,40.78,9.0,47.7,High Risk
+LA-INFR-00333,Dedicated Freight Corridor,Maharashtra,558.12,146,226,1,75.85,3,32.73,4.0,37.5,High Risk
+LA-INFR-00334,Urban Metro Rail,Tamil Nadu,476.28,123,189,0,71.79,2,17.07,6.0,46.4,High Risk
+LA-INFR-00335,National Highway,Uttar Pradesh,329.35,143,207,4,31.77,3,86.68,4.6,17.4,Low/Medium Risk
+LA-INFR-00336,Dedicated Freight Corridor,Uttar Pradesh,160.04,147,167,0,92.13,5,64.53,3.5,19.2,Low/Medium Risk
+LA-INFR-00337,Dedicated Freight Corridor,Maharashtra,517.88,146,178,1,22.78,1,24.48,5.2,56.1,High Risk
+LA-INFR-00338,Industrial Corridor,Uttar Pradesh,200.7,151,146,0,85.73,8,20.8,3.2,8.5,Low/Medium Risk
+LA-INFR-00339,National Highway,Uttar Pradesh,448.88,150,257,0,38.39,3,92.15,8.3,32.5,Low/Medium Risk
+LA-INFR-00340,National Highway,Tamil Nadu,16.72,156,178,3,99.29,1,41.65,7.5,22.7,Low/Medium Risk
+LA-INFR-00341,Urban Metro Rail,Maharashtra,16.57,139,258,0,39.4,4,94.42,8.8,46.4,High Risk
+LA-INFR-00342,National Highway,Tamil Nadu,316.27,130,160,4,72.1,6,29.44,8.4,55.4,High Risk
+LA-INFR-00343,Urban Metro Rail,Uttar Pradesh,169.78,158,235,4,91.39,5,48.09,3.6,15.2,Low/Medium Risk
+LA-INFR-00344,Irrigation Dam & Reservoir,Uttar Pradesh,20.85,158,177,3,37.26,2,23.52,4.8,45.5,High Risk
+LA-INFR-00345,National Highway,Gujarat,125.76,136,88,4,56.11,2,22.0,5.2,38.9,High Risk
+LA-INFR-00346,Dedicated Freight Corridor,Odisha,70.96,165,180,4,62.4,2,90.47,5.8,26.0,Low/Medium Risk
+LA-INFR-00347,Urban Metro Rail,West Bengal,141.35,144,249,2,25.07,3,47.24,5.9,14.7,Low/Medium Risk
+LA-INFR-00348,Irrigation Dam & Reservoir,West Bengal,176.6,171,244,0,61.88,7,97.65,8.2,51.3,High Risk
+LA-INFR-00349,National Highway,Odisha,240.39,144,268,1,24.09,4,63.14,8.5,56.3,High Risk
+LA-INFR-00350,Irrigation Dam & Reservoir,Tamil Nadu,285.3,168,249,3,49.75,2,79.42,8.0,43.4,High Risk
+LA-INFR-00351,Irrigation Dam & Reservoir,Tamil Nadu,99.74,126,183,3,83.91,1,81.43,4.7,6.9,Low/Medium Risk
+LA-INFR-00352,Irrigation Dam & Reservoir,Bihar,133.98,132,284,0,42.74,3,90.34,5.5,32.6,Low/Medium Risk
+LA-INFR-00353,Industrial Corridor,Tamil Nadu,160.3,156,228,3,49.8,5,58.49,4.6,14.8,Low/Medium Risk
+LA-INFR-00354,Urban Metro Rail,Bihar,356.38,167,222,1,41.42,4,23.15,8.6,28.7,Low/Medium Risk
+LA-INFR-00355,Irrigation Dam & Reservoir,Gujarat,57.53,156,249,0,80.84,5,75.08,3.0,49.8,High Risk
+LA-INFR-00356,Irrigation Dam & Reservoir,Maharashtra,162.56,153,262,3,30.76,2,91.5,3.0,11.5,Low/Medium Risk
+LA-INFR-00357,Dedicated Freight Corridor,Uttar Pradesh,117.29,132,237,1,82.98,1,88.23,9.2,54.2,High Risk
+LA-INFR-00358,Irrigation Dam & Reservoir,Gujarat,74.11,152,221,1,69.77,1,81.39,9.0,51.4,High Risk
+LA-INFR-00359,Urban Metro Rail,West Bengal,6.11,158,280,3,49.08,3,32.61,9.9,29.3,Low/Medium Risk
+LA-INFR-00360,Dedicated Freight Corridor,Bihar,77.58,158,290,4,59.06,3,86.2,3.5,51.2,High Risk
+LA-INFR-00361,Irrigation Dam & Reservoir,Gujarat,13.37,181,263,2,91.7,2,82.49,5.4,27.8,Low/Medium Risk
+LA-INFR-00362,Urban Metro Rail,Odisha,394.52,147,230,4,90.57,1,24.17,7.0,19.8,Low/Medium Risk
+LA-INFR-00363,Urban Metro Rail,West Bengal,31.56,158,224,2,58.41,2,55.24,4.7,12.6,Low/Medium Risk
+LA-INFR-00364,Industrial Corridor,Tamil Nadu,16.07,160,152,1,51.23,4,46.8,6.6,12.0,Low/Medium Risk
+LA-INFR-00365,Irrigation Dam & Reservoir,Maharashtra,268.07,147,328,3,82.99,3,15.55,9.4,51.9,High Risk
+LA-INFR-00366,National Highway,Bihar,130.7,132,190,3,28.3,4,41.56,9.5,37.3,High Risk
+LA-INFR-00367,Industrial Corridor,Uttar Pradesh,16.67,170,277,2,51.99,2,88.69,5.7,34.6,Low/Medium Risk
+LA-INFR-00368,Irrigation Dam & Reservoir,Uttar Pradesh,62.52,142,272,1,71.95,1,21.85,7.6,47.6,High Risk
+LA-INFR-00369,Industrial Corridor,Maharashtra,327.66,131,237,4,60.14,2,58.66,8.1,27.2,Low/Medium Risk
+LA-INFR-00370,Industrial Corridor,West Bengal,21.33,131,322,3,52.58,4,50.35,7.7,16.4,Low/Medium Risk
+LA-INFR-00371,Dedicated Freight Corridor,Gujarat,141.97,137,205,2,93.78,7,17.92,7.6,16.6,Low/Medium Risk
+LA-INFR-00372,National Highway,Uttar Pradesh,5.4,154,242,4,92.9,5,15.85,9.9,38.3,High Risk
+LA-INFR-00373,Dedicated Freight Corridor,Maharashtra,86.69,125,192,2,38.75,3,11.42,9.1,50.7,High Risk
+LA-INFR-00374,Urban Metro Rail,Uttar Pradesh,30.72,165,180,4,52.79,1,27.49,3.8,21.0,Low/Medium Risk
+LA-INFR-00375,Dedicated Freight Corridor,Uttar Pradesh,33.38,144,194,3,76.54,4,96.65,7.2,13.8,Low/Medium Risk
+LA-INFR-00376,National Highway,Uttar Pradesh,21.67,151,348,2,88.14,2,23.93,7.9,6.7,Low/Medium Risk
+LA-INFR-00377,Dedicated Freight Corridor,Bihar,19.26,131,318,4,99.55,2,47.28,6.9,36.1,High Risk
+LA-INFR-00378,National Highway,Bihar,17.05,160,155,0,61.65,2,51.75,6.1,54.6,High Risk
+LA-INFR-00379,Dedicated Freight Corridor,Odisha,112.78,158,280,0,50.54,2,71.5,8.9,56.9,High Risk
+LA-INFR-00380,Dedicated Freight Corridor,Maharashtra,24.87,144,221,4,77.69,3,93.94,9.9,27.9,Low/Medium Risk
+LA-INFR-00381,Industrial Corridor,Uttar Pradesh,402.66,141,201,0,45.73,2,56.99,6.1,55.1,High Risk
+LA-INFR-00382,National Highway,Maharashtra,157.11,142,216,1,35.08,3,86.84,4.9,14.5,Low/Medium Risk
+LA-INFR-00383,Industrial Corridor,Uttar Pradesh,62.87,153,333,4,69.75,2,28.24,7.4,30.5,Low/Medium Risk
+LA-INFR-00384,Dedicated Freight Corridor,Uttar Pradesh,88.3,145,268,1,35.43,5,61.32,8.1,58.3,High Risk
+LA-INFR-00385,Industrial Corridor,Odisha,16.62,160,206,3,55.85,3,28.21,4.2,28.2,Low/Medium Risk
+LA-INFR-00386,Industrial Corridor,Uttar Pradesh,141.43,137,205,4,69.58,2,21.67,8.8,37.8,High Risk
+LA-INFR-00387,Urban Metro Rail,Tamil Nadu,87.43,165,201,4,44.02,7,22.19,7.7,9.6,Low/Medium Risk
+LA-INFR-00388,Industrial Corridor,Uttar Pradesh,242.64,138,211,4,70.16,3,30.79,4.6,12.0,Low/Medium Risk
+LA-INFR-00389,Dedicated Freight Corridor,Uttar Pradesh,87.95,144,288,2,89.3,4,31.67,3.4,20.3,Low/Medium Risk
+LA-INFR-00390,Irrigation Dam & Reservoir,Uttar Pradesh,753.05,144,294,1,99.01,4,62.7,8.1,51.1,High Risk
+LA-INFR-00391,National Highway,West Bengal,639.36,165,298,3,29.47,3,70.46,6.1,31.9,Low/Medium Risk
+LA-INFR-00392,Urban Metro Rail,West Bengal,255.33,172,196,1,99.18,4,54.85,5.4,19.9,Low/Medium Risk
+LA-INFR-00393,National Highway,Bihar,165.56,152,259,3,70.25,3,17.75,5.1,10.1,Low/Medium Risk
+LA-INFR-00394,National Highway,Uttar Pradesh,37.15,146,277,1,94.29,4,60.48,4.1,11.0,Low/Medium Risk
+LA-INFR-00395,Irrigation Dam & Reservoir,Odisha,15.4,165,210,1,23.04,2,55.33,5.9,28.1,Low/Medium Risk
+LA-INFR-00396,Urban Metro Rail,West Bengal,86.84,138,242,1,53.44,2,65.66,6.1,13.4,Low/Medium Risk
+LA-INFR-00397,Dedicated Freight Corridor,Bihar,50.0,148,257,0,57.44,4,92.73,3.1,46.5,High Risk
+LA-INFR-00398,National Highway,Maharashtra,376.76,160,300,0,58.15,4,32.4,7.9,23.0,Low/Medium Risk
+LA-INFR-00399,Dedicated Freight Corridor,Uttar Pradesh,182.5,128,148,3,82.59,1,83.94,9.8,48.2,High Risk
+LA-INFR-00400,Industrial Corridor,Odisha,310.68,158,291,2,44.07,3,34.34,8.9,59.6,High Risk
+LA-INFR-00401,National Highway,Gujarat,27.81,157,184,3,38.96,4,82.65,8.6,40.0,High Risk
+LA-INFR-00402,Industrial Corridor,Odisha,45.14,158,211,1,42.38,3,96.72,3.4,7.3,Low/Medium Risk
+LA-INFR-00403,Irrigation Dam & Reservoir,Uttar Pradesh,56.79,136,181,2,64.08,5,39.8,9.0,31.2,Low/Medium Risk
+LA-INFR-00404,National Highway,Tamil Nadu,575.45,154,269,4,81.74,2,10.98,8.7,37.7,High Risk
+LA-INFR-00405,National Highway,Uttar Pradesh,509.72,142,271,2,93.04,4,36.4,8.3,47.8,High Risk
+LA-INFR-00406,Irrigation Dam & Reservoir,Maharashtra,199.24,148,194,4,36.81,3,35.67,3.8,54.9,High Risk
+LA-INFR-00407,Urban Metro Rail,Odisha,100.71,137,218,3,72.24,2,59.84,8.3,51.3,High Risk
+LA-INFR-00408,Industrial Corridor,Odisha,59.63,144,236,1,86.36,4,63.03,6.8,44.2,High Risk
+LA-INFR-00409,Irrigation Dam & Reservoir,Maharashtra,61.68,160,221,0,43.17,7,24.41,8.2,23.5,Low/Medium Risk
+LA-INFR-00410,National Highway,Odisha,46.63,147,242,1,68.12,2,22.85,6.5,37.8,High Risk
+LA-INFR-00411,Dedicated Freight Corridor,West Bengal,52.0,163,192,3,33.94,2,50.66,8.7,42.3,High Risk
+LA-INFR-00412,Urban Metro Rail,Maharashtra,49.6,156,253,2,55.32,2,21.2,9.8,14.9,Low/Medium Risk
+LA-INFR-00413,Industrial Corridor,Gujarat,167.46,145,192,0,29.53,2,37.72,4.6,26.5,Low/Medium Risk
+LA-INFR-00414,Dedicated Freight Corridor,Maharashtra,84.3,162,271,4,33.18,4,87.33,7.3,45.5,High Risk
+LA-INFR-00415,Irrigation Dam & Reservoir,Maharashtra,99.33,146,320,0,72.26,7,98.42,4.3,34.7,Low/Medium Risk
+LA-INFR-00416,Dedicated Freight Corridor,Uttar Pradesh,9.6,163,251,4,98.37,6,39.01,5.6,55.0,High Risk
+LA-INFR-00417,Dedicated Freight Corridor,Uttar Pradesh,103.93,138,141,0,30.8,2,85.31,9.5,18.1,Low/Medium Risk
+LA-INFR-00418,Urban Metro Rail,Odisha,326.51,146,216,3,50.38,3,85.66,3.4,52.2,High Risk
+LA-INFR-00419,National Highway,Maharashtra,12.21,193,233,1,45.57,4,82.88,9.7,29.7,Low/Medium Risk
+LA-INFR-00420,National Highway,Maharashtra,108.62,164,266,3,83.51,7,64.46,4.7,15.7,Low/Medium Risk
+LA-INFR-00421,Dedicated Freight Corridor,Odisha,97.96,161,231,0,91.6,2,51.57,6.5,57.8,High Risk
+LA-INFR-00422,Industrial Corridor,Gujarat,514.84,166,230,3,74.18,6,37.68,6.0,46.6,High Risk
+LA-INFR-00423,Urban Metro Rail,Uttar Pradesh,104.07,147,142,0,61.28,2,33.69,4.6,15.0,Low/Medium Risk
+LA-INFR-00424,National Highway,Tamil Nadu,458.24,159,181,4,93.94,2,61.49,7.5,40.5,High Risk
+LA-INFR-00425,Urban Metro Rail,Maharashtra,397.06,155,193,4,44.2,1,14.1,8.5,12.5,Low/Medium Risk
+LA-INFR-00426,Urban Metro Rail,Bihar,348.93,137,281,4,36.32,2,76.52,8.1,55.1,High Risk
+LA-INFR-00427,Irrigation Dam & Reservoir,Tamil Nadu,300.21,167,281,3,96.54,4,37.79,9.1,12.1,Low/Medium Risk
+LA-INFR-00428,Urban Metro Rail,Uttar Pradesh,25.24,166,267,4,85.87,1,11.61,7.5,37.0,High Risk
+LA-INFR-00429,Dedicated Freight Corridor,Gujarat,229.38,139,266,3,68.47,3,20.53,5.3,9.7,Low/Medium Risk
+LA-INFR-00430,Dedicated Freight Corridor,Uttar Pradesh,391.95,142,363,4,92.39,3,52.44,4.3,59.4,High Risk
+LA-INFR-00431,Urban Metro Rail,Gujarat,42.48,166,233,4,60.48,2,48.46,7.4,57.7,High Risk
+LA-INFR-00432,National Highway,Tamil Nadu,682.33,139,237,3,34.39,3,59.5,8.2,43.1,High Risk
+LA-INFR-00433,Dedicated Freight Corridor,West Bengal,234.69,190,204,2,41.23,5,12.9,7.3,45.5,High Risk
+LA-INFR-00434,Industrial Corridor,Odisha,175.16,124,242,0,58.07,3,96.25,9.2,21.1,Low/Medium Risk
+LA-INFR-00435,Dedicated Freight Corridor,Bihar,19.8,161,218,0,82.03,2,60.66,4.2,29.3,Low/Medium Risk
+LA-INFR-00436,Dedicated Freight Corridor,Maharashtra,108.24,147,250,3,88.01,6,65.23,5.2,8.7,Low/Medium Risk
+LA-INFR-00437,Industrial Corridor,Odisha,232.08,145,257,2,24.57,3,88.31,9.1,56.4,High Risk
+LA-INFR-00438,Urban Metro Rail,West Bengal,76.68,147,247,3,25.11,2,49.84,9.4,30.8,Low/Medium Risk
+LA-INFR-00439,Dedicated Freight Corridor,Uttar Pradesh,236.01,144,211,3,50.95,0,69.5,5.7,16.9,Low/Medium Risk
+LA-INFR-00440,National Highway,West Bengal,65.98,162,278,2,61.25,3,19.78,6.5,15.4,Low/Medium Risk
+LA-INFR-00441,Urban Metro Rail,Tamil Nadu,172.37,142,305,2,61.21,5,28.88,5.7,38.8,High Risk
+LA-INFR-00442,National Highway,Maharashtra,189.86,163,285,2,74.33,2,87.29,5.7,40.0,High Risk
+LA-INFR-00443,Urban Metro Rail,Odisha,60.37,163,254,1,92.38,0,83.37,4.4,41.8,High Risk
+LA-INFR-00444,Industrial Corridor,Tamil Nadu,174.46,124,170,1,64.4,3,99.38,6.5,35.0,Low/Medium Risk
+LA-INFR-00445,Industrial Corridor,Bihar,253.51,147,168,1,20.73,5,17.58,6.0,31.8,Low/Medium Risk
+LA-INFR-00446,National Highway,West Bengal,322.23,148,249,4,84.98,1,16.1,9.8,22.7,Low/Medium Risk
+LA-INFR-00447,Industrial Corridor,Odisha,200.32,152,222,0,66.44,4,31.98,4.9,42.5,High Risk
+LA-INFR-00448,Industrial Corridor,Bihar,101.07,171,239,2,78.35,7,13.06,3.7,35.5,Low/Medium Risk
+LA-INFR-00449,Urban Metro Rail,Odisha,1.4,172,252,1,91.57,2,17.43,8.3,19.4,Low/Medium Risk
+LA-INFR-00450,Industrial Corridor,Gujarat,8.29,167,289,3,69.96,4,70.74,7.6,46.1,High Risk
+LA-INFR-00451,Dedicated Freight Corridor,Bihar,312.09,133,166,1,88.02,4,52.55,8.9,19.3,Low/Medium Risk
+LA-INFR-00452,Irrigation Dam & Reservoir,Bihar,152.39,167,199,1,25.59,3,76.16,3.3,6.2,Low/Medium Risk
+LA-INFR-00453,Urban Metro Rail,West Bengal,441.83,129,316,0,70.16,1,79.53,7.2,31.1,Low/Medium Risk
+LA-INFR-00454,Urban Metro Rail,Odisha,269.44,176,321,3,51.97,2,68.16,3.8,51.8,High Risk
+LA-INFR-00455,Urban Metro Rail,Bihar,473.57,161,207,2,32.65,2,78.95,3.2,18.7,Low/Medium Risk
+LA-INFR-00456,Industrial Corridor,Uttar Pradesh,332.06,145,228,1,43.91,1,43.77,7.7,23.9,Low/Medium Risk
+LA-INFR-00457,Irrigation Dam & Reservoir,Gujarat,334.34,155,174,0,85.2,3,89.54,8.4,17.5,Low/Medium Risk
+LA-INFR-00458,Irrigation Dam & Reservoir,Odisha,154.2,158,220,1,90.88,1,62.59,6.4,49.2,High Risk
+LA-INFR-00459,Urban Metro Rail,Bihar,18.97,156,219,3,32.9,3,13.99,9.0,45.6,High Risk
+LA-INFR-00460,Industrial Corridor,Bihar,407.06,136,257,3,51.55,3,38.54,4.0,10.5,Low/Medium Risk
+LA-INFR-00461,Dedicated Freight Corridor,Gujarat,24.61,156,187,4,78.87,4,74.78,9.0,33.0,Low/Medium Risk
+LA-INFR-00462,Irrigation Dam & Reservoir,Uttar Pradesh,4.13,154,232,2,76.01,7,50.26,8.1,9.5,Low/Medium Risk
+LA-INFR-00463,Urban Metro Rail,West Bengal,399.31,138,298,2,46.85,2,22.7,9.9,55.6,High Risk
+LA-INFR-00464,National Highway,Gujarat,540.75,162,248,0,48.83,2,74.98,7.3,11.2,Low/Medium Risk
+LA-INFR-00465,National Highway,Maharashtra,52.33,155,169,2,96.1,1,15.05,4.7,52.8,High Risk
+LA-INFR-00466,Dedicated Freight Corridor,Tamil Nadu,54.39,140,229,4,88.15,2,98.84,7.4,57.9,High Risk
+LA-INFR-00467,Dedicated Freight Corridor,Tamil Nadu,86.99,164,274,4,72.65,5,29.89,5.6,56.5,High Risk
+LA-INFR-00468,National Highway,Gujarat,96.15,162,282,0,26.01,0,61.01,4.6,28.3,Low/Medium Risk
+LA-INFR-00469,Irrigation Dam & Reservoir,West Bengal,270.07,149,246,1,56.61,1,77.03,8.7,42.4,High Risk
+LA-INFR-00470,National Highway,Odisha,39.55,151,193,0,40.21,5,87.2,3.5,25.4,Low/Medium Risk
+LA-INFR-00471,National Highway,Odisha,11.29,162,235,3,87.1,2,85.0,7.6,16.9,Low/Medium Risk
+LA-INFR-00472,Industrial Corridor,Bihar,248.84,138,238,3,60.04,3,57.83,8.2,44.2,High Risk
+LA-INFR-00473,Irrigation Dam & Reservoir,Gujarat,2.35,134,290,1,86.96,1,24.87,8.6,19.7,Low/Medium Risk
+LA-INFR-00474,Dedicated Freight Corridor,Uttar Pradesh,545.5,155,95,1,44.34,4,68.4,4.4,20.5,Low/Medium Risk
+LA-INFR-00475,Dedicated Freight Corridor,Odisha,329.71,145,286,4,35.82,3,76.17,5.5,21.6,Low/Medium Risk
+LA-INFR-00476,Industrial Corridor,Gujarat,210.0,157,239,0,71.45,4,13.12,5.5,46.5,High Risk
+LA-INFR-00477,Irrigation Dam & Reservoir,Bihar,304.43,151,189,1,49.37,4,11.43,3.8,48.0,High Risk
+LA-INFR-00478,Irrigation Dam & Reservoir,Gujarat,319.67,152,140,3,74.35,4,50.55,7.5,28.6,Low/Medium Risk
+LA-INFR-00479,Urban Metro Rail,Bihar,304.3,151,314,0,38.57,3,42.87,7.3,45.3,High Risk
+LA-INFR-00480,National Highway,Tamil Nadu,274.67,157,186,1,76.77,3,94.1,8.0,53.2,High Risk
+LA-INFR-00481,Irrigation Dam & Reservoir,Gujarat,7.08,162,165,3,43.42,2,26.83,5.6,58.5,High Risk
+LA-INFR-00482,Industrial Corridor,Maharashtra,324.26,148,262,1,81.69,3,66.57,9.0,11.7,Low/Medium Risk
+LA-INFR-00483,Industrial Corridor,Odisha,1447.95,141,309,1,78.19,2,18.99,9.7,9.6,Low/Medium Risk
+LA-INFR-00484,Urban Metro Rail,Uttar Pradesh,191.91,150,228,0,98.15,1,53.66,5.8,34.0,Low/Medium Risk
+LA-INFR-00485,Irrigation Dam & Reservoir,Gujarat,113.12,146,176,4,59.53,5,15.54,5.7,26.6,Low/Medium Risk
+LA-INFR-00486,National Highway,Bihar,244.59,139,193,4,67.34,4,26.73,3.5,47.6,High Risk
+LA-INFR-00487,Irrigation Dam & Reservoir,Tamil Nadu,320.83,153,263,2,71.3,3,65.17,3.5,47.9,High Risk
+LA-INFR-00488,Dedicated Freight Corridor,West Bengal,46.22,183,186,1,75.97,0,82.73,4.7,40.7,High Risk
+LA-INFR-00489,Urban Metro Rail,Uttar Pradesh,526.85,145,308,0,28.92,3,56.18,8.7,41.1,High Risk
+LA-INFR-00490,Dedicated Freight Corridor,West Bengal,378.05,154,220,2,28.52,1,62.66,4.5,55.0,High Risk
+LA-INFR-00491,Irrigation Dam & Reservoir,Maharashtra,86.09,121,454,2,73.66,2,95.92,9.4,56.8,High Risk
+LA-INFR-00492,Irrigation Dam & Reservoir,Tamil Nadu,304.63,142,247,4,28.35,6,22.07,5.3,44.2,High Risk
+LA-INFR-00493,Industrial Corridor,Uttar Pradesh,61.6,154,255,0,72.55,0,13.58,6.2,45.6,High Risk
+LA-INFR-00494,Urban Metro Rail,Bihar,36.74,169,289,2,75.01,7,42.65,3.8,48.7,High Risk
+LA-INFR-00495,Dedicated Freight Corridor,Maharashtra,164.1,144,205,2,57.83,0,49.8,3.4,56.2,High Risk
+LA-INFR-00496,Urban Metro Rail,Uttar Pradesh,89.49,180,188,3,44.98,3,62.63,6.7,57.4,High Risk
+LA-INFR-00497,National Highway,West Bengal,326.95,163,286,0,73.09,1,45.7,5.9,19.2,Low/Medium Risk
+LA-INFR-00498,Dedicated Freight Corridor,Gujarat,18.43,158,164,1,85.44,0,18.02,5.9,44.2,High Risk
+LA-INFR-00499,Urban Metro Rail,West Bengal,105.92,144,292,4,78.13,5,76.27,8.5,42.0,High Risk
+LA-INFR-00500,Urban Metro Rail,Maharashtra,113.5,147,148,3,25.76,1,31.31,7.8,32.8,Low/Medium Risk
+LA-INFR-00501,National Highway,Gujarat,66.48,140,328,2,54.06,4,91.85,4.2,11.5,Low/Medium Risk
+LA-INFR-00502,Dedicated Freight Corridor,Maharashtra,512.35,173,247,4,70.0,3,17.64,3.9,44.3,High Risk
+LA-INFR-00503,Dedicated Freight Corridor,Bihar,819.01,149,174,4,60.65,2,98.99,9.0,35.1,Low/Medium Risk
+LA-INFR-00504,Industrial Corridor,Maharashtra,61.1,152,259,1,47.59,2,95.42,7.3,15.2,Low/Medium Risk
+LA-INFR-00505,National Highway,Tamil Nadu,63.69,143,317,2,63.89,4,73.01,8.2,15.8,Low/Medium Risk
+LA-INFR-00506,Irrigation Dam & Reservoir,West Bengal,138.71,141,158,0,41.09,2,43.98,4.5,24.0,Low/Medium Risk
+LA-INFR-00507,Industrial Corridor,West Bengal,137.95,174,252,0,97.17,2,34.68,5.1,22.3,Low/Medium Risk
+LA-INFR-00508,Urban Metro Rail,Odisha,490.82,156,267,4,87.26,1,97.68,5.5,52.6,High Risk
+LA-INFR-00509,National Highway,West Bengal,363.26,137,224,3,76.14,1,18.59,8.1,30.3,Low/Medium Risk
+LA-INFR-00510,Irrigation Dam & Reservoir,Odisha,30.62,154,226,0,59.89,2,40.05,5.3,14.8,Low/Medium Risk
+LA-INFR-00511,Dedicated Freight Corridor,Bihar,458.51,156,226,0,81.94,2,11.39,5.3,58.8,High Risk
+LA-INFR-00512,Dedicated Freight Corridor,Bihar,18.63,148,224,4,77.44,5,75.24,7.6,25.9,Low/Medium Risk
+LA-INFR-00513,Irrigation Dam & Reservoir,Gujarat,269.26,134,262,0,85.26,5,64.96,6.8,33.8,Low/Medium Risk
+LA-INFR-00514,Dedicated Freight Corridor,Maharashtra,264.75,119,316,2,34.49,5,81.99,8.7,52.7,High Risk
+LA-INFR-00515,Dedicated Freight Corridor,Uttar Pradesh,50.58,148,219,0,38.93,5,18.64,10.0,14.4,Low/Medium Risk
+LA-INFR-00516,Dedicated Freight Corridor,Maharashtra,59.1,156,159,1,75.57,2,19.72,3.5,20.6,Low/Medium Risk
+LA-INFR-00517,Irrigation Dam & Reservoir,West Bengal,69.2,172,202,3,40.47,5,46.99,4.1,6.9,Low/Medium Risk
+LA-INFR-00518,National Highway,Maharashtra,234.39,151,283,1,29.84,1,81.51,8.1,23.0,Low/Medium Risk
+LA-INFR-00519,Irrigation Dam & Reservoir,West Bengal,794.47,149,300,0,57.53,2,63.12,5.4,55.0,High Risk
+LA-INFR-00520,National Highway,Bihar,176.5,144,167,2,58.56,3,99.88,9.9,11.6,Low/Medium Risk
+LA-INFR-00521,National Highway,Maharashtra,99.36,149,234,2,61.6,3,40.11,6.1,24.0,Low/Medium Risk
+LA-INFR-00522,Dedicated Freight Corridor,West Bengal,377.7,164,218,1,43.46,7,61.87,8.1,46.7,High Risk
+LA-INFR-00523,Industrial Corridor,West Bengal,71.56,170,326,3,24.43,2,41.93,7.7,42.4,High Risk
+LA-INFR-00524,National Highway,West Bengal,46.95,165,117,0,22.61,4,49.29,3.7,15.0,Low/Medium Risk
+LA-INFR-00525,National Highway,Gujarat,171.33,127,216,3,33.58,2,28.72,5.7,43.3,High Risk
+LA-INFR-00526,Dedicated Freight Corridor,Bihar,455.93,137,150,2,58.43,5,97.16,4.8,47.7,High Risk
+LA-INFR-00527,Irrigation Dam & Reservoir,Gujarat,315.07,171,255,0,29.7,1,54.72,9.5,49.6,High Risk
+LA-INFR-00528,Urban Metro Rail,Maharashtra,116.0,140,314,0,74.41,2,39.89,5.8,28.4,Low/Medium Risk
+LA-INFR-00529,National Highway,Uttar Pradesh,421.13,155,229,4,71.83,2,91.57,6.0,14.8,Low/Medium Risk
+LA-INFR-00530,Urban Metro Rail,West Bengal,22.97,156,283,2,46.04,3,68.46,8.7,27.7,Low/Medium Risk
+LA-INFR-00531,Urban Metro Rail,Maharashtra,585.8,158,163,4,35.89,4,39.22,7.9,54.0,High Risk
+LA-INFR-00532,Industrial Corridor,West Bengal,7.5,156,222,4,56.52,5,94.14,5.8,56.7,High Risk
+LA-INFR-00533,Urban Metro Rail,Odisha,186.37,167,275,2,89.4,2,81.77,7.2,6.3,Low/Medium Risk
+LA-INFR-00534,National Highway,Tamil Nadu,35.12,154,193,0,21.25,4,78.7,4.3,45.1,High Risk
+LA-INFR-00535,Industrial Corridor,Uttar Pradesh,556.74,139,171,2,20.05,6,21.24,9.0,46.5,High Risk
+LA-INFR-00536,Urban Metro Rail,West Bengal,280.66,169,218,3,75.28,7,94.34,4.4,39.8,High Risk
+LA-INFR-00537,National Highway,Odisha,526.05,134,302,0,75.12,2,10.56,8.0,48.5,High Risk
+LA-INFR-00538,Urban Metro Rail,Odisha,374.6,138,161,1,27.74,3,82.3,5.6,40.2,High Risk
+LA-INFR-00539,Irrigation Dam & Reservoir,Gujarat,102.55,155,364,0,79.95,2,70.06,8.4,55.5,High Risk
+LA-INFR-00540,Dedicated Freight Corridor,Maharashtra,174.58,145,235,0,64.09,1,28.73,4.8,31.3,Low/Medium Risk
+LA-INFR-00541,Irrigation Dam & Reservoir,Odisha,130.25,157,99,4,70.34,2,34.38,6.8,26.2,Low/Medium Risk
+LA-INFR-00542,Urban Metro Rail,Odisha,49.94,142,256,0,92.8,6,32.31,5.9,7.9,Low/Medium Risk
+LA-INFR-00543,Industrial Corridor,Bihar,146.99,163,172,0,88.46,3,36.89,9.7,34.3,Low/Medium Risk
+LA-INFR-00544,Urban Metro Rail,Tamil Nadu,237.78,158,267,3,48.9,1,81.79,3.0,32.1,Low/Medium Risk
+LA-INFR-00545,Irrigation Dam & Reservoir,Odisha,35.29,138,149,0,70.49,6,23.74,3.7,56.9,High Risk
+LA-INFR-00546,National Highway,Uttar Pradesh,44.72,164,275,0,30.61,4,53.26,6.9,42.7,High Risk
+LA-INFR-00547,National Highway,Tamil Nadu,447.21,154,217,2,32.15,3,81.41,8.2,8.9,Low/Medium Risk
+LA-INFR-00548,Industrial Corridor,Bihar,371.84,155,233,2,73.87,0,76.99,9.3,7.7,Low/Medium Risk
+LA-INFR-00549,Irrigation Dam & Reservoir,Uttar Pradesh,92.2,158,213,4,61.35,2,34.06,5.0,6.9,Low/Medium Risk
+LA-INFR-00550,Urban Metro Rail,Odisha,21.72,133,289,1,23.2,0,97.16,6.0,44.2,High Risk
+LA-INFR-00551,Irrigation Dam & Reservoir,Maharashtra,69.88,143,166,1,99.24,1,32.19,4.6,11.3,Low/Medium Risk
+LA-INFR-00552,Urban Metro Rail,Tamil Nadu,59.67,142,147,3,33.9,5,49.82,5.5,31.5,Low/Medium Risk
+LA-INFR-00553,Urban Metro Rail,Odisha,185.55,139,314,4,70.72,2,66.96,3.3,32.2,Low/Medium Risk
+LA-INFR-00554,National Highway,Uttar Pradesh,122.08,148,152,3,72.05,1,70.59,7.7,40.2,High Risk
+LA-INFR-00555,Irrigation Dam & Reservoir,Tamil Nadu,7.25,142,233,2,77.36,2,79.5,7.3,25.0,Low/Medium Risk
+LA-INFR-00556,Industrial Corridor,Uttar Pradesh,197.58,167,355,1,72.21,3,14.58,6.2,28.0,Low/Medium Risk
+LA-INFR-00557,Urban Metro Rail,Uttar Pradesh,118.03,156,302,4,26.81,1,36.87,7.2,18.0,Low/Medium Risk
+LA-INFR-00558,Dedicated Freight Corridor,West Bengal,37.7,149,324,1,23.34,8,26.5,7.8,25.8,Low/Medium Risk
+LA-INFR-00559,Dedicated Freight Corridor,Maharashtra,136.39,137,192,1,64.8,2,42.24,7.2,34.6,Low/Medium Risk
+LA-INFR-00560,Irrigation Dam & Reservoir,West Bengal,20.48,158,187,1,49.55,3,29.9,6.6,49.7,High Risk
+LA-INFR-00561,National Highway,Bihar,52.19,149,341,4,63.76,4,18.34,3.5,7.0,Low/Medium Risk
+LA-INFR-00562,National Highway,Odisha,291.25,152,210,3,46.96,4,22.74,6.4,43.4,High Risk
+LA-INFR-00563,National Highway,Uttar Pradesh,44.63,154,202,2,40.79,4,15.24,9.1,32.2,Low/Medium Risk
+LA-INFR-00564,National Highway,Odisha,406.04,149,329,3,53.06,6,16.14,8.7,40.1,High Risk
+LA-INFR-00565,Irrigation Dam & Reservoir,West Bengal,34.71,162,315,4,83.88,3,97.79,6.9,29.7,Low/Medium Risk
+LA-INFR-00566,National Highway,West Bengal,125.83,152,183,0,93.07,2,99.12,6.2,44.5,High Risk
+LA-INFR-00567,Dedicated Freight Corridor,Bihar,610.15,143,167,2,72.42,1,13.51,4.5,9.1,Low/Medium Risk
+LA-INFR-00568,National Highway,Bihar,30.81,153,255,0,35.77,0,82.98,7.0,8.4,Low/Medium Risk
+LA-INFR-00569,National Highway,Odisha,580.53,128,221,3,32.45,3,87.59,3.8,22.2,Low/Medium Risk
+LA-INFR-00570,Urban Metro Rail,West Bengal,202.18,151,343,0,44.37,4,23.15,5.8,22.4,Low/Medium Risk
+LA-INFR-00571,National Highway,West Bengal,150.79,140,211,2,59.13,8,95.14,9.4,56.6,High Risk
+LA-INFR-00572,Dedicated Freight Corridor,Bihar,23.79,135,263,1,65.28,3,75.65,4.1,10.9,Low/Medium Risk
+LA-INFR-00573,Urban Metro Rail,West Bengal,315.28,152,221,4,41.31,2,58.82,3.3,58.5,High Risk
+LA-INFR-00574,Industrial Corridor,Odisha,587.16,164,254,4,33.27,2,12.37,6.8,31.8,Low/Medium Risk
+LA-INFR-00575,National Highway,Bihar,188.69,150,207,2,53.06,6,21.1,7.1,51.4,High Risk
+LA-INFR-00576,Industrial Corridor,Bihar,205.31,172,175,3,30.57,1,34.26,8.3,33.9,Low/Medium Risk
+LA-INFR-00577,Irrigation Dam & Reservoir,Uttar Pradesh,1.7,163,191,1,90.49,4,25.41,3.3,10.8,Low/Medium Risk
+LA-INFR-00578,Irrigation Dam & Reservoir,Uttar Pradesh,280.56,142,207,3,73.05,3,11.38,3.6,50.0,High Risk
+LA-INFR-00579,Urban Metro Rail,Odisha,224.53,143,136,4,74.5,6,12.31,7.4,47.8,High Risk
+LA-INFR-00580,National Highway,Gujarat,297.73,145,138,1,90.97,3,34.95,8.1,28.3,Low/Medium Risk
+LA-INFR-00581,Irrigation Dam & Reservoir,West Bengal,187.59,131,202,2,95.73,3,43.37,6.2,32.8,Low/Medium Risk
+LA-INFR-00582,Urban Metro Rail,Maharashtra,240.36,146,191,3,75.85,0,42.74,5.9,10.6,Low/Medium Risk
+LA-INFR-00583,Dedicated Freight Corridor,Tamil Nadu,186.11,150,146,1,99.6,4,74.59,3.6,45.6,High Risk
+LA-INFR-00584,Dedicated Freight Corridor,Gujarat,122.17,153,308,4,78.66,1,89.02,4.5,37.0,High Risk
+LA-INFR-00585,Urban Metro Rail,Odisha,79.71,150,300,3,20.5,6,35.53,4.3,45.9,High Risk
+LA-INFR-00586,Industrial Corridor,Uttar Pradesh,21.27,155,209,4,98.08,5,70.52,7.6,54.4,High Risk
+LA-INFR-00587,Dedicated Freight Corridor,Maharashtra,169.74,140,297,4,49.08,2,21.27,9.6,8.5,Low/Medium Risk
+LA-INFR-00588,Urban Metro Rail,Uttar Pradesh,281.68,156,169,2,86.22,5,33.87,7.0,43.8,High Risk
+LA-INFR-00589,Dedicated Freight Corridor,Uttar Pradesh,874.26,167,281,2,65.19,1,84.59,8.9,32.7,Low/Medium Risk
+LA-INFR-00590,Dedicated Freight Corridor,Maharashtra,26.32,154,274,3,57.83,1,27.85,7.8,40.1,High Risk
+LA-INFR-00591,Industrial Corridor,Uttar Pradesh,38.87,164,281,2,22.36,7,99.72,6.0,9.2,Low/Medium Risk
+LA-INFR-00592,National Highway,Bihar,104.47,142,246,4,69.71,3,78.05,9.8,24.7,Low/Medium Risk
+LA-INFR-00593,Irrigation Dam & Reservoir,Tamil Nadu,227.84,149,237,0,39.74,2,47.15,5.6,6.4,Low/Medium Risk
+LA-INFR-00594,Industrial Corridor,Gujarat,217.4,140,231,3,44.21,3,91.35,8.2,14.3,Low/Medium Risk
+LA-INFR-00595,Urban Metro Rail,Tamil Nadu,13.36,152,302,0,83.25,2,77.7,9.6,32.9,Low/Medium Risk
+LA-INFR-00596,Industrial Corridor,West Bengal,229.01,146,221,0,74.88,3,77.85,8.3,6.9,Low/Medium Risk
+LA-INFR-00597,Industrial Corridor,West Bengal,61.02,143,289,1,38.67,7,19.57,6.9,29.8,Low/Medium Risk
+LA-INFR-00598,Irrigation Dam & Reservoir,Uttar Pradesh,393.65,149,222,4,32.9,3,19.83,8.0,52.9,High Risk
+LA-INFR-00599,Irrigation Dam & Reservoir,West Bengal,392.21,129,236,1,99.95,2,11.98,4.8,42.2,High Risk
+LA-INFR-00600,Dedicated Freight Corridor,Uttar Pradesh,299.0,150,199,1,56.29,3,93.11,4.2,20.7,Low/Medium Risk
+LA-INFR-00601,Irrigation Dam & Reservoir,Gujarat,22.25,149,231,2,33.58,1,55.4,3.6,7.8,Low/Medium Risk
+LA-INFR-00602,Urban Metro Rail,Bihar,131.44,153,266,2,32.66,2,84.37,7.3,26.5,Low/Medium Risk
+LA-INFR-00603,Industrial Corridor,Gujarat,66.53,143,229,2,95.03,1,20.82,9.0,51.5,High Risk
+LA-INFR-00604,Irrigation Dam & Reservoir,Maharashtra,316.85,150,244,2,96.25,1,54.04,7.2,29.6,Low/Medium Risk
+LA-INFR-00605,National Highway,Gujarat,69.44,144,268,4,48.16,7,70.23,9.0,31.3,Low/Medium Risk
+LA-INFR-00606,Urban Metro Rail,Bihar,170.32,148,254,0,31.09,0,45.46,4.7,48.2,High Risk
+LA-INFR-00607,Industrial Corridor,Gujarat,42.42,164,210,3,68.6,3,58.01,7.7,12.8,Low/Medium Risk
+LA-INFR-00608,Industrial Corridor,Bihar,211.56,140,263,3,84.95,2,21.03,8.3,27.2,Low/Medium Risk
+LA-INFR-00609,National Highway,Uttar Pradesh,490.05,134,245,0,98.68,0,68.35,4.2,32.1,Low/Medium Risk
+LA-INFR-00610,Urban Metro Rail,Odisha,579.66,158,177,0,44.21,11,87.27,7.0,42.6,High Risk
+LA-INFR-00611,National Highway,Odisha,197.61,157,273,1,99.38,4,82.01,6.6,41.0,High Risk
+LA-INFR-00612,Industrial Corridor,Odisha,21.56,154,212,0,27.74,4,31.95,6.3,21.1,Low/Medium Risk
+LA-INFR-00613,Urban Metro Rail,Odisha,311.66,163,265,3,98.76,3,99.16,5.4,54.6,High Risk
+LA-INFR-00614,Irrigation Dam & Reservoir,Uttar Pradesh,45.65,146,172,3,73.9,4,50.21,4.8,6.2,Low/Medium Risk
+LA-INFR-00615,National Highway,Uttar Pradesh,63.37,150,184,0,80.02,3,20.93,7.8,53.5,High Risk
+LA-INFR-00616,National Highway,Gujarat,98.97,145,269,0,44.23,1,56.67,5.8,52.2,High Risk
+LA-INFR-00617,Dedicated Freight Corridor,Uttar Pradesh,242.89,154,337,3,23.34,4,63.26,3.2,48.7,High Risk
+LA-INFR-00618,Urban Metro Rail,West Bengal,145.25,135,196,0,22.95,2,79.48,5.8,53.5,High Risk
+LA-INFR-00619,Irrigation Dam & Reservoir,Bihar,241.26,149,300,2,23.6,3,11.32,5.1,6.8,Low/Medium Risk
+LA-INFR-00620,Urban Metro Rail,Odisha,159.67,161,206,3,64.7,5,59.83,4.6,59.2,High Risk
+LA-INFR-00621,Irrigation Dam & Reservoir,Bihar,223.42,152,239,1,38.16,4,65.71,6.5,10.8,Low/Medium Risk
+LA-INFR-00622,Industrial Corridor,Maharashtra,14.23,122,273,2,35.28,4,17.15,8.3,36.0,Low/Medium Risk
+LA-INFR-00623,National Highway,West Bengal,13.25,168,242,4,79.54,4,64.66,6.2,51.2,High Risk
+LA-INFR-00624,Urban Metro Rail,Odisha,452.49,144,199,1,28.83,5,59.76,3.1,40.3,High Risk
+LA-INFR-00625,Industrial Corridor,Uttar Pradesh,161.36,163,229,0,41.53,0,88.04,6.5,20.2,Low/Medium Risk
+LA-INFR-00626,National Highway,Tamil Nadu,184.17,140,362,3,42.85,5,18.74,8.0,48.9,High Risk
+LA-INFR-00627,Dedicated Freight Corridor,Uttar Pradesh,180.19,145,148,2,49.75,1,26.8,4.3,9.5,Low/Medium Risk
+LA-INFR-00628,Dedicated Freight Corridor,West Bengal,201.76,158,337,0,69.0,5,53.29,5.2,47.3,High Risk
+LA-INFR-00629,Dedicated Freight Corridor,Uttar Pradesh,132.71,148,290,0,53.39,5,18.63,4.1,56.1,High Risk
+LA-INFR-00630,Industrial Corridor,Bihar,222.1,148,304,3,32.79,1,19.69,5.3,58.6,High Risk
+LA-INFR-00631,Industrial Corridor,Uttar Pradesh,108.62,155,251,2,59.45,3,14.35,8.0,45.7,High Risk
+LA-INFR-00632,Urban Metro Rail,Uttar Pradesh,146.73,157,142,1,34.02,5,58.67,5.1,20.1,Low/Medium Risk
+LA-INFR-00633,Irrigation Dam & Reservoir,Uttar Pradesh,673.38,115,223,2,58.28,2,25.57,6.9,30.5,Low/Medium Risk
+LA-INFR-00634,Urban Metro Rail,West Bengal,313.83,161,142,2,74.13,5,12.27,5.9,44.0,High Risk
+LA-INFR-00635,Industrial Corridor,Gujarat,59.27,140,295,0,42.88,2,16.14,7.2,17.6,Low/Medium Risk
+LA-INFR-00636,Irrigation Dam & Reservoir,Maharashtra,15.19,160,214,4,54.61,1,40.57,4.4,29.4,Low/Medium Risk
+LA-INFR-00637,Irrigation Dam & Reservoir,Gujarat,378.4,144,294,0,87.86,1,99.15,8.8,19.6,Low/Medium Risk
+LA-INFR-00638,Industrial Corridor,Bihar,175.02,154,259,2,20.87,3,79.67,7.2,12.4,Low/Medium Risk
+LA-INFR-00639,Industrial Corridor,Gujarat,237.32,159,245,4,75.37,2,36.68,7.2,17.7,Low/Medium Risk
+LA-INFR-00640,Irrigation Dam & Reservoir,Uttar Pradesh,87.15,155,213,0,90.51,1,44.54,9.8,28.7,Low/Medium Risk
+LA-INFR-00641,Urban Metro Rail,Tamil Nadu,182.58,152,295,4,50.45,6,36.99,5.2,59.6,High Risk
+LA-INFR-00642,National Highway,Bihar,1028.19,133,284,4,91.01,5,17.53,4.0,6.9,Low/Medium Risk
+LA-INFR-00643,Urban Metro Rail,Gujarat,64.11,142,263,1,74.56,2,35.0,6.0,44.1,High Risk
+LA-INFR-00644,Dedicated Freight Corridor,Maharashtra,128.48,175,179,4,48.55,3,10.36,6.1,29.6,Low/Medium Risk
+LA-INFR-00645,Irrigation Dam & Reservoir,Odisha,367.18,144,187,1,42.87,8,69.19,9.2,51.6,High Risk
+LA-INFR-00646,National Highway,West Bengal,188.56,146,341,1,47.05,3,44.7,8.9,42.0,High Risk
+LA-INFR-00647,Urban Metro Rail,Tamil Nadu,74.67,157,241,1,81.14,6,93.24,5.8,6.6,Low/Medium Risk
+LA-INFR-00648,National Highway,Uttar Pradesh,836.28,158,260,4,56.77,1,59.41,4.8,54.0,High Risk
+LA-INFR-00649,Urban Metro Rail,Gujarat,520.83,167,244,1,61.04,8,38.59,8.0,25.5,Low/Medium Risk
+LA-INFR-00650,Industrial Corridor,Uttar Pradesh,137.53,140,225,3,54.52,1,97.05,8.9,52.3,High Risk
+LA-INFR-00651,Industrial Corridor,Bihar,326.65,137,168,2,86.38,2,59.53,5.3,34.8,Low/Medium Risk
+LA-INFR-00652,Irrigation Dam & Reservoir,Bihar,7.22,127,344,2,30.92,3,28.47,7.0,33.3,Low/Medium Risk
+LA-INFR-00653,Dedicated Freight Corridor,Bihar,342.66,147,267,4,96.55,3,67.51,3.7,34.0,Low/Medium Risk
+LA-INFR-00654,Industrial Corridor,Uttar Pradesh,46.84,130,280,4,74.5,1,50.98,4.0,36.8,High Risk
+LA-INFR-00655,Dedicated Freight Corridor,Uttar Pradesh,0.32,153,285,3,59.31,1,21.95,3.9,23.9,Low/Medium Risk
+LA-INFR-00656,Urban Metro Rail,Maharashtra,57.87,147,268,3,68.93,2,43.71,5.9,26.2,Low/Medium Risk
+LA-INFR-00657,National Highway,Maharashtra,239.85,147,205,4,46.87,3,97.87,3.6,8.7,Low/Medium Risk
+LA-INFR-00658,Industrial Corridor,Maharashtra,90.54,152,272,2,92.12,5,44.66,3.2,36.7,High Risk
+LA-INFR-00659,Urban Metro Rail,Odisha,55.42,152,288,3,20.4,4,76.73,9.0,26.1,Low/Medium Risk
+LA-INFR-00660,Irrigation Dam & Reservoir,West Bengal,196.67,133,282,0,60.37,1,58.94,7.9,56.0,High Risk
+LA-INFR-00661,Irrigation Dam & Reservoir,Uttar Pradesh,102.68,131,245,2,72.82,2,93.76,3.0,43.3,High Risk
+LA-INFR-00662,National Highway,West Bengal,21.43,164,253,4,52.26,5,59.14,3.1,10.6,Low/Medium Risk
+LA-INFR-00663,Urban Metro Rail,West Bengal,110.5,133,240,1,90.72,2,20.51,5.5,6.8,Low/Medium Risk
+LA-INFR-00664,National Highway,Bihar,113.78,165,200,3,51.59,1,60.65,3.4,11.5,Low/Medium Risk
+LA-INFR-00665,Dedicated Freight Corridor,Tamil Nadu,39.52,148,157,0,58.16,1,53.45,5.1,21.0,Low/Medium Risk
+LA-INFR-00666,Urban Metro Rail,Maharashtra,78.9,148,294,3,39.14,1,26.14,7.4,30.2,Low/Medium Risk
+LA-INFR-00667,Urban Metro Rail,Uttar Pradesh,117.94,159,228,3,85.55,3,22.76,7.9,34.4,Low/Medium Risk
+LA-INFR-00668,Dedicated Freight Corridor,Odisha,301.15,150,209,3,23.45,1,84.59,3.7,14.7,Low/Medium Risk
+LA-INFR-00669,Urban Metro Rail,Uttar Pradesh,81.47,160,217,4,32.46,2,38.82,8.7,12.2,Low/Medium Risk
+LA-INFR-00670,National Highway,Gujarat,267.98,167,260,4,25.18,0,86.72,8.4,59.3,High Risk
+LA-INFR-00671,Urban Metro Rail,Bihar,204.76,180,217,2,61.02,3,46.43,7.7,14.8,Low/Medium Risk
+LA-INFR-00672,National Highway,Uttar Pradesh,181.97,164,218,2,20.92,3,38.06,7.5,37.3,High Risk
+LA-INFR-00673,Industrial Corridor,Tamil Nadu,370.09,155,181,0,20.78,5,65.26,3.4,42.6,High Risk
+LA-INFR-00674,Industrial Corridor,Maharashtra,215.83,160,268,2,85.08,6,21.28,3.8,37.1,High Risk
+LA-INFR-00675,Industrial Corridor,Uttar Pradesh,45.32,119,271,2,81.69,6,26.89,9.5,34.8,Low/Medium Risk
+LA-INFR-00676,Irrigation Dam & Reservoir,Odisha,926.35,153,187,4,99.21,3,80.46,5.5,58.4,High Risk
+LA-INFR-00677,Dedicated Freight Corridor,Gujarat,145.41,163,306,0,39.88,2,66.25,3.8,23.9,Low/Medium Risk
+LA-INFR-00678,Dedicated Freight Corridor,Odisha,156.89,133,235,2,77.58,4,52.6,7.3,56.8,High Risk
+LA-INFR-00679,Dedicated Freight Corridor,West Bengal,190.99,158,227,0,34.06,3,98.97,3.4,34.5,Low/Medium Risk
+LA-INFR-00680,Industrial Corridor,Odisha,64.82,124,246,4,79.39,4,70.78,5.4,42.7,High Risk
+LA-INFR-00681,Irrigation Dam & Reservoir,Uttar Pradesh,668.19,167,206,0,83.83,3,30.21,8.9,58.7,High Risk
+LA-INFR-00682,Urban Metro Rail,Maharashtra,120.13,150,335,4,55.95,6,58.57,6.5,42.6,High Risk
+LA-INFR-00683,Urban Metro Rail,West Bengal,211.89,138,258,3,53.57,2,53.18,9.4,45.0,High Risk
+LA-INFR-00684,Industrial Corridor,Odisha,165.85,168,237,1,44.02,7,77.99,5.6,8.4,Low/Medium Risk
+LA-INFR-00685,National Highway,Tamil Nadu,18.19,136,163,2,54.36,2,93.82,4.7,46.2,High Risk
+LA-INFR-00686,Irrigation Dam & Reservoir,Odisha,204.0,140,240,3,56.89,3,23.51,5.6,10.6,Low/Medium Risk
+LA-INFR-00687,Irrigation Dam & Reservoir,Bihar,450.43,128,129,3,37.64,4,67.08,4.8,20.4,Low/Medium Risk
+LA-INFR-00688,Irrigation Dam & Reservoir,Bihar,225.37,127,163,2,50.24,5,44.34,4.5,41.0,High Risk
+LA-INFR-00689,Irrigation Dam & Reservoir,Tamil Nadu,155.3,144,217,3,37.85,1,48.74,9.8,7.8,Low/Medium Risk
+LA-INFR-00690,National Highway,Bihar,32.18,167,166,3,71.12,2,80.76,5.3,24.6,Low/Medium Risk
+LA-INFR-00691,National Highway,Bihar,293.54,130,237,3,26.33,3,71.15,4.4,38.7,High Risk
+LA-INFR-00692,Urban Metro Rail,Maharashtra,305.61,154,294,0,46.88,1,92.71,7.0,36.5,High Risk
+LA-INFR-00693,Dedicated Freight Corridor,Tamil Nadu,132.69,158,229,4,22.96,3,51.43,3.4,23.7,Low/Medium Risk
+LA-INFR-00694,Dedicated Freight Corridor,Gujarat,8.45,153,211,3,34.39,4,76.12,6.7,53.4,High Risk
+LA-INFR-00695,Industrial Corridor,Maharashtra,25.54,162,257,1,21.37,2,87.73,7.1,13.2,Low/Medium Risk
+LA-INFR-00696,Urban Metro Rail,West Bengal,190.11,145,285,4,56.42,3,73.5,8.3,28.7,Low/Medium Risk
+LA-INFR-00697,Irrigation Dam & Reservoir,Maharashtra,803.26,154,278,1,80.39,3,71.85,5.5,7.9,Low/Medium Risk
+LA-INFR-00698,Dedicated Freight Corridor,Tamil Nadu,193.14,144,287,2,41.35,4,96.86,4.8,22.6,Low/Medium Risk
+LA-INFR-00699,Industrial Corridor,Maharashtra,84.7,155,243,1,63.17,1,37.0,5.8,38.3,High Risk
+LA-INFR-00700,Dedicated Freight Corridor,Maharashtra,208.82,134,214,4,82.11,2,93.3,3.2,11.7,Low/Medium Risk
+LA-INFR-00701,Urban Metro Rail,West Bengal,144.31,154,222,2,21.83,3,43.04,8.4,9.1,Low/Medium Risk
+LA-INFR-00702,Irrigation Dam & Reservoir,West Bengal,204.41,149,265,4,24.33,5,99.37,9.5,27.9,Low/Medium Risk
+LA-INFR-00703,Dedicated Freight Corridor,Tamil Nadu,168.11,137,234,2,76.19,2,39.17,8.1,35.4,Low/Medium Risk
+LA-INFR-00704,Industrial Corridor,West Bengal,272.86,152,240,0,48.9,5,55.97,4.2,11.8,Low/Medium Risk
+LA-INFR-00705,Industrial Corridor,Uttar Pradesh,793.84,143,312,4,92.52,3,36.55,5.0,47.8,High Risk
+LA-INFR-00706,Industrial Corridor,West Bengal,106.43,161,195,4,58.28,4,67.86,6.1,12.6,Low/Medium Risk
+LA-INFR-00707,Dedicated Freight Corridor,West Bengal,24.66,188,266,3,80.91,4,27.28,6.6,46.8,High Risk
+LA-INFR-00708,Industrial Corridor,Maharashtra,263.11,162,228,2,48.12,4,68.39,8.9,59.9,High Risk
+LA-INFR-00709,Industrial Corridor,Tamil Nadu,113.19,129,213,1,51.77,1,26.77,7.3,14.0,Low/Medium Risk
+LA-INFR-00710,National Highway,Tamil Nadu,162.93,139,228,4,81.9,3,14.14,6.9,41.0,High Risk
+LA-INFR-00711,Irrigation Dam & Reservoir,Tamil Nadu,568.24,163,301,1,40.31,6,87.16,9.7,22.1,Low/Medium Risk
+LA-INFR-00712,Dedicated Freight Corridor,Maharashtra,398.28,140,244,2,20.59,2,83.73,7.4,10.3,Low/Medium Risk
+LA-INFR-00713,Dedicated Freight Corridor,West Bengal,122.89,172,170,3,51.88,2,38.73,9.5,51.8,High Risk
+LA-INFR-00714,National Highway,Gujarat,65.89,138,127,1,75.14,3,92.4,3.6,49.0,High Risk
+LA-INFR-00715,Irrigation Dam & Reservoir,Uttar Pradesh,69.72,136,223,0,83.7,3,12.79,9.4,13.8,Low/Medium Risk
+LA-INFR-00716,Irrigation Dam & Reservoir,Tamil Nadu,252.04,162,291,4,66.46,5,51.7,4.5,6.1,Low/Medium Risk
+LA-INFR-00717,Urban Metro Rail,Tamil Nadu,633.5,165,191,0,89.43,5,62.3,3.9,20.2,Low/Medium Risk
+LA-INFR-00718,National Highway,Tamil Nadu,40.79,150,256,2,73.35,4,89.75,6.8,42.4,High Risk
+LA-INFR-00719,Urban Metro Rail,Maharashtra,61.46,152,271,1,35.9,5,29.42,8.0,56.0,High Risk
+LA-INFR-00720,Urban Metro Rail,Tamil Nadu,51.35,163,173,4,97.08,1,74.26,7.7,49.0,High Risk
+LA-INFR-00721,Urban Metro Rail,West Bengal,135.98,153,282,1,85.47,2,77.73,7.7,15.9,Low/Medium Risk
+LA-INFR-00722,Irrigation Dam & Reservoir,Gujarat,353.39,130,287,4,53.34,2,26.03,8.9,34.5,Low/Medium Risk
+LA-INFR-00723,Irrigation Dam & Reservoir,Bihar,593.08,157,254,1,61.16,4,72.74,5.3,47.6,High Risk
+LA-INFR-00724,Industrial Corridor,Uttar Pradesh,321.75,130,236,0,28.86,3,84.32,7.3,39.2,High Risk
+LA-INFR-00725,Irrigation Dam & Reservoir,Odisha,90.27,135,316,4,74.25,4,32.45,8.2,46.9,High Risk
+LA-INFR-00726,Industrial Corridor,Tamil Nadu,120.44,143,214,1,41.99,2,37.8,7.9,33.3,Low/Medium Risk
+LA-INFR-00727,National Highway,Uttar Pradesh,178.74,139,177,2,72.6,1,18.7,6.7,25.8,Low/Medium Risk
+LA-INFR-00728,National Highway,Maharashtra,306.17,132,225,1,47.72,2,15.82,5.1,50.7,High Risk
+LA-INFR-00729,Dedicated Freight Corridor,Maharashtra,282.48,124,244,2,44.31,1,65.49,7.9,55.9,High Risk
+LA-INFR-00730,Dedicated Freight Corridor,Maharashtra,15.65,134,293,4,38.42,5,28.16,8.5,36.2,High Risk
+LA-INFR-00731,Dedicated Freight Corridor,Tamil Nadu,406.59,167,226,3,87.01,1,32.93,8.6,52.8,High Risk
+LA-INFR-00732,Industrial Corridor,Bihar,122.0,151,303,4,71.58,4,49.8,8.8,40.9,High Risk
+LA-INFR-00733,Industrial Corridor,Tamil Nadu,17.79,161,182,1,45.53,2,35.21,7.4,19.5,Low/Medium Risk
+LA-INFR-00734,Urban Metro Rail,Tamil Nadu,75.23,140,264,0,65.51,6,83.84,6.1,31.4,Low/Medium Risk
+LA-INFR-00735,Industrial Corridor,Bihar,467.0,150,263,1,59.71,3,42.87,8.3,51.4,High Risk
+LA-INFR-00736,Urban Metro Rail,Uttar Pradesh,705.82,151,270,3,95.7,3,34.94,6.4,36.5,High Risk
+LA-INFR-00737,Dedicated Freight Corridor,Tamil Nadu,296.95,153,244,4,39.7,2,98.11,8.6,11.4,Low/Medium Risk
+LA-INFR-00738,National Highway,Odisha,509.72,158,236,4,74.11,1,35.88,6.9,20.3,Low/Medium Risk
+LA-INFR-00739,Irrigation Dam & Reservoir,Tamil Nadu,121.21,146,242,0,76.71,1,35.1,5.0,28.0,Low/Medium Risk
+LA-INFR-00740,National Highway,Odisha,182.04,169,195,1,84.53,1,76.01,8.5,11.8,Low/Medium Risk
+LA-INFR-00741,Urban Metro Rail,West Bengal,45.58,161,289,1,70.22,0,86.24,3.7,28.6,Low/Medium Risk
+LA-INFR-00742,Irrigation Dam & Reservoir,Bihar,238.29,152,198,0,60.74,4,44.94,7.9,29.8,Low/Medium Risk
+LA-INFR-00743,Urban Metro Rail,Odisha,98.56,150,132,3,51.04,6,20.01,6.4,24.1,Low/Medium Risk
+LA-INFR-00744,National Highway,West Bengal,275.26,154,239,2,37.47,4,27.11,9.7,22.8,Low/Medium Risk
+LA-INFR-00745,Irrigation Dam & Reservoir,Tamil Nadu,247.66,143,242,4,99.05,2,40.98,4.4,46.9,High Risk
+LA-INFR-00746,Dedicated Freight Corridor,Gujarat,350.36,176,241,1,45.55,5,19.64,8.2,21.6,Low/Medium Risk
+LA-INFR-00747,Dedicated Freight Corridor,Uttar Pradesh,67.12,167,214,1,20.24,3,18.87,5.3,53.5,High Risk
+LA-INFR-00748,National Highway,Tamil Nadu,94.6,150,269,2,89.81,3,97.11,9.1,40.1,High Risk
+LA-INFR-00749,Urban Metro Rail,Gujarat,52.51,154,248,2,26.26,4,75.64,7.4,39.2,High Risk
+LA-INFR-00750,Irrigation Dam & Reservoir,Maharashtra,265.34,139,233,4,75.4,4,47.21,5.8,44.8,High Risk
+LA-INFR-00751,Industrial Corridor,West Bengal,17.6,161,234,1,85.31,7,67.08,7.0,38.7,High Risk
+LA-INFR-00752,Urban Metro Rail,Uttar Pradesh,33.3,153,144,4,77.57,5,44.95,8.8,52.8,High Risk
+LA-INFR-00753,Urban Metro Rail,Tamil Nadu,53.86,150,292,1,50.37,1,87.79,9.0,58.0,High Risk
+LA-INFR-00754,Irrigation Dam & Reservoir,Maharashtra,189.52,165,166,1,75.18,1,63.83,8.3,48.5,High Risk
+LA-INFR-00755,Irrigation Dam & Reservoir,Maharashtra,229.02,149,205,2,48.54,3,84.16,4.7,51.5,High Risk
+LA-INFR-00756,Urban Metro Rail,West Bengal,176.26,132,254,4,63.43,3,50.99,8.2,17.1,Low/Medium Risk
+LA-INFR-00757,Urban Metro Rail,Tamil Nadu,162.95,147,310,4,75.74,1,79.51,6.6,57.0,High Risk
+LA-INFR-00758,National Highway,Gujarat,132.39,158,218,3,93.77,3,25.0,3.6,41.9,High Risk
+LA-INFR-00759,Industrial Corridor,Gujarat,80.91,165,190,4,69.13,3,96.74,4.5,53.8,High Risk
+LA-INFR-00760,Industrial Corridor,Tamil Nadu,172.19,136,214,3,38.27,1,15.55,5.6,11.9,Low/Medium Risk
+LA-INFR-00761,National Highway,Odisha,181.74,141,290,3,47.8,3,50.93,6.9,14.3,Low/Medium Risk
+LA-INFR-00762,Urban Metro Rail,Uttar Pradesh,64.65,135,218,2,53.01,3,46.24,9.6,55.1,High Risk
+LA-INFR-00763,Irrigation Dam & Reservoir,Uttar Pradesh,262.77,136,256,0,91.24,2,29.25,9.5,45.1,High Risk
+LA-INFR-00764,Industrial Corridor,Tamil Nadu,92.83,159,237,3,43.42,2,99.93,7.0,16.0,Low/Medium Risk
+LA-INFR-00765,Industrial Corridor,Bihar,6.98,149,267,3,79.29,3,59.99,7.8,40.1,High Risk
+LA-INFR-00766,Dedicated Freight Corridor,Bihar,15.61,150,224,2,87.27,0,96.44,8.7,15.8,Low/Medium Risk
+LA-INFR-00767,Urban Metro Rail,Tamil Nadu,40.83,161,291,3,37.18,3,54.79,6.5,55.0,High Risk
+LA-INFR-00768,Dedicated Freight Corridor,Uttar Pradesh,80.35,162,199,4,94.33,3,69.57,4.8,43.4,High Risk
+LA-INFR-00769,Irrigation Dam & Reservoir,Maharashtra,269.65,144,173,4,92.73,3,97.19,7.7,40.0,High Risk
+LA-INFR-00770,Dedicated Freight Corridor,Bihar,60.76,147,284,2,38.03,0,80.4,9.8,39.5,High Risk
+LA-INFR-00771,Industrial Corridor,Odisha,151.97,130,304,2,66.6,4,70.58,8.3,47.9,High Risk
+LA-INFR-00772,Urban Metro Rail,Odisha,3.96,149,213,1,71.62,3,83.59,7.3,35.9,Low/Medium Risk
+LA-INFR-00773,Irrigation Dam & Reservoir,Bihar,100.46,147,294,2,84.37,4,36.39,8.3,49.9,High Risk
+LA-INFR-00774,Irrigation Dam & Reservoir,Maharashtra,169.41,173,347,0,51.04,2,24.61,8.5,36.7,High Risk
+LA-INFR-00775,Urban Metro Rail,West Bengal,124.28,140,208,3,31.04,3,34.15,7.1,45.9,High Risk
+LA-INFR-00776,Irrigation Dam & Reservoir,Gujarat,163.54,143,185,1,83.08,5,42.13,4.3,45.8,High Risk
+LA-INFR-00777,Industrial Corridor,Maharashtra,139.26,148,205,1,48.8,5,33.74,8.8,46.0,High Risk
+LA-INFR-00778,Urban Metro Rail,Gujarat,114.12,155,273,3,85.71,3,96.36,3.8,49.3,High Risk
+LA-INFR-00779,National Highway,Bihar,320.77,154,251,0,73.28,4,83.66,8.7,44.2,High Risk
+LA-INFR-00780,National Highway,Tamil Nadu,35.87,167,200,1,43.76,0,22.74,6.4,40.4,High Risk
+LA-INFR-00781,National Highway,Gujarat,210.38,174,107,4,99.86,4,85.51,8.3,29.9,Low/Medium Risk
+LA-INFR-00782,Dedicated Freight Corridor,Uttar Pradesh,545.54,159,233,3,41.45,2,77.61,4.2,15.6,Low/Medium Risk
+LA-INFR-00783,Dedicated Freight Corridor,Maharashtra,86.32,127,253,3,68.14,2,78.24,9.4,54.0,High Risk
+LA-INFR-00784,Irrigation Dam & Reservoir,Tamil Nadu,420.46,163,177,4,79.05,4,75.28,6.9,25.3,Low/Medium Risk
+LA-INFR-00785,Industrial Corridor,Odisha,217.07,158,156,4,69.87,0,11.85,7.6,13.3,Low/Medium Risk
+LA-INFR-00786,Industrial Corridor,Uttar Pradesh,240.47,160,252,2,36.05,3,61.87,3.9,20.3,Low/Medium Risk
+LA-INFR-00787,National Highway,Odisha,171.63,154,298,0,58.07,2,53.79,6.7,48.8,High Risk
+LA-INFR-00788,National Highway,Uttar Pradesh,281.11,137,275,1,27.72,3,96.48,7.5,7.8,Low/Medium Risk
+LA-INFR-00789,Urban Metro Rail,Tamil Nadu,229.79,150,218,1,96.08,4,18.14,8.1,33.2,Low/Medium Risk
+LA-INFR-00790,Industrial Corridor,Odisha,57.49,158,247,0,61.97,6,51.77,9.6,15.3,Low/Medium Risk
+LA-INFR-00791,Dedicated Freight Corridor,Bihar,69.64,163,173,2,49.98,3,32.78,3.1,52.6,High Risk
+LA-INFR-00792,National Highway,Maharashtra,104.3,160,290,0,91.16,2,86.22,9.7,15.2,Low/Medium Risk
+LA-INFR-00793,National Highway,Bihar,685.73,160,235,1,81.5,1,52.92,3.1,22.3,Low/Medium Risk
+LA-INFR-00794,Urban Metro Rail,Odisha,392.77,140,195,3,31.38,4,45.72,8.2,30.0,Low/Medium Risk
+LA-INFR-00795,Dedicated Freight Corridor,Uttar Pradesh,102.89,156,264,3,61.83,2,68.07,6.4,43.8,High Risk
+LA-INFR-00796,Dedicated Freight Corridor,Gujarat,33.37,118,290,2,85.4,1,35.81,6.6,46.0,High Risk
+LA-INFR-00797,National Highway,Odisha,68.72,145,251,0,34.46,2,41.13,7.8,44.1,High Risk
+LA-INFR-00798,National Highway,Maharashtra,490.45,148,206,2,28.79,1,24.82,4.6,55.6,High Risk
+LA-INFR-00799,Industrial Corridor,West Bengal,638.54,139,350,2,29.66,4,43.83,6.8,42.7,High Risk
+LA-INFR-00800,National Highway,Bihar,216.69,163,254,0,45.7,3,52.42,4.3,49.9,High Risk
+LA-INFR-00801,Urban Metro Rail,Gujarat,90.46,134,210,1,21.24,4,71.29,6.1,25.5,Low/Medium Risk
+LA-INFR-00802,Urban Metro Rail,Bihar,32.22,133,255,4,42.3,2,95.85,6.0,28.9,Low/Medium Risk
+LA-INFR-00803,Industrial Corridor,West Bengal,79.37,152,214,1,94.64,2,46.33,5.4,49.2,High Risk
+LA-INFR-00804,Industrial Corridor,Uttar Pradesh,48.08,162,161,4,80.98,3,22.27,6.4,57.0,High Risk
+LA-INFR-00805,Industrial Corridor,West Bengal,366.36,142,178,0,50.17,2,91.56,3.1,48.8,High Risk
+LA-INFR-00806,Dedicated Freight Corridor,Tamil Nadu,947.26,145,277,0,65.42,7,85.11,5.2,47.0,High Risk
+LA-INFR-00807,Industrial Corridor,Bihar,82.89,159,166,4,21.89,5,89.58,9.6,19.4,Low/Medium Risk
+LA-INFR-00808,Dedicated Freight Corridor,Odisha,237.29,163,246,0,57.93,7,36.59,9.3,38.8,High Risk
+LA-INFR-00809,Industrial Corridor,Uttar Pradesh,360.0,147,252,3,28.75,2,53.19,5.2,6.5,Low/Medium Risk
+LA-INFR-00810,Dedicated Freight Corridor,Gujarat,4.39,170,246,3,84.64,3,33.58,8.5,40.5,High Risk
+LA-INFR-00811,Industrial Corridor,Uttar Pradesh,119.01,159,350,1,49.84,5,38.94,7.0,55.5,High Risk
+LA-INFR-00812,Urban Metro Rail,Odisha,369.24,154,258,1,39.83,3,95.39,9.5,33.6,Low/Medium Risk
+LA-INFR-00813,Industrial Corridor,West Bengal,153.01,150,215,3,91.58,2,82.62,6.4,22.2,Low/Medium Risk
+LA-INFR-00814,Irrigation Dam & Reservoir,West Bengal,1.61,149,304,0,33.12,2,46.66,4.6,39.1,High Risk
+LA-INFR-00815,Dedicated Freight Corridor,Odisha,747.74,144,231,4,26.33,4,23.07,5.9,16.9,Low/Medium Risk
+LA-INFR-00816,Irrigation Dam & Reservoir,West Bengal,401.47,143,238,4,35.22,3,18.08,7.9,11.9,Low/Medium Risk
+LA-INFR-00817,National Highway,Maharashtra,198.09,165,255,4,52.74,2,19.43,8.3,51.5,High Risk
+LA-INFR-00818,Dedicated Freight Corridor,Bihar,100.25,169,227,0,88.75,0,51.99,5.7,21.0,Low/Medium Risk
+LA-INFR-00819,National Highway,Uttar Pradesh,260.85,155,192,4,24.29,3,96.44,8.3,50.3,High Risk
+LA-INFR-00820,Urban Metro Rail,West Bengal,68.4,133,205,3,92.26,2,33.68,9.2,39.5,High Risk
+LA-INFR-00821,Irrigation Dam & Reservoir,Odisha,195.83,159,259,2,42.38,5,33.78,7.5,52.2,High Risk
+LA-INFR-00822,Dedicated Freight Corridor,Gujarat,270.55,179,197,0,50.84,5,10.76,9.2,50.3,High Risk
+LA-INFR-00823,Urban Metro Rail,Uttar Pradesh,186.35,147,226,0,62.57,6,52.61,4.6,14.7,Low/Medium Risk
+LA-INFR-00824,Urban Metro Rail,Uttar Pradesh,2.01,134,190,1,69.46,3,59.92,5.1,19.5,Low/Medium Risk
+LA-INFR-00825,Industrial Corridor,Tamil Nadu,1.9,150,323,2,64.56,5,26.44,6.8,48.4,High Risk
+LA-INFR-00826,Irrigation Dam & Reservoir,Tamil Nadu,76.8,143,147,0,23.26,4,40.99,7.5,17.0,Low/Medium Risk
+LA-INFR-00827,Irrigation Dam & Reservoir,Gujarat,276.99,148,273,3,43.99,8,82.56,3.4,35.3,Low/Medium Risk
+LA-INFR-00828,Irrigation Dam & Reservoir,West Bengal,229.81,127,221,1,74.1,1,86.2,8.4,24.3,Low/Medium Risk
+LA-INFR-00829,Industrial Corridor,Odisha,533.22,164,198,3,92.54,4,21.02,5.8,23.5,Low/Medium Risk
+LA-INFR-00830,National Highway,Tamil Nadu,259.84,162,245,4,46.49,5,17.96,7.2,57.1,High Risk
+LA-INFR-00831,National Highway,Maharashtra,352.1,162,185,3,25.9,2,40.0,9.2,21.0,Low/Medium Risk
+LA-INFR-00832,Irrigation Dam & Reservoir,West Bengal,810.95,136,288,3,50.49,1,84.23,5.7,15.7,Low/Medium Risk
+LA-INFR-00833,Industrial Corridor,Tamil Nadu,97.28,144,237,3,90.45,2,49.03,8.1,33.3,Low/Medium Risk
+LA-INFR-00834,Industrial Corridor,Maharashtra,236.18,164,203,2,34.97,1,10.71,9.7,46.9,High Risk
+LA-INFR-00835,Urban Metro Rail,Bihar,198.16,141,193,2,57.68,0,19.86,6.0,55.0,High Risk
+LA-INFR-00836,Industrial Corridor,Tamil Nadu,4.76,146,198,1,29.23,8,51.82,3.9,57.9,High Risk
+LA-INFR-00837,Urban Metro Rail,Bihar,117.55,142,180,4,97.6,2,24.17,3.6,38.2,High Risk
+LA-INFR-00838,Dedicated Freight Corridor,Gujarat,180.57,131,236,2,86.45,2,50.47,4.6,24.4,Low/Medium Risk
+LA-INFR-00839,Urban Metro Rail,Odisha,9.66,174,248,1,84.6,3,78.53,4.8,22.9,Low/Medium Risk
+LA-INFR-00840,Dedicated Freight Corridor,West Bengal,95.57,156,185,1,83.06,4,99.13,7.4,44.4,High Risk
+LA-INFR-00841,Irrigation Dam & Reservoir,Maharashtra,589.43,156,186,4,71.04,1,75.67,6.2,33.7,Low/Medium Risk
+LA-INFR-00842,Industrial Corridor,Tamil Nadu,247.69,138,226,1,45.76,3,23.85,10.0,48.0,High Risk
+LA-INFR-00843,National Highway,Maharashtra,165.62,147,205,1,61.43,5,81.42,4.1,16.5,Low/Medium Risk
+LA-INFR-00844,Industrial Corridor,Tamil Nadu,314.48,143,174,2,95.38,1,34.4,9.0,52.7,High Risk
+LA-INFR-00845,Dedicated Freight Corridor,Maharashtra,407.19,140,314,2,32.24,2,10.77,8.5,60.0,High Risk
+LA-INFR-00846,Industrial Corridor,Odisha,146.54,152,278,1,59.3,3,89.27,9.5,39.5,High Risk
+LA-INFR-00847,Urban Metro Rail,Maharashtra,288.04,144,154,4,67.42,2,36.35,3.4,10.6,Low/Medium Risk
+LA-INFR-00848,Industrial Corridor,Uttar Pradesh,26.62,170,285,3,49.73,6,18.61,7.0,42.3,High Risk
+LA-INFR-00849,Industrial Corridor,West Bengal,374.52,142,246,2,40.27,3,23.51,8.0,36.6,High Risk
+LA-INFR-00850,Industrial Corridor,Gujarat,129.61,161,173,3,42.82,6,89.75,6.6,29.1,Low/Medium Risk
+LA-INFR-00851,Irrigation Dam & Reservoir,Bihar,1226.71,158,267,2,35.93,5,60.58,8.2,47.6,High Risk
+LA-INFR-00852,Urban Metro Rail,Odisha,36.16,154,149,0,21.95,3,64.53,7.9,11.8,Low/Medium Risk
+LA-INFR-00853,Irrigation Dam & Reservoir,Maharashtra,313.78,154,159,4,50.56,0,36.12,8.0,38.0,High Risk
+LA-INFR-00854,Urban Metro Rail,Uttar Pradesh,70.3,127,272,2,56.3,5,28.36,6.0,30.7,Low/Medium Risk
+LA-INFR-00855,Dedicated Freight Corridor,Gujarat,212.8,144,198,0,63.97,3,51.44,9.7,8.9,Low/Medium Risk
+LA-INFR-00856,Urban Metro Rail,Gujarat,127.3,133,253,0,24.76,1,21.57,9.9,14.4,Low/Medium Risk
+LA-INFR-00857,Urban Metro Rail,Maharashtra,21.58,156,207,2,35.73,4,31.29,9.5,15.8,Low/Medium Risk
+LA-INFR-00858,National Highway,Uttar Pradesh,145.37,161,198,4,53.6,2,40.75,4.8,12.1,Low/Medium Risk
+LA-INFR-00859,National Highway,Uttar Pradesh,227.0,148,259,2,24.3,5,41.4,6.3,50.0,High Risk
+LA-INFR-00860,National Highway,Odisha,93.47,145,235,3,55.63,3,59.25,4.6,56.5,High Risk
+LA-INFR-00861,Industrial Corridor,Maharashtra,168.9,152,221,3,25.95,5,49.43,4.0,38.1,High Risk
+LA-INFR-00862,National Highway,Odisha,210.69,151,234,0,58.03,4,66.48,9.1,6.4,Low/Medium Risk
+LA-INFR-00863,Urban Metro Rail,Bihar,630.66,150,330,1,84.76,2,75.08,4.0,26.8,Low/Medium Risk
+LA-INFR-00864,National Highway,Uttar Pradesh,4.72,152,270,2,64.08,5,21.66,9.5,8.6,Low/Medium Risk
+LA-INFR-00865,Dedicated Freight Corridor,Maharashtra,147.05,154,300,3,25.65,2,83.11,5.0,56.9,High Risk
+LA-INFR-00866,Urban Metro Rail,West Bengal,89.62,154,229,2,49.25,3,38.49,8.9,20.7,Low/Medium Risk
+LA-INFR-00867,Irrigation Dam & Reservoir,Gujarat,39.41,134,304,2,92.11,2,80.17,3.8,32.3,Low/Medium Risk
+LA-INFR-00868,Urban Metro Rail,Uttar Pradesh,124.8,146,253,2,73.5,3,61.77,4.0,21.1,Low/Medium Risk
+LA-INFR-00869,Urban Metro Rail,Odisha,100.5,162,238,1,33.31,3,96.82,4.5,38.1,High Risk
+LA-INFR-00870,Irrigation Dam & Reservoir,Maharashtra,205.63,141,305,3,44.55,2,50.83,8.6,33.5,Low/Medium Risk
+LA-INFR-00871,Urban Metro Rail,Tamil Nadu,77.36,161,181,1,82.36,5,87.35,9.5,19.4,Low/Medium Risk
+LA-INFR-00872,Industrial Corridor,Uttar Pradesh,194.21,154,264,4,91.84,8,14.87,7.2,40.4,High Risk
+LA-INFR-00873,Dedicated Freight Corridor,Uttar Pradesh,41.66,162,224,2,64.32,2,18.8,4.2,55.9,High Risk
+LA-INFR-00874,Irrigation Dam & Reservoir,Bihar,67.51,140,278,2,48.67,3,41.82,8.3,54.8,High Risk
+LA-INFR-00875,Urban Metro Rail,West Bengal,296.17,166,208,1,30.9,0,54.41,8.1,46.6,High Risk
+LA-INFR-00876,Industrial Corridor,Gujarat,138.15,175,174,3,77.31,3,65.27,8.0,21.0,Low/Medium Risk
+LA-INFR-00877,Industrial Corridor,West Bengal,28.78,129,186,3,79.99,1,84.8,5.3,51.6,High Risk
+LA-INFR-00878,Urban Metro Rail,Tamil Nadu,161.26,162,180,0,68.0,3,10.6,3.8,10.0,Low/Medium Risk
+LA-INFR-00879,National Highway,Tamil Nadu,426.95,139,156,2,25.72,2,12.62,4.0,19.1,Low/Medium Risk
+LA-INFR-00880,Industrial Corridor,Tamil Nadu,746.16,172,185,1,79.42,5,14.94,3.7,9.9,Low/Medium Risk
+LA-INFR-00881,Urban Metro Rail,Odisha,35.75,153,188,3,63.74,3,20.77,3.1,45.4,High Risk
+LA-INFR-00882,Industrial Corridor,Maharashtra,13.47,163,218,4,76.56,3,80.93,6.0,50.8,High Risk
+LA-INFR-00883,Industrial Corridor,West Bengal,4.01,150,303,3,56.39,2,82.5,6.0,37.9,High Risk
+LA-INFR-00884,Irrigation Dam & Reservoir,Bihar,154.23,172,281,3,51.72,4,56.08,6.9,47.0,High Risk
+LA-INFR-00885,Industrial Corridor,Bihar,137.99,132,201,1,81.71,5,98.93,5.6,25.5,Low/Medium Risk
+LA-INFR-00886,Irrigation Dam & Reservoir,Bihar,74.33,154,222,2,97.37,3,85.05,9.2,18.0,Low/Medium Risk
+LA-INFR-00887,Urban Metro Rail,Odisha,604.92,157,184,4,39.14,2,78.46,7.5,51.5,High Risk
+LA-INFR-00888,Irrigation Dam & Reservoir,Maharashtra,239.87,151,345,4,93.46,6,89.61,8.2,40.5,High Risk
+LA-INFR-00889,Irrigation Dam & Reservoir,West Bengal,364.29,134,309,4,35.51,6,87.05,3.1,18.2,Low/Medium Risk
+LA-INFR-00890,National Highway,West Bengal,633.59,143,238,0,49.08,2,62.35,5.2,16.8,Low/Medium Risk
+LA-INFR-00891,Industrial Corridor,Gujarat,7.87,157,171,0,36.21,8,18.11,7.4,28.5,Low/Medium Risk
+LA-INFR-00892,Irrigation Dam & Reservoir,Bihar,79.97,146,82,0,27.96,2,24.58,4.9,21.3,Low/Medium Risk
+LA-INFR-00893,Industrial Corridor,Odisha,186.56,153,190,2,31.79,6,31.47,6.0,55.2,High Risk
+LA-INFR-00894,Dedicated Freight Corridor,Maharashtra,515.26,151,216,0,88.34,1,24.77,4.8,27.0,Low/Medium Risk
+LA-INFR-00895,Irrigation Dam & Reservoir,Maharashtra,123.0,158,216,1,26.84,3,36.7,4.4,22.0,Low/Medium Risk
+LA-INFR-00896,Industrial Corridor,Odisha,289.62,149,256,1,39.88,2,98.32,8.0,34.2,Low/Medium Risk
+LA-INFR-00897,Dedicated Freight Corridor,Bihar,59.12,158,319,0,57.84,3,96.04,8.4,59.2,High Risk
+LA-INFR-00898,Industrial Corridor,Uttar Pradesh,605.65,153,212,1,90.34,0,70.06,5.7,26.0,Low/Medium Risk
+LA-INFR-00899,Irrigation Dam & Reservoir,Bihar,18.0,152,211,0,50.59,2,23.47,5.5,29.4,Low/Medium Risk
+LA-INFR-00900,Irrigation Dam & Reservoir,Maharashtra,1.78,176,225,4,34.57,4,73.25,4.6,27.2,Low/Medium Risk
+LA-INFR-00901,Dedicated Freight Corridor,Gujarat,253.76,136,233,0,94.46,2,66.08,7.3,40.4,High Risk
+LA-INFR-00902,National Highway,Bihar,317.33,147,263,4,90.71,1,11.34,3.1,33.0,Low/Medium Risk
+LA-INFR-00903,Industrial Corridor,Odisha,336.65,161,276,4,57.05,2,32.1,6.4,22.8,Low/Medium Risk
+LA-INFR-00904,National Highway,Bihar,72.07,151,257,3,45.51,4,50.83,3.4,50.3,High Risk
+LA-INFR-00905,Dedicated Freight Corridor,Tamil Nadu,84.59,146,207,2,75.97,4,15.89,7.1,15.2,Low/Medium Risk
+LA-INFR-00906,Irrigation Dam & Reservoir,Bihar,74.15,112,226,3,77.38,3,77.82,6.9,10.0,Low/Medium Risk
+LA-INFR-00907,National Highway,West Bengal,53.73,129,305,3,72.97,0,85.9,8.3,44.5,High Risk
+LA-INFR-00908,Urban Metro Rail,West Bengal,524.81,156,324,1,75.34,2,77.15,9.8,13.3,Low/Medium Risk
+LA-INFR-00909,Industrial Corridor,Tamil Nadu,471.05,147,163,1,30.38,5,29.33,9.3,11.7,Low/Medium Risk
+LA-INFR-00910,Industrial Corridor,Gujarat,42.29,158,211,0,35.1,5,53.44,3.1,31.7,Low/Medium Risk
+LA-INFR-00911,Dedicated Freight Corridor,Odisha,350.97,130,249,4,51.33,3,78.41,4.2,16.2,Low/Medium Risk
+LA-INFR-00912,Urban Metro Rail,Gujarat,95.43,162,258,0,81.33,3,44.25,5.9,18.9,Low/Medium Risk
+LA-INFR-00913,Urban Metro Rail,West Bengal,126.7,157,238,1,96.28,2,38.74,9.3,52.1,High Risk
+LA-INFR-00914,Industrial Corridor,Tamil Nadu,131.87,153,221,4,49.73,3,72.01,7.8,33.9,Low/Medium Risk
+LA-INFR-00915,National Highway,Tamil Nadu,45.77,149,219,4,42.97,4,83.84,5.5,46.5,High Risk
+LA-INFR-00916,Industrial Corridor,Gujarat,35.12,124,224,0,41.85,6,42.24,4.1,46.9,High Risk
+LA-INFR-00917,National Highway,Gujarat,484.04,156,202,3,32.62,0,26.19,7.4,10.7,Low/Medium Risk
+LA-INFR-00918,Dedicated Freight Corridor,Bihar,133.49,146,205,0,43.93,2,78.44,6.9,54.3,High Risk
+LA-INFR-00919,Urban Metro Rail,Odisha,74.2,153,223,2,69.89,6,44.87,4.2,27.1,Low/Medium Risk
+LA-INFR-00920,Industrial Corridor,Bihar,226.39,139,257,0,49.36,1,11.01,9.0,23.5,Low/Medium Risk
+LA-INFR-00921,Industrial Corridor,Bihar,138.0,151,174,0,89.78,0,96.94,7.7,8.9,Low/Medium Risk
+LA-INFR-00922,Urban Metro Rail,Maharashtra,254.33,151,231,4,50.32,4,20.86,4.7,53.2,High Risk
+LA-INFR-00923,Urban Metro Rail,Tamil Nadu,106.61,158,265,2,80.79,3,16.07,9.1,52.5,High Risk
+LA-INFR-00924,Irrigation Dam & Reservoir,Uttar Pradesh,134.6,156,191,4,47.84,1,37.48,8.1,26.2,Low/Medium Risk
+LA-INFR-00925,Urban Metro Rail,Maharashtra,350.86,140,265,3,26.23,2,69.53,5.9,23.7,Low/Medium Risk
+LA-INFR-00926,National Highway,Odisha,42.77,142,297,4,79.55,2,85.25,5.1,37.3,High Risk
+LA-INFR-00927,Urban Metro Rail,Bihar,44.68,153,287,1,23.7,3,52.91,8.8,10.0,Low/Medium Risk
+LA-INFR-00928,Irrigation Dam & Reservoir,West Bengal,68.16,151,169,2,71.87,7,48.4,5.6,44.5,High Risk
+LA-INFR-00929,Urban Metro Rail,Odisha,52.77,148,278,1,75.7,2,92.95,9.6,47.2,High Risk
+LA-INFR-00930,Industrial Corridor,Odisha,358.54,140,304,2,74.47,8,92.13,5.7,36.6,High Risk
+LA-INFR-00931,Irrigation Dam & Reservoir,Bihar,141.34,143,238,1,66.96,3,21.68,7.4,16.7,Low/Medium Risk
+LA-INFR-00932,National Highway,Bihar,137.31,134,244,3,97.4,3,97.97,6.7,51.0,High Risk
+LA-INFR-00933,Urban Metro Rail,Maharashtra,55.54,144,260,4,44.26,4,68.99,4.4,28.7,Low/Medium Risk
+LA-INFR-00934,Urban Metro Rail,Uttar Pradesh,46.43,154,249,3,91.37,4,55.89,4.8,25.3,Low/Medium Risk
+LA-INFR-00935,National Highway,West Bengal,279.41,172,151,4,95.26,1,38.05,3.6,39.6,High Risk
+LA-INFR-00936,Dedicated Freight Corridor,Tamil Nadu,41.16,143,280,1,63.67,1,94.17,5.0,18.0,Low/Medium Risk
+LA-INFR-00937,National Highway,Odisha,101.18,165,269,3,99.23,0,15.44,5.1,27.3,Low/Medium Risk
+LA-INFR-00938,Urban Metro Rail,Uttar Pradesh,30.1,161,199,0,44.35,2,53.58,4.2,13.9,Low/Medium Risk
+LA-INFR-00939,Urban Metro Rail,West Bengal,111.12,145,214,0,69.13,6,72.0,6.7,17.4,Low/Medium Risk
+LA-INFR-00940,Industrial Corridor,West Bengal,119.88,152,204,2,32.02,2,81.2,7.8,40.3,High Risk
+LA-INFR-00941,Dedicated Freight Corridor,Tamil Nadu,986.1,129,214,0,88.62,2,55.86,9.2,32.2,Low/Medium Risk
+LA-INFR-00942,Industrial Corridor,Maharashtra,26.84,143,329,1,82.02,3,25.73,6.2,25.8,Low/Medium Risk
+LA-INFR-00943,Urban Metro Rail,West Bengal,96.65,165,276,4,82.63,1,79.4,5.5,15.7,Low/Medium Risk
+LA-INFR-00944,Irrigation Dam & Reservoir,Odisha,38.71,159,235,0,91.39,2,95.84,7.7,42.8,High Risk
+LA-INFR-00945,National Highway,Maharashtra,85.3,152,225,4,67.74,0,14.12,7.4,38.1,High Risk
+LA-INFR-00946,Dedicated Freight Corridor,Gujarat,22.52,129,325,1,43.07,0,28.16,7.0,54.0,High Risk
+LA-INFR-00947,Irrigation Dam & Reservoir,Tamil Nadu,476.1,144,261,0,50.44,9,75.58,8.2,31.8,Low/Medium Risk
+LA-INFR-00948,Industrial Corridor,Maharashtra,47.25,158,157,4,77.0,2,14.34,5.9,11.9,Low/Medium Risk
+LA-INFR-00949,Urban Metro Rail,Maharashtra,279.63,167,291,2,77.93,3,84.22,5.3,25.0,Low/Medium Risk
+LA-INFR-00950,Industrial Corridor,Odisha,264.05,132,224,3,36.03,5,10.99,7.4,8.0,Low/Medium Risk
+LA-INFR-00951,Dedicated Freight Corridor,Maharashtra,300.56,161,181,0,40.72,4,59.8,4.6,46.4,High Risk
+LA-INFR-00952,Dedicated Freight Corridor,Gujarat,66.57,121,241,0,56.42,6,48.0,8.9,55.7,High Risk
+LA-INFR-00953,Industrial Corridor,Uttar Pradesh,36.47,141,258,1,96.79,1,30.47,9.0,25.8,Low/Medium Risk
+LA-INFR-00954,National Highway,West Bengal,260.13,137,268,0,97.41,3,62.41,5.7,28.4,Low/Medium Risk
+LA-INFR-00955,Urban Metro Rail,Uttar Pradesh,10.65,146,226,2,41.07,4,36.49,3.4,24.4,Low/Medium Risk
+LA-INFR-00956,Dedicated Freight Corridor,West Bengal,345.95,163,165,1,66.93,2,28.91,7.8,16.4,Low/Medium Risk
+LA-INFR-00957,National Highway,Odisha,74.85,140,161,4,94.53,5,11.72,9.9,37.5,High Risk
+LA-INFR-00958,Irrigation Dam & Reservoir,West Bengal,106.56,134,186,4,44.06,2,88.86,5.5,43.7,High Risk
+LA-INFR-00959,Industrial Corridor,Maharashtra,154.46,177,291,2,87.03,4,55.7,8.5,15.6,Low/Medium Risk
+LA-INFR-00960,Dedicated Freight Corridor,West Bengal,577.05,169,235,2,49.68,5,41.41,5.2,33.4,Low/Medium Risk
+LA-INFR-00961,Urban Metro Rail,Maharashtra,142.11,165,165,0,40.86,0,26.37,4.4,39.2,High Risk
+LA-INFR-00962,Industrial Corridor,Tamil Nadu,281.33,154,243,3,98.32,4,47.44,4.6,16.4,Low/Medium Risk
+LA-INFR-00963,Urban Metro Rail,Uttar Pradesh,289.35,142,268,3,60.1,7,62.27,8.3,26.4,Low/Medium Risk
+LA-INFR-00964,Dedicated Freight Corridor,Tamil Nadu,166.61,142,289,0,44.8,1,21.8,9.4,26.4,Low/Medium Risk
+LA-INFR-00965,Dedicated Freight Corridor,Uttar Pradesh,212.79,143,151,4,42.73,2,30.67,5.4,30.4,Low/Medium Risk
+LA-INFR-00966,Urban Metro Rail,Gujarat,122.84,134,183,0,59.32,6,87.76,9.0,45.0,High Risk
+LA-INFR-00967,Urban Metro Rail,Bihar,96.86,144,222,3,58.51,1,14.34,4.8,30.2,Low/Medium Risk
+LA-INFR-00968,National Highway,Gujarat,135.57,154,189,2,33.98,5,81.3,3.6,19.2,Low/Medium Risk
+LA-INFR-00969,National Highway,Bihar,122.45,158,217,1,32.96,1,77.06,9.5,51.0,High Risk
+LA-INFR-00970,National Highway,Gujarat,111.49,156,256,3,57.51,5,39.25,6.5,58.0,High Risk
+LA-INFR-00971,Urban Metro Rail,Bihar,215.19,166,220,0,97.08,4,79.46,9.3,49.0,High Risk
+LA-INFR-00972,Urban Metro Rail,Gujarat,149.65,166,252,1,64.37,4,71.42,9.5,26.4,Low/Medium Risk
+LA-INFR-00973,Irrigation Dam & Reservoir,Bihar,3.34,136,261,4,91.35,4,80.55,9.1,9.6,Low/Medium Risk
+LA-INFR-00974,Irrigation Dam & Reservoir,Odisha,135.94,152,306,0,79.02,5,97.58,7.8,7.6,Low/Medium Risk
+LA-INFR-00975,National Highway,Tamil Nadu,169.63,148,176,2,89.47,3,57.92,8.0,34.4,Low/Medium Risk
+LA-INFR-00976,Urban Metro Rail,Uttar Pradesh,235.6,158,278,1,62.84,3,77.63,3.3,29.1,Low/Medium Risk
+LA-INFR-00977,Industrial Corridor,Bihar,384.69,133,218,0,46.82,2,92.75,8.5,31.7,Low/Medium Risk
+LA-INFR-00978,National Highway,Gujarat,2.8,152,286,3,44.23,3,25.38,7.0,36.9,High Risk
+LA-INFR-00979,Dedicated Freight Corridor,Tamil Nadu,1124.36,133,195,0,66.52,3,16.18,10.0,27.8,Low/Medium Risk
+LA-INFR-00980,Dedicated Freight Corridor,Odisha,31.07,141,235,0,26.65,1,22.88,5.3,28.1,Low/Medium Risk
+LA-INFR-00981,Urban Metro Rail,Uttar Pradesh,77.05,164,289,1,42.92,5,89.69,8.1,26.0,Low/Medium Risk
+LA-INFR-00982,Dedicated Freight Corridor,Bihar,65.09,151,214,4,82.73,2,24.16,7.9,7.3,Low/Medium Risk
+LA-INFR-00983,Urban Metro Rail,Maharashtra,22.42,141,273,2,81.36,2,55.35,5.0,17.9,Low/Medium Risk
+LA-INFR-00984,Urban Metro Rail,Maharashtra,115.59,168,358,2,83.2,4,68.31,7.7,26.1,Low/Medium Risk
+LA-INFR-00985,Dedicated Freight Corridor,Gujarat,67.67,143,227,2,22.98,5,29.07,4.3,30.4,Low/Medium Risk
+LA-INFR-00986,Urban Metro Rail,Bihar,99.83,137,137,3,47.17,5,84.0,7.4,57.5,High Risk
+LA-INFR-00987,Industrial Corridor,Uttar Pradesh,51.2,145,134,3,33.72,3,93.62,7.2,19.5,Low/Medium Risk
+LA-INFR-00988,National Highway,Tamil Nadu,31.39,159,229,4,22.64,1,18.94,3.9,10.8,Low/Medium Risk
+LA-INFR-00989,Industrial Corridor,Bihar,802.39,142,218,3,78.75,5,67.56,8.9,16.8,Low/Medium Risk
+LA-INFR-00990,Irrigation Dam & Reservoir,Bihar,148.47,158,295,0,75.01,4,82.61,8.0,6.1,Low/Medium Risk
+LA-INFR-00991,Industrial Corridor,Maharashtra,37.38,131,172,0,37.98,4,72.46,4.4,6.5,Low/Medium Risk
+LA-INFR-00992,Urban Metro Rail,Bihar,222.28,146,278,0,86.56,3,34.67,7.7,38.7,High Risk
+LA-INFR-00993,National Highway,Maharashtra,110.79,149,259,2,30.62,3,70.61,4.3,50.2,High Risk
+LA-INFR-00994,Irrigation Dam & Reservoir,Tamil Nadu,12.85,161,269,0,23.07,4,53.26,4.3,52.2,High Risk
+LA-INFR-00995,Industrial Corridor,Odisha,376.59,152,267,1,51.2,3,95.48,8.1,38.4,High Risk
+LA-INFR-00996,National Highway,Gujarat,60.29,135,267,0,82.1,3,67.87,5.9,11.7,Low/Medium Risk
+LA-INFR-00997,National Highway,Odisha,44.82,150,191,3,22.48,5,93.5,3.1,36.1,High Risk
+LA-INFR-00998,Dedicated Freight Corridor,Odisha,239.36,153,325,3,70.53,0,21.08,9.4,10.4,Low/Medium Risk
+LA-INFR-00999,Irrigation Dam & Reservoir,West Bengal,168.52,152,142,3,45.88,3,74.81,6.9,19.9,Low/Medium Risk
+LA-INFR-01000,National Highway,Uttar Pradesh,276.87,149,247,3,82.51,4,25.53,6.5,46.8,High Risk
+LA-INFR-01001,Urban Metro Rail,Tamil Nadu,483.59,167,232,1,62.06,4,23.1,5.7,6.0,Low/Medium Risk
+LA-INFR-01002,National Highway,Bihar,0.62,156,233,0,62.17,1,72.33,4.5,54.0,High Risk
+LA-INFR-01003,Irrigation Dam & Reservoir,Bihar,79.86,166,337,1,83.02,3,12.42,3.5,20.7,Low/Medium Risk
+LA-INFR-01004,Urban Metro Rail,Odisha,164.56,168,220,1,90.19,1,22.4,7.9,25.6,Low/Medium Risk
+LA-INFR-01005,National Highway,Gujarat,664.57,143,240,0,58.65,3,39.97,6.1,18.5,Low/Medium Risk
+LA-INFR-01006,Irrigation Dam & Reservoir,Maharashtra,362.42,154,246,4,75.02,2,23.39,5.3,27.6,Low/Medium Risk
+LA-INFR-01007,Dedicated Freight Corridor,Bihar,72.4,146,172,4,36.41,2,72.66,5.6,35.2,Low/Medium Risk
+LA-INFR-01008,Irrigation Dam & Reservoir,Odisha,96.97,163,221,0,27.66,1,94.8,5.9,42.0,High Risk
+LA-INFR-01009,Industrial Corridor,Uttar Pradesh,31.1,163,242,1,20.92,5,59.33,8.9,21.7,Low/Medium Risk
+LA-INFR-01010,Industrial Corridor,West Bengal,102.67,153,170,2,30.49,3,55.97,3.1,50.7,High Risk
+LA-INFR-01011,Irrigation Dam & Reservoir,Gujarat,115.83,160,311,4,31.16,4,96.65,3.4,17.8,Low/Medium Risk
+LA-INFR-01012,National Highway,Gujarat,108.61,170,191,2,37.69,4,36.29,4.0,29.7,Low/Medium Risk
+LA-INFR-01013,National Highway,Gujarat,521.11,166,199,2,51.18,1,14.25,5.7,45.2,High Risk
+LA-INFR-01014,National Highway,Gujarat,496.36,154,188,0,93.63,2,13.97,9.4,53.1,High Risk
+LA-INFR-01015,National Highway,Uttar Pradesh,82.81,176,222,2,40.49,4,51.64,6.9,19.2,Low/Medium Risk
+LA-INFR-01016,Urban Metro Rail,Uttar Pradesh,36.88,151,291,4,82.17,6,36.98,4.4,29.2,Low/Medium Risk
+LA-INFR-01017,Industrial Corridor,Gujarat,68.54,147,204,1,46.12,2,32.72,3.3,13.3,Low/Medium Risk
+LA-INFR-01018,National Highway,Odisha,130.79,138,301,0,55.34,3,31.52,7.6,39.2,High Risk
+LA-INFR-01019,National Highway,Maharashtra,899.66,141,315,0,89.96,0,38.74,7.1,37.4,High Risk
+LA-INFR-01020,Dedicated Freight Corridor,West Bengal,159.32,129,252,3,42.34,5,84.83,7.4,46.4,High Risk
+LA-INFR-01021,Dedicated Freight Corridor,Gujarat,112.98,152,289,3,79.58,4,13.8,7.0,13.4,Low/Medium Risk
+LA-INFR-01022,National Highway,Odisha,136.56,142,235,2,41.91,1,95.66,8.3,52.1,High Risk
+LA-INFR-01023,Irrigation Dam & Reservoir,Maharashtra,189.52,147,191,2,32.96,2,33.55,4.1,42.9,High Risk
+LA-INFR-01024,Urban Metro Rail,Gujarat,32.7,162,265,1,71.72,3,93.59,4.4,49.3,High Risk
+LA-INFR-01025,Urban Metro Rail,Uttar Pradesh,395.19,131,210,1,93.28,2,78.47,4.3,15.6,Low/Medium Risk
+LA-INFR-01026,National Highway,Tamil Nadu,43.86,122,224,2,98.1,1,47.59,5.9,53.2,High Risk
+LA-INFR-01027,Industrial Corridor,Bihar,46.25,144,222,3,28.55,1,22.3,6.2,23.5,Low/Medium Risk
+LA-INFR-01028,Dedicated Freight Corridor,Maharashtra,183.51,169,296,0,23.54,3,75.19,6.7,59.7,High Risk
+LA-INFR-01029,Industrial Corridor,Odisha,0.72,166,308,3,22.73,4,92.33,8.6,7.0,Low/Medium Risk
+LA-INFR-01030,Industrial Corridor,Tamil Nadu,652.17,149,340,2,39.07,2,88.59,6.3,40.9,High Risk
+LA-INFR-01031,Irrigation Dam & Reservoir,Maharashtra,28.92,153,190,3,91.61,0,59.79,10.0,54.2,High Risk
+LA-INFR-01032,Irrigation Dam & Reservoir,Maharashtra,529.23,154,284,2,51.14,2,84.28,4.9,26.6,Low/Medium Risk
+LA-INFR-01033,Industrial Corridor,Odisha,106.23,165,185,3,70.88,3,47.99,4.6,32.5,Low/Medium Risk
+LA-INFR-01034,Irrigation Dam & Reservoir,Gujarat,41.67,174,215,4,24.23,3,15.18,8.9,23.7,Low/Medium Risk
+LA-INFR-01035,Irrigation Dam & Reservoir,West Bengal,209.95,145,210,2,87.0,7,74.51,3.1,22.1,Low/Medium Risk
+LA-INFR-01036,Urban Metro Rail,Gujarat,156.5,165,195,1,85.46,4,47.12,8.9,29.2,Low/Medium Risk
+LA-INFR-01037,Industrial Corridor,Maharashtra,131.98,164,235,1,68.44,4,21.42,3.5,46.6,High Risk
+LA-INFR-01038,Industrial Corridor,Uttar Pradesh,480.91,151,239,3,91.21,5,25.66,9.9,36.7,High Risk
+LA-INFR-01039,National Highway,Bihar,0.34,134,237,2,68.73,7,38.96,9.7,8.6,Low/Medium Risk
+LA-INFR-01040,Industrial Corridor,Gujarat,249.28,142,245,3,41.16,5,17.38,7.5,20.8,Low/Medium Risk
+LA-INFR-01041,Industrial Corridor,West Bengal,78.56,143,206,0,24.54,4,86.88,3.6,28.0,Low/Medium Risk
+LA-INFR-01042,Irrigation Dam & Reservoir,Maharashtra,225.29,150,260,2,30.83,4,73.99,4.9,24.1,Low/Medium Risk
+LA-INFR-01043,Urban Metro Rail,Odisha,49.88,136,261,4,35.3,5,40.0,8.9,17.7,Low/Medium Risk
+LA-INFR-01044,Dedicated Freight Corridor,Bihar,787.61,165,255,4,34.95,4,34.55,5.9,10.4,Low/Medium Risk
+LA-INFR-01045,Dedicated Freight Corridor,Bihar,365.67,166,311,4,56.59,3,64.8,5.7,30.4,Low/Medium Risk
+LA-INFR-01046,Irrigation Dam & Reservoir,Odisha,197.58,150,278,2,87.07,5,21.05,5.1,48.2,High Risk
+LA-INFR-01047,Irrigation Dam & Reservoir,Tamil Nadu,242.66,135,307,0,84.37,1,45.72,3.9,23.8,Low/Medium Risk
+LA-INFR-01048,National Highway,Maharashtra,127.93,168,290,1,31.68,2,12.0,9.4,45.5,High Risk
+LA-INFR-01049,Urban Metro Rail,Odisha,212.16,141,181,4,79.24,1,79.02,4.7,7.8,Low/Medium Risk
+LA-INFR-01050,Dedicated Freight Corridor,Maharashtra,1.33,151,185,1,34.38,2,49.38,6.4,44.3,High Risk
+LA-INFR-01051,Urban Metro Rail,Odisha,413.3,148,218,0,43.68,4,52.75,4.6,36.2,High Risk
+LA-INFR-01052,Dedicated Freight Corridor,Maharashtra,195.7,149,232,3,26.72,2,40.4,6.4,36.6,High Risk
+LA-INFR-01053,Irrigation Dam & Reservoir,Bihar,194.75,131,175,0,75.44,3,74.04,4.7,16.1,Low/Medium Risk
+LA-INFR-01054,Dedicated Freight Corridor,West Bengal,213.8,125,213,4,83.52,2,61.78,4.7,26.7,Low/Medium Risk
+LA-INFR-01055,Industrial Corridor,Odisha,91.7,136,299,2,90.84,7,58.59,9.3,8.5,Low/Medium Risk
+LA-INFR-01056,Industrial Corridor,Odisha,6.25,144,211,1,87.64,1,87.81,8.9,28.5,Low/Medium Risk
+LA-INFR-01057,Industrial Corridor,Maharashtra,248.21,178,229,2,92.7,4,27.88,8.7,41.3,High Risk
+LA-INFR-01058,Irrigation Dam & Reservoir,Maharashtra,6.76,162,172,1,41.74,1,18.39,9.6,43.5,High Risk
+LA-INFR-01059,Dedicated Freight Corridor,Uttar Pradesh,121.48,145,265,4,84.78,4,60.4,7.5,29.2,Low/Medium Risk
+LA-INFR-01060,Irrigation Dam & Reservoir,Gujarat,52.89,165,226,0,27.43,4,90.33,4.6,10.3,Low/Medium Risk
+LA-INFR-01061,Dedicated Freight Corridor,Gujarat,6.72,151,264,0,78.92,4,10.57,8.7,6.7,Low/Medium Risk
+LA-INFR-01062,Urban Metro Rail,Bihar,496.52,147,203,4,30.27,3,37.64,6.6,41.6,High Risk
+LA-INFR-01063,Irrigation Dam & Reservoir,Tamil Nadu,133.04,157,243,0,75.82,3,99.56,8.1,14.6,Low/Medium Risk
+LA-INFR-01064,Industrial Corridor,Maharashtra,292.78,131,219,1,71.96,6,28.16,3.5,12.6,Low/Medium Risk
+LA-INFR-01065,National Highway,Tamil Nadu,219.61,156,251,3,87.05,3,48.59,5.3,39.9,High Risk
+LA-INFR-01066,Irrigation Dam & Reservoir,Tamil Nadu,24.79,156,256,2,28.53,1,41.54,4.5,49.8,High Risk
+LA-INFR-01067,Urban Metro Rail,Maharashtra,400.22,145,223,2,85.76,3,17.04,5.6,43.1,High Risk
+LA-INFR-01068,Dedicated Freight Corridor,Tamil Nadu,79.84,153,325,2,75.57,3,37.6,6.8,47.2,High Risk
+LA-INFR-01069,Industrial Corridor,Maharashtra,93.2,146,233,2,83.31,3,45.82,8.6,10.3,Low/Medium Risk
+LA-INFR-01070,National Highway,West Bengal,242.41,133,204,1,88.3,4,43.85,9.0,6.3,Low/Medium Risk
+LA-INFR-01071,National Highway,Gujarat,259.04,128,263,0,35.31,0,61.07,9.7,44.3,High Risk
+LA-INFR-01072,Urban Metro Rail,Tamil Nadu,35.68,147,199,3,27.98,5,12.76,8.0,38.3,High Risk
+LA-INFR-01073,National Highway,West Bengal,199.19,167,284,2,89.93,5,21.92,9.2,56.5,High Risk
+LA-INFR-01074,National Highway,Odisha,121.39,140,225,1,34.58,5,20.08,4.8,28.6,Low/Medium Risk
+LA-INFR-01075,Industrial Corridor,Gujarat,253.87,154,201,1,95.5,0,11.49,9.5,33.7,Low/Medium Risk
+LA-INFR-01076,National Highway,Gujarat,32.86,175,244,1,86.18,3,51.84,7.8,39.2,High Risk
+LA-INFR-01077,National Highway,Uttar Pradesh,535.61,152,279,4,76.6,2,30.43,4.3,22.3,Low/Medium Risk
+LA-INFR-01078,Industrial Corridor,Bihar,228.15,154,275,2,49.05,5,55.45,6.2,27.7,Low/Medium Risk
+LA-INFR-01079,Urban Metro Rail,Odisha,37.92,153,255,2,80.42,3,18.72,5.4,15.5,Low/Medium Risk
+LA-INFR-01080,National Highway,Tamil Nadu,2.94,128,324,4,73.51,4,81.88,3.1,51.1,High Risk
+LA-INFR-01081,Irrigation Dam & Reservoir,Bihar,736.67,136,229,1,38.6,1,19.85,8.6,6.2,Low/Medium Risk
+LA-INFR-01082,Industrial Corridor,Uttar Pradesh,101.35,157,227,4,67.44,4,65.16,4.8,58.5,High Risk
+LA-INFR-01083,Dedicated Freight Corridor,Gujarat,144.16,151,316,2,91.16,3,92.51,8.5,54.5,High Risk
+LA-INFR-01084,Irrigation Dam & Reservoir,Bihar,64.54,137,210,0,73.15,2,85.66,9.3,52.1,High Risk
+LA-INFR-01085,Dedicated Freight Corridor,Maharashtra,392.56,134,280,2,94.98,2,12.11,9.3,34.2,Low/Medium Risk
+LA-INFR-01086,Urban Metro Rail,Bihar,273.97,152,281,1,45.03,4,44.13,6.0,14.7,Low/Medium Risk
+LA-INFR-01087,Urban Metro Rail,Bihar,252.63,147,178,2,64.2,4,59.59,6.2,37.7,High Risk
+LA-INFR-01088,National Highway,Bihar,382.65,148,270,4,26.44,5,21.06,5.2,13.2,Low/Medium Risk
+LA-INFR-01089,National Highway,Bihar,205.56,149,198,3,65.43,3,24.16,9.3,45.9,High Risk
+LA-INFR-01090,Industrial Corridor,Bihar,99.19,156,237,1,52.19,2,10.38,8.6,27.6,Low/Medium Risk
+LA-INFR-01091,Irrigation Dam & Reservoir,Uttar Pradesh,357.47,160,216,1,39.35,5,53.62,4.0,20.6,Low/Medium Risk
+LA-INFR-01092,Dedicated Freight Corridor,Tamil Nadu,22.97,128,202,1,25.55,0,79.43,4.3,37.3,High Risk
+LA-INFR-01093,Irrigation Dam & Reservoir,Bihar,176.04,165,202,4,75.87,2,91.49,3.7,49.1,High Risk
+LA-INFR-01094,National Highway,Odisha,23.0,134,210,1,89.2,3,95.37,3.2,33.2,Low/Medium Risk
+LA-INFR-01095,Irrigation Dam & Reservoir,Bihar,71.22,133,253,1,89.59,0,73.99,9.6,49.3,High Risk
+LA-INFR-01096,Urban Metro Rail,Tamil Nadu,340.44,153,231,0,93.78,1,18.78,5.2,41.0,High Risk
+LA-INFR-01097,Dedicated Freight Corridor,West Bengal,79.51,148,229,3,88.52,3,43.45,9.4,31.0,Low/Medium Risk
+LA-INFR-01098,Dedicated Freight Corridor,Gujarat,104.6,152,308,2,80.99,0,42.63,8.0,23.9,Low/Medium Risk
+LA-INFR-01099,Dedicated Freight Corridor,Gujarat,219.04,140,231,3,58.49,4,24.14,8.0,19.5,Low/Medium Risk
+LA-INFR-01100,Urban Metro Rail,West Bengal,3.25,141,165,1,88.97,3,87.93,5.2,46.1,High Risk
+LA-INFR-01101,Industrial Corridor,Maharashtra,191.24,158,302,3,74.65,2,80.53,6.2,33.3,Low/Medium Risk
+LA-INFR-01102,National Highway,Uttar Pradesh,38.52,152,232,4,56.64,2,65.95,5.6,37.9,High Risk
+LA-INFR-01103,Industrial Corridor,West Bengal,60.09,138,185,2,67.14,1,72.48,4.9,15.8,Low/Medium Risk
+LA-INFR-01104,Industrial Corridor,Odisha,312.77,119,200,1,87.35,5,44.35,6.3,14.5,Low/Medium Risk
+LA-INFR-01105,Industrial Corridor,Maharashtra,264.68,137,203,4,30.21,2,62.88,9.0,56.7,High Risk
+LA-INFR-01106,Urban Metro Rail,Bihar,9.68,164,313,0,70.18,3,47.64,5.5,41.4,High Risk
+LA-INFR-01107,Irrigation Dam & Reservoir,Maharashtra,384.07,177,268,3,59.25,1,26.78,8.0,28.5,Low/Medium Risk
+LA-INFR-01108,National Highway,Tamil Nadu,101.04,161,265,4,71.0,3,77.3,8.0,7.2,Low/Medium Risk
+LA-INFR-01109,Irrigation Dam & Reservoir,Uttar Pradesh,123.02,144,278,4,23.27,1,81.63,7.6,40.7,High Risk
+LA-INFR-01110,National Highway,Maharashtra,61.47,161,207,1,75.21,3,84.23,8.8,35.0,Low/Medium Risk
+LA-INFR-01111,National Highway,Bihar,111.19,168,231,1,29.51,4,94.45,6.2,26.0,Low/Medium Risk
+LA-INFR-01112,Urban Metro Rail,Gujarat,48.46,173,140,3,37.46,3,70.81,6.1,33.9,Low/Medium Risk
+LA-INFR-01113,Irrigation Dam & Reservoir,Maharashtra,17.13,163,224,3,99.46,4,33.02,6.5,18.2,Low/Medium Risk
+LA-INFR-01114,Urban Metro Rail,Gujarat,305.37,176,200,1,77.79,0,28.03,3.8,30.3,Low/Medium Risk
+LA-INFR-01115,National Highway,Odisha,239.19,136,246,3,31.34,3,81.19,5.1,44.8,High Risk
+LA-INFR-01116,Irrigation Dam & Reservoir,Bihar,8.68,165,217,4,57.82,1,29.37,5.5,36.7,High Risk
+LA-INFR-01117,Irrigation Dam & Reservoir,Tamil Nadu,68.06,174,218,4,74.22,4,17.03,8.2,35.9,Low/Medium Risk
+LA-INFR-01118,Industrial Corridor,Tamil Nadu,446.86,164,250,1,74.06,3,25.99,6.7,9.3,Low/Medium Risk
+LA-INFR-01119,National Highway,Odisha,393.61,132,207,4,90.9,1,17.05,9.6,40.2,High Risk
+LA-INFR-01120,Dedicated Freight Corridor,Odisha,186.13,149,148,0,81.78,2,73.5,9.5,42.4,High Risk
+LA-INFR-01121,Irrigation Dam & Reservoir,Maharashtra,62.89,159,333,3,94.92,4,15.92,6.6,48.6,High Risk
+LA-INFR-01122,Industrial Corridor,Odisha,260.73,144,222,1,59.08,1,52.24,4.4,20.9,Low/Medium Risk
+LA-INFR-01123,National Highway,Bihar,325.5,156,226,3,91.52,4,71.44,4.3,59.8,High Risk
+LA-INFR-01124,Dedicated Freight Corridor,Bihar,89.9,150,177,2,90.85,4,89.73,6.8,58.9,High Risk
+LA-INFR-01125,National Highway,Uttar Pradesh,55.71,152,213,1,85.66,3,14.88,9.2,27.4,Low/Medium Risk
+LA-INFR-01126,National Highway,West Bengal,164.3,160,257,3,58.7,4,70.68,7.2,25.8,Low/Medium Risk
+LA-INFR-01127,Industrial Corridor,Gujarat,612.77,160,298,1,81.61,3,46.5,9.7,50.4,High Risk
+LA-INFR-01128,National Highway,Uttar Pradesh,151.08,155,240,1,48.18,4,49.56,9.4,19.5,Low/Medium Risk
+LA-INFR-01129,National Highway,West Bengal,78.84,161,288,1,63.2,2,44.14,8.9,6.2,Low/Medium Risk
+LA-INFR-01130,Dedicated Freight Corridor,Tamil Nadu,217.51,160,233,4,58.3,2,64.96,9.9,21.1,Low/Medium Risk
+LA-INFR-01131,National Highway,Uttar Pradesh,381.52,147,251,0,71.67,3,25.97,9.8,51.2,High Risk
+LA-INFR-01132,Industrial Corridor,Maharashtra,23.43,133,203,0,97.69,3,64.21,4.3,43.1,High Risk
+LA-INFR-01133,Dedicated Freight Corridor,West Bengal,399.12,146,151,2,78.89,6,22.5,5.0,28.5,Low/Medium Risk
+LA-INFR-01134,Irrigation Dam & Reservoir,Gujarat,58.55,165,228,3,46.23,4,56.06,6.5,19.2,Low/Medium Risk
+LA-INFR-01135,Irrigation Dam & Reservoir,Odisha,437.71,131,200,0,33.51,6,35.82,9.9,7.9,Low/Medium Risk
+LA-INFR-01136,Dedicated Freight Corridor,Maharashtra,100.73,149,229,0,54.93,2,63.58,3.3,11.2,Low/Medium Risk
+LA-INFR-01137,National Highway,Bihar,411.39,168,167,1,33.85,3,74.14,3.6,27.5,Low/Medium Risk
+LA-INFR-01138,National Highway,Odisha,254.02,174,249,4,66.93,1,89.13,9.3,39.3,High Risk
+LA-INFR-01139,Irrigation Dam & Reservoir,Gujarat,112.99,159,287,2,75.64,3,16.52,9.6,38.1,High Risk
+LA-INFR-01140,Irrigation Dam & Reservoir,Gujarat,134.02,146,250,1,30.61,3,38.05,8.2,21.5,Low/Medium Risk
+LA-INFR-01141,National Highway,Tamil Nadu,218.83,150,225,4,20.44,4,91.01,8.5,16.3,Low/Medium Risk
+LA-INFR-01142,National Highway,Bihar,14.49,145,266,0,65.23,1,83.75,9.0,20.4,Low/Medium Risk
+LA-INFR-01143,National Highway,Gujarat,94.5,132,306,2,84.12,5,45.64,7.9,34.3,Low/Medium Risk
+LA-INFR-01144,National Highway,West Bengal,309.53,146,273,0,92.57,4,19.46,3.0,22.4,Low/Medium Risk
+LA-INFR-01145,Industrial Corridor,Maharashtra,122.47,137,268,0,67.04,5,16.56,6.9,46.4,High Risk
+LA-INFR-01146,National Highway,Gujarat,4.45,148,259,0,26.79,1,72.58,7.2,40.9,High Risk
+LA-INFR-01147,Industrial Corridor,Uttar Pradesh,33.7,137,290,4,99.53,1,52.63,9.0,30.4,Low/Medium Risk
+LA-INFR-01148,National Highway,Uttar Pradesh,38.39,168,250,2,56.52,5,70.91,6.9,22.9,Low/Medium Risk
+LA-INFR-01149,Irrigation Dam & Reservoir,Bihar,181.15,147,253,0,69.55,3,37.15,3.5,59.3,High Risk
+LA-INFR-01150,Dedicated Freight Corridor,Bihar,154.28,144,125,4,33.11,1,17.94,6.6,11.2,Low/Medium Risk
+LA-INFR-01151,Dedicated Freight Corridor,Bihar,122.32,138,251,3,43.09,6,35.63,9.6,37.6,High Risk
+LA-INFR-01152,National Highway,Gujarat,17.44,148,163,0,57.28,3,57.11,9.2,21.2,Low/Medium Risk
+LA-INFR-01153,Industrial Corridor,Bihar,28.86,148,247,1,61.01,3,57.83,9.1,51.3,High Risk
+LA-INFR-01154,Urban Metro Rail,Tamil Nadu,16.47,155,275,1,97.75,4,98.81,9.2,57.2,High Risk
+LA-INFR-01155,Dedicated Freight Corridor,Maharashtra,41.21,165,253,3,95.47,4,41.17,8.6,19.0,Low/Medium Risk
+LA-INFR-01156,Irrigation Dam & Reservoir,Uttar Pradesh,77.7,142,240,3,48.69,7,81.41,3.3,46.4,High Risk
+LA-INFR-01157,Industrial Corridor,Odisha,111.92,132,183,0,25.56,2,24.31,8.4,34.4,Low/Medium Risk
+LA-INFR-01158,Urban Metro Rail,Maharashtra,89.36,156,210,0,41.54,2,13.48,4.5,32.3,Low/Medium Risk
+LA-INFR-01159,Urban Metro Rail,Tamil Nadu,447.08,133,187,1,61.01,1,38.42,4.2,36.7,High Risk
+LA-INFR-01160,National Highway,Tamil Nadu,327.66,153,205,4,93.04,5,72.24,6.5,47.3,High Risk
+LA-INFR-01161,Urban Metro Rail,West Bengal,16.48,141,207,2,74.14,5,89.82,8.1,11.1,Low/Medium Risk
+LA-INFR-01162,Irrigation Dam & Reservoir,Bihar,241.85,150,259,4,90.68,5,30.73,4.8,49.8,High Risk
+LA-INFR-01163,Urban Metro Rail,Maharashtra,441.83,139,275,1,69.8,3,26.07,5.7,30.3,Low/Medium Risk
+LA-INFR-01164,Urban Metro Rail,Odisha,72.18,151,228,1,66.85,6,41.72,5.0,6.2,Low/Medium Risk
+LA-INFR-01165,Industrial Corridor,Gujarat,70.21,151,318,4,77.61,6,86.88,7.7,25.0,Low/Medium Risk
+LA-INFR-01166,Dedicated Freight Corridor,Maharashtra,51.34,152,123,4,43.75,1,43.32,3.6,32.9,Low/Medium Risk
+LA-INFR-01167,Urban Metro Rail,Odisha,151.79,149,169,4,25.07,1,61.75,9.8,59.7,High Risk
+LA-INFR-01168,Industrial Corridor,Odisha,477.6,145,270,2,55.1,2,62.14,5.4,17.8,Low/Medium Risk
+LA-INFR-01169,National Highway,Bihar,164.1,131,319,3,86.27,3,23.71,5.6,19.4,Low/Medium Risk
+LA-INFR-01170,National Highway,Gujarat,107.2,155,231,2,22.04,7,22.1,4.8,23.3,Low/Medium Risk
+LA-INFR-01171,Urban Metro Rail,Maharashtra,545.48,138,153,1,78.97,2,70.88,7.1,22.5,Low/Medium Risk
+LA-INFR-01172,National Highway,Bihar,50.27,142,223,3,74.96,4,76.64,3.5,21.0,Low/Medium Risk
+LA-INFR-01173,Urban Metro Rail,West Bengal,560.16,161,262,2,47.81,6,58.1,3.6,40.6,High Risk
+LA-INFR-01174,Irrigation Dam & Reservoir,Tamil Nadu,123.42,146,233,0,43.57,0,51.06,3.8,46.3,High Risk
+LA-INFR-01175,Industrial Corridor,Odisha,80.51,150,181,2,55.45,3,83.1,4.3,59.0,High Risk
+LA-INFR-01176,Industrial Corridor,Bihar,384.71,162,185,3,27.63,1,16.55,6.5,49.2,High Risk
+LA-INFR-01177,Industrial Corridor,West Bengal,190.66,135,282,2,52.38,1,68.56,6.7,32.8,Low/Medium Risk
+LA-INFR-01178,Irrigation Dam & Reservoir,Uttar Pradesh,159.82,152,202,0,98.92,2,14.66,8.0,29.4,Low/Medium Risk
+LA-INFR-01179,National Highway,Gujarat,59.44,160,277,3,59.85,5,70.94,9.4,12.2,Low/Medium Risk
+LA-INFR-01180,Dedicated Freight Corridor,Tamil Nadu,256.83,148,231,0,89.35,0,46.81,4.3,41.4,High Risk
+LA-INFR-01181,National Highway,Bihar,212.8,162,199,0,35.88,1,55.58,9.3,48.3,High Risk
+LA-INFR-01182,Industrial Corridor,Odisha,5.35,169,212,4,36.22,4,60.26,6.1,26.3,Low/Medium Risk
+LA-INFR-01183,Irrigation Dam & Reservoir,Maharashtra,199.56,132,264,4,42.42,5,60.87,8.7,55.6,High Risk
+LA-INFR-01184,Dedicated Freight Corridor,Maharashtra,429.84,147,244,1,78.79,2,86.2,3.8,6.9,Low/Medium Risk
+LA-INFR-01185,Irrigation Dam & Reservoir,Odisha,564.72,165,323,1,90.52,4,24.85,5.2,9.3,Low/Medium Risk
+LA-INFR-01186,Industrial Corridor,Tamil Nadu,346.41,136,140,3,79.31,4,86.25,4.8,42.5,High Risk
+LA-INFR-01187,Dedicated Freight Corridor,West Bengal,238.98,159,249,3,32.51,1,61.87,4.0,20.5,Low/Medium Risk
+LA-INFR-01188,Irrigation Dam & Reservoir,Gujarat,104.86,174,257,4,51.77,3,77.43,3.1,57.1,High Risk
+LA-INFR-01189,National Highway,West Bengal,113.88,151,292,3,31.57,2,22.98,3.3,16.5,Low/Medium Risk
+LA-INFR-01190,Dedicated Freight Corridor,Gujarat,89.57,141,197,2,88.59,3,57.4,5.5,21.6,Low/Medium Risk
+LA-INFR-01191,National Highway,Gujarat,454.81,150,197,1,89.85,5,49.47,5.6,59.4,High Risk
+LA-INFR-01192,Urban Metro Rail,West Bengal,318.49,162,297,2,21.37,3,68.13,4.9,36.7,High Risk
+LA-INFR-01193,Dedicated Freight Corridor,West Bengal,374.36,130,276,2,36.77,2,48.74,9.2,15.6,Low/Medium Risk
+LA-INFR-01194,Urban Metro Rail,Odisha,284.04,176,262,3,37.22,2,81.87,4.6,42.1,High Risk
+LA-INFR-01195,National Highway,Bihar,134.45,135,288,4,81.84,2,37.75,8.8,12.7,Low/Medium Risk
+LA-INFR-01196,Irrigation Dam & Reservoir,Gujarat,17.44,146,226,4,85.33,5,34.54,3.7,40.5,High Risk
+LA-INFR-01197,Dedicated Freight Corridor,West Bengal,279.23,188,244,2,70.13,2,94.53,8.3,21.2,Low/Medium Risk
+LA-INFR-01198,Urban Metro Rail,Maharashtra,86.88,142,245,0,83.45,2,66.14,6.4,47.9,High Risk
+LA-INFR-01199,Irrigation Dam & Reservoir,Gujarat,137.79,158,164,1,71.17,4,81.18,8.7,28.0,Low/Medium Risk
+LA-INFR-01200,Industrial Corridor,Tamil Nadu,21.57,150,299,4,32.69,2,38.89,4.9,15.0,Low/Medium Risk
+LA-INFR-01201,Urban Metro Rail,Maharashtra,264.85,141,298,4,40.73,1,78.12,8.6,38.3,High Risk
+LA-INFR-01202,Irrigation Dam & Reservoir,Uttar Pradesh,247.2,143,325,4,86.92,6,90.77,8.5,55.3,High Risk
+LA-INFR-01203,Urban Metro Rail,Maharashtra,584.84,183,264,2,76.04,6,13.12,7.5,27.4,Low/Medium Risk
+LA-INFR-01204,Dedicated Freight Corridor,Maharashtra,218.03,140,264,3,35.7,1,30.28,4.5,13.0,Low/Medium Risk
+LA-INFR-01205,Dedicated Freight Corridor,Odisha,72.02,156,282,3,41.07,3,87.08,9.9,38.9,High Risk
+LA-INFR-01206,Urban Metro Rail,Bihar,151.01,161,247,0,84.41,3,64.61,9.3,9.3,Low/Medium Risk
+LA-INFR-01207,Dedicated Freight Corridor,Bihar,149.12,143,173,1,38.1,3,11.55,4.9,49.0,High Risk
+LA-INFR-01208,Irrigation Dam & Reservoir,Bihar,16.13,157,185,1,47.56,0,99.34,4.6,31.5,Low/Medium Risk
+LA-INFR-01209,Dedicated Freight Corridor,West Bengal,103.88,169,218,4,50.66,2,89.73,8.0,31.8,Low/Medium Risk
+LA-INFR-01210,Urban Metro Rail,Maharashtra,112.03,129,346,3,76.12,7,94.65,3.2,18.9,Low/Medium Risk
+LA-INFR-01211,Urban Metro Rail,Tamil Nadu,278.81,134,203,3,68.46,4,85.3,9.8,34.1,Low/Medium Risk
+LA-INFR-01212,Urban Metro Rail,Bihar,41.21,153,262,0,38.28,4,67.97,6.9,52.4,High Risk
+LA-INFR-01213,Urban Metro Rail,Maharashtra,195.17,150,311,1,55.4,4,12.08,5.4,9.6,Low/Medium Risk
+LA-INFR-01214,Dedicated Freight Corridor,Uttar Pradesh,774.2,132,313,2,51.32,3,17.9,3.1,60.0,High Risk
+LA-INFR-01215,Urban Metro Rail,Uttar Pradesh,4.79,154,148,1,64.25,1,71.34,5.5,27.7,Low/Medium Risk
+LA-INFR-01216,Irrigation Dam & Reservoir,Bihar,190.34,168,222,3,56.02,3,77.18,9.6,9.0,Low/Medium Risk
+LA-INFR-01217,Industrial Corridor,Uttar Pradesh,184.12,140,175,2,45.71,3,35.66,5.1,11.6,Low/Medium Risk
+LA-INFR-01218,Industrial Corridor,Odisha,303.81,168,129,0,35.26,2,50.22,5.8,23.8,Low/Medium Risk
+LA-INFR-01219,Irrigation Dam & Reservoir,Bihar,6.44,162,278,2,90.45,3,46.96,4.1,45.6,High Risk
+LA-INFR-01220,Industrial Corridor,Gujarat,51.27,142,303,0,83.46,5,60.29,4.9,37.8,High Risk
+LA-INFR-01221,Irrigation Dam & Reservoir,Gujarat,363.27,161,160,1,28.72,7,10.87,6.3,23.3,Low/Medium Risk
+LA-INFR-01222,Urban Metro Rail,West Bengal,49.31,154,174,1,27.68,8,17.83,7.8,51.0,High Risk
+LA-INFR-01223,Urban Metro Rail,Bihar,182.65,145,269,3,95.28,2,81.35,9.4,38.3,High Risk
+LA-INFR-01224,Dedicated Freight Corridor,Bihar,378.81,143,211,1,33.08,3,11.25,3.7,49.4,High Risk
+LA-INFR-01225,Irrigation Dam & Reservoir,West Bengal,422.74,148,261,1,38.31,3,13.75,3.8,16.4,Low/Medium Risk
+LA-INFR-01226,Urban Metro Rail,Gujarat,34.9,160,209,3,39.51,2,60.65,9.1,20.6,Low/Medium Risk
+LA-INFR-01227,Dedicated Freight Corridor,Maharashtra,427.6,148,269,1,78.51,2,77.82,7.0,9.8,Low/Medium Risk
+LA-INFR-01228,Industrial Corridor,Maharashtra,169.27,157,244,1,34.31,1,13.75,9.8,11.1,Low/Medium Risk
+LA-INFR-01229,National Highway,Uttar Pradesh,76.52,156,251,1,29.54,6,44.84,4.4,34.9,Low/Medium Risk
+LA-INFR-01230,Dedicated Freight Corridor,Uttar Pradesh,128.59,147,244,0,66.45,2,14.35,3.4,8.7,Low/Medium Risk
+LA-INFR-01231,Industrial Corridor,Gujarat,392.46,148,266,1,81.12,2,17.01,5.4,30.4,Low/Medium Risk
+LA-INFR-01232,Irrigation Dam & Reservoir,Maharashtra,139.22,133,155,2,65.82,5,53.34,8.7,37.5,High Risk
+LA-INFR-01233,Irrigation Dam & Reservoir,Bihar,32.63,141,252,0,20.12,4,45.71,7.7,12.7,Low/Medium Risk
+LA-INFR-01234,Irrigation Dam & Reservoir,Maharashtra,226.64,157,217,3,97.42,6,34.78,4.5,30.1,Low/Medium Risk
+LA-INFR-01235,Dedicated Freight Corridor,Bihar,128.39,158,209,1,80.66,4,16.34,7.3,26.2,Low/Medium Risk
+LA-INFR-01236,Dedicated Freight Corridor,Bihar,34.59,157,265,1,35.89,2,35.85,7.0,26.3,Low/Medium Risk
+LA-INFR-01237,Dedicated Freight Corridor,Uttar Pradesh,56.77,152,326,4,69.65,5,66.72,3.2,37.0,High Risk
+LA-INFR-01238,Dedicated Freight Corridor,West Bengal,344.05,179,195,4,72.37,3,89.22,6.2,24.6,Low/Medium Risk
+LA-INFR-01239,National Highway,Tamil Nadu,13.12,153,251,3,23.07,5,58.53,5.4,34.7,Low/Medium Risk
+LA-INFR-01240,Industrial Corridor,Bihar,111.2,154,228,1,87.31,1,80.27,6.5,36.9,High Risk
+LA-INFR-01241,Irrigation Dam & Reservoir,Maharashtra,524.92,157,166,2,63.8,2,86.12,3.7,18.6,Low/Medium Risk
+LA-INFR-01242,Industrial Corridor,Bihar,65.91,151,268,1,71.44,4,50.79,9.3,7.4,Low/Medium Risk
+LA-INFR-01243,National Highway,Maharashtra,54.9,152,154,2,84.6,4,39.8,8.0,45.9,High Risk
+LA-INFR-01244,Industrial Corridor,West Bengal,349.57,184,187,0,74.53,1,33.98,8.4,6.7,Low/Medium Risk
+LA-INFR-01245,Industrial Corridor,Bihar,234.15,150,303,3,98.0,4,49.51,3.9,28.2,Low/Medium Risk
+LA-INFR-01246,Irrigation Dam & Reservoir,Tamil Nadu,193.13,144,255,0,22.5,5,68.37,7.9,21.7,Low/Medium Risk
+LA-INFR-01247,Dedicated Freight Corridor,Bihar,462.92,153,154,2,93.65,5,37.96,4.9,37.1,High Risk
+LA-INFR-01248,Urban Metro Rail,Uttar Pradesh,472.87,151,239,3,61.39,3,72.67,4.4,36.0,Low/Medium Risk
+LA-INFR-01249,Industrial Corridor,Maharashtra,26.63,159,284,1,75.92,4,67.53,9.0,11.1,Low/Medium Risk
+LA-INFR-01250,Industrial Corridor,Tamil Nadu,36.66,133,312,4,89.94,3,83.08,9.7,6.4,Low/Medium Risk
+LA-INFR-01251,Dedicated Freight Corridor,West Bengal,16.49,135,214,2,42.36,3,12.07,3.0,25.3,Low/Medium Risk
+LA-INFR-01252,National Highway,Odisha,257.15,141,238,0,51.3,5,43.57,8.5,44.0,High Risk
+LA-INFR-01253,Industrial Corridor,Uttar Pradesh,930.6,148,233,2,72.6,1,90.27,9.5,7.8,Low/Medium Risk
+LA-INFR-01254,Dedicated Freight Corridor,Uttar Pradesh,63.91,153,260,0,23.34,4,44.71,6.5,44.7,High Risk
+LA-INFR-01255,Industrial Corridor,West Bengal,164.44,155,153,0,64.59,6,98.72,7.9,59.1,High Risk
+LA-INFR-01256,National Highway,Tamil Nadu,113.42,146,231,1,23.8,2,59.87,4.3,14.5,Low/Medium Risk
+LA-INFR-01257,Dedicated Freight Corridor,Gujarat,169.4,149,200,0,52.57,5,64.06,9.5,18.6,Low/Medium Risk
+LA-INFR-01258,National Highway,Maharashtra,233.2,137,291,1,86.38,5,45.57,7.5,32.4,Low/Medium Risk
+LA-INFR-01259,Industrial Corridor,Uttar Pradesh,167.64,164,152,4,35.84,2,79.4,8.4,15.4,Low/Medium Risk
+LA-INFR-01260,Irrigation Dam & Reservoir,Maharashtra,53.13,158,90,4,63.69,0,35.79,7.7,20.7,Low/Medium Risk
+LA-INFR-01261,Industrial Corridor,Odisha,65.02,188,222,0,50.45,2,82.81,5.0,12.8,Low/Medium Risk
+LA-INFR-01262,Industrial Corridor,West Bengal,357.96,153,271,3,81.33,5,91.21,5.1,20.2,Low/Medium Risk
+LA-INFR-01263,Dedicated Freight Corridor,Odisha,557.78,154,238,0,66.33,1,38.91,8.0,49.1,High Risk
+LA-INFR-01264,Irrigation Dam & Reservoir,Odisha,130.48,160,309,3,24.63,2,16.63,9.0,49.2,High Risk
+LA-INFR-01265,Dedicated Freight Corridor,Bihar,52.89,144,202,1,87.98,2,88.27,8.0,13.7,Low/Medium Risk
+LA-INFR-01266,Urban Metro Rail,Bihar,268.23,159,200,0,77.39,4,92.83,7.4,6.1,Low/Medium Risk
+LA-INFR-01267,National Highway,Tamil Nadu,146.53,142,317,1,61.48,6,47.95,8.5,44.0,High Risk
+LA-INFR-01268,Urban Metro Rail,Gujarat,94.07,142,190,3,68.48,3,28.26,4.9,53.6,High Risk
+LA-INFR-01269,Industrial Corridor,Gujarat,239.88,152,215,1,78.87,1,98.91,6.2,11.8,Low/Medium Risk
+LA-INFR-01270,National Highway,Odisha,320.9,139,242,0,98.48,6,73.33,7.0,17.1,Low/Medium Risk
+LA-INFR-01271,Industrial Corridor,Odisha,192.26,141,269,2,41.63,1,59.1,4.3,53.5,High Risk
+LA-INFR-01272,Irrigation Dam & Reservoir,Bihar,146.87,152,198,0,89.26,2,28.76,4.9,46.2,High Risk
+LA-INFR-01273,Irrigation Dam & Reservoir,Bihar,199.84,177,288,4,25.69,1,86.96,7.9,46.4,High Risk
+LA-INFR-01274,Irrigation Dam & Reservoir,Maharashtra,272.99,138,297,3,92.16,1,62.58,4.2,51.1,High Risk
+LA-INFR-01275,Industrial Corridor,Odisha,12.38,133,245,0,60.25,3,31.71,4.3,26.2,Low/Medium Risk
+LA-INFR-01276,Irrigation Dam & Reservoir,West Bengal,48.93,141,272,2,63.49,5,42.34,8.6,11.9,Low/Medium Risk
+LA-INFR-01277,Urban Metro Rail,Gujarat,342.92,144,234,2,36.27,3,45.8,8.7,36.5,High Risk
+LA-INFR-01278,National Highway,Bihar,436.85,151,266,0,98.62,4,90.84,7.5,13.7,Low/Medium Risk
+LA-INFR-01279,Industrial Corridor,Bihar,422.06,154,262,2,60.0,1,41.91,8.2,48.6,High Risk
+LA-INFR-01280,Irrigation Dam & Reservoir,Bihar,218.83,148,220,4,89.84,5,71.74,7.1,25.1,Low/Medium Risk
+LA-INFR-01281,Dedicated Freight Corridor,Gujarat,65.8,162,195,2,47.16,0,60.66,5.4,48.8,High Risk
+LA-INFR-01282,Industrial Corridor,Gujarat,487.28,146,299,4,41.73,4,27.71,4.1,30.1,Low/Medium Risk
+LA-INFR-01283,Dedicated Freight Corridor,West Bengal,188.49,138,290,0,38.06,2,16.08,6.9,29.2,Low/Medium Risk
+LA-INFR-01284,Dedicated Freight Corridor,Uttar Pradesh,36.41,142,242,3,21.31,2,59.02,5.0,28.1,Low/Medium Risk
+LA-INFR-01285,Urban Metro Rail,Uttar Pradesh,147.61,141,166,3,26.72,3,80.54,4.6,13.7,Low/Medium Risk
+LA-INFR-01286,Dedicated Freight Corridor,Maharashtra,278.66,128,268,2,71.02,4,68.9,3.5,6.9,Low/Medium Risk
+LA-INFR-01287,Industrial Corridor,West Bengal,116.08,150,327,1,36.99,4,71.01,3.2,40.7,High Risk
+LA-INFR-01288,Irrigation Dam & Reservoir,Gujarat,145.56,154,260,1,94.33,1,70.23,3.4,19.7,Low/Medium Risk
+LA-INFR-01289,Urban Metro Rail,Odisha,89.36,180,258,4,68.67,2,74.7,6.9,24.4,Low/Medium Risk
+LA-INFR-01290,Urban Metro Rail,Maharashtra,295.17,154,281,3,82.63,2,73.07,3.0,20.5,Low/Medium Risk
+LA-INFR-01291,Industrial Corridor,Uttar Pradesh,65.24,151,267,2,69.18,2,16.6,6.4,54.6,High Risk
+LA-INFR-01292,Dedicated Freight Corridor,Gujarat,636.63,127,186,0,79.25,2,24.91,4.9,42.2,High Risk
+LA-INFR-01293,Dedicated Freight Corridor,Odisha,531.41,150,253,4,62.5,2,50.18,7.3,47.3,High Risk
+LA-INFR-01294,Industrial Corridor,Gujarat,14.09,160,252,1,69.74,0,24.25,7.1,38.5,High Risk
+LA-INFR-01295,Urban Metro Rail,Bihar,32.06,161,188,0,44.7,3,36.6,6.3,23.5,Low/Medium Risk
+LA-INFR-01296,National Highway,Tamil Nadu,27.51,153,283,1,39.28,3,77.51,3.3,47.4,High Risk
+LA-INFR-01297,Urban Metro Rail,Uttar Pradesh,382.83,154,265,1,25.23,4,66.05,8.1,55.5,High Risk
+LA-INFR-01298,Irrigation Dam & Reservoir,Tamil Nadu,320.64,153,229,1,29.28,2,67.48,3.2,59.8,High Risk
+LA-INFR-01299,Irrigation Dam & Reservoir,Gujarat,46.35,157,265,0,31.03,1,74.33,8.9,28.9,Low/Medium Risk
+LA-INFR-01300,Industrial Corridor,Odisha,202.18,164,330,2,90.98,5,37.82,4.7,16.3,Low/Medium Risk
+LA-INFR-01301,National Highway,Gujarat,6.76,144,252,0,42.23,3,91.6,7.8,33.5,Low/Medium Risk
+LA-INFR-01302,Industrial Corridor,Bihar,73.28,145,231,4,69.33,7,85.72,7.7,24.9,Low/Medium Risk
+LA-INFR-01303,National Highway,Maharashtra,758.08,143,188,1,95.41,2,66.28,7.8,15.7,Low/Medium Risk
+LA-INFR-01304,Industrial Corridor,Tamil Nadu,80.48,162,266,3,68.46,3,62.01,6.2,41.3,High Risk
+LA-INFR-01305,Urban Metro Rail,Uttar Pradesh,55.44,136,235,1,70.51,2,86.33,4.8,47.4,High Risk
+LA-INFR-01306,Industrial Corridor,Tamil Nadu,322.31,143,269,2,57.16,5,87.51,9.8,24.1,Low/Medium Risk
+LA-INFR-01307,Urban Metro Rail,Uttar Pradesh,118.17,141,230,4,92.8,3,93.13,5.4,60.0,High Risk
+LA-INFR-01308,National Highway,Tamil Nadu,63.13,143,335,2,92.11,3,70.89,7.4,56.5,High Risk
+LA-INFR-01309,Irrigation Dam & Reservoir,Maharashtra,113.04,142,292,2,89.4,0,83.28,9.6,42.0,High Risk
+LA-INFR-01310,National Highway,Odisha,625.62,127,184,0,95.71,3,20.73,7.3,38.0,High Risk
+LA-INFR-01311,National Highway,Tamil Nadu,62.96,165,223,4,74.39,2,75.65,3.0,25.3,Low/Medium Risk
+LA-INFR-01312,Dedicated Freight Corridor,Gujarat,267.79,142,261,3,52.93,1,76.45,7.9,16.6,Low/Medium Risk
+LA-INFR-01313,Urban Metro Rail,Maharashtra,208.11,140,215,2,78.24,0,75.49,5.7,52.6,High Risk
+LA-INFR-01314,National Highway,Gujarat,194.69,159,243,0,52.61,1,87.91,4.8,35.2,Low/Medium Risk
+LA-INFR-01315,National Highway,West Bengal,6.43,129,217,1,76.48,2,93.03,4.4,51.8,High Risk
+LA-INFR-01316,Industrial Corridor,Maharashtra,59.6,139,274,4,57.52,4,78.34,7.7,26.9,Low/Medium Risk
+LA-INFR-01317,Dedicated Freight Corridor,Odisha,167.5,159,229,2,62.23,2,90.13,8.1,49.5,High Risk
+LA-INFR-01318,Industrial Corridor,Maharashtra,91.96,156,238,2,41.32,4,83.93,7.3,12.5,Low/Medium Risk
+LA-INFR-01319,Irrigation Dam & Reservoir,Bihar,8.52,152,219,1,40.92,4,88.22,3.0,59.2,High Risk
+LA-INFR-01320,Dedicated Freight Corridor,Odisha,1244.73,160,242,0,53.51,3,50.54,8.3,58.3,High Risk
+LA-INFR-01321,National Highway,Uttar Pradesh,192.84,164,222,2,46.05,3,48.09,6.8,23.0,Low/Medium Risk
+LA-INFR-01322,Urban Metro Rail,Odisha,422.27,164,192,4,22.43,4,71.43,3.7,52.4,High Risk
+LA-INFR-01323,Irrigation Dam & Reservoir,Maharashtra,34.89,155,170,1,52.44,2,83.87,5.6,59.3,High Risk
+LA-INFR-01324,National Highway,Bihar,547.48,145,319,0,75.98,4,79.73,8.8,19.4,Low/Medium Risk
+LA-INFR-01325,National Highway,Maharashtra,3.97,149,209,0,45.79,4,31.19,9.7,42.1,High Risk
+LA-INFR-01326,Industrial Corridor,Bihar,977.79,135,226,3,32.03,6,39.85,8.3,42.5,High Risk
+LA-INFR-01327,Irrigation Dam & Reservoir,Tamil Nadu,81.56,153,251,0,83.82,4,69.28,6.5,41.0,High Risk
+LA-INFR-01328,Dedicated Freight Corridor,Gujarat,1314.72,152,259,2,98.59,5,64.7,5.4,44.7,High Risk
+LA-INFR-01329,Dedicated Freight Corridor,Gujarat,244.09,161,277,0,85.31,1,12.29,3.7,30.1,Low/Medium Risk
+LA-INFR-01330,Dedicated Freight Corridor,Maharashtra,183.14,170,284,2,38.73,3,93.44,8.9,6.4,Low/Medium Risk
+LA-INFR-01331,National Highway,Maharashtra,282.17,163,277,1,39.37,2,32.99,7.7,36.4,High Risk
+LA-INFR-01332,Dedicated Freight Corridor,Gujarat,151.98,152,301,3,56.08,2,65.08,4.4,12.9,Low/Medium Risk
+LA-INFR-01333,Irrigation Dam & Reservoir,Odisha,285.74,158,245,1,80.7,1,81.64,3.1,10.2,Low/Medium Risk
+LA-INFR-01334,Urban Metro Rail,Maharashtra,168.48,151,199,1,96.45,5,93.06,5.2,40.4,High Risk
+LA-INFR-01335,National Highway,Uttar Pradesh,297.98,143,269,2,94.35,2,63.67,6.8,6.2,Low/Medium Risk
+LA-INFR-01336,National Highway,West Bengal,214.07,151,166,1,56.4,3,68.95,7.9,6.9,Low/Medium Risk
+LA-INFR-01337,Industrial Corridor,Uttar Pradesh,22.74,139,273,4,47.11,3,84.34,5.8,56.6,High Risk
+LA-INFR-01338,National Highway,Maharashtra,509.94,158,246,3,65.7,3,40.32,4.8,47.9,High Risk
+LA-INFR-01339,Urban Metro Rail,Bihar,241.35,164,239,0,26.2,4,41.04,3.9,23.8,Low/Medium Risk
+LA-INFR-01340,National Highway,Gujarat,599.86,139,256,1,32.59,3,79.39,8.3,11.4,Low/Medium Risk
+LA-INFR-01341,Urban Metro Rail,Tamil Nadu,421.62,184,221,4,34.26,4,20.5,7.8,56.4,High Risk
+LA-INFR-01342,Urban Metro Rail,Odisha,146.59,161,124,4,67.98,2,89.0,3.6,28.7,Low/Medium Risk
+LA-INFR-01343,Dedicated Freight Corridor,Maharashtra,152.33,151,281,4,32.28,3,89.16,9.6,49.9,High Risk
+LA-INFR-01344,Industrial Corridor,Bihar,4.62,161,283,3,50.71,5,22.59,3.2,23.9,Low/Medium Risk
+LA-INFR-01345,Dedicated Freight Corridor,Uttar Pradesh,287.96,146,244,1,21.14,3,61.4,6.4,46.5,High Risk
+LA-INFR-01346,Irrigation Dam & Reservoir,West Bengal,123.89,148,277,0,85.94,2,39.17,6.0,55.8,High Risk
+LA-INFR-01347,Industrial Corridor,West Bengal,260.19,131,320,0,88.27,2,13.16,6.1,16.1,Low/Medium Risk
+LA-INFR-01348,Industrial Corridor,Odisha,263.38,170,196,1,30.44,1,64.43,9.1,11.7,Low/Medium Risk
+LA-INFR-01349,Industrial Corridor,Maharashtra,7.4,145,216,2,96.78,5,57.41,7.3,25.5,Low/Medium Risk
+LA-INFR-01350,Dedicated Freight Corridor,Tamil Nadu,150.81,162,213,0,78.76,1,24.92,6.4,23.5,Low/Medium Risk
+LA-INFR-01351,Dedicated Freight Corridor,Uttar Pradesh,118.1,149,299,3,88.8,3,17.43,6.2,6.8,Low/Medium Risk
+LA-INFR-01352,Irrigation Dam & Reservoir,Gujarat,687.79,145,220,2,97.29,2,33.0,5.4,26.7,Low/Medium Risk
+LA-INFR-01353,Dedicated Freight Corridor,West Bengal,15.09,144,207,2,73.53,4,39.6,3.4,30.4,Low/Medium Risk
+LA-INFR-01354,Irrigation Dam & Reservoir,Uttar Pradesh,17.25,164,217,1,87.15,5,95.63,7.6,6.6,Low/Medium Risk
+LA-INFR-01355,Irrigation Dam & Reservoir,Uttar Pradesh,17.34,152,137,2,68.77,3,48.19,6.8,20.6,Low/Medium Risk
+LA-INFR-01356,National Highway,West Bengal,49.86,163,214,1,81.23,2,26.96,8.9,40.1,High Risk
+LA-INFR-01357,Irrigation Dam & Reservoir,West Bengal,17.06,136,261,0,54.81,1,74.49,10.0,25.4,Low/Medium Risk
+LA-INFR-01358,Industrial Corridor,Maharashtra,101.01,169,213,1,34.64,1,62.89,6.6,10.6,Low/Medium Risk
+LA-INFR-01359,National Highway,Tamil Nadu,151.42,146,273,1,55.39,0,46.73,7.1,33.4,Low/Medium Risk
+LA-INFR-01360,National Highway,Odisha,132.97,153,326,2,47.75,1,70.62,5.3,47.7,High Risk
+LA-INFR-01361,National Highway,Tamil Nadu,433.14,168,281,3,29.34,1,39.18,8.5,54.7,High Risk
+LA-INFR-01362,Urban Metro Rail,Bihar,301.21,138,372,3,70.81,2,19.09,4.2,30.5,Low/Medium Risk
+LA-INFR-01363,Dedicated Freight Corridor,West Bengal,7.44,150,251,4,38.37,5,41.93,3.7,16.4,Low/Medium Risk
+LA-INFR-01364,National Highway,Odisha,310.28,149,203,1,47.63,0,56.28,7.5,15.5,Low/Medium Risk
+LA-INFR-01365,National Highway,Uttar Pradesh,520.45,142,224,3,20.01,3,89.77,9.2,49.1,High Risk
+LA-INFR-01366,Industrial Corridor,Uttar Pradesh,330.77,145,229,4,39.5,3,52.03,4.7,32.2,Low/Medium Risk
+LA-INFR-01367,Industrial Corridor,Maharashtra,81.89,142,268,4,90.96,5,24.4,8.0,20.3,Low/Medium Risk
+LA-INFR-01368,Industrial Corridor,Odisha,184.48,142,247,2,36.87,4,57.53,5.2,23.2,Low/Medium Risk
+LA-INFR-01369,Urban Metro Rail,Uttar Pradesh,79.7,149,249,0,79.77,2,42.11,6.7,23.6,Low/Medium Risk
+LA-INFR-01370,National Highway,Gujarat,161.49,160,176,3,28.68,5,37.44,7.3,38.4,High Risk
+LA-INFR-01371,Irrigation Dam & Reservoir,Uttar Pradesh,431.65,162,242,4,57.68,1,82.71,5.1,58.8,High Risk
+LA-INFR-01372,Industrial Corridor,Uttar Pradesh,4.09,169,295,2,53.07,5,81.87,5.7,8.2,Low/Medium Risk
+LA-INFR-01373,Industrial Corridor,West Bengal,93.27,148,254,4,76.05,1,39.97,8.0,45.1,High Risk
+LA-INFR-01374,National Highway,West Bengal,343.76,153,231,4,68.52,2,35.55,9.8,49.0,High Risk
+LA-INFR-01375,Irrigation Dam & Reservoir,West Bengal,43.66,134,298,4,44.07,2,61.38,5.1,23.5,Low/Medium Risk
+LA-INFR-01376,Industrial Corridor,Maharashtra,113.3,148,234,0,70.32,3,12.73,8.4,44.7,High Risk
+LA-INFR-01377,Irrigation Dam & Reservoir,Uttar Pradesh,528.6,141,189,1,95.46,3,41.75,4.6,46.4,High Risk
+LA-INFR-01378,National Highway,Maharashtra,121.57,175,313,2,66.55,5,28.7,8.0,22.1,Low/Medium Risk
+LA-INFR-01379,Irrigation Dam & Reservoir,Uttar Pradesh,279.67,147,246,2,31.8,4,58.72,9.0,30.1,Low/Medium Risk
+LA-INFR-01380,Irrigation Dam & Reservoir,Uttar Pradesh,9.15,181,207,0,66.18,3,61.05,4.1,6.4,Low/Medium Risk
+LA-INFR-01381,National Highway,Tamil Nadu,157.79,168,249,1,90.48,3,45.15,4.9,37.9,High Risk
+LA-INFR-01382,Industrial Corridor,Tamil Nadu,70.51,137,200,4,53.94,4,79.98,5.6,38.8,High Risk
+LA-INFR-01383,Industrial Corridor,Gujarat,289.82,154,226,2,44.28,1,67.04,9.8,41.6,High Risk
+LA-INFR-01384,Industrial Corridor,Tamil Nadu,181.75,128,185,1,45.2,4,28.85,8.1,17.6,Low/Medium Risk
+LA-INFR-01385,Industrial Corridor,Maharashtra,7.96,162,216,1,20.92,4,22.48,9.5,18.2,Low/Medium Risk
+LA-INFR-01386,Dedicated Freight Corridor,Maharashtra,264.96,167,181,1,28.94,2,39.23,5.1,35.1,Low/Medium Risk
+LA-INFR-01387,Industrial Corridor,Uttar Pradesh,134.99,167,271,4,86.18,4,74.54,3.3,8.4,Low/Medium Risk
+LA-INFR-01388,Industrial Corridor,Gujarat,334.22,156,173,4,67.74,1,12.42,5.8,22.2,Low/Medium Risk
+LA-INFR-01389,Irrigation Dam & Reservoir,Maharashtra,52.52,169,247,3,93.05,1,52.0,7.5,56.2,High Risk
+LA-INFR-01390,Urban Metro Rail,Odisha,413.92,161,86,3,50.81,1,21.89,4.8,59.8,High Risk
+LA-INFR-01391,Dedicated Freight Corridor,Tamil Nadu,150.62,137,280,0,99.86,5,18.7,6.0,44.4,High Risk
+LA-INFR-01392,Urban Metro Rail,Tamil Nadu,74.92,169,224,3,87.95,3,56.63,5.1,9.7,Low/Medium Risk
+LA-INFR-01393,Urban Metro Rail,Maharashtra,98.27,154,227,3,26.01,4,78.99,10.0,10.4,Low/Medium Risk
+LA-INFR-01394,Irrigation Dam & Reservoir,Uttar Pradesh,32.47,168,250,3,65.3,4,66.39,3.2,25.6,Low/Medium Risk
+LA-INFR-01395,Urban Metro Rail,Uttar Pradesh,512.32,145,163,2,43.71,1,17.71,8.9,22.7,Low/Medium Risk
+LA-INFR-01396,National Highway,Odisha,131.29,172,178,3,50.12,1,41.35,3.6,42.3,High Risk
+LA-INFR-01397,Industrial Corridor,Uttar Pradesh,125.65,141,255,4,89.12,1,31.1,7.6,25.1,Low/Medium Risk
+LA-INFR-01398,Industrial Corridor,Uttar Pradesh,224.64,142,247,1,82.78,4,77.88,7.2,48.3,High Risk
+LA-INFR-01399,Urban Metro Rail,Odisha,193.18,144,251,3,61.48,1,28.37,9.8,10.4,Low/Medium Risk
+LA-INFR-01400,Urban Metro Rail,Bihar,107.27,170,248,4,43.39,5,33.47,3.9,38.5,High Risk
+LA-INFR-01401,Dedicated Freight Corridor,Bihar,482.12,131,289,2,40.34,3,78.36,9.2,46.6,High Risk
+LA-INFR-01402,Urban Metro Rail,Odisha,378.44,157,220,2,83.27,5,91.02,6.5,43.5,High Risk
+LA-INFR-01403,Irrigation Dam & Reservoir,Tamil Nadu,63.7,161,183,0,95.27,3,66.72,5.3,6.6,Low/Medium Risk
+LA-INFR-01404,Irrigation Dam & Reservoir,Odisha,260.08,147,196,1,41.27,2,54.85,10.0,31.6,Low/Medium Risk
+LA-INFR-01405,Industrial Corridor,Uttar Pradesh,26.04,146,211,0,66.67,4,28.31,8.3,55.6,High Risk
+LA-INFR-01406,Irrigation Dam & Reservoir,Gujarat,42.08,158,247,2,72.78,4,34.27,6.6,13.8,Low/Medium Risk
+LA-INFR-01407,Industrial Corridor,Odisha,159.64,156,217,2,59.68,3,51.31,5.0,17.6,Low/Medium Risk
+LA-INFR-01408,Industrial Corridor,Bihar,126.88,148,264,4,67.59,4,86.19,9.2,14.0,Low/Medium Risk
+LA-INFR-01409,Irrigation Dam & Reservoir,Gujarat,288.46,144,305,0,79.27,3,71.19,8.9,35.8,Low/Medium Risk
+LA-INFR-01410,National Highway,Uttar Pradesh,139.74,149,219,4,91.01,2,66.36,6.8,23.6,Low/Medium Risk
+LA-INFR-01411,Dedicated Freight Corridor,Uttar Pradesh,12.34,149,260,0,69.94,2,96.3,3.5,20.3,Low/Medium Risk
+LA-INFR-01412,Industrial Corridor,West Bengal,8.08,137,261,3,71.43,5,48.85,9.6,12.1,Low/Medium Risk
+LA-INFR-01413,Industrial Corridor,West Bengal,47.31,116,227,4,89.67,6,44.76,9.0,38.7,High Risk
+LA-INFR-01414,Industrial Corridor,Odisha,11.04,161,196,0,75.65,4,89.63,9.3,37.3,High Risk
+LA-INFR-01415,Irrigation Dam & Reservoir,Bihar,490.02,162,255,3,96.05,4,41.47,5.9,22.0,Low/Medium Risk
+LA-INFR-01416,Industrial Corridor,Odisha,19.08,155,176,3,92.09,4,94.81,3.8,36.9,High Risk
+LA-INFR-01417,Urban Metro Rail,Tamil Nadu,86.21,155,232,0,82.78,3,12.42,6.4,20.7,Low/Medium Risk
+LA-INFR-01418,Dedicated Freight Corridor,Tamil Nadu,191.04,120,161,2,20.97,3,65.92,9.6,19.9,Low/Medium Risk
+LA-INFR-01419,Irrigation Dam & Reservoir,Maharashtra,33.42,153,380,0,79.58,2,42.92,6.1,59.9,High Risk
+LA-INFR-01420,National Highway,Odisha,10.7,147,187,1,86.32,3,46.18,5.7,48.7,High Risk
+LA-INFR-01421,Industrial Corridor,Maharashtra,22.88,131,224,4,66.66,3,33.03,3.3,57.5,High Risk
+LA-INFR-01422,National Highway,West Bengal,37.54,158,308,1,35.86,4,29.01,5.9,19.8,Low/Medium Risk
+LA-INFR-01423,Industrial Corridor,Uttar Pradesh,252.08,153,113,0,42.76,4,69.26,9.4,23.7,Low/Medium Risk
+LA-INFR-01424,National Highway,Odisha,43.98,152,277,1,86.25,2,62.61,9.8,12.4,Low/Medium Risk
+LA-INFR-01425,Industrial Corridor,West Bengal,458.23,163,245,1,29.69,4,57.47,6.9,8.9,Low/Medium Risk
+LA-INFR-01426,National Highway,Uttar Pradesh,88.86,148,233,2,78.27,7,54.49,5.6,47.6,High Risk
+LA-INFR-01427,National Highway,Uttar Pradesh,397.63,157,337,0,21.65,2,20.42,6.6,12.6,Low/Medium Risk
+LA-INFR-01428,Industrial Corridor,Gujarat,445.26,136,198,1,77.87,4,80.85,5.7,49.8,High Risk
+LA-INFR-01429,Urban Metro Rail,Uttar Pradesh,59.26,137,227,3,22.0,0,43.27,9.5,48.1,High Risk
+LA-INFR-01430,Urban Metro Rail,Odisha,179.51,133,253,0,43.69,3,35.71,9.5,6.4,Low/Medium Risk
+LA-INFR-01431,Irrigation Dam & Reservoir,Odisha,40.01,155,353,1,91.22,2,99.87,9.9,47.2,High Risk
+LA-INFR-01432,Dedicated Freight Corridor,Odisha,360.8,162,245,3,39.44,1,79.7,5.2,17.6,Low/Medium Risk
+LA-INFR-01433,Urban Metro Rail,Bihar,477.23,161,286,1,75.82,1,48.39,4.6,32.6,Low/Medium Risk
+LA-INFR-01434,National Highway,Bihar,380.88,176,245,4,86.0,2,97.49,9.2,56.3,High Risk
+LA-INFR-01435,Urban Metro Rail,Odisha,203.22,155,309,2,82.44,5,57.22,6.4,56.5,High Risk
+LA-INFR-01436,Industrial Corridor,West Bengal,183.1,163,240,3,64.88,4,21.06,8.1,43.0,High Risk
+LA-INFR-01437,Dedicated Freight Corridor,Maharashtra,170.92,155,245,3,40.25,4,90.53,5.1,10.3,Low/Medium Risk
+LA-INFR-01438,Irrigation Dam & Reservoir,Tamil Nadu,67.64,142,212,4,44.06,5,15.73,9.1,28.5,Low/Medium Risk
+LA-INFR-01439,Irrigation Dam & Reservoir,Tamil Nadu,226.93,146,243,3,58.48,4,45.99,3.6,30.9,Low/Medium Risk
+LA-INFR-01440,National Highway,Bihar,179.95,145,221,3,78.18,1,93.48,7.6,35.6,Low/Medium Risk
+LA-INFR-01441,National Highway,Uttar Pradesh,58.11,166,206,2,85.55,5,35.2,7.3,58.3,High Risk
+LA-INFR-01442,Urban Metro Rail,Odisha,73.13,164,348,0,36.57,2,53.7,9.9,31.5,Low/Medium Risk
+LA-INFR-01443,Urban Metro Rail,Odisha,20.46,146,224,4,59.69,4,54.91,5.6,25.9,Low/Medium Risk
+LA-INFR-01444,Irrigation Dam & Reservoir,Tamil Nadu,206.5,146,270,3,81.34,3,85.43,8.2,43.9,High Risk
+LA-INFR-01445,Industrial Corridor,Bihar,291.08,147,265,0,41.72,2,65.18,9.6,6.2,Low/Medium Risk
+LA-INFR-01446,Dedicated Freight Corridor,Bihar,150.52,139,248,4,43.71,4,54.97,3.5,57.1,High Risk
+LA-INFR-01447,National Highway,Gujarat,264.56,162,176,3,53.47,4,34.55,4.0,36.1,High Risk
+LA-INFR-01448,National Highway,Tamil Nadu,80.94,162,197,3,95.06,5,33.87,5.4,49.1,High Risk
+LA-INFR-01449,Industrial Corridor,Odisha,167.12,156,283,0,75.64,3,64.87,5.3,9.9,Low/Medium Risk
+LA-INFR-01450,National Highway,Bihar,315.45,167,202,4,69.1,0,31.71,3.4,44.5,High Risk
+LA-INFR-01451,Urban Metro Rail,Odisha,411.3,146,150,3,44.62,1,62.38,7.3,12.5,Low/Medium Risk
+LA-INFR-01452,Dedicated Freight Corridor,Maharashtra,338.48,128,304,2,63.53,4,90.95,6.6,22.9,Low/Medium Risk
+LA-INFR-01453,Industrial Corridor,Uttar Pradesh,713.28,133,181,0,72.67,2,98.24,9.5,15.8,Low/Medium Risk
+LA-INFR-01454,Urban Metro Rail,Gujarat,20.45,159,227,1,83.08,4,68.89,9.7,15.0,Low/Medium Risk
+LA-INFR-01455,Urban Metro Rail,Odisha,72.01,168,224,1,54.53,3,61.1,8.2,6.8,Low/Medium Risk
+LA-INFR-01456,National Highway,Tamil Nadu,71.46,167,182,1,55.4,4,83.58,8.1,35.4,Low/Medium Risk
+LA-INFR-01457,Irrigation Dam & Reservoir,Uttar Pradesh,155.74,161,268,2,91.38,2,53.85,9.7,25.5,Low/Medium Risk
+LA-INFR-01458,Dedicated Freight Corridor,Bihar,230.61,130,211,2,55.84,6,92.39,8.9,21.2,Low/Medium Risk
+LA-INFR-01459,National Highway,West Bengal,108.95,141,304,3,44.95,4,60.64,3.7,14.2,Low/Medium Risk
+LA-INFR-01460,Dedicated Freight Corridor,West Bengal,395.92,149,203,1,68.92,7,88.22,4.9,18.3,Low/Medium Risk
+LA-INFR-01461,Industrial Corridor,West Bengal,54.56,160,218,1,86.94,6,48.88,9.2,9.2,Low/Medium Risk
+LA-INFR-01462,Irrigation Dam & Reservoir,Tamil Nadu,82.57,165,191,1,55.03,1,54.06,7.7,19.0,Low/Medium Risk
+LA-INFR-01463,Industrial Corridor,West Bengal,139.69,173,182,4,33.14,2,18.04,6.4,32.1,Low/Medium Risk
+LA-INFR-01464,Irrigation Dam & Reservoir,Gujarat,915.61,170,240,1,54.0,3,39.5,5.9,53.2,High Risk
+LA-INFR-01465,Urban Metro Rail,Uttar Pradesh,223.24,155,218,3,50.35,5,81.62,7.2,39.8,High Risk
+LA-INFR-01466,Industrial Corridor,Odisha,128.32,166,293,3,61.1,2,82.79,9.8,17.7,Low/Medium Risk
+LA-INFR-01467,Dedicated Freight Corridor,West Bengal,393.81,147,164,3,60.3,4,94.18,5.5,52.4,High Risk
+LA-INFR-01468,Dedicated Freight Corridor,Gujarat,303.29,162,216,3,54.2,4,65.03,4.2,40.9,High Risk
+LA-INFR-01469,Irrigation Dam & Reservoir,Tamil Nadu,263.81,173,203,4,72.76,3,95.46,9.9,6.6,Low/Medium Risk
+LA-INFR-01470,Irrigation Dam & Reservoir,Uttar Pradesh,140.27,163,269,3,54.91,7,13.32,9.0,44.2,High Risk
+LA-INFR-01471,Industrial Corridor,Tamil Nadu,3.97,152,194,3,84.16,1,49.21,7.1,25.6,Low/Medium Risk
+LA-INFR-01472,Industrial Corridor,Bihar,334.38,161,273,4,67.39,2,19.54,5.6,42.3,High Risk
+LA-INFR-01473,Urban Metro Rail,Maharashtra,143.21,148,275,1,98.56,3,94.21,6.2,12.7,Low/Medium Risk
+LA-INFR-01474,National Highway,Tamil Nadu,171.5,126,230,0,75.21,1,31.51,7.4,52.5,High Risk
+LA-INFR-01475,Industrial Corridor,Odisha,219.73,145,255,1,72.71,1,71.73,5.9,53.5,High Risk
+LA-INFR-01476,Dedicated Freight Corridor,West Bengal,78.75,138,318,0,92.92,2,94.96,4.0,16.4,Low/Medium Risk
+LA-INFR-01477,Irrigation Dam & Reservoir,West Bengal,41.63,145,269,1,77.17,3,99.58,8.3,23.5,Low/Medium Risk
+LA-INFR-01478,Dedicated Freight Corridor,Gujarat,14.98,146,182,2,86.42,2,42.52,6.2,46.1,High Risk
+LA-INFR-01479,Urban Metro Rail,Odisha,4.63,149,233,3,73.77,6,41.52,7.8,13.7,Low/Medium Risk
+LA-INFR-01480,Irrigation Dam & Reservoir,Bihar,671.07,133,271,3,50.08,3,53.31,5.1,22.4,Low/Medium Risk
+LA-INFR-01481,Irrigation Dam & Reservoir,Bihar,333.08,164,224,0,99.64,2,62.1,6.6,49.2,High Risk
+LA-INFR-01482,Irrigation Dam & Reservoir,Tamil Nadu,77.06,168,324,3,71.74,5,25.94,8.3,58.9,High Risk
+LA-INFR-01483,Urban Metro Rail,Odisha,303.31,143,246,4,87.39,0,93.12,4.2,46.7,High Risk
+LA-INFR-01484,National Highway,Uttar Pradesh,65.27,138,240,1,41.3,1,87.91,9.4,54.7,High Risk
+LA-INFR-01485,Irrigation Dam & Reservoir,West Bengal,495.07,160,117,3,70.89,1,97.72,7.9,27.3,Low/Medium Risk
+LA-INFR-01486,Industrial Corridor,Odisha,313.11,167,246,0,30.57,1,97.55,9.4,11.4,Low/Medium Risk
+LA-INFR-01487,Urban Metro Rail,West Bengal,82.2,135,198,2,28.77,5,67.02,3.3,8.2,Low/Medium Risk
+LA-INFR-01488,Irrigation Dam & Reservoir,Odisha,639.49,139,218,2,65.26,1,14.68,7.0,20.9,Low/Medium Risk
+LA-INFR-01489,Dedicated Freight Corridor,Maharashtra,263.47,158,257,2,37.36,3,76.95,4.6,56.9,High Risk
+LA-INFR-01490,National Highway,Gujarat,219.93,153,224,0,27.52,1,49.85,5.5,56.0,High Risk
+LA-INFR-01491,Irrigation Dam & Reservoir,Tamil Nadu,68.61,141,141,0,98.72,2,85.0,9.8,16.6,Low/Medium Risk
+LA-INFR-01492,Industrial Corridor,Uttar Pradesh,126.43,144,180,2,47.73,1,53.93,4.2,43.4,High Risk
+LA-INFR-01493,Urban Metro Rail,Odisha,39.0,172,295,4,82.62,1,33.68,9.0,16.8,Low/Medium Risk
+LA-INFR-01494,Urban Metro Rail,Odisha,349.27,142,210,4,51.63,1,50.79,8.9,34.1,Low/Medium Risk
+LA-INFR-01495,National Highway,Uttar Pradesh,60.07,154,271,3,95.91,2,94.33,9.1,47.9,High Risk
+LA-INFR-01496,National Highway,West Bengal,77.57,158,282,1,78.0,1,13.31,5.0,24.8,Low/Medium Risk
+LA-INFR-01497,Industrial Corridor,West Bengal,173.48,149,288,2,33.01,4,57.47,5.4,57.0,High Risk
+LA-INFR-01498,Industrial Corridor,Gujarat,441.76,149,342,0,34.9,5,45.57,6.4,6.6,Low/Medium Risk
+LA-INFR-01499,Dedicated Freight Corridor,West Bengal,51.81,127,233,0,30.24,6,18.24,6.1,36.6,High Risk

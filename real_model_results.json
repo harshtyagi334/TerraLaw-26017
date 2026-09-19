@@ -1,0 +1,47 @@
+{
+  "note": "Real metrics from a RandomForestClassifier trained on the COMBINED dataset (original 700 + expanded 1500 + historical 5000 records), evaluated on a 20% held-out test set never seen during training.",
+  "model_version": "v3.0.0",
+  "last_retrained": "2026-09-19T14:41:09.543897",
+  "train_size": 5760,
+  "test_size": 1440,
+  "total_records": 7200,
+  "source_breakdown": {
+    "historical": 5000,
+    "expanded": 1500,
+    "original": 700
+  },
+  "roc_auc": 0.9297,
+  "accuracy": 0.8444,
+  "precision": 0.909,
+  "recall": 0.8724,
+  "f1_score": 0.8903,
+  "confusion_matrix": {
+    "TP": 909,
+    "FP": 91,
+    "FN": 133,
+    "TN": 307
+  },
+  "feature_importance": {
+    "legal_disputes_count": 0.2845,
+    "affected_families": 0.1629,
+    "possession_pct": 0.1581,
+    "rr_progress_pct": 0.1274,
+    "stakeholder_response_days": 0.1002,
+    "land_area_hectares": 0.071,
+    "compensation_disbursed_pct": 0.0645,
+    "pending_approvals_count": 0.0313
+  },
+  "datasets_loaded": [
+    "land_acquisition_synthetic_dataset.csv",
+    "expanded_land_acquisition_delays.csv",
+    "historical_land_acquisition_delays.csv"
+  ],
+  "stage_models": [
+    "notification",
+    "approval",
+    "compensation",
+    "possession",
+    "rehabilitation"
+  ],
+  "explainability": "TreeSHAP via shap.TreeExplainer"
+}
