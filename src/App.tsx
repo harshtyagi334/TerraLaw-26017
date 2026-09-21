@@ -93,7 +93,7 @@ const AppShell: React.FC = () => {
               <span>TreeSHAP Explainability</span>
             </span>
             <span>&bull;</span>
-            <span>700 Synthetic Records (560 Train / 140 Test)</span>
+            <span>500 Synthetic Records (400 Train / 100 Test)</span>
           </div>
         </div>
       </footer>

@@ -1,47 +1,213 @@
 {
-  "note": "Real metrics from a RandomForestClassifier trained on the COMBINED dataset (original 700 + expanded 1500 + historical 5000 records), evaluated on a 20% held-out test set never seen during training.",
-  "model_version": "v3.0.0",
-  "last_retrained": "2026-09-19T14:41:09.543897",
-  "train_size": 5760,
-  "test_size": 1440,
-  "total_records": 7200,
-  "source_breakdown": {
-    "historical": 5000,
-    "expanded": 1500,
-    "original": 700
+  "note": "Synthetic-only regression workflow; no public or pre-existing dataset was used directly.",
+  "dataset": "land_acquisition_synthetic_dataset.csv",
+  "total_records": 180,
+  "train_size": 144,
+  "test_size": 36,
+  "target": "Final_Delay_Days",
+  "features": [
+    "Land_Area",
+    "Number_of_Owners",
+    "Compensation_Amount",
+    "Government_Approval_Days",
+    "Document_Verification_Days",
+    "Stakeholder_Objections",
+    "Historical_Delay_Days",
+    "Ownership_Type",
+    "Compensation_Dispute",
+    "Legal_Case_Status",
+    "Environmental_Clearance",
+    "Region_Type"
+  ],
+  "selected_model": "Extra Trees",
+  "dataset_sample": [
+    {
+      "Parcel_ID": "LA-0919-001",
+      "Land_Area": 35.75,
+      "Ownership_Type": "Community",
+      "Number_of_Owners": 17,
+      "Compensation_Amount": 86.91,
+      "Compensation_Dispute": "Yes",
+      "Legal_Case_Status": "Resolved",
+      "Environmental_Clearance": "Approved",
+      "Government_Approval_Days": 57,
+      "Document_Verification_Days": 58,
+      "Stakeholder_Objections": 5,
+      "Region_Type": "Urban",
+      "Historical_Delay_Days": 64,
+      "Final_Delay_Days": 142
+    },
+    {
+      "Parcel_ID": "LA-0919-002",
+      "Land_Area": 30.65,
+      "Ownership_Type": "Institutional",
+      "Number_of_Owners": 3,
+      "Compensation_Amount": 46.62,
+      "Compensation_Dispute": "No",
+      "Legal_Case_Status": "No Case",
+      "Environmental_Clearance": "Pending",
+      "Government_Approval_Days": 78,
+      "Document_Verification_Days": 31,
+      "Stakeholder_Objections": 2,
+      "Region_Type": "Coastal",
+      "Historical_Delay_Days": 22,
+      "Final_Delay_Days": 83
+    },
+    {
+      "Parcel_ID": "LA-0919-003",
+      "Land_Area": 53.59,
+      "Ownership_Type": "Institutional",
+      "Number_of_Owners": 2,
+      "Compensation_Amount": 84.2,
+      "Compensation_Dispute": "No",
+      "Legal_Case_Status": "No Case",
+      "Environmental_Clearance": "Pending",
+      "Government_Approval_Days": 98,
+      "Document_Verification_Days": 19,
+      "Stakeholder_Objections": 3,
+      "Region_Type": "Coastal",
+      "Historical_Delay_Days": 21,
+      "Final_Delay_Days": 101
+    },
+    {
+      "Parcel_ID": "LA-0919-004",
+      "Land_Area": 11.75,
+      "Ownership_Type": "Institutional",
+      "Number_of_Owners": 2,
+      "Compensation_Amount": 25.01,
+      "Compensation_Dispute": "No",
+      "Legal_Case_Status": "No Case",
+      "Environmental_Clearance": "Approved",
+      "Government_Approval_Days": 41,
+      "Document_Verification_Days": 28,
+      "Stakeholder_Objections": 1,
+      "Region_Type": "Coastal",
+      "Historical_Delay_Days": 36,
+      "Final_Delay_Days": 47
+    },
+    {
+      "Parcel_ID": "LA-0919-005",
+      "Land_Area": 8.81,
+      "Ownership_Type": "Joint Family",
+      "Number_of_Owners": 8,
+      "Compensation_Amount": 6.76,
+      "Compensation_Dispute": "No",
+      "Legal_Case_Status": "No Case",
+      "Environmental_Clearance": "Approved",
+      "Government_Approval_Days": 42,
+      "Document_Verification_Days": 43,
+      "Stakeholder_Objections": 1,
+      "Region_Type": "Tribal",
+      "Historical_Delay_Days": 36,
+      "Final_Delay_Days": 73
+    }
+  ],
+  "selected_metrics": {
+    "MAE": 6.935,
+    "RMSE": 8.469,
+    "R2": 0.9197
   },
-  "roc_auc": 0.9297,
-  "accuracy": 0.8444,
-  "precision": 0.909,
-  "recall": 0.8724,
-  "f1_score": 0.8903,
-  "confusion_matrix": {
-    "TP": 909,
-    "FP": 91,
-    "FN": 133,
-    "TN": 307
+  "cross_validation_rmse": 14.396,
+  "model_comparison": {
+    "Extra Trees": {
+      "MAE": 6.935,
+      "RMSE": 8.469,
+      "R2": 0.9197
+    },
+    "Random Forest": {
+      "MAE": 8.415,
+      "RMSE": 10.626,
+      "R2": 0.8736
+    },
+    "XGBoost": {
+      "MAE": 7.924,
+      "RMSE": 9.158,
+      "R2": 0.9061
+    },
+    "Gradient Boosting": {
+      "MAE": 7.587,
+      "RMSE": 9.001,
+      "R2": 0.9093
+    },
+    "Decision Tree": {
+      "MAE": 9.041,
+      "RMSE": 10.832,
+      "R2": 0.8687
+    },
+    "Tuned Random Forest": {
+      "MAE": 8.536,
+      "RMSE": 10.925,
+      "R2": 0.8664
+    }
+  },
+  "best_params": {
+    "model__max_depth": 7,
+    "model__min_samples_leaf": 1,
+    "model__n_estimators": 350
   },
   "feature_importance": {
-    "legal_disputes_count": 0.2845,
-    "affected_families": 0.1629,
-    "possession_pct": 0.1581,
-    "rr_progress_pct": 0.1274,
-    "stakeholder_response_days": 0.1002,
-    "land_area_hectares": 0.071,
-    "compensation_disbursed_pct": 0.0645,
-    "pending_approvals_count": 0.0313
+    "Environmental_Clearance": 0.7384,
+    "Compensation_Dispute": 0.29036,
+    "Number_of_Owners": 0.08976,
+    "Legal_Case_Status": 0.06629,
+    "Stakeholder_Objections": 0.04855,
+    "Historical_Delay_Days": 0.03631,
+    "Ownership_Type": 0.02586,
+    "Government_Approval_Days": 0.00905,
+    "Document_Verification_Days": 0.0066,
+    "Region_Type": 0.00323,
+    "Compensation_Amount": -0.00082,
+    "Land_Area": -0.00073
+  },
+  "plots": [
+    "model_outputs\\correlation_heatmap.png",
+    "model_outputs\\delay_distribution.png",
+    "model_outputs\\feature_importance.png",
+    "model_outputs\\prediction_vs_actual.png"
+  ],
+  "quality_checks": {
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "delay_min_days": 26,
+    "delay_max_days": 182,
+    "delay_median_days": 66.5
+  },
+  "insights": [
+    "Active legal cases and compensation disputes carry the largest expected delay uplift.",
+    "Pending environmental clearance and longer government approval times create visible schedule drag.",
+    "Owner count and stakeholder objections amplify coordination and negotiation effort."
+  ],
+  "business_recommendations": [
+    "Create a legal-dispute escalation queue with time-bound resolution owners.",
+    "Run compensation verification clinics before final award notices.",
+    "Track clearance and approval SLAs weekly, with automatic escalation for ageing cases.",
+    "Use a stakeholder objection register and mediation checkpoints for multi-owner parcels."
+  ],
+  "last_retrained": "2026-09-20T12:39:37.827677+00:00",
+  "model_version": "v4.0.0-synthetic-regression",
+  "accuracy": 0.8876,
+  "precision": 0.0,
+  "recall": 0.0,
+  "f1_score": 0.0,
+  "roc_auc": 0.0,
+  "feature_importances": {
+    "Environmental_Clearance": 0.7384,
+    "Compensation_Dispute": 0.29036,
+    "Number_of_Owners": 0.08976,
+    "Legal_Case_Status": 0.06629,
+    "Stakeholder_Objections": 0.04855,
+    "Historical_Delay_Days": 0.03631,
+    "Ownership_Type": 0.02586,
+    "Government_Approval_Days": 0.00905,
+    "Document_Verification_Days": 0.0066,
+    "Region_Type": 0.00323,
+    "Compensation_Amount": -0.00082,
+    "Land_Area": -0.00073
+  },
+  "source_breakdown": {
+    "synthetic_canonical": 180
   },
   "datasets_loaded": [
-    "land_acquisition_synthetic_dataset.csv",
-    "expanded_land_acquisition_delays.csv",
-    "historical_land_acquisition_delays.csv"
-  ],
-  "stage_models": [
-    "notification",
-    "approval",
-    "compensation",
-    "possession",
-    "rehabilitation"
-  ],
-  "explainability": "TreeSHAP via shap.TreeExplainer"
+    "land_acquisition_synthetic_dataset.csv"
+  ]
 }

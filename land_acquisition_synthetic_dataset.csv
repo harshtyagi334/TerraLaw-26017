@@ -1,701 +1,181 @@
-project_id,project_type,state,land_area_hectares,affected_families,compensation_disbursed_pct,pending_approvals_count,legal_disputes_count,possession_pct,rr_progress_pct,stakeholder_response_days,delayed
-LA500,Rural,Odisha,157.0,344,67.8,2,0,27.5,68.0,37.0,0
-LA501,Irrigation,Tamil Nadu,184.4,341,74.9,3,2,42.6,79.1,56.0,0
-LA502,Industrial,Gujarat,37.2,328,27.0,3,1,48.6,15.0,8.0,0
-LA503,Rural,Odisha,438.6,352,60.2,3,1,56.5,56.7,20.0,0
-LA504,Power,Madhya Pradesh,124.2,371,78.6,4,6,17.3,57.7,21.0,0
-LA505,Industrial,Gujarat,231.4,339,84.4,4,8,70.3,75.5,13.0,1
-LA506,Industrial,Maharashtra,604.9,332,62.0,1,3,83.8,84.4,66.0,0
-LA507,Rural,Madhya Pradesh,195.1,341,89.5,4,3,17.4,37.4,6.0,0
-LA508,Railway,Gujarat,277.4,342,44.1,2,8,24.0,38.8,35.0,1
-LA509,Power,Tamil Nadu,81.7,327,56.9,1,4,36.4,71.0,40.0,0
-LA510,Rural,Uttar Pradesh,242.1,357,57.6,3,3,20.5,62.4,13.0,0
-LA511,Power,Madhya Pradesh,8.6,345,45.7,4,9,12.2,50.5,10.0,1
-LA512,Power,Karnataka,312.2,376,69.9,0,2,69.6,45.5,15.0,0
-LA513,Industrial,Karnataka,65.4,354,32.2,4,5,17.1,69.5,4.0,0
-LA514,Irrigation,Tamil Nadu,47.6,332,73.4,3,5,81.8,48.6,16.0,0
-LA515,Power,Gujarat,118.5,352,50.3,4,4,17.8,39.8,18.0,1
-LA516,Urban,Odisha,234.9,362,81.9,0,3,66.5,40.5,85.0,0
-LA517,Industrial,Gujarat,117.7,374,87.6,2,6,6.9,29.8,5.0,0
-LA518,Railway,Tamil Nadu,53.5,367,29.5,6,3,43.8,47.0,22.0,1
-LA519,Irrigation,Karnataka,194.1,367,37.4,4,2,77.6,42.0,44.0,1
-LA520,Urban,Gujarat,66.7,328,36.1,4,1,35.9,51.7,76.0,0
-LA521,Urban,Karnataka,117.1,374,23.5,2,2,19.2,26.2,5.0,0
-LA522,Railway,Madhya Pradesh,74.9,343,92.6,1,1,17.2,77.7,84.0,0
-LA523,Irrigation,Odisha,149.4,332,57.3,2,3,27.5,24.5,19.0,0
-LA524,Industrial,Madhya Pradesh,121.8,344,44.3,3,8,87.6,56.7,20.0,1
-LA525,Highway,Karnataka,150.0,350,23.7,2,1,92.3,75.3,8.0,0
-LA526,Irrigation,Karnataka,613.8,345,51.0,4,4,28.6,52.0,26.0,0
-LA527,Railway,Uttar Pradesh,48.6,365,25.9,3,8,32.2,35.9,84.0,1
-LA528,Urban,Uttar Pradesh,334.3,396,53.4,3,3,33.3,43.1,26.0,0
-LA529,Industrial,Madhya Pradesh,4.1,323,39.6,1,3,52.2,25.3,12.0,0
-LA530,Irrigation,Maharashtra,44.9,347,80.3,3,7,65.5,46.1,14.0,1
-LA531,Highway,Madhya Pradesh,155.5,377,48.8,4,4,92.1,43.3,15.0,0
-LA532,Highway,Uttar Pradesh,118.4,376,88.7,3,2,36.9,41.8,69.0,0
-LA533,Power,Karnataka,195.6,350,35.7,2,1,66.7,45.8,80.0,0
-LA534,Power,Tamil Nadu,99.3,384,77.7,2,7,46.1,61.7,6.0,0
-LA535,Rural,Madhya Pradesh,126.3,349,60.0,4,5,53.6,23.0,9.0,1
-LA536,Railway,Karnataka,124.3,363,16.8,1,2,26.7,65.5,10.0,0
-LA537,Irrigation,Tamil Nadu,136.5,326,77.6,4,6,43.6,10.3,16.0,1
-LA538,Irrigation,Tamil Nadu,143.8,342,45.5,1,3,64.7,73.6,90.0,0
-LA539,Rural,Uttar Pradesh,120.3,337,87.1,2,3,62.6,33.2,83.0,1
-LA540,Urban,Madhya Pradesh,100.3,397,22.2,1,1,64.6,91.1,25.0,0
-LA541,Urban,Gujarat,111.0,370,32.5,1,5,63.4,58.7,17.0,0
-LA542,Rural,Odisha,159.1,371,86.7,2,3,43.3,52.8,3.0,0
-LA543,Urban,Uttar Pradesh,161.2,327,39.8,4,4,69.4,51.2,29.0,0
-LA544,Power,Uttar Pradesh,76.3,366,35.9,3,4,31.1,62.5,27.0,0
-LA545,Irrigation,Gujarat,58.1,365,30.9,4,7,51.0,43.5,8.0,1
-LA546,Rural,Odisha,24.5,356,25.0,2,4,43.3,22.7,34.0,0
-LA547,Irrigation,Karnataka,411.2,349,56.8,3,3,49.9,53.7,49.0,1
-LA548,Highway,Maharashtra,41.8,345,60.8,5,2,51.0,61.0,8.0,0
-LA549,Power,Madhya Pradesh,65.5,314,44.9,5,2,24.1,21.7,16.0,0
-LA550,Industrial,Maharashtra,227.7,323,51.3,3,2,46.4,48.1,47.0,0
-LA551,Power,Karnataka,34.2,391,74.7,4,4,57.6,65.2,13.0,0
-LA552,Rural,Uttar Pradesh,84.6,395,67.8,4,4,22.2,36.1,16.0,0
-LA553,Industrial,Odisha,261.0,339,13.4,3,4,48.9,27.9,17.0,1
-LA554,Highway,Uttar Pradesh,130.2,350,37.5,2,4,75.6,31.5,35.0,1
-LA555,Rural,Tamil Nadu,502.8,362,47.8,3,5,56.4,46.3,53.0,0
-LA556,Railway,Uttar Pradesh,215.5,316,25.1,3,3,26.8,67.3,73.0,0
-LA557,Irrigation,Uttar Pradesh,39.6,338,72.7,5,3,26.2,66.2,51.0,0
-LA558,Highway,Karnataka,144.0,338,25.2,3,1,51.3,40.2,25.0,0
-LA559,Irrigation,Karnataka,25.9,384,10.1,2,6,95.4,87.0,40.0,1
-LA560,Urban,Karnataka,198.8,379,32.0,4,6,37.9,53.5,7.0,1
-LA561,Railway,Maharashtra,90.5,349,36.1,4,5,35.9,40.1,98.0,1
-LA562,Railway,Tamil Nadu,195.5,356,66.6,1,4,50.2,43.9,12.0,0
-LA563,Highway,Karnataka,380.5,358,91.6,5,3,43.0,20.0,37.0,0
-LA564,Railway,Odisha,370.2,377,36.4,2,2,40.0,70.0,28.0,0
-LA565,Industrial,Maharashtra,117.7,347,71.1,1,3,29.0,70.4,7.0,0
-LA566,Railway,Gujarat,235.2,357,64.7,2,4,40.7,58.4,12.0,0
-LA567,Irrigation,Odisha,100.5,360,33.8,5,4,84.2,49.0,56.0,0
-LA568,Irrigation,Madhya Pradesh,154.9,362,5.0,4,4,53.5,60.3,22.0,0
-LA569,Rural,Madhya Pradesh,29.7,368,51.2,5,8,14.3,86.6,11.0,1
-LA570,Irrigation,Odisha,66.7,351,26.4,4,3,60.1,72.7,20.0,0
-LA571,Rural,Karnataka,201.8,366,22.3,1,4,91.3,10.0,11.0,0
-LA572,Irrigation,Gujarat,21.8,350,69.7,2,3,78.5,18.6,16.0,0
-LA573,Industrial,Gujarat,143.4,326,90.3,1,5,43.8,46.3,5.0,0
-LA574,Rural,Maharashtra,152.7,310,46.3,4,6,18.2,67.9,25.0,1
-LA575,Power,Gujarat,206.4,340,68.6,2,7,76.1,58.1,28.0,0
-LA576,Urban,Madhya Pradesh,29.9,351,74.9,2,7,69.3,52.7,16.0,1
-LA577,Highway,Tamil Nadu,23.9,337,74.0,3,3,2.7,33.1,56.0,1
-LA578,Irrigation,Karnataka,263.5,313,84.7,4,3,68.4,44.4,17.0,0
-LA579,Railway,Gujarat,152.8,364,28.5,2,3,24.9,51.6,22.0,0
-LA580,Irrigation,Maharashtra,101.7,322,81.8,3,3,21.5,37.7,15.0,0
-LA581,Railway,Madhya Pradesh,28.5,337,65.7,4,7,38.9,4.4,18.0,1
-LA582,Urban,Tamil Nadu,96.1,340,22.5,2,4,53.9,20.9,41.0,0
-LA583,Urban,Uttar Pradesh,49.6,377,48.2,3,5,29.7,32.0,8.0,1
-LA584,Urban,Uttar Pradesh,254.2,380,52.3,2,2,79.9,67.4,34.0,0
-LA585,Railway,Tamil Nadu,38.2,402,90.4,5,5,60.4,57.0,13.0,1
-LA586,Irrigation,Madhya Pradesh,111.3,360,73.4,7,6,25.9,21.0,8.0,0
-LA587,Urban,Maharashtra,236.7,344,87.9,4,10,73.6,69.9,18.0,1
-LA588,Industrial,Tamil Nadu,208.0,361,92.8,2,2,63.5,85.1,37.0,0
-LA589,Rural,Karnataka,91.7,329,94.4,0,6,43.4,53.9,18.0,0
-LA590,Railway,Karnataka,210.0,361,79.2,3,7,42.5,63.8,11.0,1
-LA591,Railway,Uttar Pradesh,237.0,322,33.4,3,3,74.4,91.5,81.0,0
-LA592,Irrigation,Gujarat,147.6,358,15.8,2,5,35.7,34.5,30.0,0
-LA593,Railway,Maharashtra,185.0,342,93.0,1,2,86.8,67.0,25.0,0
-LA594,Railway,Uttar Pradesh,112.5,350,54.5,7,4,39.6,27.1,36.0,1
-LA595,Urban,Gujarat,287.2,348,58.5,4,3,46.9,37.4,39.0,0
-LA596,Irrigation,Gujarat,125.2,343,32.4,7,3,51.1,25.6,16.0,1
-LA597,Urban,Karnataka,34.5,345,97.2,4,1,37.0,86.0,45.0,0
-LA598,Rural,Madhya Pradesh,192.1,372,62.5,2,6,26.0,11.1,6.0,0
-LA599,Rural,Odisha,52.0,359,79.8,2,3,10.2,30.5,38.0,1
-LA600,Urban,Madhya Pradesh,313.7,376,55.1,4,7,63.3,14.1,17.0,1
-LA601,Rural,Odisha,180.6,360,90.9,2,6,68.3,8.4,57.0,1
-LA602,Irrigation,Tamil Nadu,16.8,338,31.6,5,3,86.7,40.3,16.0,0
-LA603,Highway,Karnataka,244.5,358,17.8,4,3,81.1,66.2,50.0,1
-LA604,Urban,Gujarat,164.8,340,52.3,0,2,26.8,56.4,31.0,0
-LA605,Industrial,Maharashtra,221.4,344,31.6,0,4,38.7,42.9,44.0,0
-LA606,Industrial,Odisha,138.2,332,55.0,4,5,44.5,68.2,26.0,0
-LA607,Railway,Madhya Pradesh,303.8,338,68.2,2,6,41.4,80.0,4.0,0
-LA608,Rural,Gujarat,74.5,311,36.5,2,5,59.5,80.3,54.0,0
-LA609,Industrial,Odisha,252.7,351,31.4,5,1,77.2,66.8,56.0,0
-LA610,Railway,Odisha,168.4,371,50.1,3,8,25.9,47.7,19.0,1
-LA611,Highway,Odisha,24.1,343,56.5,4,8,7.2,18.8,14.0,1
-LA612,Irrigation,Maharashtra,21.7,345,45.4,0,3,75.3,89.9,46.0,0
-LA613,Irrigation,Karnataka,104.7,345,73.1,2,6,66.1,69.1,31.0,0
-LA614,Irrigation,Maharashtra,66.3,355,80.8,3,4,25.4,73.1,22.0,0
-LA615,Industrial,Uttar Pradesh,16.7,348,58.0,3,3,33.1,52.3,35.0,0
-LA616,Highway,Gujarat,43.5,351,45.3,2,7,10.9,77.7,19.0,1
-LA617,Industrial,Karnataka,116.9,339,81.5,3,3,67.8,15.6,56.0,0
-LA618,Rural,Karnataka,65.0,366,39.8,2,4,55.0,74.6,20.0,0
-LA619,Industrial,Karnataka,542.4,368,53.5,2,7,74.8,62.2,46.0,1
-LA620,Highway,Madhya Pradesh,75.8,337,30.6,4,4,79.6,63.0,26.0,0
-LA621,Highway,Karnataka,293.8,338,31.3,4,6,46.7,68.3,32.0,0
-LA622,Rural,Maharashtra,380.6,351,13.4,1,5,20.2,52.8,79.0,1
-LA623,Highway,Karnataka,86.7,343,27.5,4,11,13.8,74.6,17.0,1
-LA624,Highway,Tamil Nadu,80.5,339,41.2,1,3,21.4,31.5,44.0,0
-LA625,Irrigation,Gujarat,88.4,367,71.6,5,4,34.6,41.3,67.0,0
-LA626,Rural,Karnataka,116.7,348,45.3,1,2,41.0,11.9,43.0,0
-LA627,Power,Gujarat,98.4,339,21.2,4,3,33.5,38.5,58.0,0
-LA628,Power,Tamil Nadu,45.1,334,62.8,3,0,77.3,47.2,28.0,0
-LA629,Highway,Tamil Nadu,172.1,349,25.4,2,5,60.0,86.1,41.0,1
-LA630,Power,Gujarat,98.1,349,50.0,2,5,83.8,27.6,50.0,1
-LA631,Power,Odisha,555.1,352,42.4,1,2,49.5,23.6,25.0,0
-LA632,Highway,Uttar Pradesh,255.5,317,45.8,2,3,54.1,45.6,12.0,0
-LA633,Power,Madhya Pradesh,99.3,334,47.9,1,6,86.1,15.5,10.0,0
-LA634,Industrial,Odisha,203.2,327,78.8,3,3,85.5,17.7,73.0,0
-LA635,Railway,Odisha,197.7,366,55.7,1,4,6.1,74.2,66.0,0
-LA636,Rural,Maharashtra,279.5,327,46.6,1,5,26.6,52.0,14.0,0
-LA637,Railway,Madhya Pradesh,22.0,357,33.0,2,2,9.5,79.9,58.0,0
-LA638,Highway,Madhya Pradesh,41.1,360,65.3,5,4,55.7,24.5,35.0,0
-LA639,Irrigation,Odisha,64.0,341,77.5,6,4,73.3,48.3,26.0,0
-LA640,Rural,Karnataka,132.5,338,11.4,2,6,38.7,57.1,14.0,1
-LA641,Highway,Maharashtra,62.1,377,26.9,3,3,71.9,52.0,23.0,1
-LA642,Irrigation,Maharashtra,322.1,313,49.5,5,3,40.0,69.4,11.0,0
-LA643,Railway,Tamil Nadu,47.3,347,26.5,5,5,26.7,37.9,20.0,1
-LA644,Highway,Madhya Pradesh,159.7,397,46.6,0,4,45.5,91.3,11.0,0
-LA645,Rural,Odisha,167.4,335,58.6,3,5,17.6,65.9,7.0,0
-LA646,Rural,Tamil Nadu,179.8,360,72.4,3,6,82.1,57.5,59.0,1
-LA647,Urban,Gujarat,221.7,337,59.6,1,5,88.5,26.6,22.0,0
-LA648,Industrial,Uttar Pradesh,267.0,348,57.2,1,1,72.0,6.6,33.0,0
-LA649,Power,Maharashtra,362.3,346,84.7,0,5,69.5,63.3,16.0,0
-LA650,Irrigation,Gujarat,98.6,329,24.0,3,4,67.9,61.4,21.0,0
-LA651,Urban,Gujarat,64.4,333,86.0,2,0,40.4,26.2,11.0,0
-LA652,Power,Karnataka,181.4,367,66.5,1,5,68.4,54.5,74.0,0
-LA653,Power,Uttar Pradesh,179.1,336,28.1,6,3,34.0,67.8,48.0,1
-LA654,Highway,Gujarat,236.9,355,43.1,0,4,44.6,13.5,16.0,1
-LA655,Power,Gujarat,31.1,331,80.8,1,4,67.3,48.7,11.0,0
-LA656,Industrial,Uttar Pradesh,227.2,398,70.7,3,6,44.7,54.3,7.0,0
-LA657,Rural,Uttar Pradesh,36.8,329,40.9,2,5,50.6,29.6,28.0,1
-LA658,Urban,Gujarat,162.8,362,50.1,2,2,38.7,62.0,43.0,1
-LA659,Power,Uttar Pradesh,96.0,358,37.1,6,2,71.7,60.9,40.0,0
-LA660,Highway,Gujarat,301.2,329,67.7,3,4,55.9,9.0,18.0,1
-LA661,Industrial,Gujarat,33.0,366,41.9,1,6,73.9,25.8,21.0,0
-LA662,Railway,Karnataka,152.3,342,72.5,3,5,22.5,61.0,11.0,1
-LA663,Rural,Odisha,180.1,334,56.0,4,5,33.4,43.1,12.0,1
-LA664,Rural,Gujarat,99.3,334,96.2,0,6,64.2,28.9,59.0,0
-LA665,Urban,Tamil Nadu,152.2,372,59.0,2,4,78.1,45.1,4.0,0
-LA666,Rural,Maharashtra,89.6,321,42.3,1,3,41.1,66.8,4.0,0
-LA667,Power,Madhya Pradesh,147.0,359,61.4,3,3,83.1,22.0,14.0,0
-LA668,Highway,Odisha,175.0,338,39.9,5,5,23.7,51.9,73.0,1
-LA669,Rural,Odisha,86.1,343,62.5,4,4,48.9,51.6,26.0,0
-LA670,Rural,Odisha,120.3,393,79.4,2,4,76.6,56.0,110.0,0
-LA671,Railway,Karnataka,14.2,342,48.9,3,3,83.1,50.9,19.0,0
-LA672,Railway,Gujarat,95.6,336,40.3,3,3,52.0,85.4,41.0,0
-LA673,Irrigation,Karnataka,42.4,342,46.1,5,1,13.0,48.9,54.0,0
-LA674,Industrial,Gujarat,115.8,335,77.0,1,2,40.9,52.7,97.0,0
-LA675,Power,Karnataka,286.0,382,51.2,4,7,33.5,68.7,15.0,1
-LA676,Rural,Karnataka,319.7,350,43.1,0,2,53.1,39.5,25.0,0
-LA677,Rural,Maharashtra,111.7,301,31.2,2,4,53.4,73.9,22.0,0
-LA678,Highway,Tamil Nadu,46.5,330,30.4,2,3,39.4,51.2,44.0,0
-LA679,Irrigation,Karnataka,42.5,338,14.3,1,3,69.8,39.7,68.0,1
-LA680,Industrial,Maharashtra,249.2,354,69.4,4,7,70.6,27.6,68.0,1
-LA681,Irrigation,Uttar Pradesh,113.1,354,44.1,5,3,65.4,65.4,15.0,1
-LA682,Urban,Tamil Nadu,141.1,365,28.4,2,2,58.2,25.6,12.0,0
-LA683,Industrial,Karnataka,111.0,342,76.4,4,1,44.7,58.0,41.0,0
-LA684,Rural,Madhya Pradesh,192.7,346,39.0,4,4,42.6,59.8,9.0,1
-LA685,Rural,Odisha,130.4,349,34.8,2,2,40.6,28.3,45.0,0
-LA686,Industrial,Uttar Pradesh,220.6,332,59.6,2,4,50.1,35.7,25.0,0
-LA687,Rural,Uttar Pradesh,222.7,331,81.8,3,7,37.6,59.8,61.0,1
-LA688,Power,Maharashtra,57.6,373,33.9,3,4,68.9,70.4,54.0,0
-LA689,Industrial,Uttar Pradesh,169.6,315,18.7,3,5,59.1,74.5,28.0,1
-LA690,Irrigation,Tamil Nadu,308.4,388,38.1,4,8,39.6,59.6,9.0,1
-LA691,Industrial,Karnataka,190.8,345,42.7,5,4,24.7,86.0,9.0,1
-LA692,Rural,Karnataka,175.9,371,66.4,4,3,15.9,71.5,26.0,0
-LA693,Power,Madhya Pradesh,69.4,361,77.0,4,7,39.7,39.9,36.0,0
-LA694,Power,Odisha,70.5,358,90.5,2,4,39.9,61.8,20.0,1
-LA695,Urban,Maharashtra,131.9,375,71.3,2,5,79.9,43.6,11.0,0
-LA696,Irrigation,Odisha,77.9,338,48.8,5,8,30.4,77.4,20.0,1
-LA697,Railway,Uttar Pradesh,264.9,300,8.3,2,4,34.4,58.0,61.0,0
-LA698,Railway,Madhya Pradesh,116.2,365,51.5,1,3,11.3,20.7,20.0,1
-LA699,Industrial,Odisha,74.1,345,19.1,2,1,59.5,72.0,15.0,0
-LA700,Urban,Tamil Nadu,269.4,334,79.4,4,1,33.6,67.7,9.0,0
-LA701,Highway,Karnataka,49.3,339,47.8,2,8,59.2,30.5,24.0,1
-LA702,Industrial,Uttar Pradesh,130.9,405,22.3,4,5,49.1,43.1,55.0,1
-LA703,Urban,Madhya Pradesh,82.6,359,46.4,1,3,65.9,34.9,56.0,1
-LA704,Irrigation,Odisha,567.1,372,73.3,3,5,75.2,67.4,13.0,0
-LA705,Irrigation,Maharashtra,131.0,339,70.6,5,4,36.4,58.1,28.0,1
-LA706,Irrigation,Tamil Nadu,61.8,362,48.2,4,3,59.2,49.7,14.0,0
-LA707,Irrigation,Tamil Nadu,137.3,331,8.2,1,1,42.2,46.9,19.0,0
-LA708,Irrigation,Odisha,115.7,379,83.9,2,5,82.3,40.9,24.0,0
-LA709,Urban,Karnataka,71.1,344,60.9,2,3,63.9,56.8,17.0,0
-LA710,Urban,Odisha,263.8,359,61.2,7,4,30.3,15.6,74.0,1
-LA711,Power,Uttar Pradesh,208.6,352,54.9,2,9,52.3,16.0,15.0,1
-LA712,Railway,Odisha,163.9,329,34.0,3,7,43.0,46.6,14.0,1
-LA713,Rural,Tamil Nadu,66.7,354,96.3,3,5,87.7,16.1,13.0,0
-LA714,Irrigation,Madhya Pradesh,421.7,303,66.8,6,4,19.8,57.2,6.0,1
-LA715,Highway,Odisha,173.8,355,73.6,2,1,61.5,91.4,76.0,0
-LA716,Rural,Karnataka,82.0,362,69.3,2,7,65.3,16.9,25.0,1
-LA717,Urban,Madhya Pradesh,280.4,322,27.8,2,2,74.4,64.3,36.0,0
-LA718,Highway,Maharashtra,145.5,350,23.5,1,7,9.8,75.2,33.0,0
-LA719,Highway,Gujarat,257.5,386,47.4,3,4,74.6,62.8,16.0,1
-LA720,Highway,Odisha,179.2,361,76.2,5,6,54.3,55.3,25.0,1
-LA721,Power,Karnataka,509.6,348,36.4,4,5,22.8,69.0,42.0,1
-LA722,Urban,Madhya Pradesh,52.7,361,47.5,4,6,31.6,16.4,7.0,0
-LA723,Highway,Karnataka,85.8,373,66.0,3,6,57.1,60.9,19.0,1
-LA724,Irrigation,Maharashtra,733.8,368,72.4,2,2,53.7,20.5,21.0,0
-LA725,Industrial,Tamil Nadu,123.6,341,60.2,4,5,51.8,39.7,16.0,1
-LA726,Highway,Karnataka,47.5,361,46.9,3,5,67.9,43.8,16.0,1
-LA727,Power,Madhya Pradesh,200.5,353,60.5,3,7,62.5,33.7,29.0,1
-LA728,Rural,Karnataka,280.7,350,38.0,1,3,82.1,33.8,63.0,0
-LA729,Urban,Karnataka,122.2,329,12.5,4,2,49.2,46.6,35.0,1
-LA730,Power,Karnataka,18.6,363,55.1,3,5,77.9,24.6,12.0,1
-LA731,Highway,Uttar Pradesh,60.2,335,65.3,1,7,27.6,32.1,125.0,1
-LA732,Urban,Uttar Pradesh,28.3,369,61.8,1,4,29.5,17.5,64.0,1
-LA733,Industrial,Tamil Nadu,465.3,405,29.7,1,5,33.1,51.2,17.0,0
-LA734,Highway,Odisha,25.8,350,92.8,2,4,78.5,55.5,64.0,1
-LA735,Power,Karnataka,82.5,373,39.9,3,6,25.2,19.3,29.0,1
-LA736,Railway,Maharashtra,196.3,368,20.5,3,2,42.0,23.5,9.0,0
-LA737,Irrigation,Odisha,41.2,344,40.6,3,5,3.1,46.5,59.0,1
-LA738,Rural,Maharashtra,179.3,374,44.4,1,3,45.5,38.5,12.0,0
-LA739,Power,Odisha,74.3,339,23.6,3,6,42.3,93.2,36.0,0
-LA740,Urban,Tamil Nadu,169.6,374,53.1,2,4,7.1,57.2,28.0,0
-LA741,Highway,Karnataka,105.4,368,51.5,1,4,66.5,69.3,38.0,1
-LA742,Irrigation,Karnataka,117.8,357,41.7,1,7,64.9,42.7,79.0,1
-LA743,Highway,Gujarat,275.9,309,50.3,1,1,47.8,55.4,25.0,0
-LA744,Urban,Maharashtra,46.1,338,33.1,4,2,16.3,34.4,9.0,0
-LA745,Highway,Odisha,169.1,342,45.5,3,5,61.2,3.6,14.0,0
-LA746,Railway,Odisha,235.3,341,58.1,2,2,57.0,82.2,8.0,0
-LA747,Irrigation,Uttar Pradesh,41.6,345,47.4,2,5,51.9,91.4,6.0,0
-LA748,Irrigation,Gujarat,28.6,367,52.9,3,4,71.1,86.0,54.0,0
-LA749,Urban,Madhya Pradesh,107.1,346,77.3,2,0,35.2,74.7,27.0,0
-LA750,Rural,Madhya Pradesh,161.3,341,60.4,4,3,44.2,4.1,22.0,0
-LA751,Railway,Uttar Pradesh,212.2,343,9.2,2,3,61.4,64.0,17.0,0
-LA752,Power,Uttar Pradesh,35.0,358,53.6,3,1,61.0,7.7,45.0,0
-LA753,Highway,Uttar Pradesh,241.3,357,65.5,5,3,48.4,59.2,69.0,1
-LA754,Industrial,Maharashtra,303.6,346,59.7,5,5,72.9,76.8,12.0,0
-LA755,Highway,Maharashtra,174.4,322,58.2,2,6,15.1,66.6,35.0,0
-LA756,Highway,Tamil Nadu,317.5,337,50.6,1,2,4.1,72.7,51.0,0
-LA757,Power,Tamil Nadu,102.3,351,65.0,1,3,40.1,25.1,30.0,0
-LA758,Highway,Uttar Pradesh,84.1,409,55.8,4,4,25.2,15.9,43.0,0
-LA759,Railway,Gujarat,120.3,345,54.3,1,4,62.8,10.2,9.0,0
-LA760,Railway,Odisha,52.5,361,90.1,4,4,36.3,30.6,70.0,1
-LA761,Irrigation,Maharashtra,81.3,342,71.7,1,5,53.1,23.1,46.0,0
-LA762,Urban,Gujarat,134.3,337,40.4,5,0,37.1,59.0,38.0,0
-LA763,Rural,Karnataka,148.2,349,65.7,1,3,70.7,61.4,49.0,0
-LA764,Industrial,Maharashtra,185.7,338,75.4,1,5,38.8,21.5,20.0,0
-LA765,Highway,Maharashtra,12.8,317,69.4,2,6,47.4,26.5,10.0,1
-LA766,Highway,Tamil Nadu,725.1,393,68.0,4,8,77.7,61.5,8.0,1
-LA767,Power,Odisha,58.0,320,29.2,0,3,63.2,18.5,7.0,0
-LA768,Urban,Odisha,211.6,357,50.7,4,4,35.3,75.7,35.0,1
-LA769,Railway,Madhya Pradesh,164.0,337,33.4,0,3,55.2,24.0,18.0,0
-LA770,Industrial,Madhya Pradesh,76.8,403,60.8,1,4,44.8,71.3,68.0,0
-LA771,Irrigation,Madhya Pradesh,198.2,360,10.9,3,4,61.8,69.6,58.0,0
-LA772,Railway,Madhya Pradesh,59.3,356,31.0,1,5,97.0,40.1,45.0,0
-LA773,Urban,Karnataka,130.2,337,14.2,4,3,27.5,56.0,39.0,1
-LA774,Rural,Karnataka,465.7,322,39.1,3,2,20.1,79.2,14.0,0
-LA775,Irrigation,Maharashtra,92.1,390,43.1,2,5,35.2,63.6,16.0,1
-LA776,Rural,Uttar Pradesh,140.4,376,35.1,4,6,36.1,47.1,14.0,1
-LA777,Power,Tamil Nadu,50.2,355,47.2,7,1,38.8,65.4,10.0,0
-LA778,Power,Tamil Nadu,215.0,360,46.4,4,6,78.4,16.1,23.0,1
-LA779,Highway,Madhya Pradesh,68.5,336,58.7,4,6,67.0,55.9,51.0,1
-LA780,Rural,Maharashtra,166.4,397,55.7,3,5,11.1,44.9,22.0,1
-LA781,Urban,Gujarat,266.4,371,9.1,3,3,33.2,17.7,13.0,0
-LA782,Industrial,Uttar Pradesh,108.9,322,82.7,2,3,16.7,80.9,22.0,0
-LA783,Irrigation,Maharashtra,200.5,346,26.0,2,4,62.1,64.7,28.0,1
-LA784,Railway,Uttar Pradesh,173.5,346,64.0,3,3,84.9,42.6,17.0,0
-LA785,Urban,Uttar Pradesh,273.3,346,38.6,3,3,6.4,63.6,23.0,0
-LA786,Urban,Uttar Pradesh,201.3,356,33.0,2,1,25.0,73.3,124.0,0
-LA787,Power,Maharashtra,315.8,335,62.7,3,6,77.1,9.0,7.0,1
-LA788,Rural,Madhya Pradesh,108.1,320,18.2,3,5,89.3,46.2,3.0,0
-LA789,Highway,Tamil Nadu,40.1,375,80.9,3,6,13.5,85.6,27.0,0
-LA790,Highway,Tamil Nadu,25.4,333,39.5,4,4,71.8,77.7,34.0,0
-LA791,Irrigation,Madhya Pradesh,28.7,335,39.9,3,6,37.4,26.7,22.0,0
-LA792,Power,Uttar Pradesh,104.4,348,14.2,8,5,31.0,37.3,11.0,1
-LA793,Urban,Gujarat,151.6,356,23.0,3,3,69.1,62.0,67.0,0
-LA794,Industrial,Odisha,73.3,318,55.1,2,4,18.2,68.2,26.0,0
-LA795,Power,Maharashtra,74.5,371,64.5,4,2,22.4,91.5,28.0,1
-LA796,Irrigation,Odisha,91.7,352,78.4,0,1,50.1,30.1,45.0,0
-LA797,Irrigation,Madhya Pradesh,131.3,356,32.9,4,5,54.3,63.3,21.0,1
-LA798,Power,Gujarat,345.3,363,16.2,2,3,87.0,66.5,20.0,0
-LA799,Irrigation,Maharashtra,19.7,315,30.3,1,7,35.2,37.6,67.0,1
-LA800,Power,Madhya Pradesh,216.6,382,72.9,2,8,26.2,79.1,5.0,1
-LA801,Railway,Uttar Pradesh,202.0,352,29.7,1,7,37.2,46.5,32.0,0
-LA802,Power,Tamil Nadu,108.9,343,60.0,1,6,36.1,65.7,30.0,0
-LA803,Rural,Odisha,178.1,359,83.6,4,0,72.9,82.8,18.0,0
-LA804,Power,Karnataka,114.8,347,18.9,3,3,51.9,61.0,22.0,0
-LA805,Irrigation,Karnataka,199.0,335,24.2,2,2,20.9,69.0,63.0,1
-LA806,Rural,Gujarat,62.1,346,50.2,3,6,61.1,6.7,12.0,1
-LA807,Irrigation,Uttar Pradesh,55.3,358,67.5,3,6,22.9,27.0,43.0,1
-LA808,Highway,Odisha,17.3,313,60.1,3,7,63.5,60.0,25.0,1
-LA809,Highway,Uttar Pradesh,178.7,338,10.7,5,2,7.4,46.9,40.0,0
-LA810,Rural,Odisha,80.2,350,97.1,4,7,79.3,70.0,34.0,1
-LA811,Railway,Gujarat,27.4,349,73.0,1,1,26.3,29.4,3.0,0
-LA812,Highway,Gujarat,56.2,322,44.3,2,3,73.3,22.6,12.0,0
-LA813,Power,Karnataka,198.7,345,63.9,3,3,70.4,11.2,14.0,0
-LA814,Irrigation,Uttar Pradesh,150.6,336,27.6,3,2,28.1,85.0,11.0,0
-LA815,Highway,Maharashtra,58.1,329,64.7,5,2,59.9,78.7,15.0,0
-LA816,Highway,Karnataka,336.0,331,36.5,2,1,68.3,23.7,28.0,0
-LA817,Railway,Uttar Pradesh,125.7,376,18.7,3,3,41.5,52.8,48.0,0
-LA818,Rural,Karnataka,188.3,360,56.5,4,7,78.4,48.1,8.0,1
-LA819,Rural,Maharashtra,148.2,338,52.6,2,7,44.4,30.0,25.0,0
-LA820,Urban,Tamil Nadu,106.1,336,64.6,2,2,17.0,27.3,31.0,1
-LA821,Railway,Tamil Nadu,179.2,352,21.7,1,0,28.3,34.3,54.0,0
-LA822,Power,Tamil Nadu,290.8,342,74.5,3,3,38.6,77.7,72.0,0
-LA823,Rural,Tamil Nadu,104.6,367,60.3,4,6,24.1,82.1,21.0,1
-LA824,Irrigation,Madhya Pradesh,226.3,340,33.9,6,9,17.1,79.6,11.0,1
-LA825,Railway,Odisha,73.3,350,37.4,2,2,32.9,52.6,33.0,0
-LA826,Highway,Madhya Pradesh,423.4,375,79.1,5,2,62.5,27.2,11.0,0
-LA827,Irrigation,Madhya Pradesh,64.8,344,56.2,4,4,59.8,51.8,31.0,0
-LA828,Irrigation,Madhya Pradesh,519.8,350,65.1,7,4,31.5,83.4,13.0,0
-LA829,Highway,Tamil Nadu,42.0,373,64.5,4,2,21.7,72.4,36.0,0
-LA830,Railway,Maharashtra,100.0,371,92.7,3,6,32.1,16.7,14.0,1
-LA831,Highway,Gujarat,185.9,364,64.9,2,4,53.4,50.0,67.0,0
-LA832,Urban,Gujarat,304.0,356,71.1,5,2,20.6,19.0,25.0,0
-LA833,Irrigation,Odisha,381.1,360,54.5,6,6,42.3,68.0,5.0,1
-LA834,Industrial,Tamil Nadu,348.0,361,49.6,2,3,50.0,31.0,49.0,0
-LA835,Industrial,Tamil Nadu,180.9,324,53.8,2,3,53.9,34.7,22.0,0
-LA836,Power,Tamil Nadu,68.4,363,19.8,2,3,50.2,66.4,38.0,0
-LA837,Rural,Karnataka,261.7,329,65.6,1,5,82.9,5.5,49.0,0
-LA838,Highway,Uttar Pradesh,283.0,377,53.7,4,2,82.5,34.3,26.0,1
-LA839,Highway,Karnataka,167.1,342,38.3,5,6,96.6,22.6,7.0,0
-LA840,Power,Uttar Pradesh,85.4,334,22.3,5,3,22.0,34.5,28.0,0
-LA841,Power,Tamil Nadu,48.9,356,9.3,5,3,21.5,61.1,61.0,0
-LA842,Power,Tamil Nadu,72.5,311,86.8,3,1,51.6,72.4,23.0,1
-LA843,Irrigation,Karnataka,69.3,335,54.2,5,4,23.8,83.5,34.0,0
-LA844,Urban,Karnataka,136.8,353,58.8,3,7,54.4,56.4,13.0,1
-LA845,Highway,Uttar Pradesh,270.7,346,30.2,0,4,37.4,66.0,6.0,0
-LA846,Irrigation,Gujarat,144.9,361,59.3,2,1,12.1,33.7,22.0,0
-LA847,Power,Uttar Pradesh,45.2,330,54.5,2,1,65.3,5.0,26.0,0
-LA848,Highway,Karnataka,218.8,345,39.1,3,2,83.8,48.0,54.0,1
-LA849,Irrigation,Maharashtra,452.3,357,21.2,3,4,41.0,53.0,27.0,1
-LA850,Urban,Karnataka,143.5,324,49.7,4,8,51.6,40.4,51.0,1
-LA851,Irrigation,Maharashtra,74.6,324,90.1,4,3,53.1,54.8,18.0,1
-LA852,Urban,Odisha,55.0,327,38.2,3,4,55.4,47.6,7.0,1
-LA853,Power,Karnataka,209.5,333,55.4,2,3,77.3,35.6,35.0,1
-LA854,Urban,Odisha,372.8,378,34.5,2,4,59.7,60.2,66.0,1
-LA855,Highway,Gujarat,104.1,350,64.6,4,2,98.4,68.4,16.0,0
-LA856,Power,Uttar Pradesh,85.4,315,40.2,3,4,65.1,65.9,39.0,0
-LA857,Highway,Maharashtra,141.0,353,41.9,0,3,18.9,54.9,40.0,0
-LA858,Industrial,Uttar Pradesh,231.2,360,76.7,4,7,44.3,49.4,21.0,1
-LA859,Railway,Odisha,70.0,352,19.1,3,3,28.0,19.3,42.0,0
-LA860,Urban,Maharashtra,158.0,370,88.9,2,5,75.9,52.6,32.0,0
-LA861,Railway,Uttar Pradesh,192.4,349,43.7,1,3,29.7,69.2,42.0,1
-LA862,Railway,Karnataka,203.0,367,68.1,3,0,47.6,30.6,37.0,0
-LA863,Urban,Tamil Nadu,50.5,331,48.4,3,6,33.4,70.1,23.0,0
-LA864,Power,Odisha,60.9,376,17.5,2,7,61.1,35.8,26.0,0
-LA865,Industrial,Uttar Pradesh,142.5,317,50.8,1,5,38.3,92.4,53.0,0
-LA866,Highway,Odisha,220.6,332,57.7,3,4,72.6,29.8,28.0,1
-LA867,Irrigation,Madhya Pradesh,502.9,375,54.8,5,1,62.5,28.0,14.0,0
-LA868,Highway,Odisha,47.3,352,52.2,4,8,80.6,75.4,22.0,1
-LA869,Irrigation,Maharashtra,161.0,314,18.8,3,4,68.2,36.8,34.0,1
-LA870,Highway,Madhya Pradesh,133.2,316,91.1,4,0,44.2,82.5,50.0,0
-LA871,Urban,Maharashtra,93.0,368,83.6,6,3,61.5,60.5,6.0,1
-LA872,Industrial,Tamil Nadu,293.7,340,37.4,4,3,25.5,76.6,21.0,1
-LA873,Irrigation,Madhya Pradesh,201.1,342,53.8,2,3,61.0,33.0,48.0,0
-LA874,Rural,Karnataka,205.3,315,35.5,2,3,57.4,43.8,12.0,0
-LA875,Power,Odisha,44.4,348,58.0,2,3,40.4,52.1,12.0,0
-LA876,Highway,Uttar Pradesh,100.1,359,23.9,2,5,7.6,70.1,25.0,1
-LA877,Highway,Gujarat,138.6,359,48.6,2,9,80.2,10.1,6.0,1
-LA878,Irrigation,Odisha,151.7,366,46.6,2,4,81.5,73.7,78.0,0
-LA879,Power,Odisha,584.3,314,60.1,2,1,88.9,52.5,34.0,0
-LA880,Power,Tamil Nadu,104.7,354,81.9,1,1,34.4,64.1,39.0,0
-LA881,Urban,Karnataka,5.6,364,90.3,2,3,55.6,41.6,55.0,0
-LA882,Rural,Gujarat,140.0,351,52.5,1,2,74.7,79.7,108.0,0
-LA883,Urban,Madhya Pradesh,192.9,359,76.2,4,3,78.6,17.8,23.0,0
-LA884,Urban,Madhya Pradesh,139.0,364,92.7,1,1,82.0,62.8,6.0,0
-LA885,Urban,Madhya Pradesh,2.2,332,48.5,4,5,14.9,84.1,32.0,1
-LA886,Urban,Maharashtra,166.0,364,23.3,2,4,46.6,24.2,13.0,0
-LA887,Urban,Maharashtra,197.3,365,28.4,1,10,34.6,9.4,9.0,1
-LA888,Industrial,Uttar Pradesh,39.9,358,7.8,4,4,68.0,79.1,17.0,1
-LA889,Power,Gujarat,74.1,354,82.6,4,3,18.8,72.7,23.0,0
-LA890,Urban,Madhya Pradesh,127.0,328,72.3,4,5,31.9,40.9,56.0,0
-LA891,Power,Maharashtra,83.2,362,84.6,2,2,77.1,50.4,79.0,0
-LA892,Power,Uttar Pradesh,95.2,332,68.0,2,3,35.4,60.7,10.0,0
-LA893,Railway,Karnataka,167.1,335,20.5,2,4,48.9,74.8,18.0,1
-LA894,Industrial,Uttar Pradesh,78.4,346,46.5,2,2,15.3,58.9,38.0,0
-LA895,Urban,Maharashtra,29.4,350,80.8,2,1,41.8,26.7,42.0,1
-LA896,Highway,Tamil Nadu,251.5,317,76.6,5,5,56.0,25.5,11.0,0
-LA897,Irrigation,Tamil Nadu,52.0,344,59.3,1,6,60.3,78.1,48.0,1
-LA898,Rural,Madhya Pradesh,112.9,359,25.5,1,7,23.8,16.3,14.0,0
-LA899,Highway,Tamil Nadu,87.5,337,10.8,5,2,52.8,70.6,11.0,0
-LA900,Industrial,Madhya Pradesh,45.3,337,69.1,3,5,55.9,36.4,37.0,1
-LA901,Irrigation,Madhya Pradesh,246.2,357,82.6,2,5,42.5,7.2,57.0,0
-LA902,Industrial,Maharashtra,228.6,337,86.3,4,7,33.4,65.0,31.0,1
-LA903,Power,Tamil Nadu,96.8,361,45.3,2,5,21.3,52.9,28.0,0
-LA904,Irrigation,Madhya Pradesh,131.8,355,84.6,3,4,62.4,51.6,24.0,0
-LA905,Power,Gujarat,144.9,359,46.4,3,7,57.6,35.8,27.0,0
-LA906,Highway,Karnataka,48.0,366,74.1,4,9,75.4,90.1,21.0,1
-LA907,Highway,Uttar Pradesh,54.8,331,49.3,4,3,32.6,50.1,38.0,0
-LA908,Irrigation,Uttar Pradesh,130.2,361,39.2,2,5,67.9,44.3,27.0,0
-LA909,Irrigation,Maharashtra,44.2,346,37.9,2,3,14.3,37.1,103.0,0
-LA910,Urban,Tamil Nadu,129.2,336,80.0,1,1,24.8,24.6,32.0,0
-LA911,Industrial,Tamil Nadu,8.9,375,37.3,6,5,69.9,62.2,21.0,0
-LA912,Urban,Madhya Pradesh,92.5,353,49.0,4,3,37.5,39.7,10.0,0
-LA913,Industrial,Odisha,165.0,359,28.4,3,4,63.0,2.4,12.0,0
-LA914,Urban,Madhya Pradesh,155.9,378,76.6,2,6,90.9,30.7,33.0,1
-LA915,Power,Karnataka,289.5,340,56.2,2,3,84.6,75.4,16.0,0
-LA916,Irrigation,Gujarat,47.8,372,2.8,2,4,31.8,68.2,29.0,0
-LA917,Highway,Uttar Pradesh,124.4,354,22.8,5,8,46.3,30.5,59.0,1
-LA918,Industrial,Madhya Pradesh,252.9,340,76.1,1,6,93.0,73.7,8.0,0
-LA919,Industrial,Odisha,164.0,368,22.3,3,2,27.0,79.8,22.0,0
-LA920,Highway,Odisha,234.1,302,66.8,1,3,75.4,85.2,6.0,0
-LA921,Urban,Madhya Pradesh,44.3,326,24.0,1,6,47.1,76.1,30.0,1
-LA922,Industrial,Maharashtra,139.9,342,69.9,7,1,91.0,44.4,7.0,0
-LA923,Rural,Uttar Pradesh,111.1,353,38.0,6,2,44.2,62.3,8.0,0
-LA924,Power,Maharashtra,142.9,358,23.5,1,4,39.1,57.5,73.0,1
-LA925,Irrigation,Gujarat,66.4,357,20.1,5,0,81.2,81.9,15.0,0
-LA926,Highway,Odisha,317.5,356,58.4,3,2,75.6,58.4,11.0,0
-LA927,Irrigation,Odisha,216.7,357,16.3,2,4,47.6,18.3,59.0,0
-LA928,Rural,Karnataka,292.2,355,49.5,3,7,36.4,8.9,11.0,0
-LA929,Industrial,Gujarat,164.7,347,76.3,3,3,83.5,71.8,32.0,0
-LA930,Industrial,Odisha,72.8,344,25.6,4,3,42.5,42.8,33.0,0
-LA931,Rural,Gujarat,206.4,355,14.4,6,3,62.7,54.1,46.0,1
-LA932,Highway,Uttar Pradesh,319.8,384,40.6,3,6,24.0,21.3,9.0,0
-LA933,Power,Tamil Nadu,164.5,351,41.5,3,5,31.3,9.6,12.0,0
-LA934,Railway,Odisha,58.8,358,51.7,5,4,61.1,63.9,15.0,0
-LA935,Highway,Karnataka,81.7,362,83.3,0,2,29.0,81.5,13.0,0
-LA936,Railway,Uttar Pradesh,137.4,309,48.8,5,5,16.2,50.5,44.0,1
-LA937,Rural,Madhya Pradesh,347.2,360,78.5,2,6,50.6,63.6,33.0,0
-LA938,Urban,Gujarat,418.9,343,20.5,1,2,94.7,45.2,36.0,0
-LA939,Railway,Madhya Pradesh,63.2,329,35.6,4,4,30.4,73.2,6.0,1
-LA940,Power,Maharashtra,174.0,361,16.5,4,2,73.4,69.5,29.0,0
-LA941,Urban,Uttar Pradesh,80.9,358,77.5,5,3,70.9,73.1,65.0,0
-LA942,Railway,Madhya Pradesh,40.0,328,65.6,2,6,36.8,55.8,95.0,1
-LA943,Rural,Odisha,202.6,355,45.9,2,3,28.3,32.2,17.0,0
-LA944,Urban,Gujarat,149.2,361,39.7,4,1,25.4,48.0,46.0,0
-LA945,Rural,Tamil Nadu,156.3,359,28.1,4,3,43.1,67.8,13.0,0
-LA946,Railway,Uttar Pradesh,117.0,330,66.3,3,7,66.9,55.2,6.0,1
-LA947,Rural,Odisha,167.3,366,65.0,1,6,21.7,35.2,6.0,1
-LA948,Power,Karnataka,162.7,361,25.9,1,1,78.9,63.5,59.0,0
-LA949,Railway,Maharashtra,239.9,352,48.3,1,3,53.4,36.3,18.0,0
-LA950,Railway,Gujarat,65.7,345,58.7,1,7,40.0,39.7,15.0,1
-LA951,Railway,Uttar Pradesh,247.8,354,65.0,4,4,45.3,71.1,42.0,1
-LA952,Highway,Uttar Pradesh,224.5,382,77.7,3,3,41.5,78.3,8.0,0
-LA953,Highway,Tamil Nadu,169.9,355,38.4,4,0,65.5,25.5,35.0,0
-LA954,Highway,Tamil Nadu,136.5,309,36.4,3,6,43.6,65.9,21.0,0
-LA955,Power,Karnataka,123.8,346,68.3,3,4,87.6,34.1,89.0,0
-LA956,Urban,Maharashtra,124.7,356,91.0,3,6,68.4,44.5,18.0,0
-LA957,Rural,Karnataka,136.5,376,49.5,0,6,44.0,10.0,22.0,0
-LA958,Industrial,Odisha,31.0,333,73.5,6,2,47.2,82.9,6.0,0
-LA959,Railway,Odisha,540.0,376,46.0,4,5,34.1,84.9,98.0,1
-LA960,Rural,Karnataka,278.1,363,32.9,1,4,50.3,86.6,19.0,0
-LA961,Railway,Maharashtra,421.5,348,66.1,6,6,23.7,70.3,76.0,1
-LA962,Power,Karnataka,208.7,313,69.1,1,4,54.8,35.3,5.0,0
-LA963,Railway,Maharashtra,78.8,369,65.9,3,4,43.0,48.7,31.0,0
-LA964,Highway,Maharashtra,189.1,387,34.7,6,2,55.8,23.1,91.0,0
-LA965,Industrial,Madhya Pradesh,238.5,344,65.6,3,5,35.9,74.3,15.0,1
-LA966,Irrigation,Gujarat,58.7,333,38.1,1,5,68.7,55.6,29.0,1
-LA967,Railway,Maharashtra,315.5,348,94.5,4,3,90.4,53.0,61.0,0
-LA968,Rural,Tamil Nadu,94.3,322,66.6,1,4,51.2,63.8,19.0,0
-LA969,Highway,Maharashtra,222.4,347,58.7,4,5,59.3,34.9,6.0,1
-LA970,Irrigation,Maharashtra,345.5,368,70.4,5,6,31.3,35.3,17.0,1
-LA971,Industrial,Maharashtra,164.2,339,21.2,1,5,44.7,29.6,31.0,0
-LA972,Irrigation,Madhya Pradesh,347.1,326,66.6,2,7,42.8,45.6,31.0,0
-LA973,Highway,Madhya Pradesh,32.7,342,53.9,5,5,74.8,40.3,41.0,0
-LA974,Urban,Odisha,48.6,313,58.1,9,2,48.4,40.1,12.0,1
-LA975,Urban,Madhya Pradesh,65.5,369,42.8,5,7,14.1,65.0,86.0,1
-LA976,Irrigation,Tamil Nadu,23.6,341,57.1,4,1,33.9,79.8,12.0,0
-LA977,Power,Tamil Nadu,347.6,328,10.0,4,5,95.9,75.5,27.0,1
-LA978,Rural,Madhya Pradesh,293.7,349,63.2,4,6,69.2,70.4,32.0,1
-LA979,Rural,Karnataka,82.5,353,73.8,3,4,10.4,45.4,30.0,0
-LA980,Irrigation,Gujarat,517.7,326,67.4,2,4,70.8,61.7,9.0,0
-LA981,Railway,Madhya Pradesh,105.0,350,64.0,2,4,32.6,34.3,62.0,1
-LA982,Railway,Maharashtra,432.8,357,28.5,7,0,73.1,83.9,16.0,0
-LA983,Rural,Uttar Pradesh,438.5,349,70.8,4,6,70.3,45.7,34.0,1
-LA984,Rural,Gujarat,78.7,348,62.3,3,3,42.1,78.6,29.0,1
-LA985,Urban,Gujarat,238.4,370,96.5,1,3,80.1,60.9,29.0,1
-LA986,Power,Tamil Nadu,285.0,346,19.0,1,5,50.3,46.6,6.0,1
-LA987,Highway,Gujarat,76.9,363,23.2,2,5,41.5,60.7,15.0,0
-LA988,Railway,Madhya Pradesh,3.0,359,50.9,2,3,56.5,82.4,34.0,0
-LA989,Rural,Maharashtra,234.3,373,62.4,4,2,55.0,34.2,6.0,1
-LA990,Urban,Maharashtra,63.8,352,78.2,3,3,72.9,43.5,21.0,0
-LA991,Industrial,Odisha,119.8,343,89.5,4,3,38.1,22.5,27.0,1
-LA992,Urban,Maharashtra,153.9,349,28.8,6,4,25.9,79.9,39.0,1
-LA993,Railway,Maharashtra,202.2,350,27.2,2,1,83.4,31.2,27.0,0
-LA994,Railway,Tamil Nadu,100.4,371,46.2,5,6,69.5,86.5,22.0,1
-LA995,Urban,Maharashtra,162.2,373,25.4,1,6,52.6,85.0,30.0,1
-LA996,Highway,Odisha,299.4,340,45.8,4,5,33.5,29.2,20.0,1
-LA997,Irrigation,Uttar Pradesh,16.6,365,38.2,2,5,57.6,32.8,12.0,1
-LA998,Railway,Madhya Pradesh,34.3,330,41.9,5,3,46.4,75.9,17.0,0
-LA999,Urban,Tamil Nadu,45.1,354,36.9,2,1,62.8,54.1,33.0,0
-LA1000,Rural,Uttar Pradesh,85.9,358,20.6,4,0,26.3,3.4,22.0,0
-LA1001,Urban,Tamil Nadu,229.9,353,76.7,2,3,62.4,46.8,117.0,0
-LA1002,Power,Karnataka,271.0,359,62.7,6,1,59.9,49.8,9.0,1
-LA1003,Irrigation,Gujarat,114.2,354,38.9,2,4,50.3,70.0,33.0,0
-LA1004,Industrial,Karnataka,114.5,337,80.4,0,1,42.4,24.3,37.0,0
-LA1005,Highway,Maharashtra,334.7,331,19.3,2,4,39.9,94.1,26.0,0
-LA1006,Industrial,Uttar Pradesh,155.7,338,80.5,3,5,29.5,71.0,19.0,1
-LA1007,Irrigation,Maharashtra,97.9,327,86.6,2,7,75.7,94.7,25.0,0
-LA1008,Irrigation,Gujarat,249.6,368,43.3,4,7,66.5,61.7,25.0,1
-LA1009,Irrigation,Tamil Nadu,230.9,319,31.2,2,4,55.8,3.7,70.0,0
-LA1010,Industrial,Gujarat,178.5,372,72.5,2,3,78.6,47.3,4.0,0
-LA1011,Rural,Odisha,82.4,330,19.8,4,3,55.7,57.7,11.0,0
-LA1012,Irrigation,Gujarat,55.8,334,58.9,1,5,48.4,13.6,30.0,1
-LA1013,Urban,Odisha,60.8,375,21.6,1,7,45.4,12.7,51.0,1
-LA1014,Industrial,Gujarat,64.0,336,71.9,4,2,56.0,67.7,12.0,0
-LA1015,Irrigation,Madhya Pradesh,58.9,374,12.5,3,5,78.0,19.4,9.0,0
-LA1016,Urban,Odisha,86.0,357,60.2,8,7,40.9,72.6,22.0,1
-LA1017,Rural,Uttar Pradesh,131.9,328,35.2,1,4,58.4,50.7,12.0,0
-LA1018,Power,Maharashtra,144.1,342,66.2,4,2,38.4,70.5,22.0,0
-LA1019,Rural,Maharashtra,47.3,349,41.7,2,5,44.0,53.0,12.0,0
-LA1020,Irrigation,Karnataka,160.5,302,53.4,2,5,22.6,64.2,40.0,0
-LA1021,Industrial,Maharashtra,142.6,333,64.9,3,3,18.7,21.1,12.0,0
-LA1022,Railway,Tamil Nadu,122.3,380,42.5,4,8,51.6,71.2,5.0,1
-LA1023,Irrigation,Madhya Pradesh,80.2,348,36.8,3,2,53.9,93.3,40.0,1
-LA1024,Railway,Gujarat,48.4,328,74.6,4,4,38.9,66.2,25.0,0
-LA1025,Urban,Karnataka,200.9,346,61.6,5,4,66.5,13.4,18.0,0
-LA1026,Power,Tamil Nadu,141.8,344,38.2,5,6,41.7,31.9,18.0,0
-LA1027,Highway,Tamil Nadu,172.6,330,63.8,2,4,53.7,75.7,27.0,1
-LA1028,Rural,Odisha,93.9,332,27.1,5,1,27.4,69.0,9.0,1
-LA1029,Power,Maharashtra,84.8,350,48.7,3,2,52.7,79.5,7.0,1
-LA1030,Irrigation,Uttar Pradesh,268.4,380,40.7,5,6,78.1,30.5,12.0,1
-LA1031,Railway,Uttar Pradesh,105.1,350,28.6,3,5,49.1,23.7,19.0,0
-LA1032,Rural,Karnataka,149.7,347,52.5,6,8,33.0,27.4,11.0,1
-LA1033,Railway,Madhya Pradesh,125.0,329,25.5,1,4,42.4,40.3,70.0,0
-LA1034,Industrial,Uttar Pradesh,64.7,347,83.9,1,4,33.2,43.2,12.0,0
-LA1035,Railway,Gujarat,92.2,308,19.1,4,4,51.0,85.7,26.0,0
-LA1036,Industrial,Uttar Pradesh,467.3,323,85.6,3,3,28.7,49.5,35.0,0
-LA1037,Urban,Karnataka,72.6,338,25.3,7,3,42.6,57.8,56.0,0
-LA1038,Rural,Uttar Pradesh,141.1,343,74.1,2,7,66.2,82.2,77.0,0
-LA1039,Rural,Gujarat,77.0,344,15.4,0,3,40.7,58.9,97.0,0
-LA1040,Highway,Odisha,127.3,325,39.5,2,3,35.9,56.3,54.0,0
-LA1041,Irrigation,Madhya Pradesh,72.7,335,85.8,3,6,54.4,15.6,48.0,0
-LA1042,Industrial,Karnataka,87.3,353,96.0,2,3,82.5,50.7,10.0,0
-LA1043,Highway,Odisha,32.8,344,54.1,3,3,78.5,83.8,36.0,0
-LA1044,Railway,Odisha,143.4,351,63.4,3,2,28.9,47.6,20.0,0
-LA1045,Railway,Odisha,99.5,335,67.2,1,5,66.5,30.9,21.0,0
-LA1046,Highway,Tamil Nadu,193.4,359,24.4,4,5,28.8,38.8,18.0,1
-LA1047,Rural,Madhya Pradesh,127.1,337,46.9,4,6,76.6,61.9,10.0,1
-LA1048,Railway,Maharashtra,70.9,360,58.0,4,3,90.1,60.2,16.0,0
-LA1049,Urban,Madhya Pradesh,55.9,376,7.1,3,6,66.9,56.7,11.0,1
-LA1050,Urban,Tamil Nadu,132.8,337,61.5,2,2,60.5,61.1,4.0,0
-LA1051,Highway,Maharashtra,319.5,401,22.5,2,4,42.9,77.8,62.0,1
-LA1052,Industrial,Madhya Pradesh,82.8,362,23.2,2,9,56.0,40.6,25.0,1
-LA1053,Industrial,Odisha,19.5,339,32.5,0,4,88.0,80.1,26.0,1
-LA1054,Highway,Karnataka,155.1,317,68.0,4,4,45.3,61.9,24.0,0
-LA1055,Industrial,Maharashtra,297.5,336,31.5,2,1,13.7,53.4,51.0,0
-LA1056,Rural,Gujarat,196.8,331,74.2,4,0,52.6,47.7,28.0,0
-LA1057,Rural,Gujarat,42.9,384,66.8,2,4,55.8,20.7,63.0,0
-LA1058,Industrial,Uttar Pradesh,145.9,320,78.2,7,2,90.4,83.7,39.0,1
-LA1059,Urban,Maharashtra,239.3,355,35.1,5,4,55.5,34.7,13.0,1
-LA1060,Industrial,Karnataka,93.9,350,44.0,3,2,66.4,45.6,57.0,0
-LA1061,Rural,Tamil Nadu,84.5,348,28.9,1,3,88.9,54.2,32.0,0
-LA1062,Power,Odisha,86.8,364,25.2,4,4,42.8,42.5,23.0,1
-LA1063,Irrigation,Uttar Pradesh,113.8,354,90.1,1,4,49.9,62.5,47.0,0
-LA1064,Railway,Gujarat,45.7,369,53.0,2,4,52.5,85.4,26.0,0
-LA1065,Power,Tamil Nadu,154.1,310,29.0,2,4,33.1,95.4,41.0,0
-LA1066,Industrial,Tamil Nadu,159.8,333,26.3,4,4,78.8,94.2,8.0,0
-LA1067,Urban,Odisha,162.6,345,40.1,5,6,24.5,43.8,26.0,0
-LA1068,Highway,Maharashtra,128.7,376,73.7,2,5,30.7,43.1,14.0,1
-LA1069,Industrial,Gujarat,44.4,380,85.2,2,4,69.4,99.5,95.0,0
-LA1070,Urban,Karnataka,108.7,361,94.0,2,6,9.7,21.0,60.0,0
-LA1071,Irrigation,Tamil Nadu,417.5,331,81.2,3,2,45.4,37.7,29.0,0
-LA1072,Industrial,Odisha,157.8,341,43.9,4,6,67.6,15.6,56.0,1
-LA1073,Rural,Karnataka,66.3,370,90.0,1,4,73.7,16.7,14.0,0
-LA1074,Highway,Maharashtra,204.9,363,17.2,4,2,87.3,65.8,17.0,0
-LA1075,Urban,Gujarat,420.8,338,46.7,5,10,6.1,27.8,3.0,1
-LA1076,Urban,Maharashtra,172.9,339,46.0,1,4,18.8,83.0,40.0,0
-LA1077,Urban,Tamil Nadu,117.0,346,30.8,2,5,65.5,31.7,3.0,0
-LA1078,Irrigation,Karnataka,318.8,324,13.7,3,6,36.5,32.7,16.0,0
-LA1079,Industrial,Karnataka,88.2,379,22.3,1,5,46.7,76.5,8.0,1
-LA1080,Irrigation,Karnataka,264.4,363,85.7,3,2,60.0,72.3,50.0,0
-LA1081,Railway,Tamil Nadu,83.1,385,37.7,4,1,41.1,21.5,89.0,0
-LA1082,Railway,Tamil Nadu,95.3,353,67.9,4,4,2.3,58.2,45.0,0
-LA1083,Industrial,Maharashtra,228.8,378,19.5,3,4,70.6,68.7,39.0,1
-LA1084,Rural,Uttar Pradesh,309.9,340,68.1,5,7,27.8,62.9,29.0,1
-LA1085,Irrigation,Maharashtra,123.0,370,18.2,1,2,17.6,38.1,28.0,0
-LA1086,Highway,Gujarat,304.1,322,29.1,4,1,79.6,61.1,12.0,0
-LA1087,Urban,Odisha,175.6,348,37.8,2,6,42.0,70.7,6.0,1
-LA1088,Urban,Karnataka,67.2,314,48.7,1,3,87.5,45.9,27.0,1
-LA1089,Industrial,Uttar Pradesh,96.0,364,33.9,4,1,72.2,50.1,32.0,0
-LA1090,Rural,Odisha,195.1,359,23.6,3,3,38.1,81.9,32.0,0
-LA1091,Railway,Uttar Pradesh,331.9,322,24.9,2,4,76.6,30.1,35.0,0
-LA1092,Railway,Madhya Pradesh,267.6,354,72.8,2,1,71.5,11.0,42.0,0
-LA1093,Urban,Maharashtra,270.3,387,25.5,1,3,13.2,26.9,26.0,0
-LA1094,Industrial,Tamil Nadu,38.3,342,48.8,2,5,42.2,63.7,11.0,0
-LA1095,Irrigation,Karnataka,222.9,309,32.6,4,1,82.5,45.0,34.0,0
-LA1096,Railway,Maharashtra,214.8,348,45.8,4,2,77.2,8.0,40.0,1
-LA1097,Irrigation,Odisha,163.5,356,37.1,6,5,79.3,47.7,20.0,1
-LA1098,Rural,Madhya Pradesh,212.4,354,74.5,1,7,40.0,36.6,40.0,0
-LA1099,Railway,Madhya Pradesh,23.4,370,30.4,4,6,58.4,18.0,27.0,1
-LA1100,Railway,Madhya Pradesh,9.3,349,64.8,0,1,78.6,50.8,10.0,0
-LA1101,Power,Odisha,161.2,342,64.6,2,2,36.8,83.7,109.0,0
-LA1102,Railway,Odisha,126.9,340,71.9,2,2,42.6,58.0,19.0,0
-LA1103,Highway,Odisha,111.7,319,89.9,2,2,58.5,27.3,10.0,0
-LA1104,Industrial,Odisha,181.8,349,33.6,1,8,79.5,36.7,14.0,1
-LA1105,Industrial,Madhya Pradesh,154.6,334,68.0,3,7,85.8,27.1,2.0,1
-LA1106,Irrigation,Madhya Pradesh,168.8,368,80.2,5,2,40.9,66.4,20.0,0
-LA1107,Rural,Uttar Pradesh,247.8,344,68.5,1,2,53.1,87.3,62.0,0
-LA1108,Railway,Maharashtra,86.0,339,26.1,2,4,51.6,47.6,29.0,0
-LA1109,Highway,Karnataka,171.6,360,78.2,5,7,51.3,62.5,13.0,1
-LA1110,Irrigation,Tamil Nadu,77.1,345,62.9,2,8,49.7,65.0,24.0,1
-LA1111,Power,Madhya Pradesh,18.0,353,36.6,2,3,25.9,80.2,24.0,0
-LA1112,Irrigation,Tamil Nadu,105.0,315,78.2,4,4,56.6,60.9,19.0,0
-LA1113,Irrigation,Maharashtra,273.9,324,71.0,2,2,73.7,81.7,48.0,0
-LA1114,Railway,Maharashtra,62.5,387,56.2,2,3,27.5,18.1,32.0,0
-LA1115,Power,Tamil Nadu,182.6,317,70.3,3,3,15.2,70.4,11.0,0
-LA1116,Irrigation,Madhya Pradesh,249.4,353,26.7,4,7,64.6,70.6,47.0,0
-LA1117,Highway,Tamil Nadu,224.5,371,33.0,4,2,74.6,37.1,58.0,0
-LA1118,Highway,Uttar Pradesh,76.9,356,47.1,4,6,67.5,39.6,33.0,1
-LA1119,Industrial,Gujarat,71.0,336,69.3,5,2,38.1,74.8,21.0,0
-LA1120,Power,Madhya Pradesh,137.1,342,80.1,2,2,56.5,76.2,16.0,0
-LA1121,Power,Madhya Pradesh,162.6,360,29.3,0,3,21.0,45.2,72.0,0
-LA1122,Industrial,Karnataka,211.2,315,36.5,3,7,70.9,23.2,31.0,1
-LA1123,Irrigation,Odisha,212.8,331,31.1,3,3,21.4,66.0,27.0,0
-LA1124,Power,Gujarat,648.1,370,95.9,2,2,10.6,28.9,9.0,0
-LA1125,Highway,Maharashtra,350.9,346,16.0,3,6,16.6,69.4,12.0,1
-LA1126,Highway,Madhya Pradesh,100.2,375,8.1,5,0,80.9,29.2,7.0,0
-LA1127,Railway,Tamil Nadu,490.4,334,85.1,1,2,87.8,69.5,21.0,0
-LA1128,Power,Gujarat,48.2,334,43.5,2,3,83.1,25.6,16.0,0
-LA1129,Irrigation,Karnataka,53.6,386,35.6,4,3,87.0,58.7,28.0,0
-LA1130,Industrial,Maharashtra,231.6,357,28.6,2,1,13.4,54.3,53.0,0
-LA1131,Industrial,Odisha,108.5,345,29.9,0,4,75.0,18.1,41.0,0
-LA1132,Irrigation,Odisha,351.9,352,64.1,5,5,50.4,42.3,46.0,1
-LA1133,Rural,Karnataka,206.9,346,24.3,0,3,41.2,68.1,52.0,0
-LA1134,Urban,Karnataka,122.7,370,13.9,2,1,55.5,47.5,13.0,0
-LA1135,Railway,Tamil Nadu,115.2,371,72.0,3,4,76.0,11.4,18.0,1
-LA1136,Industrial,Madhya Pradesh,111.9,372,66.1,2,5,24.1,83.2,16.0,0
-LA1137,Power,Odisha,13.5,343,80.1,6,5,93.1,43.2,42.0,0
-LA1138,Railway,Maharashtra,60.7,336,33.4,5,0,32.8,21.4,9.0,0
-LA1139,Power,Gujarat,75.5,349,23.9,3,7,71.7,88.9,64.0,1
-LA1140,Rural,Maharashtra,279.6,339,29.2,4,4,39.0,19.9,18.0,0
-LA1141,Highway,Uttar Pradesh,82.1,340,70.9,5,1,88.0,60.2,9.0,0
-LA1142,Railway,Uttar Pradesh,176.2,337,40.8,2,8,47.4,53.0,18.0,0
-LA1143,Industrial,Karnataka,115.5,344,22.9,2,3,26.5,35.5,19.0,1
-LA1144,Railway,Tamil Nadu,61.2,341,43.8,4,1,41.7,23.3,21.0,0
-LA1145,Railway,Uttar Pradesh,163.0,345,38.0,4,2,27.6,76.1,22.0,0
-LA1146,Railway,Odisha,131.4,359,20.5,7,7,48.5,42.2,52.0,1
-LA1147,Urban,Maharashtra,278.2,331,87.0,6,4,70.1,61.0,32.0,1
-LA1148,Railway,Maharashtra,96.2,334,62.1,4,4,40.1,5.7,9.0,0
-LA1149,Power,Karnataka,76.6,352,74.7,3,3,14.6,68.2,19.0,0
-LA1150,Highway,Madhya Pradesh,238.9,329,39.6,5,2,52.5,77.2,16.0,0
-LA1151,Rural,Madhya Pradesh,115.5,346,65.3,2,5,44.5,66.0,26.0,0
-LA1152,Irrigation,Gujarat,252.9,378,66.9,6,2,15.7,26.1,23.0,1
-LA1153,Railway,Karnataka,84.8,344,33.7,2,4,52.7,44.9,78.0,1
-LA1154,Industrial,Gujarat,148.9,355,21.5,6,6,86.0,56.7,46.0,1
-LA1155,Railway,Madhya Pradesh,79.4,334,10.4,3,3,52.6,41.3,38.0,0
-LA1156,Industrial,Karnataka,64.5,326,45.1,2,5,49.2,38.9,3.0,1
-LA1157,Power,Karnataka,10.6,346,63.4,5,3,67.5,78.0,45.0,1
-LA1158,Industrial,Karnataka,360.3,344,13.1,3,4,66.7,35.0,4.0,0
-LA1159,Irrigation,Madhya Pradesh,88.8,354,65.0,2,2,39.4,79.3,17.0,0
-LA1160,Highway,Gujarat,193.5,367,33.7,2,8,54.0,39.7,19.0,0
-LA1161,Industrial,Gujarat,116.7,344,61.7,1,4,29.4,55.7,51.0,0
-LA1162,Industrial,Karnataka,295.4,352,73.5,4,5,73.3,80.0,11.0,0
-LA1163,Highway,Uttar Pradesh,22.5,362,34.4,2,3,56.2,25.1,22.0,0
-LA1164,Irrigation,Tamil Nadu,155.8,379,45.1,3,4,12.8,32.7,7.0,1
-LA1165,Railway,Madhya Pradesh,228.1,353,75.6,2,6,79.8,39.2,36.0,1
-LA1166,Industrial,Tamil Nadu,139.5,346,55.4,3,3,83.1,45.5,17.0,0
-LA1167,Highway,Tamil Nadu,70.3,368,65.7,2,5,52.8,85.6,28.0,0
-LA1168,Power,Gujarat,23.6,334,52.0,0,6,63.9,14.1,1.0,0
-LA1169,Highway,Gujarat,77.2,385,61.5,2,4,43.1,45.3,9.0,0
-LA1170,Power,Uttar Pradesh,16.1,347,34.3,3,3,20.9,40.8,29.0,0
-LA1171,Irrigation,Tamil Nadu,224.2,374,14.9,1,5,76.2,67.0,39.0,0
-LA1172,Railway,Tamil Nadu,188.1,333,90.6,2,2,76.3,41.7,65.0,0
-LA1173,Highway,Karnataka,241.1,308,18.7,3,7,32.3,24.7,59.0,1
-LA1174,Rural,Gujarat,57.7,347,30.4,1,4,40.3,48.6,15.0,0
-LA1175,Rural,Tamil Nadu,49.2,344,54.9,4,3,71.9,27.6,28.0,0
-LA1176,Urban,Maharashtra,195.6,329,17.0,1,2,47.8,75.2,43.0,0
-LA1177,Industrial,Uttar Pradesh,190.4,368,24.2,5,2,49.4,87.7,31.0,0
-LA1178,Irrigation,Maharashtra,19.9,328,94.8,1,2,62.6,64.2,19.0,0
-LA1179,Highway,Maharashtra,73.8,337,86.3,1,0,69.0,19.8,29.0,0
-LA1180,Rural,Madhya Pradesh,373.3,345,55.3,5,5,60.4,23.3,62.0,1
-LA1181,Industrial,Madhya Pradesh,231.1,311,70.1,0,4,88.7,45.7,24.0,0
-LA1182,Rural,Uttar Pradesh,108.9,344,38.6,2,1,77.8,81.5,36.0,0
-LA1183,Highway,Maharashtra,43.1,332,88.4,2,3,62.2,21.8,30.0,0
-LA1184,Power,Tamil Nadu,56.5,336,45.3,4,9,44.5,17.3,14.0,1
-LA1185,Highway,Gujarat,93.7,378,63.6,2,3,90.3,66.9,51.0,0
-LA1186,Urban,Uttar Pradesh,34.2,334,45.6,4,5,62.9,82.8,25.0,1
-LA1187,Highway,Karnataka,302.0,335,89.9,5,7,74.3,70.3,19.0,1
-LA1188,Highway,Maharashtra,284.0,370,53.0,2,6,33.8,49.2,30.0,1
-LA1189,Urban,Uttar Pradesh,44.7,370,92.2,3,4,70.4,30.2,55.0,1
-LA1190,Irrigation,Odisha,439.6,328,57.6,4,4,67.9,59.1,28.0,0
-LA1191,Highway,Odisha,91.1,342,57.0,5,6,55.9,40.4,28.0,1
-LA1192,Urban,Madhya Pradesh,133.9,337,69.3,2,3,11.9,42.6,36.0,1
-LA1193,Industrial,Gujarat,90.0,367,84.4,4,2,57.4,21.8,42.0,0
-LA1194,Power,Tamil Nadu,49.0,354,48.9,4,4,60.6,59.6,20.0,1
-LA1195,Power,Gujarat,99.3,338,4.8,2,0,21.9,63.1,23.0,0
-LA1196,Highway,Gujarat,20.3,356,63.6,3,5,64.7,33.7,19.0,0
-LA1197,Irrigation,Gujarat,99.9,346,41.2,0,3,82.8,68.3,35.0,0
-LA1198,Irrigation,Gujarat,123.9,353,91.6,7,5,30.1,70.4,25.0,0
-LA1199,Industrial,Karnataka,158.4,360,57.2,0,4,77.5,66.4,26.0,0
+Parcel_ID,Land_Area,Ownership_Type,Number_of_Owners,Compensation_Amount,Compensation_Dispute,Legal_Case_Status,Environmental_Clearance,Government_Approval_Days,Document_Verification_Days,Stakeholder_Objections,Region_Type,Historical_Delay_Days,Final_Delay_Days
+LA-0919-001,35.75,Community,17,86.91,Yes,Resolved,Approved,57,58,5,Urban,64,142
+LA-0919-002,30.65,Institutional,3,46.62,No,No Case,Pending,78,31,2,Coastal,22,83
+LA-0919-003,53.59,Institutional,2,84.2,No,No Case,Pending,98,19,3,Coastal,21,101
+LA-0919-004,11.75,Institutional,2,25.01,No,No Case,Approved,41,28,1,Coastal,36,47
+LA-0919-005,8.81,Joint Family,8,6.76,No,No Case,Approved,42,43,1,Tribal,36,73
+LA-0919-006,23.22,Individual,2,54.67,No,Resolved,Not Required,51,21,1,Industrial,32,56
+LA-0919-007,21.0,Individual,2,67.52,No,No Case,Approved,46,21,0,Urban,3,26
+LA-0919-008,29.93,Joint Family,5,56.63,Yes,Resolved,Approved,56,34,3,Coastal,32,100
+LA-0919-009,15.62,Joint Family,4,8.66,No,No Case,Approved,43,30,2,Rural,39,49
+LA-0919-010,30.74,Individual,1,16.51,No,No Case,Pending,95,16,1,Rural,19,78
+LA-0919-011,29.92,Community,15,86.64,No,No Case,Approved,33,40,7,Urban,56,96
+LA-0919-012,7.13,Institutional,1,10.34,No,No Case,Approved,39,31,2,Coastal,27,61
+LA-0919-013,55.92,Individual,1,30.8,No,No Case,Approved,64,22,2,Rural,42,54
+LA-0919-014,38.92,Individual,1,30.43,No,No Case,Approved,40,17,1,Tribal,34,31
+LA-0919-015,53.23,Community,5,178.17,No,Resolved,Not Required,39,33,1,Urban,14,47
+LA-0919-016,40.43,Joint Family,5,21.42,No,No Case,Approved,32,30,0,Rural,7,31
+LA-0919-017,99.04,Institutional,4,203.95,No,No Case,Pending,66,31,1,Industrial,19,71
+LA-0919-018,90.1,Community,8,238.89,No,No Case,Pending,77,45,1,Industrial,40,98
+LA-0919-019,38.01,Joint Family,2,25.23,No,No Case,Pending,102,23,1,Tribal,26,98
+LA-0919-020,14.2,Joint Family,2,8.34,No,No Case,Approved,34,23,2,Rural,27,37
+LA-0919-021,12.14,Individual,2,19.34,Yes,No Case,Pending,95,35,1,Coastal,44,141
+LA-0919-022,82.12,Individual,1,38.0,No,No Case,Approved,44,18,2,Rural,53,50
+LA-0919-023,118.37,Institutional,3,57.16,Yes,Active Case,Approved,50,32,2,Rural,46,144
+LA-0919-024,23.16,Individual,2,43.61,No,No Case,Not Required,38,24,2,Coastal,34,52
+LA-0919-025,94.43,Joint Family,3,288.9,No,No Case,Approved,48,24,4,Urban,44,57
+LA-0919-026,11.38,Institutional,1,33.41,No,No Case,Approved,20,26,1,Urban,27,39
+LA-0919-027,52.03,Individual,1,125.57,No,No Case,Approved,32,21,2,Urban,41,64
+LA-0919-028,5.91,Joint Family,3,10.5,No,No Case,Approved,39,27,3,Coastal,39,53
+LA-0919-029,175.81,Individual,1,95.51,No,No Case,Approved,53,27,1,Rural,43,57
+LA-0919-030,43.9,Community,12,86.22,No,No Case,Approved,34,40,3,Industrial,30,88
+LA-0919-031,52.46,Community,7,42.9,No,No Case,Approved,41,41,0,Tribal,30,51
+LA-0919-032,58.19,Individual,2,92.72,No,No Case,Pending,101,22,1,Coastal,45,101
+LA-0919-033,17.36,Community,12,35.38,No,No Case,Not Required,44,45,5,Industrial,41,77
+LA-0919-034,17.7,Individual,1,46.04,No,No Case,Approved,41,31,1,Industrial,41,47
+LA-0919-035,20.12,Individual,2,63.1,No,No Case,Not Required,65,28,4,Urban,36,66
+LA-0919-036,24.34,Individual,2,13.16,No,No Case,Pending,95,10,4,Rural,25,92
+LA-0919-037,41.76,Individual,2,92.4,No,No Case,Approved,42,22,5,Industrial,44,71
+LA-0919-038,40.84,Community,6,83.35,No,Resolved,Pending,89,26,4,Coastal,37,111
+LA-0919-039,34.02,Joint Family,8,61.36,No,Resolved,Approved,61,34,1,Coastal,27,78
+LA-0919-040,33.25,Joint Family,3,84.07,No,Resolved,Pending,83,25,2,Industrial,28,104
+LA-0919-041,31.65,Community,5,14.67,No,Resolved,Approved,45,28,2,Rural,38,79
+LA-0919-042,42.9,Individual,1,73.76,No,No Case,Approved,59,26,2,Coastal,19,45
+LA-0919-043,20.32,Individual,2,52.73,No,No Case,Not Required,45,23,1,Urban,18,45
+LA-0919-044,49.5,Joint Family,5,81.38,No,No Case,Approved,34,26,2,Coastal,25,41
+LA-0919-045,18.4,Individual,2,32.54,No,No Case,Approved,43,25,0,Coastal,35,54
+LA-0919-046,5.26,Institutional,1,2.45,No,No Case,Approved,59,21,3,Rural,27,52
+LA-0919-047,84.04,Joint Family,4,188.7,No,No Case,Pending,90,24,2,Industrial,47,101
+LA-0919-048,26.91,Joint Family,5,14.51,No,No Case,Approved,23,28,3,Rural,44,63
+LA-0919-049,22.62,Individual,1,41.3,No,Resolved,Not Required,40,24,2,Industrial,23,57
+LA-0919-050,8.6,Community,15,26.8,No,No Case,Pending,83,45,9,Urban,57,156
+LA-0919-051,27.3,Individual,2,86.24,No,No Case,Approved,15,25,2,Urban,38,52
+LA-0919-052,48.88,Individual,2,40.08,No,No Case,Not Required,44,16,4,Tribal,42,54
+LA-0919-053,33.0,Individual,1,66.18,No,No Case,Pending,98,24,2,Industrial,41,90
+LA-0919-054,35.99,Individual,2,48.41,No,No Case,Pending,82,31,0,Coastal,24,89
+LA-0919-055,11.02,Individual,1,31.88,No,No Case,Approved,47,18,4,Urban,44,52
+LA-0919-056,30.93,Community,15,17.41,Yes,Active Case,Approved,39,61,2,Rural,69,168
+LA-0919-057,54.02,Individual,2,37.05,No,Resolved,Approved,44,19,1,Rural,28,44
+LA-0919-058,16.96,Institutional,3,44.94,Yes,Active Case,Pending,80,28,0,Industrial,39,174
+LA-0919-059,38.92,Individual,1,21.3,Yes,Active Case,Approved,25,28,4,Rural,24,135
+LA-0919-060,107.54,Individual,2,73.94,No,No Case,Approved,62,21,2,Tribal,21,57
+LA-0919-061,9.71,Joint Family,7,25.7,No,Resolved,Pending,80,27,4,Industrial,35,119
+LA-0919-062,11.47,Community,13,19.83,Yes,No Case,Approved,50,57,7,Coastal,61,142
+LA-0919-063,78.29,Individual,2,141.9,No,No Case,Approved,27,19,1,Coastal,16,33
+LA-0919-064,9.73,Community,17,5.59,Yes,No Case,Not Required,44,61,2,Rural,47,104
+LA-0919-065,45.45,Community,7,114.68,Yes,Resolved,Approved,42,42,4,Urban,62,124
+LA-0919-066,36.16,Joint Family,6,31.47,No,No Case,Approved,39,32,1,Tribal,36,48
+LA-0919-067,45.0,Joint Family,8,29.51,No,No Case,Pending,105,37,1,Tribal,50,115
+LA-0919-068,13.31,Individual,1,23.65,No,No Case,Pending,75,23,2,Coastal,34,88
+LA-0919-069,10.1,Joint Family,6,17.48,No,No Case,Approved,50,29,2,Coastal,33,54
+LA-0919-070,5.88,Institutional,3,3.29,No,No Case,Approved,50,31,1,Rural,21,39
+LA-0919-071,29.0,Individual,2,44.79,No,No Case,Approved,46,32,0,Coastal,39,36
+LA-0919-072,20.78,Individual,1,44.31,No,Resolved,Pending,86,13,1,Industrial,17,88
+LA-0919-073,20.82,Community,8,40.16,No,No Case,Approved,27,30,2,Coastal,27,48
+LA-0919-074,32.95,Community,10,87.46,No,No Case,Not Required,44,41,3,Urban,41,71
+LA-0919-075,29.18,Community,5,49.11,Yes,Under Review,Approved,60,44,5,Coastal,53,149
+LA-0919-076,162.27,Community,13,83.32,No,No Case,Approved,57,42,3,Rural,49,93
+LA-0919-077,90.63,Individual,1,45.86,No,No Case,Approved,43,22,1,Rural,46,43
+LA-0919-078,7.71,Individual,1,19.5,No,Resolved,Approved,29,13,1,Industrial,29,43
+LA-0919-079,33.1,Joint Family,7,80.35,No,No Case,Not Required,39,28,4,Industrial,36,60
+LA-0919-080,25.39,Joint Family,2,11.67,No,No Case,Not Required,18,28,1,Rural,24,26
+LA-0919-081,7.48,Community,7,13.05,Yes,Under Review,Pending,89,44,2,Coastal,55,170
+LA-0919-082,4.78,Individual,1,12.35,No,Resolved,Approved,46,30,3,Urban,37,83
+LA-0919-083,33.83,Joint Family,6,98.02,No,No Case,Approved,34,44,2,Urban,38,59
+LA-0919-084,13.54,Individual,1,11.99,No,No Case,Pending,85,11,2,Tribal,41,91
+LA-0919-085,44.33,Individual,2,18.85,No,Resolved,Approved,35,20,2,Rural,17,47
+LA-0919-086,17.39,Community,16,44.9,Yes,Active Case,Not Required,36,63,3,Urban,77,182
+LA-0919-087,33.98,Individual,1,28.06,No,No Case,Approved,53,20,0,Tribal,30,44
+LA-0919-088,32.72,Joint Family,3,21.28,Yes,Under Review,Not Required,34,24,4,Rural,25,105
+LA-0919-089,18.81,Community,14,7.6,No,No Case,Not Required,63,51,3,Rural,42,84
+LA-0919-090,31.33,Community,15,13.37,No,No Case,Approved,45,51,4,Rural,41,97
+LA-0919-091,65.78,Community,9,35.19,No,No Case,Approved,61,35,5,Rural,33,79
+LA-0919-092,51.09,Community,14,120.27,Yes,No Case,Approved,50,62,3,Urban,65,119
+LA-0919-093,47.81,Institutional,1,81.9,No,No Case,Approved,46,14,1,Industrial,18,36
+LA-0919-094,9.79,Individual,1,5.46,No,No Case,Approved,48,29,0,Tribal,11,31
+LA-0919-095,13.36,Community,11,23.9,Yes,Resolved,Pending,74,49,5,Coastal,59,177
+LA-0919-096,25.25,Joint Family,8,15.61,No,Resolved,Approved,59,21,3,Tribal,53,92
+LA-0919-097,14.41,Individual,2,42.73,No,No Case,Approved,38,19,1,Urban,37,48
+LA-0919-098,2.04,Individual,1,3.93,No,No Case,Approved,33,28,2,Coastal,32,38
+LA-0919-099,21.89,Community,10,16.62,No,No Case,Not Required,42,45,3,Tribal,46,70
+LA-0919-100,11.64,Institutional,1,9.28,No,No Case,Not Required,49,15,2,Tribal,18,30
+LA-0919-101,31.46,Individual,1,13.34,No,No Case,Pending,76,26,2,Rural,22,94
+LA-0919-102,19.93,Joint Family,6,45.75,No,No Case,Approved,48,33,1,Industrial,44,58
+LA-0919-103,58.89,Individual,1,128.25,No,No Case,Approved,41,17,2,Industrial,35,55
+LA-0919-104,15.14,Joint Family,6,9.07,No,No Case,Approved,28,24,2,Tribal,41,62
+LA-0919-105,7.55,Individual,1,22.46,No,No Case,Approved,14,21,2,Urban,34,32
+LA-0919-106,12.46,Individual,2,20.44,No,No Case,Pending,90,25,5,Coastal,45,115
+LA-0919-107,19.24,Individual,1,49.41,No,No Case,Approved,28,15,0,Urban,38,47
+LA-0919-108,54.07,Joint Family,5,31.56,No,No Case,Pending,96,25,5,Rural,38,118
+LA-0919-109,14.85,Individual,1,8.75,No,No Case,Approved,56,25,1,Rural,25,57
+LA-0919-110,12.77,Institutional,4,28.18,No,No Case,Approved,36,17,0,Industrial,34,47
+LA-0919-111,38.99,Joint Family,7,89.08,No,No Case,Pending,106,39,2,Urban,29,112
+LA-0919-112,8.65,Community,6,21.46,No,Resolved,Approved,46,36,2,Industrial,35,67
+LA-0919-113,11.06,Joint Family,6,19.06,No,No Case,Not Required,38,41,3,Coastal,38,78
+LA-0919-114,11.47,Institutional,2,35.3,No,No Case,Approved,64,19,5,Urban,30,60
+LA-0919-115,135.11,Joint Family,6,316.65,No,Resolved,Pending,72,31,1,Industrial,27,102
+LA-0919-116,67.09,Individual,1,190.04,No,No Case,Approved,15,19,5,Urban,32,57
+LA-0919-117,25.92,Individual,1,18.94,Yes,No Case,Approved,36,34,1,Tribal,45,73
+LA-0919-118,38.95,Community,10,88.88,No,Resolved,Approved,42,28,3,Industrial,34,74
+LA-0919-119,41.72,Individual,1,104.07,No,No Case,Approved,35,17,0,Urban,28,42
+LA-0919-120,75.92,Community,12,45.85,Yes,Under Review,Approved,63,58,5,Rural,61,155
+LA-0919-121,29.78,Community,6,61.4,No,No Case,Not Required,39,36,3,Industrial,44,52
+LA-0919-122,13.74,Joint Family,4,33.47,No,No Case,Pending,71,26,0,Urban,22,85
+LA-0919-123,15.06,Community,13,29.58,No,No Case,Not Required,41,45,3,Coastal,54,86
+LA-0919-124,183.29,Individual,2,96.91,No,No Case,Approved,29,25,5,Rural,58,68
+LA-0919-125,121.88,Institutional,3,62.11,No,Resolved,Approved,50,27,1,Rural,18,49
+LA-0919-126,134.95,Individual,1,74.6,No,Resolved,Not Required,24,12,2,Rural,9,35
+LA-0919-127,11.05,Institutional,4,26.49,No,Resolved,Not Required,61,30,4,Urban,24,78
+LA-0919-128,20.01,Individual,2,67.8,No,No Case,Approved,33,23,1,Urban,24,33
+LA-0919-129,152.87,Individual,2,444.43,No,Resolved,Not Required,60,20,3,Urban,31,67
+LA-0919-130,99.64,Individual,1,45.39,No,No Case,Approved,56,9,1,Rural,29,47
+LA-0919-131,262.1,Community,17,141.44,No,No Case,Approved,54,57,1,Rural,23,76
+LA-0919-132,8.3,Joint Family,4,15.18,No,No Case,Pending,102,32,0,Industrial,36,94
+LA-0919-133,3.16,Institutional,3,6.38,No,No Case,Not Required,69,16,2,Urban,24,62
+LA-0919-134,16.36,Community,5,34.87,Yes,Under Review,Pending,94,46,5,Industrial,49,177
+LA-0919-135,31.45,Joint Family,8,14.69,No,Resolved,Pending,86,38,2,Rural,71,132
+LA-0919-136,35.29,Individual,1,78.87,No,No Case,Approved,35,14,1,Industrial,27,52
+LA-0919-137,26.73,Individual,2,42.32,No,No Case,Approved,45,36,0,Coastal,40,66
+LA-0919-138,11.53,Individual,1,5.68,No,No Case,Approved,73,13,1,Rural,25,48
+LA-0919-139,4.46,Institutional,1,3.52,Yes,Under Review,Approved,30,25,1,Tribal,47,105
+LA-0919-140,3.62,Individual,2,10.95,No,No Case,Approved,30,26,2,Urban,27,45
+LA-0919-141,23.55,Joint Family,3,41.97,No,No Case,Approved,36,24,1,Coastal,5,35
+LA-0919-142,54.14,Individual,1,127.05,No,No Case,Pending,89,22,1,Industrial,27,96
+LA-0919-143,12.45,Individual,2,21.24,No,No Case,Approved,49,11,0,Coastal,31,54
+LA-0919-144,31.58,Individual,2,85.91,No,No Case,Pending,88,17,1,Urban,39,106
+LA-0919-145,60.64,Joint Family,6,37.06,No,No Case,Approved,38,30,2,Rural,42,53
+LA-0919-146,2.46,Individual,1,1.76,No,No Case,Approved,28,26,1,Tribal,35,33
+LA-0919-147,17.09,Community,12,9.05,No,Resolved,Approved,34,50,4,Rural,59,97
+LA-0919-148,51.12,Individual,1,109.58,No,No Case,Approved,53,15,3,Industrial,22,53
+LA-0919-149,86.77,Joint Family,4,265.33,No,No Case,Approved,41,27,1,Urban,32,50
+LA-0919-150,27.52,Community,16,45.86,Yes,No Case,Approved,62,60,4,Coastal,62,133
+LA-0919-151,43.03,Joint Family,8,73.03,No,No Case,Not Required,64,32,4,Coastal,58,97
+LA-0919-152,89.18,Community,7,43.48,Yes,Under Review,Pending,97,39,2,Rural,41,167
+LA-0919-153,5.69,Joint Family,5,18.77,No,No Case,Approved,48,18,0,Urban,32,38
+LA-0919-154,155.78,Individual,2,125.46,No,No Case,Approved,66,28,1,Tribal,7,40
+LA-0919-155,41.81,Individual,1,23.45,No,Resolved,Approved,52,15,1,Rural,32,50
+LA-0919-156,53.96,Joint Family,5,26.22,No,Resolved,Approved,52,32,1,Rural,33,67
+LA-0919-157,13.68,Individual,1,29.1,No,No Case,Approved,46,22,0,Industrial,25,43
+LA-0919-158,17.3,Joint Family,2,14.42,No,No Case,Approved,35,21,1,Tribal,20,42
+LA-0919-159,133.68,Individual,2,455.41,Yes,No Case,Approved,34,25,4,Urban,49,91
+LA-0919-160,69.43,Joint Family,5,44.69,No,No Case,Approved,70,33,1,Rural,26,55
+LA-0919-161,11.21,Joint Family,8,30.65,No,Resolved,Approved,28,39,4,Urban,54,84
+LA-0919-162,92.71,Joint Family,6,229.06,No,No Case,Not Required,48,41,1,Industrial,41,67
+LA-0919-163,130.99,Individual,1,101.26,No,No Case,Approved,19,20,2,Tribal,44,36
+LA-0919-164,15.14,Individual,2,12.35,No,Resolved,Approved,32,26,4,Tribal,29,67
+LA-0919-165,41.85,Community,17,95.67,Yes,Under Review,Not Required,59,69,1,Industrial,43,161
+LA-0919-166,63.95,Individual,2,51.46,No,No Case,Not Required,41,18,1,Tribal,29,53
+LA-0919-167,27.37,Individual,1,17.84,No,No Case,Approved,59,19,0,Rural,3,26
+LA-0919-168,30.82,Institutional,2,49.74,No,Resolved,Pending,78,23,4,Coastal,34,97
+LA-0919-169,114.52,Individual,2,58.75,No,No Case,Not Required,31,19,1,Rural,39,48
+LA-0919-170,46.48,Institutional,2,147.78,No,No Case,Pending,91,27,1,Urban,21,96
+LA-0919-171,10.55,Joint Family,6,24.91,No,No Case,Pending,73,30,2,Industrial,41,116
+LA-0919-172,17.24,Individual,1,12.29,No,No Case,Approved,35,14,1,Tribal,28,40
+LA-0919-173,20.36,Individual,2,16.31,No,No Case,Pending,68,22,0,Tribal,47,103
+LA-0919-174,62.29,Individual,2,104.08,No,Resolved,Approved,35,27,1,Coastal,33,53
+LA-0919-175,34.01,Individual,1,90.91,No,No Case,Approved,40,26,4,Urban,33,53
+LA-0919-176,55.8,Joint Family,4,33.0,No,No Case,Approved,51,33,3,Rural,26,57
+LA-0919-177,30.63,Community,17,97.35,No,No Case,Approved,50,54,2,Urban,40,77
+LA-0919-178,8.11,Joint Family,4,4.08,No,No Case,Pending,95,31,4,Rural,35,102
+LA-0919-179,182.88,Individual,1,237.48,No,No Case,Pending,94,20,1,Coastal,30,96
+LA-0919-180,2.63,Joint Family,6,7.61,No,No Case,Pending,88,39,2,Urban,34,113

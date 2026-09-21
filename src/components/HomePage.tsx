@@ -265,73 +265,35 @@ export const HomePage: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#F4F5F0] text-[#141E1A] flex flex-col font-sans">
-      {/* 1. TOP OFFICIAL GOVERNMENT OF INDIA IDENTITY STRIP */}
-      <header className="bg-[#0A2218] text-white border-b border-[#1C4332]">
-        <div className="border-b border-[#143325] bg-[#071911] px-4 sm:px-6 lg:px-8 py-1.5">
-          <div className="max-w-[1536px] mx-auto flex flex-col sm:flex-row items-center justify-between text-[11px] text-[#86A697] font-mono-data gap-1 sm:gap-4">
-            <div className="flex items-center gap-2.5">
-              <span className="text-[#C4D9CD] font-bold tracking-wider uppercase">
-                भारत सरकार &bull; Government of India
-              </span>
-              <span className="text-[#476B5A]">|</span>
-              <span className="text-[#A5C8B6]">
-                Ministry of Rural Development &bull; Department of Land Resources (DoLR)
-              </span>
-            </div>
-            <div className="flex items-center gap-4 text-[10px]">
-              <span className="font-mono text-[9px] font-bold px-2 py-0.5 rounded-[2px] bg-amber-400/20 text-amber-300 border border-amber-400/40 tracking-wider">
-                SIH 2026 PROTOTYPE — DEMO DATA
-              </span>
-              <span className="inline-flex items-center gap-1.5 text-[#A5C8B6]">
-                <span className="w-1.5 h-1.5 bg-[#48BB78] rounded-[1px] animate-pulse"></span>
-                PROTOTYPE SANDBOX NODE ONLINE
-              </span>
-              <span className="hidden md:inline text-[#6D917F]">
-                Prototype Ref: SIH-2026-DEMO/v2.0.0 (Real Trained Ensemble)
-              </span>
-            </div>
-          </div>
-        </div>
-
-        {/* Main Banner Masthead */}
+    <div className="min-h-screen bg-[#F5F6F3] text-[#1A2520] flex flex-col font-sans">
+      {/* PORTAL HEADER */}
+      <header className="bg-[#1A5C3C] text-white border-b border-[#2E7A55]">
         <div className="max-w-[1536px] mx-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-            {/* Emblem & Portal Title */}
-            <div className="flex items-center gap-3.5">
-              <div className="w-12 h-12 rounded-[4px] bg-[#0F3526] border border-[#276449] flex items-center justify-center text-[#D8ECE0] shrink-0 shadow-sm">
-                <Landmark className="w-6 h-6 text-[#A5C8B6]" />
+          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+            {/* Logo & Title */}
+            <div className="flex items-center gap-3">
+              <div className="w-11 h-11 rounded-xl bg-white/15 border border-white/25 flex items-center justify-center shrink-0">
+                <Landmark className="w-5 h-5 text-white" />
               </div>
               <div>
-                <div className="flex items-center gap-2">
-                  <span className="font-mono-data text-[10px] font-bold text-amber-300 uppercase tracking-wider bg-amber-500/20 px-2 py-0.5 rounded-[2px] border border-amber-500/40">
-                    SIH 2026 PROTOTYPE — DEMO DATA
-                  </span>
-                  <span className="hidden sm:inline-block font-mono-data text-[10px] text-[#86A697]">
-                    RFCTLARR Act, 2013 Simulation
-                  </span>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h1 className="font-serif-heading text-xl sm:text-2xl font-bold tracking-tight text-white">
+                    Land Acquisition Portal
+                  </h1>
                 </div>
-                <h1 className="font-serif-heading text-xl sm:text-2xl font-bold tracking-tight text-[#FAFBF9] mt-0.5">
-                  Land Acquisition Delay Predictive System &amp; Early Warning Portal
-                </h1>
-                <p className="text-xs text-[#86A697] hidden sm:block mt-0.5">
-                  Universal Single Sign-On for Central Ministry, State Revenue, District CALA, and Project Implementing Officers
+                <p className="text-xs text-white/60 mt-0.5">
+                  Government of India &bull; Ministry of Rural Development &bull; Dept. of Land Resources
                 </p>
               </div>
             </div>
 
-            {/* Helpline & Security Badge */}
-            <div className="flex items-center gap-2.5 self-start md:self-center">
-              <div className="px-3 py-1.5 bg-[#0F3526]/80 rounded-[4px] border border-[#276449] text-right font-mono-data hidden lg:block">
-                <span className="text-[9px] text-[#86A697] font-bold uppercase block">Prototype Helpdesk</span>
-                <span className="text-xs font-bold text-[#FAFBF9]">1800-000-DEMO (Toll Free)</span>
-              </div>
-              <div className="px-3 py-1.5 bg-[#071911] rounded-[4px] border border-[#1C4332] text-left font-mono-data">
-                <span className="text-[9px] text-[#48BB78] font-bold uppercase block flex items-center gap-1">
-                  <Shield className="w-3 h-3 text-[#48BB78]" />
-                  Demo Security Sandbox
+            {/* Security badge */}
+            <div className="flex items-center gap-2 self-start md:self-center">
+              <div className="px-3 py-1.5 bg-white/10 rounded-xl border border-white/20 text-left">
+                <span className="text-[11px] text-white/80 flex items-center gap-1.5">
+                  <Shield className="w-3.5 h-3.5 text-emerald-300" />
+                  Secure Government Portal
                 </span>
-                <span className="text-[10px] text-[#86A697]">Simulated Cloud Environment</span>
               </div>
             </div>
           </div>
@@ -341,81 +303,74 @@ export const HomePage: React.FC = () => {
       {/* 2. MAIN HERO & UNIFIED LOGIN SURFACE */}
       <main className="flex-1 max-w-[1536px] w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          {/* LEFT 7 COLUMNS: Executive Context, Statutory Mandate & 1-Click Fast Directory */}
+          {/* LEFT COLUMN: Portal description & quick access */}
           <div className="lg:col-span-7 space-y-6">
-            {/* Mission Statement Box */}
-            <div className="bg-[#FFFFFF] p-6 sm:p-7 rounded-[4px] border border-[#DFE3DC]">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="font-mono-data text-[10px] font-bold px-2 py-0.5 rounded-[2px] bg-[#EAF4EE] text-[#196842] border border-[#B8DCBE]">
-                  OFFICIAL STATUTORY PORTAL
-                </span>
-                <span className="text-xs text-[#4E5C55] font-mono-data">
-                  Single Gateway &bull; Automatic Cadre Resolution
+            {/* Portal description */}
+            <div className="bg-white p-6 sm:p-7 rounded-2xl border border-[#E4E8E2] shadow-sm">
+              <div className="flex items-center gap-2 mb-4">
+                <span className="text-xs font-semibold px-3 py-1 rounded-full bg-[#EAF5EE] text-[#1A5C3C] border border-[#B8DCBE]">
+                  Government Portal
                 </span>
               </div>
 
-              <h2 className="font-serif-heading text-2xl sm:text-3xl font-bold text-[#141E1A] tracking-tight leading-tight">
-                Single Unified Gateway for Government Officials &amp; Competent Authorities
+              <h2 className="font-serif-heading text-2xl sm:text-3xl font-bold text-[#1A2520] tracking-tight leading-tight">
+                Land Acquisition Monitoring &amp; Delay Prevention
               </h2>
 
-              <p className="text-sm text-[#4E5C55] mt-3 leading-relaxed">
-                Welcome to the Department of Land Resources automated delay surveillance portal.
-                Enter your official user credentials into the universal login interface. The system
-                will <strong className="text-[#141E1A]">automatically identify your administrative cadre and designation</strong> (Central, State, District CALA, or Project Officer)
-                and direct you directly to your customized, role-based statutory dashboard with jurisdiction-level security filters pre-loaded.
+              <p className="text-sm text-[#52605A] mt-3 leading-relaxed">
+                Welcome to the Department of Land Resources delay monitoring portal.
+                Sign in with your official credentials. The system will
+                <strong className="text-[#1A2520]"> automatically detect your role</strong> and
+                open your personalized dashboard.
               </p>
 
-              {/* 4 Core Pillars Strip */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mt-6 pt-5 border-t border-[#DFE3DC] text-xs">
-                <div className="p-2.5 rounded-[2px] bg-[#ECEEEA]/60 border border-[#DFE3DC]">
-                  <div className="flex items-center gap-1.5 font-bold text-[#141E1A] text-[11px]">
-                    <Building2 className="w-3.5 h-3.5 text-[#0C2B20] shrink-0" />
+              {/* 4 Role Pills */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 mt-6 pt-5 border-t border-[#E4E8E2] text-xs">
+                <div className="p-3 rounded-xl bg-[#F5F6F3] border border-[#E4E8E2]">
+                  <div className="flex items-center gap-1.5 font-semibold text-[#1A2520] text-xs">
+                    <Building2 className="w-3.5 h-3.5 text-[#1A5C3C] shrink-0" />
                     <span>Central Admin</span>
                   </div>
-                  <p className="text-[10px] text-[#4E5C55] mt-0.5">National ML Oversight</p>
+                  <p className="text-[11px] text-[#52605A] mt-1">National oversight</p>
                 </div>
 
-                <div className="p-2.5 rounded-[2px] bg-[#ECEEEA]/60 border border-[#DFE3DC]">
-                  <div className="flex items-center gap-1.5 font-bold text-[#141E1A] text-[11px]">
-                    <Layers className="w-3.5 h-3.5 text-[#196842] shrink-0" />
+                <div className="p-3 rounded-xl bg-[#F5F6F3] border border-[#E4E8E2]">
+                  <div className="flex items-center gap-1.5 font-semibold text-[#1A2520] text-xs">
+                    <Layers className="w-3.5 h-3.5 text-[#1E7A4D] shrink-0" />
                     <span>State Admin</span>
                   </div>
-                  <p className="text-[10px] text-[#4E5C55] mt-0.5">Sec 11 &amp; Clearances</p>
+                  <p className="text-[11px] text-[#52605A] mt-1">State monitoring</p>
                 </div>
 
-                <div className="p-2.5 rounded-[2px] bg-[#ECEEEA]/60 border border-[#DFE3DC]">
-                  <div className="flex items-center gap-1.5 font-bold text-[#141E1A] text-[11px]">
-                    <Scale className="w-3.5 h-3.5 text-[#C0781A] shrink-0" />
+                <div className="p-3 rounded-xl bg-[#F5F6F3] border border-[#E4E8E2]">
+                  <div className="flex items-center gap-1.5 font-semibold text-[#1A2520] text-xs">
+                    <Scale className="w-3.5 h-3.5 text-[#C47A1E] shrink-0" />
                     <span>District Admin</span>
                   </div>
-                  <p className="text-[10px] text-[#4E5C55] mt-0.5">CALA Awards &amp; DBT</p>
+                  <p className="text-[11px] text-[#52605A] mt-1">District level</p>
                 </div>
 
-                <div className="p-2.5 rounded-[2px] bg-[#ECEEEA]/60 border border-[#DFE3DC]">
-                  <div className="flex items-center gap-1.5 font-bold text-[#141E1A] text-[11px]">
-                    <Briefcase className="w-3.5 h-3.5 text-[#2C5282] shrink-0" />
+                <div className="p-3 rounded-xl bg-[#F5F6F3] border border-[#E4E8E2]">
+                  <div className="flex items-center gap-1.5 font-semibold text-[#1A2520] text-xs">
+                    <Briefcase className="w-3.5 h-3.5 text-[#2E5A8C] shrink-0" />
                     <span>Project Officer</span>
                   </div>
-                  <p className="text-[10px] text-[#4E5C55] mt-0.5">NHAI Field Handover</p>
+                  <p className="text-[11px] text-[#52605A] mt-1">Field operations</p>
                 </div>
               </div>
             </div>
 
-            {/* DEMO / QUICK ACCESS OFFICER DIRECTORY (1-CLICK CADRE ACCESS) */}
-            <div className="bg-[#FFFFFF] p-6 sm:p-7 rounded-[4px] border border-[#DFE3DC]">
-              <div className="flex items-center justify-between mb-4 pb-3 border-b border-[#DFE3DC]">
+            {/* Quick Login directory */}
+            <div className="bg-white p-6 sm:p-7 rounded-2xl border border-[#E4E8E2] shadow-sm">
+              <div className="flex items-center justify-between mb-4 pb-4 border-b border-[#E4E8E2]">
                 <div>
-                  <h3 className="font-serif-heading text-base sm:text-lg font-bold text-[#141E1A] flex items-center gap-2">
-                    <Sparkles className="w-4 h-4 text-[#C0781A]" />
-                    <span>Official Cadre Directory &bull; 1-Click Fast Login</span>
+                  <h3 className="font-serif-heading text-base sm:text-lg font-bold text-[#1A2520]">
+                    Quick Sign In — Choose a Role
                   </h3>
-                  <p className="text-xs text-[#4E5C55] mt-0.5">
-                    Click any registered officer below to test their designation-specific dashboard immediately:
+                  <p className="text-sm text-[#52605A] mt-0.5">
+                    Click any profile to sign in and explore its dashboard:
                   </p>
                 </div>
-                <span className="font-mono-data text-[10px] font-bold px-2 py-0.5 rounded-[2px] bg-[#ECEEEA] text-[#141E1A] border border-[#DFE3DC]">
-                  4 Designated Profiles
-                </span>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
@@ -499,83 +454,69 @@ export const HomePage: React.FC = () => {
               </div>
             </div>
 
-            {/* LIVE PORTAL SYSTEM BENCHMARKS */}
-            <div className="bg-[#FFFFFF] p-5 rounded-[4px] border border-[#DFE3DC] font-mono-data">
-              <div className="flex items-center justify-between pb-3 mb-3 border-b border-[#DFE3DC]">
-                <span className="text-xs font-bold text-[#141E1A] uppercase tracking-wider">
-                  Live National Surveillance Benchmarks
-                </span>
-                <span className="text-[10px] text-[#196842] font-bold bg-[#EAF4EE] px-2 py-0.5 rounded-[2px] border border-[#B8DCBE]">
-                  RFCTLARR Q1 2025
-                </span>
+            {/* Portal overview stats */}
+            <div className="bg-white p-5 rounded-2xl border border-[#E4E8E2] shadow-sm">
+              <div className="flex items-center justify-between pb-3 mb-3 border-b border-[#E4E8E2]">
+                <span className="text-sm font-semibold text-[#1A2520]">Portal Overview</span>
+                <span className="text-xs text-[#1A5C3C] font-medium bg-[#EAF5EE] px-2.5 py-0.5 rounded-full border border-[#B8DCBE]">Live</span>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
-                <div className="p-2.5 bg-[#ECEEEA]/40 rounded-[2px]">
-                  <div className="text-lg font-black text-[#141E1A]">700</div>
-                  <div className="text-[9px] text-[#4E5C55] uppercase mt-0.5">Parcels Monitored</div>
+                <div className="p-3 bg-[#F5F6F3] rounded-xl">
+                  <div className="text-xl font-bold text-[#1A2520]">700</div>
+                  <div className="text-xs text-[#52605A] mt-0.5">Projects</div>
                 </div>
-                <div className="p-2.5 bg-[#ECEEEA]/40 rounded-[2px]">
-                  <div className="text-lg font-black text-[#196842]">
+                <div className="p-3 bg-[#F5F6F3] rounded-xl">
+                  <div className="text-xl font-bold text-[#1A5C3C]">
                     {(mlModel.roc_auc * (mlModel.roc_auc <= 1 ? 100 : 1)).toFixed(1)}%
                   </div>
-                  <div className="text-[9px] text-[#4E5C55] uppercase mt-0.5">ML ROC-AUC</div>
+                  <div className="text-xs text-[#52605A] mt-0.5">Model Accuracy</div>
                 </div>
-                <div className="p-2.5 bg-[#ECEEEA]/40 rounded-[2px]">
-                  <div className="text-lg font-black text-[#C0781A]">7 States</div>
-                  <div className="text-[9px] text-[#4E5C55] uppercase mt-0.5">Active Jurisdictions</div>
+                <div className="p-3 bg-[#F5F6F3] rounded-xl">
+                  <div className="text-xl font-bold text-[#C47A1E]">7 States</div>
+                  <div className="text-xs text-[#52605A] mt-0.5">Coverage</div>
                 </div>
-                <div className="p-2.5 bg-[#ECEEEA]/40 rounded-[2px]">
-                  <div className="text-lg font-black text-[#BA2D1D]">Sec. 25</div>
-                  <div className="text-[9px] text-[#4E5C55] uppercase mt-0.5">Lapsing Guard</div>
+                <div className="p-3 bg-[#F5F6F3] rounded-xl">
+                  <div className="text-xl font-bold text-[#C0311E]">Early</div>
+                  <div className="text-xs text-[#52605A] mt-0.5">Warning Alerts</div>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* RIGHT 5 COLUMNS: UNIVERSAL SINGLE LOGIN CARD */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="bg-[#FFFFFF] rounded-[4px] border border-[#DFE3DC] shadow-sm overflow-hidden sticky top-6">
-              {/* Header with Mode Toggle */}
-              <div className="p-5 sm:p-6 bg-[#ECEEEA]/50 border-b border-[#DFE3DC]">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="font-mono-data text-[10px] font-bold uppercase tracking-wider text-[#196842] bg-[#EAF4EE] px-2 py-0.5 rounded-[2px] border border-[#B8DCBE]">
-                    UNIVERSAL OFFICIAL LOGIN
-                  </span>
-                  <span className="text-[10px] text-[#4E5C55] font-mono-data">
-                    Secure 2FA Ready
-                  </span>
-                </div>
-                <h3 className="font-serif-heading text-xl font-bold text-[#141E1A]">
-                  Government Official Single Sign-In
-                </h3>
-                <p className="text-xs text-[#4E5C55] mt-1 leading-relaxed">
-                  Single portal for all officers. System will resolve your cadre and direct you to your personalized dashboard.
+          {/* RIGHT COLUMN: LOGIN FORM */}
+          <div className="lg:col-span-5 space-y-5">
+            <div className="bg-white rounded-2xl border border-[#E4E8E2] shadow-sm overflow-hidden sticky top-6">
+              {/* Header */}
+              <div className="p-6 bg-[#F5F6F3] border-b border-[#E4E8E2]">
+                <h3 className="font-serif-heading text-xl font-bold text-[#1A2520]">Sign In</h3>
+                <p className="text-sm text-[#52605A] mt-1">
+                  Enter your credentials to access your personalized dashboard.
                 </p>
 
-                {/* View Switcher: Login vs Register */}
-                <div className="grid grid-cols-2 gap-1 p-1 bg-[#DFE3DC] rounded-[4px] mt-4 text-xs font-semibold font-mono-data">
+                {/* Login / Register toggle */}
+                <div className="grid grid-cols-2 gap-1 p-1 bg-[#E4E8E2] rounded-xl mt-4 text-sm font-medium">
                   <button
                     onClick={() => setActiveView('login')}
-                    className={`py-1.5 px-2 rounded-[2px] transition flex items-center justify-center gap-1.5 cursor-pointer ${
+                    className={`py-1.5 px-2 rounded-lg transition flex items-center justify-center gap-1.5 cursor-pointer ${
                       activeView === 'login'
-                        ? 'bg-[#0C2B20] text-white font-bold'
-                        : 'text-[#4E5C55] hover:text-[#141E1A] hover:bg-white/60'
+                        ? 'bg-[#1A5C3C] text-white font-semibold'
+                        : 'text-[#52605A] hover:text-[#1A2520] hover:bg-white/60'
                     }`}
                   >
-                    <Lock className="w-3 h-3" />
-                    <span>Official Sign In</span>
+                    <Lock className="w-3.5 h-3.5" />
+                    <span>Sign In</span>
                   </button>
 
                   <button
                     onClick={() => setActiveView('register')}
-                    className={`py-1.5 px-2 rounded-[2px] transition flex items-center justify-center gap-1.5 cursor-pointer ${
+                    className={`py-1.5 px-2 rounded-lg transition flex items-center justify-center gap-1.5 cursor-pointer ${
                       activeView === 'register'
-                        ? 'bg-[#0C2B20] text-white font-bold'
-                        : 'text-[#4E5C55] hover:text-[#141E1A] hover:bg-white/60'
+                        ? 'bg-[#1A5C3C] text-white font-semibold'
+                        : 'text-[#52605A] hover:text-[#1A2520] hover:bg-white/60'
                     }`}
                   >
-                    <User className="w-3 h-3" />
-                    <span>Register New Officer</span>
+                    <User className="w-3.5 h-3.5" />
+                    <span>Register</span>
                   </button>
                 </div>
               </div>
@@ -744,15 +685,15 @@ export const HomePage: React.FC = () => {
                   <button
                     id="universal-login-submit-btn"
                     type="submit"
-                    className="w-full py-2.5 px-4 bg-[#0C2B20] hover:bg-[#164734] text-white font-semibold text-xs rounded-[4px] transition cursor-pointer flex items-center justify-center gap-2 font-mono-data shadow-sm"
+                    className="w-full py-3 px-4 bg-[#1A5C3C] hover:bg-[#165035] text-white font-semibold text-sm rounded-xl transition cursor-pointer flex items-center justify-center gap-2 shadow-sm"
                   >
-                    <Lock className="w-3.5 h-3.5 text-[#48BB78]" />
-                    <span>Authenticate &amp; Open Role Dashboard</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
+                    <Lock className="w-4 h-4" />
+                    <span>Sign In &amp; Open Dashboard</span>
+                    <ArrowRight className="w-4 h-4" />
                   </button>
 
-                  <div className="text-[10px] text-[#78857E] text-center font-mono-data pt-1">
-                    Directs to Central, State, District CALA, or Project dashboard upon authentication
+                  <div className="text-xs text-[#7A8780] text-center pt-1">
+                    Automatically opens your role-specific dashboard
                   </div>
                 </form>
               )}
@@ -894,10 +835,10 @@ export const HomePage: React.FC = () => {
                   {/* Register Submit */}
                   <button
                     type="submit"
-                    className="w-full py-2.5 px-4 bg-[#0C2B20] hover:bg-[#164734] text-white font-semibold text-xs rounded-[4px] transition cursor-pointer flex items-center justify-center gap-2 font-mono-data shadow-sm"
+                    className="w-full py-3 px-4 bg-[#1A5C3C] hover:bg-[#165035] text-white font-semibold text-sm rounded-xl transition cursor-pointer flex items-center justify-center gap-2 shadow-sm"
                   >
-                    <User className="w-3.5 h-3.5" />
-                    <span>Register Officer &amp; Open Dashboard</span>
+                    <User className="w-4 h-4" />
+                    <span>Register &amp; Open Dashboard</span>
                   </button>
                 </form>
               )}
@@ -917,56 +858,51 @@ export const HomePage: React.FC = () => {
           </div>
         </div>
 
-        {/* 3. DETAILED STATUTORY CAPABILITIES & SURVEILLANCE DIRECTIVE */}
-        <section className="mt-12 pt-8 border-t border-[#DFE3DC]">
+        {/* PORTAL CAPABILITIES SECTION */}
+        <section className="mt-12 pt-8 border-t border-[#E4E8E2]">
           <div className="flex items-center justify-between mb-6">
             <div>
-              <span className="font-mono-data text-[10px] font-bold uppercase tracking-wider text-[#196842] bg-[#EAF4EE] px-2 py-0.5 rounded-[2px] border border-[#B8DCBE]">
-                SYSTEM ARCHITECTURE &bull; RFCTLARR 2013
-              </span>
-              <h3 className="font-serif-heading text-xl sm:text-2xl font-bold text-[#141E1A] mt-1">
-                Core Statutory Surveillance &amp; Delay Prevention Engines
+              <h3 className="font-serif-heading text-xl sm:text-2xl font-bold text-[#1A2520]">
+                What This Portal Does
               </h3>
+              <p className="text-sm text-[#52605A] mt-1">Core features for land acquisition monitoring</p>
             </div>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="p-5 bg-[#FFFFFF] rounded-[4px] border border-[#DFE3DC] space-y-2">
-              <div className="w-8 h-8 rounded-[2px] bg-[#FAECEB] border border-[#F0B8B3] flex items-center justify-center text-[#BA2D1D]">
-                <Clock className="w-4 h-4" />
+            <div className="p-5 bg-white rounded-2xl border border-[#E4E8E2] shadow-sm space-y-3">
+              <div className="w-10 h-10 rounded-xl bg-red-50 border border-red-100 flex items-center justify-center text-red-500">
+                <Clock className="w-5 h-5" />
               </div>
-              <h4 className="font-serif-heading font-bold text-sm text-[#141E1A]">
-                Section 25 Lapsing Prevention Engine
+              <h4 className="font-serif-heading font-bold text-base text-[#1A2520]">
+                Deadline Early Warning
               </h4>
-              <p className="text-xs text-[#4E5C55] leading-relaxed">
-                Mandatory 12-month statutory deadline between Section 19 declaration and Section 23 award.
-                Automated ML predictive alarms alert officers 60–90 days in advance to prevent acquisition lapses.
+              <p className="text-sm text-[#52605A] leading-relaxed">
+                Automated ML alerts notify officers 60–90 days before critical deadlines, preventing acquisition lapses under Section 25.
               </p>
             </div>
 
-            <div className="p-5 bg-[#FFFFFF] rounded-[4px] border border-[#DFE3DC] space-y-2">
-              <div className="w-8 h-8 rounded-[2px] bg-[#EAF4EE] border border-[#B8DCBE] flex items-center justify-center text-[#196842]">
-                <Cpu className="w-4 h-4" />
+            <div className="p-5 bg-white rounded-2xl border border-[#E4E8E2] shadow-sm space-y-3">
+              <div className="w-10 h-10 rounded-xl bg-emerald-50 border border-emerald-100 flex items-center justify-center text-emerald-600">
+                <Cpu className="w-5 h-5" />
               </div>
-              <h4 className="font-serif-heading font-bold text-sm text-[#141E1A]">
-                TreeSHAP Delay Driver Attribution
+              <h4 className="font-serif-heading font-bold text-base text-[#1A2520]">
+                AI Delay Analysis
               </h4>
-              <p className="text-xs text-[#4E5C55] leading-relaxed">
-                Machine learning ensemble isolates exact bottlenecks per parcel — whether pending High Court writ petitions,
-                Forest Stage-I clearances, or stalled genealogical title verification.
+              <p className="text-sm text-[#52605A] leading-relaxed">
+                Machine learning identifies exact bottlenecks per project — court petitions, clearance delays, or compensation issues.
               </p>
             </div>
 
-            <div className="p-5 bg-[#FFFFFF] rounded-[4px] border border-[#DFE3DC] space-y-2">
-              <div className="w-8 h-8 rounded-[2px] bg-[#FDF3E7] border border-[#F8DCB8] flex items-center justify-center text-[#C0781A]">
-                <Scale className="w-4 h-4" />
+            <div className="p-5 bg-white rounded-2xl border border-[#E4E8E2] shadow-sm space-y-3">
+              <div className="w-10 h-10 rounded-xl bg-amber-50 border border-amber-100 flex items-center justify-center text-amber-600">
+                <Scale className="w-5 h-5" />
               </div>
-              <h4 className="font-serif-heading font-bold text-sm text-[#141E1A]">
-                Section 38 Direct Benefit Transfer (DBT) Gate
+              <h4 className="font-serif-heading font-bold text-base text-[#1A2520]">
+                Compensation Tracking
               </h4>
-              <p className="text-xs text-[#4E5C55] leading-relaxed">
-                Physical land possession cannot be statutorily ordered until at least 80% compensation is disbursed
-                to Project Affected Families (PAFs). Integrated escrow and DBT audit trail verification.
+              <p className="text-sm text-[#52605A] leading-relaxed">
+                Physical possession requires 80% compensation disbursed to affected families. Full audit trail and DBT verification.
               </p>
             </div>
           </div>
@@ -974,20 +910,17 @@ export const HomePage: React.FC = () => {
       </main>
 
       {/* 4. OFFICIAL FOOTER */}
-      <footer className="mt-12 border-t border-[#DFE3DC] bg-[#FFFFFF] text-xs text-[#4E5C55] py-6 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-[1536px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4 font-mono-data text-[11px]">
+      <footer className="mt-12 border-t border-[#E4E8E2] bg-white text-xs text-[#52605A] py-6 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1536px] mx-auto flex flex-col md:flex-row items-center justify-between gap-3 text-[12px]">
           <div className="flex items-center gap-2">
-            <span className="font-bold text-[#141E1A]">Department of Land Resources (DoLR)</span>
+            <span className="font-semibold text-[#1A2520]">Department of Land Resources</span>
             <span>&bull;</span>
-            <span>Ministry of Rural Development, Govt. of India</span>
+            <span>Ministry of Rural Development, Government of India</span>
           </div>
-
-          <div className="flex flex-wrap items-center gap-4 text-[#4E5C55]">
-            <span>Designed for Cloud Native Infrastructure</span>
+          <div className="flex flex-wrap items-center gap-3 text-[#7A8780]">
+            <span>RFCTLARR Act, 2013</span>
             <span>&bull;</span>
-            <span>RFCTLARR Act, 2013 Simulation MIS</span>
-            <span>&bull;</span>
-            <span className="text-[#196842] font-bold">Prototype Demo Environment</span>
+            <span>Land Acquisition Monitoring System</span>
           </div>
         </div>
       </footer>

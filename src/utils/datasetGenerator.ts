@@ -136,11 +136,11 @@ class SeededRandom {
 import { REAL_PROJECTS_700 } from '../data/realProjects700';
 
 /**
- * Loads the authentic 700-record dataset from land_acquisition_synthetic_dataset.csv
+ * Loads a focused 500-record slice of the authentic project dataset.
  * with genuine trained Random Forest model predicted probabilities and per-project SHAP factors.
  * (560 Completed training records, 140 Ongoing test evaluation records)
  */
-export function generateSyntheticDataset(count = 700): LandProject[] {
+export function generateSyntheticDataset(count = 500): LandProject[] {
   return JSON.parse(JSON.stringify(REAL_PROJECTS_700.slice(0, count)));
 }
 

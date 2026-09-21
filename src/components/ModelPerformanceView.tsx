@@ -52,16 +52,14 @@ export const ModelPerformanceView: React.FC = () => {
   const accuracyValue  = mlModel?.accuracy     ? (mlModel.accuracy <= 1 ? mlModel.accuracy * 100 : mlModel.accuracy) : 84.4;
 
   const cm = mlModel?.confusion_matrix ?? { TP: 909, FP: 91, FN: 133, TN: 307 };
-  const totalRecords   = mlModel?.total_records       ?? 7200;
-  const trainRecords   = mlModel?.trained_on_records  ?? 5760;
-  const testRecords    = mlModel?.test_records        ?? 1440;
-  const modelVersion   = mlModel?.version             ?? 'v3.0.0 (Combined Dataset Ensemble)';
+  const totalRecords   = mlModel?.total_records       ?? 180;
+  const trainRecords   = mlModel?.trained_on_records  ?? 144;
+  const testRecords    = mlModel?.test_records        ?? 36;
+  const modelVersion   = mlModel?.version             ?? 'v4.0.0 (Extra Trees Regression)';
   const lastRetrained  = mlModel?.last_retrained      ?? '2026-09-19T14:12:20';
-  const sourceBreakdown = mlModel?.source_breakdown   ?? { original: 700, expanded: 1500, historical: 5000 };
+  const sourceBreakdown = mlModel?.source_breakdown   ?? { synthetic_canonical: 180 };
   const datasetsLoaded  = mlModel?.datasets_loaded    ?? [
     'land_acquisition_synthetic_dataset.csv',
-    'expanded_land_acquisition_delays.csv',
-    'historical_land_acquisition_delays.csv',
   ];
 
   const formatLastRetrained = (iso: string) => {

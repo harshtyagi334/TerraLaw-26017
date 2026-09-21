@@ -1,3 +1,4 @@
+"""Serve predictions from the synthetic-only delay regression pipeline."""
 import json
 import subprocess
 import sys
@@ -8,159 +9,113 @@ from pathlib import Path
 import joblib
 import numpy as np
 import pandas as pd
-import shap
 
 ROOT = Path(__file__).resolve().parent
-MODEL = joblib.load(ROOT / 'trained_model.pkl')
-STAGE_MODELS = joblib.load(ROOT / 'stage_models.pkl') if (ROOT / 'stage_models.pkl').exists() else {}
-EXPLAINER = shap.TreeExplainer(MODEL)
+MODEL_PATH = ROOT / "trained_model.pkl"
+MODEL = joblib.load(MODEL_PATH)
 MODEL_LOCK = threading.Lock()
+FEATURES = [
+    "Land_Area", "Number_of_Owners", "Compensation_Amount", "Government_Approval_Days",
+    "Document_Verification_Days", "Stakeholder_Objections", "Historical_Delay_Days",
+    "Ownership_Type", "Compensation_Dispute", "Legal_Case_Status", "Environmental_Clearance", "Region_Type",
+]
 
 
 def value_or(value, default):
-    return default if value is None or value == '' else value
+    return default if value is None or value == "" else value
 
 
 def model_features(project):
-    if 'compensation_disbursed_pct' in project:
-        return [
-            float(value_or(project.get('land_area_hectares'), 100)),
-            float(value_or(project.get('affected_families_count', project.get('affected_families')), 300)),
-            float(value_or(project.get('compensation_disbursed_pct'), 50)),
-            float(value_or(project.get('pending_approvals_count'), 0)),
-            float(value_or(project.get('legal_disputes_count'), 0)),
-            float(value_or(project.get('possession_percentage', project.get('possession_pct')), 0)),
-            float(value_or(project.get('rr_progress_percentage', project.get('rr_progress_pct')), 0)),
-            float(value_or(project.get('avg_stakeholder_response_days', project.get('stakeholder_response_days')), 14)),
-        ]
-
-    compensation = project.get('compensation') or {}
-    assessed = max(1.0, float(value_or(compensation.get('total_compensation_assessed_cr'), 100)))
-    disbursed = float(value_or(compensation.get('total_compensation_disbursed_cr'), 50))
-    approvals = project.get('approvals') or []
-    legal = project.get('legal_disputes') or []
-    possession = project.get('possession') or {}
-    rehabilitation = project.get('rehabilitation') or {}
-    stakeholders = project.get('stakeholder_responsiveness') or {}
-
-    return [
-        float(value_or(project.get('land_area_hectares'), 100)),
-        float(value_or(project.get('affected_families_count'), 300)),
-        (disbursed / assessed) * 100,
-        sum(1 for item in approvals if item.get('status') in ('Pending', 'In-Progress')),
-        sum(1 for item in legal if item.get('status') == 'Pending'),
-        float(value_or(possession.get('possession_percentage'), 0)),
-        (float(value_or(rehabilitation.get('families_rehabilitated'), 0)) /
-         max(1.0, float(value_or(rehabilitation.get('total_affected_families'), 1)))) * 100,
-        float(value_or(stakeholders.get('avg_response_time_days'), 14)),
-    ]
+    compensation = project.get("compensation") or {}
+    assessed = max(1.0, float(value_or(compensation.get("total_compensation_assessed_cr"), 100)))
+    disbursed = float(value_or(compensation.get("total_compensation_disbursed_cr"), 50))
+    approvals = project.get("approvals") or []
+    legal = project.get("legal_disputes") or []
+    stakeholders = project.get("stakeholder_responsiveness") or {}
+    return {
+        "Land_Area": float(value_or(project.get("Land_Area", project.get("land_area_hectares")), 40)),
+        "Number_of_Owners": int(value_or(project.get("Number_of_Owners", project.get("affected_families_count")), 3)),
+        "Compensation_Amount": float(value_or(project.get("Compensation_Amount"), disbursed / assessed * 40)),
+        "Government_Approval_Days": int(value_or(project.get("Government_Approval_Days"), 55 + len(approvals) * 8)),
+        "Document_Verification_Days": int(value_or(project.get("Document_Verification_Days"), 25)),
+        "Stakeholder_Objections": int(value_or(project.get("Stakeholder_Objections"), len(project.get("objections") or []))),
+        "Historical_Delay_Days": int(value_or(project.get("Historical_Delay_Days"), 30)),
+        "Ownership_Type": value_or(project.get("Ownership_Type"), "Individual"),
+        "Compensation_Dispute": value_or(project.get("Compensation_Dispute"), "Yes" if disbursed < assessed * 0.6 else "No"),
+        "Legal_Case_Status": value_or(project.get("Legal_Case_Status"), "Active Case" if any(item.get("status") == "Pending" for item in legal) else "No Case"),
+        "Environmental_Clearance": value_or(project.get("Environmental_Clearance"), "Pending"),
+        "Region_Type": value_or(project.get("Region_Type"), "Rural"),
+    }
 
 
 def predict(project):
+    features = model_features(project)
     with MODEL_LOCK:
-        feature_values = model_features(project)
-        features = pd.DataFrame([feature_values], columns=MODEL.feature_names_in_)
-        probability = float(MODEL.predict_proba(features)[0][1])
-        shap_values = EXPLAINER.shap_values(features)
-        values = shap_values[1][0] if isinstance(shap_values, list) else shap_values[0, :, 1]
-        stage_predictions = {
-            stage: round(float(stage_model.predict_proba(features)[0][1]), 4)
-            for stage, stage_model in STAGE_MODELS.items()
-        }
+        predicted_delay = max(0.0, float(MODEL.predict(pd.DataFrame([features], columns=FEATURES))[0]))
+    probability = 1.0 / (1.0 + np.exp(-(predicted_delay - 65.0) / 18.0))
+    results = json.loads((ROOT / "real_model_results.json").read_text(encoding="utf-8"))
     factors = [
-        {'feature': feature, 'contribution': round(float(value), 4)}
-        for feature, value in zip(MODEL.feature_names_in_, values)
+        {"feature": feature, "contribution": round(float(results.get("feature_importance", {}).get(feature, 0)), 4)}
+        for feature in FEATURES
     ]
-    factors.sort(key=lambda item: abs(item['contribution']), reverse=True)
-    print(json.dumps({
-        'event': 'ML_VALIDATION',
-        'uploaded_values': project,
-        'processed_values': dict(zip(MODEL.feature_names_in_, feature_values)),
-        'predicted_values': {
-            'probability_of_delay': round(probability, 4),
-            'risk_score': round(probability * 100),
-            'stage_probabilities': stage_predictions,
-        },
-    }, default=str), flush=True)
+    factors.sort(key=lambda item: abs(item["contribution"]), reverse=True)
     return {
-        'probability_of_delay': round(probability, 4),
-        'risk_score': round(probability * 100),
-        'shap_values': factors,
-        'stage_probabilities': stage_predictions,
-        'explanation_method': 'TreeSHAP',
+        "probability_of_delay": round(float(probability), 4),
+        "risk_score": round(float(probability * 100)),
+        "predicted_delay_days": round(predicted_delay, 1),
+        "shap_values": factors,
+        "stage_probabilities": {},
+        "explanation_method": "Permutation feature importance",
     }
 
 
 def metadata():
-    results = json.loads((ROOT / 'real_model_results.json').read_text(encoding='utf-8'))
+    results = json.loads((ROOT / "real_model_results.json").read_text(encoding="utf-8"))
+    selected = results.get("selected_metrics", {})
     return {
-        'trained_on_records': results['train_size'],
-        'test_records': results['test_size'],
-        'total_records': results.get('total_records', results['train_size'] + results['test_size']),
-        'accuracy': results['accuracy'] * 100,
-        'precision': results['precision'] * 100,
-        'recall': results['recall'] * 100,
-        'f1_score': results['f1_score'] * 100,
-        'roc_auc': results['roc_auc'],
-        'feature_importance': results['feature_importance'],
-        'model_version': results.get('model_version', 'v3.0.0'),
-        'last_retrained': results.get('last_retrained', ''),
-        'source_breakdown': results.get('source_breakdown', {}),
-        'confusion_matrix': results.get('confusion_matrix', {}),
-        'datasets_loaded': results.get('datasets_loaded', []),
+        "trained_on_records": results["train_size"], "test_records": results["test_size"], "total_records": results["total_records"],
+        "accuracy": results.get("accuracy", 0) * 100, "precision": results.get("precision", 0) * 100,
+        "recall": results.get("recall", 0) * 100, "f1_score": results.get("f1_score", 0) * 100, "roc_auc": results.get("roc_auc", 0),
+        "mae": selected.get("MAE"), "rmse": selected.get("RMSE"), "r2": selected.get("R2"),
+        "feature_importance": results["feature_importance"], "model_version": results["model_version"],
+        "last_retrained": results["last_retrained"], "source_breakdown": results["source_breakdown"],
+        "datasets_loaded": results["datasets_loaded"], "model_comparison": results.get("model_comparison", {}),
+        "selected_model": results.get("selected_model"), "plots": results.get("plots", []),
     }
 
 
 class Handler(BaseHTTPRequestHandler):
     def _send(self, status, payload):
-        body = json.dumps(payload).encode('utf-8')
-        self.send_response(status)
-        self.send_header('Content-Type', 'application/json')
-        self.send_header('Content-Length', str(len(body)))
-        self.send_header('Access-Control-Allow-Origin', '*')
-        self.send_header('Access-Control-Allow-Headers', 'Content-Type')
-        self.end_headers()
-        self.wfile.write(body)
+        body = json.dumps(payload).encode("utf-8")
+        self.send_response(status); self.send_header("Content-Type", "application/json")
+        self.send_header("Content-Length", str(len(body))); self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type"); self.end_headers(); self.wfile.write(body)
 
-    def do_OPTIONS(self):
-        self._send(204, {})
+    def do_OPTIONS(self): self._send(204, {})
 
     def do_POST(self):
-        if self.path not in ('/api/ml/predict', '/api/ml/predict-batch', '/api/ml/retrain'):
-            self._send(404, {'error': 'Not found'})
-            return
+        if self.path not in ("/api/ml/predict", "/api/ml/predict-batch", "/api/ml/retrain"):
+            self._send(404, {"error": "Not found"}); return
         try:
-            if self.path == '/api/ml/retrain':
-                subprocess.run([sys.executable, str(ROOT / 'train_model.py')], cwd=ROOT, check=True)
+            if self.path == "/api/ml/retrain":
+                subprocess.run([sys.executable, str(ROOT / "generate_dataset.py")], cwd=ROOT, check=True)
+                subprocess.run([sys.executable, str(ROOT / "train_model.py")], cwd=ROOT, check=True)
                 global MODEL
-                with MODEL_LOCK:
-                    MODEL = joblib.load(ROOT / 'trained_model.pkl')
-                self._send(200, metadata())
-                return
-            length = int(self.headers.get('Content-Length', 0))
-            payload = json.loads(self.rfile.read(length))
-            if self.path.endswith('batch'):
-                projects = payload.get('projects', [])
-                result = {'predictions': [predict(project) for project in projects]}
-            else:
-                result = predict(payload.get('project', payload))
-            self._send(200, result)
-        except Exception as error:
-            self._send(400, {'error': str(error)})
+                with MODEL_LOCK: MODEL = joblib.load(MODEL_PATH)
+                self._send(200, metadata()); return
+            length = int(self.headers.get("Content-Length", 0)); payload = json.loads(self.rfile.read(length))
+            if self.path.endswith("batch"):
+                self._send(200, {"predictions": [predict(item) for item in payload.get("projects", [])]})
+            else: self._send(200, predict(payload.get("project", payload)))
+        except Exception as error: self._send(400, {"error": str(error)})
 
     def do_GET(self):
-        if self.path == '/api/ml/metadata':
-            try:
-                self._send(200, metadata())
-            except Exception as error:
-                self._send(500, {'error': str(error)})
-            return
-        self._send(404, {'error': 'Not found'})
+        if self.path == "/api/ml/metadata": self._send(200, metadata()); return
+        self._send(404, {"error": "Not found"})
 
-    def log_message(self, format, *args):
-        return
+    def log_message(self, format, *args): return
 
 
-if __name__ == '__main__':
-    print('Trained Random Forest model serving at http://localhost:8000')
-    ThreadingHTTPServer(('localhost', 8000), Handler).serve_forever()
+if __name__ == "__main__":
+    print("Synthetic delay regression model serving at http://localhost:8000")
+    ThreadingHTTPServer(("localhost", 8000), Handler).serve_forever()

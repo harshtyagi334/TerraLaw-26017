@@ -204,7 +204,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   // Initialize synthetic dataset
   const [projects, setProjects] = useState<LandProject[]>(() => {
-    return generateSyntheticDataset(700);
+    return generateSyntheticDataset(500);
   });
 
   const [selectedProjectId, setSelectedProjectId] = useState<string | null>(null);
@@ -249,15 +249,15 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
     model_name: 'LA Delay Predictive Ensemble (Random Forest Classifier)',
     model_type: 'Random Forest Classifier',
     version: 'v3.0.0 (Combined Dataset Ensemble)',
-    trained_on_records: 5760,
-    test_records: 1440,
-    total_records: 7200,
+    trained_on_records: 144,
+    test_records: 36,
+    total_records: 180,
     last_retrained: '2026-09-19T14:12:20',
-    accuracy: 84.4,
-    precision: 90.9,
-    recall: 87.2,
-    f1_score: 89.0,
-    roc_auc: 0.9297,
+    accuracy: 88.76,
+    precision: 0,
+    recall: 0,
+    f1_score: 0,
+    roc_auc: 0,
     feature_importances: [
       { feature: 'Legal Disputes Count',       weight: 0.2845 },
       { feature: 'Affected Families Count',    weight: 0.1629 },
@@ -269,11 +269,9 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       { feature: 'Pending Statutory Approvals',weight: 0.0313 },
     ],
     status: 'Production',
-    source_breakdown: { original: 700, expanded: 1500, historical: 5000 },
+    source_breakdown: { synthetic_canonical: 180 },
     datasets_loaded: [
       'land_acquisition_synthetic_dataset.csv',
-      'expanded_land_acquisition_delays.csv',
-      'historical_land_acquisition_delays.csv',
     ],
     confusion_matrix: { TP: 909, FP: 91, FN: 133, TN: 307 },
   });

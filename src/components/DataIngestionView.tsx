@@ -94,7 +94,7 @@ export const DataIngestionView: React.FC = () => {
             className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-900 hover:bg-slate-800 text-white rounded text-xs font-semibold transition cursor-pointer shadow-xs"
           >
             <Download className="w-3.5 h-3.5 text-emerald-400" />
-            <span>Download PS Benchmark CSV (700 records)</span>
+            <span>Download PS Benchmark CSV (500 records)</span>
           </button>
         </div>
       </div>

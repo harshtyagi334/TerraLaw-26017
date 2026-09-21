@@ -1,0 +1,220 @@
+{
+  "source": "expanded_land_acquisition_delays.csv",
+  "corrected_output": "corrected_land_acquisition_delays.csv",
+  "expanded_output": "land_acquisition_delays_expanded_10000.csv",
+  "method": "Source audit, bounded domain correction, transparent risk-index target engineering, stratified resampling, and controlled jitter.",
+  "quality_before": {
+    "rows": 1500,
+    "columns": 13,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "duplicate_project_ids": 0,
+    "outliers_by_column": {
+      "Land_Area_Hectares": 61,
+      "Affected_Families_Count": 11,
+      "Sec4_to_Sec19_Days": 15,
+      "Pending_InterDept_NOCs": 0,
+      "Compensation_Disbursed_Pct": 0,
+      "Pending_Court_Cases": 19,
+      "Rehabilitation_Progress_Pct": 0,
+      "Stakeholder_Responsiveness_Score": 0,
+      "RealWorld_Months_Delayed": 0
+    },
+    "state_counts": {
+      "Maharashtra": 228,
+      "Bihar": 219,
+      "Uttar Pradesh": 219,
+      "Odisha": 217,
+      "West Bengal": 208,
+      "Tamil Nadu": 205,
+      "Gujarat": 204
+    },
+    "sector_counts": {
+      "Industrial Corridor": 324,
+      "National Highway": 315,
+      "Irrigation Dam & Reservoir": 293,
+      "Urban Metro Rail": 291,
+      "Dedicated Freight Corridor": 277
+    },
+    "risk_counts": {
+      "Low/Medium Risk": 834,
+      "High Risk": 666
+    }
+  },
+  "quality_after_corrected": {
+    "rows": 1500,
+    "columns": 19,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "duplicate_project_ids": 0,
+    "outliers_by_column": {
+      "Land_Area_Hectares": 61,
+      "Affected_Families_Count": 11,
+      "Sec4_to_Sec19_Days": 15,
+      "Pending_InterDept_NOCs": 0,
+      "Compensation_Disbursed_Pct": 0,
+      "Pending_Court_Cases": 19,
+      "Rehabilitation_Progress_Pct": 0,
+      "Stakeholder_Responsiveness_Score": 0,
+      "RealWorld_Months_Delayed": 0,
+      "Acquisition_Complexity_Score": 1,
+      "Legal_Risk_Score": 14,
+      "Compensation_Risk_Score": 0,
+      "Social_Resistance_Score": 0,
+      "Administrative_Delay_Score": 4,
+      "Overall_Project_Risk_Score": 10
+    },
+    "state_counts": {
+      "Maharashtra": 228,
+      "Bihar": 219,
+      "Uttar Pradesh": 219,
+      "Odisha": 217,
+      "West Bengal": 208,
+      "Tamil Nadu": 205,
+      "Gujarat": 204
+    },
+    "sector_counts": {
+      "Industrial Corridor": 324,
+      "National Highway": 315,
+      "Irrigation Dam & Reservoir": 293,
+      "Urban Metro Rail": 291,
+      "Dedicated Freight Corridor": 277
+    },
+    "risk_counts": {
+      "High Risk": 656,
+      "Medium Risk": 392,
+      "Critical Risk": 288,
+      "Low Risk": 164
+    }
+  },
+  "quality_expanded": {
+    "rows": 10000,
+    "columns": 19,
+    "missing_values": 0,
+    "duplicate_rows": 0,
+    "duplicate_project_ids": 0,
+    "outliers_by_column": {
+      "Land_Area_Hectares": 426,
+      "Affected_Families_Count": 56,
+      "Sec4_to_Sec19_Days": 80,
+      "Pending_InterDept_NOCs": 0,
+      "Compensation_Disbursed_Pct": 0,
+      "Pending_Court_Cases": 47,
+      "Rehabilitation_Progress_Pct": 0,
+      "Stakeholder_Responsiveness_Score": 0,
+      "RealWorld_Months_Delayed": 0,
+      "Acquisition_Complexity_Score": 3,
+      "Legal_Risk_Score": 106,
+      "Compensation_Risk_Score": 0,
+      "Social_Resistance_Score": 0,
+      "Administrative_Delay_Score": 31,
+      "Overall_Project_Risk_Score": 14
+    },
+    "state_counts": {
+      "Maharashtra": 1511,
+      "Tamil Nadu": 1510,
+      "Odisha": 1450,
+      "Gujarat": 1449,
+      "Bihar": 1439,
+      "Uttar Pradesh": 1344,
+      "West Bengal": 1297
+    },
+    "sector_counts": {
+      "National Highway": 2194,
+      "Industrial Corridor": 2140,
+      "Irrigation Dam & Reservoir": 2079,
+      "Urban Metro Rail": 1809,
+      "Dedicated Freight Corridor": 1778
+    },
+    "risk_counts": {
+      "High Risk": 3000,
+      "Medium Risk": 2800,
+      "Low Risk": 2200,
+      "Critical Risk": 2000
+    }
+  },
+  "risk_formula": "Court cases*2.7 + NOCs*2.0 + (100-compensation)*0.085 + (100-rehabilitation)*0.065 + (10-responsiveness)*1.6 + process delay + affected families factor + complexity factor",
+  "target_bands": {
+    "Low Risk": "0-12 months",
+    "Medium Risk": "12-30 months",
+    "High Risk": "30-60 months",
+    "Critical Risk": ">60 months"
+  },
+  "correlation_with_delay": {
+    "Stakeholder_Responsiveness_Score": -0.4366,
+    "Compensation_Disbursed_Pct": -0.2758,
+    "Rehabilitation_Progress_Pct": -0.2405,
+    "Land_Area_Hectares": 0.0392,
+    "Acquisition_Complexity_Score": 0.0661,
+    "Affected_Families_Count": 0.1107,
+    "Compensation_Risk_Score": 0.2756,
+    "Sec4_to_Sec19_Days": 0.3054,
+    "Pending_InterDept_NOCs": 0.4242,
+    "Social_Resistance_Score": 0.435,
+    "Administrative_Delay_Score": 0.5003,
+    "Pending_Court_Cases": 0.6279,
+    "Legal_Risk_Score": 0.6443,
+    "Overall_Project_Risk_Score": 0.8106,
+    "RealWorld_Months_Delayed": 1.0
+  },
+  "benchmark": {
+    "models": {
+      "Random Forest": {
+        "MAE": 5.957,
+        "RMSE": 8.1,
+        "R2": 0.8777
+      },
+      "XGBoost": {
+        "MAE": 6.326,
+        "RMSE": 8.206,
+        "R2": 0.8744
+      },
+      "LightGBM": {
+        "MAE": 6.081,
+        "RMSE": 7.912,
+        "R2": 0.8833
+      }
+    },
+    "best_model": "LightGBM",
+    "top_feature_importance": {
+      "Overall_Project_Risk_Score": 0.25978,
+      "Legal_Risk_Score": 0.1112,
+      "Stakeholder_Responsiveness_Score": 0.09079,
+      "Pending_Court_Cases": 0.05916,
+      "Administrative_Delay_Score": 0.05433,
+      "Rehabilitation_Progress_Pct": 0.04621,
+      "Pending_InterDept_NOCs": 0.02781,
+      "Compensation_Disbursed_Pct": 0.0272,
+      "Sec4_to_Sec19_Days": 0.02073,
+      "Affected_Families_Count": 0.01699,
+      "Social_Resistance_Score": 0.01368,
+      "Land_Area_Hectares": 0.00783,
+      "Compensation_Risk_Score": 0.00087,
+      "Acquisition_Complexity_Score": 0.00064,
+      "State_West Bengal": 0.00014
+    }
+  },
+  "plots": [
+    "dataset_analysis_outputs\\correlation_matrix.png",
+    "dataset_analysis_outputs\\delay_distribution.png",
+    "dataset_analysis_outputs\\feature_importance.png",
+    "dataset_analysis_outputs\\risk_outlier_analysis.png"
+  ],
+  "top_delay_factors": [
+    "Pending court cases",
+    "Pending inter-department NOCs",
+    "Low compensation disbursement",
+    "Low rehabilitation progress",
+    "Stakeholder resistance",
+    "Long Section 4 to Section 19 process time",
+    "Affected families and acquisition complexity"
+  ],
+  "pipeline_recommendation": [
+    "Validate bounds and duplicates",
+    "Exclude Project_Risk_Classification from model inputs because it is derived from the target",
+    "One-hot encode State and Infrastructure_Sector",
+    "Use a train/test split plus 5-fold cross-validation",
+    "Tune tree depth, leaf size, learning rate, and estimators",
+    "Report MAE, RMSE, R2, residual plots, permutation importance, and drift checks"
+  ]
+}
