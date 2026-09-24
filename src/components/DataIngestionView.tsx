@@ -11,13 +11,129 @@ import {
   RefreshCw,
   FileCode,
   ShieldCheck,
+  AlertTriangle,
 } from 'lucide-react';
+
+interface AnalyticalRow {
+  projectId: string;
+  projectName: string;
+  projectType: string;
+  landArea: number;
+  affectedFamilies: number;
+  compensationPct: number;
+  pendingApprovals: number;
+  legalDisputes: number;
+}
+
+type RiskTier = 'High Risk' | 'Medium Risk' | 'Low Risk';
+
+interface AnalyticalResult {
+  rows: AnalyticalRow[];
+  totalArea: number;
+  totalFamilies: number;
+  averageCompensation: number;
+}
+
+const parseNumber = (value: string | undefined) => {
+  const parsed = Number.parseFloat(value?.trim() ?? '0');
+  return Number.isFinite(parsed) ? parsed : 0;
+};
+
+const parseCsvLine = (line: string) => {
+  const values: string[] = [];
+  let value = '';
+  let quoted = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const character = line[index];
+    if (character === '"' && line[index + 1] === '"') {
+      value += '"';
+      index += 1;
+    } else if (character === '"') {
+      quoted = !quoted;
+    } else if (character === ',' && !quoted) {
+      values.push(value.trim());
+      value = '';
+    } else {
+      value += character;
+    }
+  }
+
+  values.push(value.trim());
+  return values;
+};
+
+const parseAnalyticalCsv = (content: string): AnalyticalResult | null => {
+  const lines = content.split(/\r?\n/).filter((line) => line.trim());
+  if (lines.length < 2) return null;
+
+  const headers = parseCsvLine(lines[0]).map((header) => header.toLowerCase());
+  const indexOf = (field: string) => headers.indexOf(field);
+  const requiredFields = [
+    'project_id',
+    'project_name',
+    'project_type',
+    'land_area_hectares',
+    'affected_families',
+    'compensation_disbursed_pct',
+    'pending_approvals_count',
+    'legal_disputes_count',
+  ];
+
+  if (requiredFields.some((field) => indexOf(field) < 0)) return null;
+
+  const uniqueRows = new Map<string, AnalyticalRow>();
+  lines.slice(1).forEach((line) => {
+    const values = parseCsvLine(line);
+    const projectId = values[indexOf('project_id')]?.trim();
+    if (!projectId || uniqueRows.has(projectId)) return;
+
+    uniqueRows.set(projectId, {
+      projectId,
+      projectName: values[indexOf('project_name')]?.trim() || 'Unnamed sub-project',
+      projectType: values[indexOf('project_type')]?.trim() || 'Unspecified',
+      landArea: parseNumber(values[indexOf('land_area_hectares')]),
+      affectedFamilies: parseNumber(values[indexOf('affected_families')]),
+      compensationPct: parseNumber(values[indexOf('compensation_disbursed_pct')]),
+      pendingApprovals: parseNumber(values[indexOf('pending_approvals_count')]),
+      legalDisputes: parseNumber(values[indexOf('legal_disputes_count')]),
+    });
+  });
+
+  const rows = [...uniqueRows.values()];
+  return {
+    rows,
+    totalArea: rows.reduce((sum, row) => sum + row.landArea, 0),
+    totalFamilies: rows.reduce((sum, row) => sum + row.affectedFamilies, 0),
+    averageCompensation: rows.length === 0
+      ? 0
+      : rows.reduce((sum, row) => sum + row.compensationPct, 0) / rows.length,
+  };
+};
+
+const getRiskTier = (row: AnalyticalRow): RiskTier => {
+  if (row.legalDisputes > 10 || row.pendingApprovals > 5 || row.affectedFamilies > 500) {
+    return 'High Risk';
+  }
+  if ((row.legalDisputes >= 3 && row.legalDisputes <= 10) || row.pendingApprovals > 0) {
+    return 'Medium Risk';
+  }
+  return 'Low Risk';
+};
+
+const getHazardDriver = (row: AnalyticalRow) => {
+  if (row.legalDisputes > 0) return 'pending legal disputes';
+  if (row.pendingApprovals > 0) return 'pending clearances';
+  if (row.compensationPct < 80) return 'lag in compensation disbursement';
+  return 'no material bottleneck identified';
+};
 
 export const DataIngestionView: React.FC = () => {
   const { projects, importCSV, setActiveTab } = useApp();
 
   const [csvInput, setCsvInput] = useState('');
   const [importResult, setImportResult] = useState<{ imported: number; errors: string[] } | null>(null);
+  const [analyticalResult, setAnalyticalResult] = useState<AnalyticalResult | null>(null);
   const [isProcessing, setIsProcessing] = useState(false);
   const [dragActive, setDragActive] = useState(false);
 
@@ -35,6 +151,7 @@ export const DataIngestionView: React.FC = () => {
 
   const handleProcessImport = (contentToImport: string) => {
     if (!contentToImport.trim()) return;
+    setAnalyticalResult(parseAnalyticalCsv(contentToImport));
     setIsProcessing(true);
     void importCSV(contentToImport).then((result) => {
       setImportResult(result);
@@ -261,6 +378,81 @@ export const DataIngestionView: React.FC = () => {
           </div>
         </div>
       </div>
+
+      {analyticalResult && analyticalResult.rows.length > 0 && (
+        <section className="bg-slate-950 text-white rounded-lg border border-slate-800 shadow-xs overflow-hidden">
+          <div className="p-5 border-b border-slate-800 flex items-start justify-between gap-4">
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.18em] text-amber-400 font-bold">Immediate risk evaluation briefing</p>
+              <h3 className="text-lg font-bold mt-1">Sir, the file which you have shared has been parsed successfully.</h3>
+              <p className="text-xs text-slate-300 mt-1">
+                This dataset contains <strong className="text-white">{analyticalResult.rows.length}</strong> sub-projects across different sectors. Below is the computed risk and operational breakdown based on your active rows.
+              </p>
+            </div>
+            <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0" />
+          </div>
+
+          <div className="p-5 space-y-6">
+            <div>
+              <h4 className="text-sm font-bold text-amber-300">📊 1. AGGREGATE PORTFOLIO QUANTIFICATION</h4>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 mt-3">
+                <div className="bg-white/5 border border-white/10 rounded p-3">
+                  <p className="text-[10px] uppercase tracking-wider text-slate-400">Total Area Evaluated</p>
+                  <p className="text-xl font-black mt-1">{analyticalResult.totalArea.toLocaleString(undefined, { maximumFractionDigits: 2 })} <span className="text-xs font-normal text-slate-400">Hectares</span></p>
+                </div>
+                <div className="bg-white/5 border border-white/10 rounded p-3">
+                  <p className="text-[10px] uppercase tracking-wider text-slate-400">Total Displaced Footprint</p>
+                  <p className="text-xl font-black mt-1">{analyticalResult.totalFamilies.toLocaleString()} <span className="text-xs font-normal text-slate-400">Families</span></p>
+                </div>
+                <div className="bg-white/5 border border-white/10 rounded p-3">
+                  <p className="text-[10px] uppercase tracking-wider text-slate-400">Average Compensation Payout Status</p>
+                  <p className="text-xl font-black mt-1">{analyticalResult.averageCompensation.toFixed(2)}<span className="text-xs font-normal text-slate-400">% settled</span></p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h4 className="text-sm font-bold text-amber-300">🚨 2. SUB-PROJECT RISK ALLOCATION</h4>
+              <div className="grid grid-cols-1 xl:grid-cols-2 gap-3 mt-3">
+                {analyticalResult.rows.map((row) => {
+                  const riskTier = getRiskTier(row);
+                  const riskClass = riskTier === 'High Risk'
+                    ? 'text-red-300 border-red-400/30 bg-red-400/10'
+                    : riskTier === 'Medium Risk'
+                      ? 'text-amber-300 border-amber-400/30 bg-amber-400/10'
+                      : 'text-emerald-300 border-emerald-400/30 bg-emerald-400/10';
+                  return (
+                    <article key={row.projectId} className="border border-white/10 rounded p-4 bg-white/3">
+                      <div className="flex items-start justify-between gap-3">
+                        <div>
+                          <p className="font-bold text-sm">Sub-Project: {row.projectName} <span className="text-slate-400 font-normal">({row.projectId})</span></p>
+                          <p className="text-xs text-slate-400 mt-1">Sector/Type: {row.projectType}</p>
+                        </div>
+                        <span className={`text-[10px] font-bold px-2 py-1 rounded border whitespace-nowrap ${riskClass}`}>{riskTier}</span>
+                      </div>
+                      <div className="mt-3 text-xs text-slate-300 space-y-1">
+                        <p><span className="text-slate-500">Critical Hazard Driver:</span> {getHazardDriver(row)}</p>
+                        <p><span className="text-slate-500">Current Exposure Summary:</span> Displacing {row.affectedFamilies.toLocaleString()} families with {row.legalDisputes.toLocaleString()} active court stay orders pending.</p>
+                      </div>
+                    </article>
+                  );
+                })}
+              </div>
+            </div>
+
+            <div className="border-t border-slate-800 pt-5">
+              <h4 className="text-sm font-bold text-amber-300">💡 3. FINANCIAL INTEGRITY PROTOCOL</h4>
+              <p className="text-xs text-slate-300 mt-2">
+                {analyticalResult.averageCompensation < 80
+                  ? 'Disbursement is below the operational comfort threshold; initiate multi-bank split escrow controls and prioritize beneficiary-level reconciliation.'
+                  : analyticalResult.rows.some((row) => row.legalDisputes > 0)
+                    ? 'Active court disputes are present; route affected parcels for immediate Section 64 reference review while ring-fencing undisputed compensation.'
+                    : 'Compensation coverage is broadly stable and no legal bottleneck is reported; maintain tranche-level reconciliation and clearance monitoring.'}
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
     </div>
   );
 };
