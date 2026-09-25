@@ -19,7 +19,7 @@ import { AuditTrailView } from './components/AuditTrailView';
 import { AuthModal } from './components/AuthModal';
 import { HomePage } from './components/HomePage';
 import { CitizenHelpPortal } from './components/CitizenHelpPortal';
-import { Shield, CheckCircle } from 'lucide-react';
+import { Shield, CheckCircle, Hexagon } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 const MainContent: React.FC = () => {
@@ -59,7 +59,7 @@ const AppShell: React.FC = () => {
   }
 
   return (
-    <div className={`min-h-screen bg-[#F7F8F5] text-[#111814] flex flex-col font-sans ${themeConfig.selectionBg} selection:text-[#111814]`}>
+    <div className="min-h-screen bg-[#F6F6FB] text-[#1A1A2E] flex flex-col font-sans selection:bg-[#6C63E0]/15 selection:text-[#1A1A2E]">
       <Header />
       <Navigation />
       <MainContent />
@@ -73,27 +73,27 @@ const AppShell: React.FC = () => {
         />
       )}
 
-      {/* Clean & Spacious Minimal Footer */}
-      <footer className="mt-auto border-t border-[#E4E7E1] bg-white text-xs text-[#5B6660] py-5 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-[1536px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-[#5B6660]">
+      {/* Clean Footer */}
+      <footer className="mt-auto border-t border-[#E4E4F0] bg-white text-xs text-[#64648C] py-5 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-[1536px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-[#64648C]">
           <div className="flex items-center gap-2">
-            <span className="font-semibold text-[#111814]">Land Acquisition Delay Warning</span>
+            <span className="font-semibold text-[#1A1A2E]">LANDINTEL</span>
             <span>&bull;</span>
-            <span className="text-[#5B6660]">Predictive Analytics Platform</span>
+            <span className="text-[#64648C]">Land Acquisition Intelligence Platform</span>
           </div>
 
-          <div className="flex flex-wrap items-center gap-3 text-[11px] text-[#5B6660]">
+          <div className="flex flex-wrap items-center gap-3 text-[11px] text-[#9494B8]">
             <span className="flex items-center gap-1">
-              <CheckCircle className="w-3.5 h-3.5 text-[#1F7A4D]" />
+              <CheckCircle className="w-3.5 h-3.5 text-[#2E7D32]" />
               <span>RFCTLARR Framework</span>
             </span>
             <span>&bull;</span>
             <span className="flex items-center gap-1">
-              <Shield className={`w-3.5 h-3.5 ${themeConfig.accentText}`} />
+              <Shield className="w-3.5 h-3.5 text-[#6C63E0]" />
               <span>TreeSHAP Explainability</span>
             </span>
             <span>&bull;</span>
-            <span>500 Synthetic Records (400 Train / 100 Test)</span>
+            <span>ML-Powered Prediction</span>
           </div>
         </div>
       </footer>
