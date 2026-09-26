@@ -38,8 +38,8 @@ import {
 } from '../utils/reportExportUtils';
 import { ReportExportModal } from './ReportExportModal';
 import { QuickBeginnerGuide } from './QuickBeginnerGuide';
-import { DelayTrendChart } from './DelayTrendChart';
-import { RiskDistributionChart } from './RiskDistributionChart';
+const DelayTrendChart = React.lazy(() => import('./DelayTrendChart').then((module) => ({ default: module.DelayTrendChart })));
+const RiskDistributionChart = React.lazy(() => import('./RiskDistributionChart').then((module) => ({ default: module.RiskDistributionChart })));
 
 export const DashboardView: React.FC = () => {
   const {
@@ -114,6 +114,8 @@ export const DashboardView: React.FC = () => {
   const [geoViewMode, setGeoViewMode] = useState<'ranking' | 'comparator'>('ranking');
   const [compareA, setCompareA] = useState<string>('');
   const [compareB, setCompareB] = useState<string>('');
+  const [showDetailedDashboard, setShowDetailedDashboard] = useState(false);
+  const [analyticsTab, setAnalyticsTab] = useState<'trends' | 'districts' | 'timeline'>('trends');
 
   // Default entity comparison options based on available zones
   React.useEffect(() => {
@@ -201,6 +203,77 @@ export const DashboardView: React.FC = () => {
       }
     }, 300);
   };
+
+  if (!showDetailedDashboard) {
+    const riskScore = filteredProjects.length
+      ? Math.round(filteredProjects.reduce((total, project) => total + (project.prediction?.risk_score ?? 0), 0) / filteredProjects.length)
+      : 0;
+    const riskColor = riskScore >= 65 ? '#BA2D1D' : riskScore >= 35 ? '#C0781A' : '#27774E';
+    const riskLabel = riskScore >= 65 ? 'High risk' : riskScore >= 35 ? 'Moderate risk' : 'Low risk';
+    const topRiskProject = [...filteredProjects].sort((a, b) => (b.prediction?.risk_score ?? 0) - (a.prediction?.risk_score ?? 0))[0];
+
+    return (
+      <div id="dashboard-view" className="w-full max-w-6xl mx-auto px-5 sm:px-8 py-9 space-y-8">
+        <header className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <p className="text-sm text-slate-500">{jurisdictionTitle} · {jurisdictionSubtitle}</p>
+            <h1 className="mt-1 text-3xl font-bold tracking-tight text-slate-900">Land acquisition overview</h1>
+            <p className="mt-2 text-base text-slate-600">A clear view of current delay risk and the next step.</p>
+          </div>
+          <button onClick={() => setShowDetailedDashboard(true)} className="rounded-lg border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50">Full dashboard</button>
+        </header>
+
+        <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4" aria-label="Main sections">
+          {[
+            { label: 'Prediction', detail: 'Predict risk for a project', tab: 'prediction' as const, icon: ShieldAlert },
+            { label: 'GIS map', detail: 'Explore locations', tab: 'gis_map' as const, icon: MapPin },
+            { label: 'Dashboard', detail: 'Portfolio summary', tab: 'dashboard' as const, icon: Layers },
+            { label: 'Alerts', detail: 'Review active alerts', tab: 'alerts' as const, icon: AlertTriangle },
+          ].map(({ label, detail, tab, icon: Icon }) => (
+            <button key={label} onClick={() => tab !== 'dashboard' && setActiveTab(tab)} className="group rounded-xl border border-slate-200 bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-md">
+              <Icon className="h-6 w-6 text-slate-600" />
+              <span className="mt-4 block text-lg font-semibold text-slate-900">{label}</span>
+              <span className="mt-1 block text-sm text-slate-500">{detail}</span>
+            </button>
+          ))}
+        </section>
+
+        <section className="grid gap-6 lg:grid-cols-[0.85fr_1.15fr]">
+          <article className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm">
+            <p className="text-sm font-semibold text-slate-500">Portfolio delay risk</p>
+            <div className="mt-4 flex items-baseline gap-3">
+              <span className="text-6xl font-bold tracking-tight" style={{ color: riskColor }}>{riskScore}</span>
+              <span className="text-lg font-semibold" style={{ color: riskColor }}>{riskLabel}</span>
+            </div>
+            <p className="mt-4 text-base leading-relaxed text-slate-600">
+              {topRiskProject ? `${topRiskProject.prediction?.top_shap_factors?.[0]?.description || `${topRiskProject.project_name} has the highest predicted delay risk in this portfolio.`}` : 'No projects match the current filters.'}
+            </p>
+            <button onClick={() => topRiskProject && handleInspectProject(topRiskProject)} disabled={!topRiskProject} className="mt-5 rounded-lg bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white hover:bg-slate-700 disabled:opacity-50">View highest-risk project</button>
+            <div className="mt-7 grid grid-cols-2 gap-4 border-t border-slate-100 pt-5">
+              <div><p className="text-sm text-slate-500">Projects in scope</p><p className="mt-1 text-2xl font-bold text-slate-900">{totalCount}</p></div>
+              <div><p className="text-sm text-slate-500">Average delay</p><p className="mt-1 text-2xl font-bold text-slate-900">{avgPredictedDelayDays}<span className="ml-1 text-sm font-medium">days</span></p></div>
+            </div>
+          </article>
+
+          <article className="min-w-0 rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <div><h2 className="text-xl font-bold text-slate-900">Portfolio insights</h2><p className="mt-1 text-sm text-slate-500">Choose one view to explore.</p></div>
+              <div role="tablist" aria-label="Analytics views" className="flex flex-wrap gap-1 rounded-lg bg-slate-100 p-1">
+                {([['trends', 'Delay trends'], ['districts', 'District comparison'], ['timeline', 'Timeline analysis']] as const).map(([tab, label]) => (
+                  <button key={tab} role="tab" aria-selected={analyticsTab === tab} onClick={() => setAnalyticsTab(tab)} className={`rounded-md px-3 py-2 text-sm font-medium ${analyticsTab === tab ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-600 hover:text-slate-900'}`}>{label}</button>
+                ))}
+              </div>
+            </div>
+            <div className="mt-5">
+              {analyticsTab === 'trends' && <React.Suspense fallback={<div className="py-10 text-center text-sm text-slate-500">Loading trend analysis…</div>}><DelayTrendChart /></React.Suspense>}
+              {analyticsTab === 'districts' && <div className="space-y-3">{geographicBreakdown.slice(0, 8).map((item) => <div key={item.name} className="flex items-center justify-between gap-4 rounded-lg bg-slate-50 px-4 py-3"><span className="font-medium text-slate-800">{item.name}</span><span className="text-sm text-slate-600">{item.count} projects</span><span className="font-semibold text-slate-900">{item.avgDelay} day avg.</span></div>)}{geographicBreakdown.length === 0 && <p className="py-8 text-center text-slate-500">No district results for the current filters.</p>}</div>}
+              {analyticsTab === 'timeline' && <div className="space-y-4">{stageBottlenecks.slice(0, 8).map((stage) => <div key={stage.stage} className="grid grid-cols-[minmax(100px,1fr)_2fr_auto] items-center gap-3"><span className="text-sm font-medium text-slate-700">{stage.stage}</span><div className="h-3 overflow-hidden rounded-full bg-slate-100"><div className="h-full rounded-full bg-amber-500" style={{ width: `${Math.min(100, Math.max(4, (stage.avgDelay / maxStageDelay) * 100))}%` }} /></div><span className="text-sm font-semibold text-slate-800">{stage.avgDelay} days</span></div>)}{stageBottlenecks.length === 0 && <p className="py-8 text-center text-slate-500">No timeline results for the current filters.</p>}</div>}
+            </div>
+          </article>
+        </section>
+      </div>
+    );
+  }
 
   return (
     <div
@@ -829,8 +902,8 @@ export const DashboardView: React.FC = () => {
 
       {/* 6. PRIMARY ANALYTICAL GRID: Delay Trends & Risk Distribution */}
       <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-8 items-stretch">
-        <DelayTrendChart />
-        <RiskDistributionChart
+        <React.Suspense fallback={<div className="py-10 text-center text-sm text-slate-500">Loading analytics…</div>}><DelayTrendChart /></React.Suspense>
+        <React.Suspense fallback={<div className="py-10 text-center text-sm text-slate-500">Loading analytics…</div>}><RiskDistributionChart
           highRiskCount={highRiskCount}
           medRiskCount={medRiskCount}
           lowRiskCount={lowRiskCount}
@@ -838,7 +911,7 @@ export const DashboardView: React.FC = () => {
           selectedRisk={selectedRisk}
           setSelectedRisk={setSelectedRisk}
           projects={ongoingProjects}
-        />
+        /></React.Suspense>
       </div>
 
       {/* 7. SECONDARY OPERATIONAL ANALYTICS GRID: Geographic & Stage Bottlenecks */}

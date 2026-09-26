@@ -17,6 +17,7 @@ import {
   Target,
   FileText,
   Compass,
+  Bell,
 } from 'lucide-react';
 
 interface TabItem {
@@ -43,6 +44,8 @@ export const Navigation: React.FC = () => {
       icon: LayoutDashboard,
       category: 'primary',
     },
+    { id: 'alerts', label: 'Alerts', icon: Bell, category: 'primary' },
+    { id: 'prediction', label: 'Predict delay', icon: BrainCircuit, category: 'primary' },
     {
       id: 'projects',
       label: 'Project Analysis',

@@ -354,6 +354,11 @@ export const ProjectDetailView: React.FC = () => {
         )}
       </div>
 
+      <details className="group rounded-xl border border-slate-200 bg-white shadow-xs">
+        <summary className="cursor-pointer list-none px-5 py-4 text-sm font-semibold text-slate-800 marker:hidden">
+          View prediction details <span className="ml-2 text-slate-500 font-normal">Feature impact and recommended actions</span>
+        </summary>
+        <div className="border-t border-slate-100 p-5">
       {/* Grid: SHAP Explainability & Recommendations */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Left Col: Section 8.3 Part 3: Why This Risk? (Explainable AI - SHAP) */}
@@ -484,6 +489,8 @@ export const ProjectDetailView: React.FC = () => {
           </div>
         </div>
       </div>
+        </div>
+      </details>
 
       {/* Section 8.3 Part 4: Stage-wise Delay Probability Timeline */}
       <div className="bg-white p-5 rounded-lg border border-slate-200 shadow-xs">

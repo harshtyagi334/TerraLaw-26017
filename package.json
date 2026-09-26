@@ -4,9 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently --kill-others \"python model_server.py\" \"vite --port=3000 --host=0.0.0.0\"",
-    "model-server": "python model_server.py",
-    "production-api": "python production_api.py",
+    "dev": "concurrently --kill-others \"node run_model_server.cjs\" \"vite --port=3000 --host=0.0.0.0\"",
+    "model-server": "node run_model_server.cjs",
+    "production-api": "node run_model_server.cjs production_api.py",
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist server.js",

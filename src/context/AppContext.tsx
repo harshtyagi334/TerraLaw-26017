@@ -25,8 +25,11 @@ import { THEME_CONFIGS } from '../utils/themeConfig';
 
 export type NavTab =
   | 'dashboard'
+  | 'alerts'
+  | 'alerts'
   | 'gis_map'
   | 'projects'
+  | 'prediction'
   | 'project_detail'
   | 'what_if'
   | 'data_ingestion'
@@ -1299,10 +1302,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
           },
         });
       });
-      setProjects((prev) => {
-        const incomingIds = new Set(importedProjects.map((project) => project.project_id));
-        return [...importedProjects, ...prev.filter((project) => !incomingIds.has(project.project_id))];
-      });
+      // A new upload replaces the active dataset so previous rows cannot leak into insights.
+      setProjects(importedProjects);
       addAuditLog({
         user_id: `USR-${userRole.replace(/\s+/g, '-').toUpperCase()}`,
         user_role: userRole,

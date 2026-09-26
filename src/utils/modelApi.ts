@@ -25,7 +25,7 @@ export interface ModelMetadata {
   confusion_matrix?: { TP: number; FP: number; FN: number; TN: number };
 }
 
-const MODEL_API_URL = 'http://localhost:8000/api/ml';
+const MODEL_API_URL = import.meta.env.VITE_MODEL_API_URL || 'http://127.0.0.1:8100/api/ml';
 
 export async function predictWithTrainedModel(project: Partial<LandProject>): Promise<ModelPrediction> {
   const response = await fetch(`${MODEL_API_URL}/predict`, {

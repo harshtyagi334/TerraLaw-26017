@@ -1,5 +1,6 @@
 """Serve predictions from the synthetic-only delay regression pipeline."""
 import json
+import os
 import subprocess
 import sys
 import threading
@@ -117,5 +118,6 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
-    print("Synthetic delay regression model serving at http://localhost:8000")
-    ThreadingHTTPServer(("localhost", 8000), Handler).serve_forever()
+    port = int(os.environ.get("MODEL_API_PORT", "8100"))
+    print(f"Synthetic delay regression model serving at http://127.0.0.1:{port}")
+    ThreadingHTTPServer(("127.0.0.1", port), Handler).serve_forever()

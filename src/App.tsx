@@ -3,14 +3,16 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { AppProvider, useApp } from './context/AppContext';
 import { Header } from './components/Header';
 import { Navigation } from './components/Navigation';
 import { DashboardView } from './components/DashboardView';
+import { AlertsView } from './components/AlertsView';
 import { ProjectsListView } from './components/ProjectsListView';
+import { PredictionView } from './components/PredictionView';
 import { ProjectDetailView } from './components/ProjectDetailView';
-import { GISMapView } from './components/GISMapView';
+const GISMapView = lazy(() => import('./components/GISMapView').then((module) => ({ default: module.GISMapView })));
 import { WhatIfSimulator } from './components/WhatIfSimulator';
 import { DataIngestionView } from './components/DataIngestionView';
 import { ModelPerformanceView } from './components/ModelPerformanceView';
@@ -36,9 +38,12 @@ const MainContent: React.FC = () => {
           transition={{ duration: 0.18, ease: [0.4, 0, 0.2, 1] }}
         >
           {activeTab === 'dashboard' && <DashboardView />}
+          {activeTab === 'alerts' && <AlertsView />}
+          {activeTab === 'alerts' && <AlertsView />}
           {activeTab === 'projects' && <ProjectsListView />}
+          {activeTab === 'prediction' && <PredictionView />}
           {activeTab === 'project_detail' && <ProjectDetailView />}
-          {activeTab === 'gis_map' && <GISMapView />}
+          {activeTab === 'gis_map' && <Suspense fallback={<div className="max-w-7xl mx-auto px-6 py-12 text-slate-600">Loading map…</div>}><GISMapView /></Suspense>}
           {activeTab === 'what_if' && <WhatIfSimulator />}
           {(activeTab === 'data_ingestion' || (activeTab as string) === 'data_ingest') && <DataIngestionView />}
           {(activeTab === 'continuous_learning' || (activeTab as string) === 'model_metrics') && <ModelPerformanceView />}
